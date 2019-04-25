@@ -4,7 +4,7 @@ import WhatWeDo from './Wrappers/WhatWeDo'
 // import BlogSection from './Wrappers/BlogSection'
 import HowItWorks from './Wrappers/HowItWorks'
 // import SectionContainer from './components/SectionContainer'
-// import Presentation from './Wrappers/Presentation'
+import Presentation from './Wrappers/Presentation'
 // import Features from './Wrappers/Features'
 // import OnboardingForm from './Wrappers/OnboardingForm'
 // import Cta from './Wrappers/Cta'
@@ -21,7 +21,7 @@ export default {
   // BlogSection,
   HowItWorks,
   // SectionContainer,
-  // Presentation,
+  Presentation,
   // Features,
   // OnboardingForm,
   // Cta,
