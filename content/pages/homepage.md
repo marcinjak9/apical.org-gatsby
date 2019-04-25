@@ -30,5 +30,39 @@ sections:
       greyBg: true
       title: Cosa facciamo?
     type: WhatWeDo
+  - props:
+      children:
+        cta:
+          link: '#onboarding'
+          text: Inizia subito
+        props:
+          cards:
+            - body: >-
+                Costruisci autonomamente la pagina per il tuo viaggio in dieci
+                minuti
+              image: ✍️
+              title: CREARE
+            - body: >+
+                Ricevi e gestisci le tue prenotazioni e i pagamenti online come
+                preferisci
+
+              image: "\U0001F5FA"
+              title: GESTIRE
+            - body: >+
+                I tuoi clienti possono prenotare e pagare la loro esperienza in
+                soli 5 clic
+
+              image: "\U0001F4E6"
+              title: VENDERE
+            - body: >+
+                Coinvolgi il tuo pubblico in azioni ad impatto sociale e
+                ambientale
+
+              image: "\U0001F332"
+              title: IMPATTO
+      subtitle: Iscriversi è facile e gratuito
+      title: Cosa puoi fare con Apical?
+      titleCenter: true
+    type: HowItWorksWrapper
 ---
 
