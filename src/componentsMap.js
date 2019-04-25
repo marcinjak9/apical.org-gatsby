@@ -1,8 +1,8 @@
 import HomeHero from './Wrappers/HomeHero'
-// import WhatWeDo from './Wrappers/WhatWeDo'
+import WhatWeDo from './Wrappers/WhatWeDo'
 // import TestimonialsSection from './Wrappers/TestimonialsSection'
 // import BlogSection from './Wrappers/BlogSection'
-// import HowItWorks from './Wrappers/HowItWorks'
+import HowItWorks from './Wrappers/HowItWorks'
 // import SectionContainer from './components/SectionContainer'
 // import Presentation from './Wrappers/Presentation'
 // import Features from './Wrappers/Features'
@@ -16,10 +16,10 @@ import HomeHero from './Wrappers/HomeHero'
 
 export default {
   HomeHero,
-  // WhatWeDo,
+  WhatWeDo,
   // TestimonialsSection,
   // BlogSection,
-  // HowItWorks,
+  HowItWorks,
   // SectionContainer,
   // Presentation,
   // Features,

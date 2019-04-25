@@ -74,6 +74,11 @@ export const pageQuery = graphql`
             fullHeigh
             quote
             formId
+            cards {
+              body
+              image
+              title
+            }
             cta {
               link
               text

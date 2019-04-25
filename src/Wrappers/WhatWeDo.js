@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import SectionContainer from '../components/SectionContainer';
-import { Row, Column } from '../components/Global';
-import Button from '../components/Button';
+import React from 'react'
+import styled from '@emotion/styled'
+import { Link } from 'gatsby'
+import SectionContainer from '../components/SectionContainer'
+import { Row, Column } from '../components/Global'
 
 const Body = styled.p`
   font-size: var(--font-title);
@@ -10,7 +10,7 @@ const Body = styled.p`
   @media (max-width: 767px) {
     font-size: var(--font-subheader);
   }
-`;
+`
 
 const Section = styled(SectionContainer)`
   justify-content: flex-start;
@@ -60,11 +60,11 @@ const Section = styled(SectionContainer)`
     background-size: 515px;
     background-position: 33% 200%;
   } */
-`;
+`
 
 const Title = styled.h3`
   font-size: var(--font-title);
-`;
+`
 
 const WhatWeDo = ({
   title, body, greyBg, cta,
@@ -77,13 +77,13 @@ const WhatWeDo = ({
       <Column size="7">
         <Body>{body}</Body>
         {cta && (
-          <a href={cta.url} className="underline">
+          <Link to={cta.url || cta.link} className="underline">
             {cta.text}
-          </a>
+          </Link>
         )}
       </Column>
     </Row>
   </Section>
-);
+)
 
-export default WhatWeDo;
+export default WhatWeDo

@@ -162,10 +162,10 @@ collections:
                       - { label: Cta Text, name: text, widget: string, required: false }
                       - { label: Cta Link, name: link, widget: string, required: false }
           - label: How Its Works
-            name: HowItWorksWrapper
+            name: HowItWorks
             widget: object
             fields:
-              - {label: "Component", name: "component", widget: "hidden", default: "HowItWorksWrapper"}
+              - {label: "Component", name: "component", widget: "hidden", default: "HowItWorks"}
               - label: Props
                 name: props
                 widget: object
@@ -174,38 +174,29 @@ collections:
                   - { label: Subtitle, name: subtitle, widget: string, required: false }
                   - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
                   - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
-                  - label: Children
-                    name: children
+                  - label: Cards
+                    name: cards
+                    widget: list
+                    fields:
+                      - label: Image
+                        name: image
+                        widget: string
+                      - label: Title
+                        name: title
+                        widget: string
+                      - label:  Body
+                        name: body
+                        widget: text
+                  - label: CTA
+                    name: cta
                     widget: object
                     fields: 
-                      - { label: ID, name: id, widget: hidden, default: HowItWorks }
-                      - label: Props
-                        name: props
-                        widget: object
-                        fields:
-                          - label: Cards
-                            name: cards
-                            widget: list
-                            fields:
-                              - label: Image
-                                name: image
-                                widget: string
-                              - label: Title
-                                name: title
-                                widget: string
-                              - label:  Body
-                                name: body
-                                widget: text
-                      - label: CTA
-                        name: cta
-                        widget: object
-                        fields: 
-                          - { label: Cta Text, name: text, widget: string, required: false }
-                          - { label: Cta Link, name: link, widget: string, required: false }
+                      - { label: Cta Text, name: text, widget: string, required: false }
+                      - { label: Cta Link, name: link, widget: string, required: false }
 
 
           - label: Presentation
-            name: presentation
+            name: Presentation
             widget: object
             fields:
               - {label: "Component", name: "component", widget: "hidden", default: "Presentation"}
@@ -215,6 +206,7 @@ collections:
                 fields:
                   - { label: Title, name: title, widget: string, required: false }
                   - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
                   - label: Slides
                     name: slides
                     widget: list
@@ -227,7 +219,7 @@ collections:
                         widget: text
                       - label: Image
                         name: image
-                        widget: string
+                        widget: image
 
           - label: VideoSection
             name: videoSection

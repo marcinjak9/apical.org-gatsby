@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-// import Markdown from 'react-markdown/with-html';
+import Markdown from 'react-markdown/with-html'
 import Button from '../components/Button'
 import { Container, Row, Column } from '../components/Global'
 import Emoji from '../components/Emoji'
@@ -55,11 +55,13 @@ const HeroColumn = styled(Column)`
   p {
     font-size: var(--font-subheader);
     line-height: 1.4rem;
-    margin-bottom: 3.1rem;
     color: var(--light);
     font-weight: ${props => (props.bodyLight ? 'normal' : 'bold')};
   }
 
+  p:last-child {
+    margin-bottom: 3.1rem;
+  }
   @media (max-width: 767px) {
     h1 {
       font-size: var(--font-headline);
@@ -87,8 +89,8 @@ const HomeHero = ({
       <Row>
         <HeroColumn size="10" bodyLight={bodyLight}>
           <h1>{title}</h1>
-          <p>{heroBody}</p>
-          {/* <Markdown source={body} escapeHtml={false} /> */}
+          {/* <p>{heroBody}</p> */}
+          <Markdown source={heroBody} escapeHtml={false} />
           {renderCta(cta)}
         </HeroColumn>
         {colRight && (
