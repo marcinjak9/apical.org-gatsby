@@ -1,5 +1,0 @@
----
-title: Discover
-slug: discovers
----
-
