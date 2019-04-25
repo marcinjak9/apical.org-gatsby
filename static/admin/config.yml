@@ -109,13 +109,6 @@ collections:
     #   preview: false
     folder: "content/pages"
     create: true
-    # files:
-    # - label: "Home"
-    #   name: "home"
-    #   # file: "content/home.md"
-    #   create: true
-    #   editor:
-    #     preview: false
     fields: 
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "site-page" }
       - { label: Title, name: title, widget: string }
@@ -137,7 +130,7 @@ collections:
                 fields:
                   - { label: Title, name: title, widget: string, required: false }
                   - { label: Hero Body, name: heroBody, widget: markdown, required: false }
-                  - { label: Unsplash Baground, name: image, widget: string, required: false }
+                  - { label: Unsplash Baground, name: image, widget: image, required: false }
                   - label: Typings
                     name: typings
                     widget: list

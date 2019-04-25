@@ -1,9 +1,10 @@
-import React from 'react';
-import styled from '@emotion/styled';
+import React from 'react'
+import styled from '@emotion/styled'
 // import Markdown from 'react-markdown/with-html';
-import Button from '../components/Button';
-import { Container, Row, Column } from '../components/Global';
-import Emoji from '../components/Emoji';
+import Button from '../components/Button'
+import { Container, Row, Column } from '../components/Global'
+import Emoji from '../components/Emoji'
+import { getImageLink } from '../components/image'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -12,14 +13,14 @@ const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url(${props => props.image});
+  background-image: url(${props => getImageLink(props.image)});
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
 
   &:before {
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     position: absolute;
@@ -33,7 +34,7 @@ const Wrapper = styled.div`
   .container {
     z-index: 2;
   }
-`;
+`
 
 const HeroColumn = styled(Column)`
   display: flex;
@@ -65,7 +66,7 @@ const HeroColumn = styled(Column)`
       line-height: var(--font-headline);
     }
   }
-`;
+`
 
 const renderCta = (cta) => {
   if (cta && cta.text && cta.link) {
@@ -73,20 +74,20 @@ const renderCta = (cta) => {
       <Button primary href={cta.link} icon="arrow" alignStart>
         {cta.text}
       </Button>
-    );
+    )
   }
-  return null;
-};
+  return null
+}
 
 const HomeHero = ({
-  image, title, body, cta, colRight, bodyLight,
+  image, title, heroBody, cta, colRight, bodyLight,
 }) => (
   <Wrapper image={image}>
     <Container style={{ zIndex: 2 }}>
       <Row>
         <HeroColumn size="10" bodyLight={bodyLight}>
           <h1>{title}</h1>
-          <p>{body}</p>
+          <p>{heroBody}</p>
           {/* <Markdown source={body} escapeHtml={false} /> */}
           {renderCta(cta)}
         </HeroColumn>
@@ -103,6 +104,6 @@ const HomeHero = ({
       </Row>
     </Container>
   </Wrapper>
-);
+)
 
-export default HomeHero;
+export default HomeHero
