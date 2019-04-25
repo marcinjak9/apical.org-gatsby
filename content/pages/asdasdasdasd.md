@@ -1,6 +1,6 @@
 ---
 templateKey: meetup
-title: asdasdasdasd
+title: ciao
 slug: asd
 ---
 
