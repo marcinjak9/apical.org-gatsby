@@ -19,5 +19,16 @@ sections:
         - prova
         - ciao
     type: HomeHero
+  - props:
+      body: >-
+        Apical permette ai creatori di esperienze di avere in un’unica
+        piattaforma tutti gli strumenti necessari per gestire l’offerta, le
+        prenotazioni e le vendite dei propri viaggi, eventi e reatreat.
+      cta:
+        link: '#onboarding'
+        text: Unisciti ad Apical
+      greyBg: true
+      title: Cosa facciamo?
+    type: WhatWeDo
 ---
 
