@@ -1,0 +1,57 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "gatsby": "^2.3.29",
+    "gatsby-image": "^2.0.40",
+    "gatsby-plugin-emotion": "^4.0.6",
+    "gatsby-plugin-manifest": "^2.0.29",
+    "gatsby-plugin-netlify-cms": "^3.0.18",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-postcss": "^2.0.7",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-source-filesystem": "^2.0.32",
+    "gatsby-transformer-remark": "^2.3.11",
+    "gatsby-transformer-sharp": "^2.1.18",
+    "netlify-cms": "^2.9.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.5.7",
+    "react-helmet": "^5.2.0",
+    "react-typist": "^2.0.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "postcss-color-mod-function": "^3.0.3",
+    "postcss-custom-properties": "^8.0.10",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-nested": "^4.1.2",
+    "prettier": "^1.17.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
