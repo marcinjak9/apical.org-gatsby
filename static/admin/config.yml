@@ -1,7 +1,8 @@
 backend:
-  # name: git-gateway
-  # branch: feature/netlify-cms
-  name: test-repo
+  name: github
+  repo: marcinjak9/apical.org-gatsby
+  branch: master
+  # name: test-repo
 media_folder: static/images
 collections:
 
@@ -11,6 +12,7 @@ collections:
       - label: Testimonial
         name: testimonial
         file: content/testimonials.md
+        create: true
         fields:
           - label: Testimonials
             name: testimonials
@@ -25,6 +27,7 @@ collections:
       - label: Team
         name: team
         file: content/team.md
+        create: true
         fields:
           - label: Members
             name: Members
@@ -39,6 +42,7 @@ collections:
       - label: Menu
         name: menu
         file: content/menu.md
+        create: true
         fields:
           - {label: Logo, name: logo, widget: image}
           - {label: Mobile Logo, name: mobileLogo, widget: image}
@@ -64,6 +68,7 @@ collections:
       - label: Footer Menu
         name: footerMenu
         file: content/footer-menu.md
+        create: true
         fields:
           - {label: Logo, name: logo, widget: image}
           - {label: Mobile Logo, name: mobileLogo, widget: image}
