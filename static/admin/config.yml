@@ -31,6 +31,7 @@ collections:
     #     preview: false
     fields: 
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "meetup" }
+      - { label: "Component", name: "component", widget: "hidden", default: "HelloWorldComponent" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
          
