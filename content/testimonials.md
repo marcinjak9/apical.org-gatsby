@@ -1,4 +1,5 @@
 ---
+dataType: testimonials
 testimonials:
   - body: hello worlds
     company: Lol

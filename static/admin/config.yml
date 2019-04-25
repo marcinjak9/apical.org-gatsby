@@ -19,6 +19,7 @@ collections:
             widget: list
             fields:
               - { label: Data Type, name: dataType, widget: hidden, default: testimonials }
+              - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
               - {label: Name, name: name, widget: string }
               - {label: Company, name: company, widget: string }
               - {label: Body, name: body, widget: text }
@@ -95,269 +96,271 @@ collections:
     label: "Pages"
     # editor:
     #   preview: false
-    files:
-    - label: "Home"
-      name: "home"
-      file: "content/home.md"
-      editor:
-        preview: false
-      fields: 
-        - label: "Home Section"
-          name: "sections"
-          widget: "list"
-          types:
-            - label: Hero
-              name: HomeHero
-              hint: Hero
-              widget: object
-              fields:
-                - { label: "Component", name: "component", widget: "hidden", default: "HomeHero" }
-                - label: Props
-                  name: props
-                  widget: object
-                  fields:
-                    - { label: Title, name: title, widget: string, required: false }
-                    - { label: Hero Body, name: heroBody, widget: markdown, required: false }
-                    - { label: Unsplash Baground, name: image, widget: string, required: false }
-                    - label: Typings
-                      name: typings
-                      widget: list
-                      field: { label: Typing, name: typing, widget: string }
-                      default: ["i tuoi viaggi", "le tue esperienze", "i tuoi festival", "i tuoi retreats"]
-                      required: false
-                    - label: CTA
-                      name: cta
-                      widget: object
-                      fields: 
-                        - { label: Cta Text, name: text, widget: string, required: false }
-                        - { label: Cta Link, name: link, widget: string, required: false }
-            - label: What We Do
-              name: WhatWeDo
-              widget: object
-              fields:
-                - {label: "Component", name: "component", widget: "hidden", default: "WhatWeDo"}
-                - label: Props
-                  name: props
-                  widget: object
-                  fields:
-                    - { label: Title, name: title, widget: string, required: false }
-                    - { label: Body, name: body, widget: text, required: false }
-                    - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
-                    - label: CTA
-                      name: cta
-                      widget: object
-                      fields: 
-                        - { label: Cta Text, name: text, widget: string, required: false }
-                        - { label: Cta Link, name: link, widget: string, required: false }
-            - label: How Its Works
-              name: HowItWorksWrapper
-              widget: object
-              fields:
-                - {label: "Component", name: "component", widget: "hidden", default: "HowItWorksWrapper"}
-                - label: Props
-                  name: props
-                  widget: object
-                  fields:
-                    - { label: Title, name: title, widget: string, required: false }
-                    - { label: Subtitle, name: subtitle, widget: string, required: false }
-                    - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
-                    - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
-                    - label: Children
-                      name: children
-                      widget: object
-                      fields: 
-                        - { label: ID, name: id, widget: hidden, default: HowItWorks }
-                        - label: Props
-                          name: props
-                          widget: object
-                          fields:
-                            - label: Cards
-                              name: cards
-                              widget: list
-                              fields:
-                                - label: Image
-                                  name: image
-                                  widget: string
-                                - label: Title
-                                  name: title
-                                  widget: string
-                                - label:  Body
-                                  name: body
-                                  widget: text
-                        - label: CTA
-                          name: cta
-                          widget: object
-                          fields: 
-                            - { label: Cta Text, name: text, widget: string, required: false }
-                            - { label: Cta Link, name: link, widget: string, required: false }
+    folder: "content/pages"
+    # files:
+    # - label: "Home"
+    #   name: "home"
+    #   # file: "content/home.md"
+    #   create: true
+    #   editor:
+    #     preview: false
+    fields: 
+      - label: "Home Section"
+        name: "sections"
+        widget: "list"
+        types:
+          - label: Hero
+            name: HomeHero
+            hint: Hero
+            widget: object
+            fields:
+              - { label: "Component", name: "component", widget: "hidden", default: "HomeHero" }
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: Hero Body, name: heroBody, widget: markdown, required: false }
+                  - { label: Unsplash Baground, name: image, widget: string, required: false }
+                  - label: Typings
+                    name: typings
+                    widget: list
+                    field: { label: Typing, name: typing, widget: string }
+                    default: ["i tuoi viaggi", "le tue esperienze", "i tuoi festival", "i tuoi retreats"]
+                    required: false
+                  - label: CTA
+                    name: cta
+                    widget: object
+                    fields: 
+                      - { label: Cta Text, name: text, widget: string, required: false }
+                      - { label: Cta Link, name: link, widget: string, required: false }
+          - label: What We Do
+            name: WhatWeDo
+            widget: object
+            fields:
+              - {label: "Component", name: "component", widget: "hidden", default: "WhatWeDo"}
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: Body, name: body, widget: text, required: false }
+                  - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - label: CTA
+                    name: cta
+                    widget: object
+                    fields: 
+                      - { label: Cta Text, name: text, widget: string, required: false }
+                      - { label: Cta Link, name: link, widget: string, required: false }
+          - label: How Its Works
+            name: HowItWorksWrapper
+            widget: object
+            fields:
+              - {label: "Component", name: "component", widget: "hidden", default: "HowItWorksWrapper"}
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: Subtitle, name: subtitle, widget: string, required: false }
+                  - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
+                  - label: Children
+                    name: children
+                    widget: object
+                    fields: 
+                      - { label: ID, name: id, widget: hidden, default: HowItWorks }
+                      - label: Props
+                        name: props
+                        widget: object
+                        fields:
+                          - label: Cards
+                            name: cards
+                            widget: list
+                            fields:
+                              - label: Image
+                                name: image
+                                widget: string
+                              - label: Title
+                                name: title
+                                widget: string
+                              - label:  Body
+                                name: body
+                                widget: text
+                      - label: CTA
+                        name: cta
+                        widget: object
+                        fields: 
+                          - { label: Cta Text, name: text, widget: string, required: false }
+                          - { label: Cta Link, name: link, widget: string, required: false }
 
 
-            - label: Presentation
-              name: presentation
-              widget: object
-              fields:
-                - {label: "Component", name: "component", widget: "hidden", default: "Presentation"}
-                - label: Props
-                  name: props
-                  widget: object
-                  fields:
-                    - { label: Title, name: title, widget: string, required: false }
-                    - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
-                    - label: Slides
-                      name: slides
-                      widget: list
-                      fields:
-                        - label: Title
-                          name: title
-                          widget: string
-                        - label: Body
-                          name: body
-                          widget: text
-                        - label: Image
-                          name: image
-                          widget: string
+          - label: Presentation
+            name: presentation
+            widget: object
+            fields:
+              - {label: "Component", name: "component", widget: "hidden", default: "Presentation"}
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - label: Slides
+                    name: slides
+                    widget: list
+                    fields:
+                      - label: Title
+                        name: title
+                        widget: string
+                      - label: Body
+                        name: body
+                        widget: text
+                      - label: Image
+                        name: image
+                        widget: string
 
-            - label: VideoSection
-              name: videoSection
-              widget: object
-              fields:
-                - {label: "Component", name: "component", widget: "hidden", default: "VideoSection"}
-                - label: Props
-                  name: props
-                  widget: object
-                  fields:
-                    - { label: Title, name: title, widget: string, required: false }
-                    - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
-                    - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
-                    - { label: "Youtube url", name: "videoUrl", widget: "string", required: false }
+          - label: VideoSection
+            name: videoSection
+            widget: object
+            fields:
+              - {label: "Component", name: "component", widget: "hidden", default: "VideoSection"}
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
+                  - { label: "Youtube url", name: "videoUrl", widget: "string", required: false }
 
-            - label: Special Features
-              name: specialFeatures
-              widget: object
-              fields:
-                - { label: "Component", name: "component", widget: "hidden", default: "SpecialFeatures" }
-                - label: Props
-                  name: props
-                  widget: object
-                  fields:
-                    - { label: Title, name: title, widget: string, required: false }
-                    - { label: Subtitle, name: subtitle, widget: string, required: false }
-                    - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
-                    - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
-                    - label: Features
-                      name: features
-                      widget: list
-                      fields:
-                        - { label: Image, name: image, widget: string }
-                        - { label: Title, name: title, widget: string }
-                        - { label: Body, name: body, widget: text }
-                    - label: CTA
-                      name: cta
-                      widget: object
-                      fields: 
-                        - { label: Cta Text, name: text, widget: string, required: false }
-                        - { label: Cta Link, name: link, widget: string, required: false }
-                        - { label: Text, name: title, widget: string, required: false }
+          - label: Special Features
+            name: specialFeatures
+            widget: object
+            fields:
+              - { label: "Component", name: "component", widget: "hidden", default: "SpecialFeatures" }
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: Subtitle, name: subtitle, widget: string, required: false }
+                  - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
+                  - label: Features
+                    name: features
+                    widget: list
+                    fields:
+                      - { label: Image, name: image, widget: string }
+                      - { label: Title, name: title, widget: string }
+                      - { label: Body, name: body, widget: text }
+                  - label: CTA
+                    name: cta
+                    widget: object
+                    fields: 
+                      - { label: Cta Text, name: text, widget: string, required: false }
+                      - { label: Cta Link, name: link, widget: string, required: false }
+                      - { label: Text, name: title, widget: string, required: false }
 
-            - label: Quote
-              name: quote
-              widget: object
-              fields:
-                - {label: "Component", name: "component", widget: "hidden", default: "Quote"}
-                - label: Props
-                  name: props
-                  widget: object
-                  fields:
-                    - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
-                    - label: CTA
-                      name: cta
-                      widget: object
-                      fields: 
-                        - { label: Cta Text, name: title, widget: string, required: false }
-                        - { label: Cta Link, name: link, widget: string, required: false }
-                        - { label: Text, name: text, widget: string, required: false }
-                - label: Children text
-                  name: children
-                  widget: text
+          - label: Quote
+            name: quote
+            widget: object
+            fields:
+              - {label: "Component", name: "component", widget: "hidden", default: "Quote"}
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - label: CTA
+                    name: cta
+                    widget: object
+                    fields: 
+                      - { label: Cta Text, name: title, widget: string, required: false }
+                      - { label: Cta Link, name: link, widget: string, required: false }
+                      - { label: Text, name: text, widget: string, required: false }
+              - label: Children text
+                name: children
+                widget: text
 
-            - label: TestimonialsSection
-              name: testimonialsSection
-              widget: object
-              fields:
-                - {label: "Component", name: "component", widget: "hidden", default: "TestimonialsSection"}
-                - label: Props
-                  name: props
-                  widget: object
-                  fields:
-                    - { label: Title, name: title, widget: string, required: false }
-                    - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
-                    - label: CTA
-                      name: cta
-                      widget: object
-                      fields: 
-                        - { label: Cta Text, name: text, widget: string, required: false }
-                        - { label: Cta Link, name: link, widget: string, required: false }
+          - label: TestimonialsSection
+            name: testimonialsSection
+            widget: object
+            fields:
+              - {label: "Component", name: "component", widget: "hidden", default: "TestimonialsSection"}
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - label: CTA
+                    name: cta
+                    widget: object
+                    fields: 
+                      - { label: Cta Text, name: text, widget: string, required: false }
+                      - { label: Cta Link, name: link, widget: string, required: false }
 
-            - label: Cta
-              name: cta
-              widget: object
-              fields:
-                - {label: "Component", name: "component", widget: "hidden", default: "Cta"}
-                - label: Props
-                  name: props
-                  widget: object
-                  fields:
-                    - { label: Title, name: title, widget: string }
-                    - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
-                    - { label: "Full Height", name: "fullHeigh", widget: "boolean", required: false }
-                    - { label: Body, name: body, widget: text, required: false }
-                    - { label: Quote, name: quote, widget: string, required: false }
-                    - { label: Background Image, name: bgImage, widget: string, required: false }
-                    - label: CTA
-                      name: cta
-                      widget: object
-                      fields: 
-                        - { label: Cta Text, name: text, widget: string, required: false }
-                        - { label: Cta Link, name: link, widget: string, required: false }
-            
-            - label: WelcomeSteps
-              name: welcomeSteps
-              widget: object
-              fields:
-                - { label: "Component", name: "component", widget: "hidden", default: "WelcomeSteps" }
-                - { label: Title, name: title, widget: string, required: false }
-                - label: Props
-                  name: props
-                  widget: object
-                  fields:
-                    - label: Columns
-                      name: columns
-                      widget: list
-                      fields: 
-                      - { label: Title, name: title, widget: string, required: false }
-                      - { label: Body, name: body, widget: text, required: false }
-
-            - label: Form
-              name: formSection
-              widget: object
-              fields:
-                - { label: Component, name: component, widget: hidden, default: 'FormSection' }
-                - label: Props
-                  name: props
-                  widget: object
-                  fields:
+          - label: Cta
+            name: cta
+            widget: object
+            fields:
+              - {label: "Component", name: "component", widget: "hidden", default: "Cta"}
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - { label: "Full Height", name: "fullHeigh", widget: "boolean", required: false }
+                  - { label: Body, name: body, widget: text, required: false }
+                  - { label: Quote, name: quote, widget: string, required: false }
+                  - { label: Background Image, name: bgImage, widget: string, required: false }
+                  - label: CTA
+                    name: cta
+                    widget: object
+                    fields: 
+                      - { label: Cta Text, name: text, widget: string, required: false }
+                      - { label: Cta Link, name: link, widget: string, required: false }
+          
+          - label: WelcomeSteps
+            name: welcomeSteps
+            widget: object
+            fields:
+              - { label: "Component", name: "component", widget: "hidden", default: "WelcomeSteps" }
+              - { label: Title, name: title, widget: string, required: false }
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - label: Columns
+                    name: columns
+                    widget: list
+                    fields: 
                     - { label: Title, name: title, widget: string, required: false }
                     - { label: Body, name: body, widget: text, required: false }
-                    - { label: Form Id, name: formId, widget: string, required: false }
 
-            - label: Blog Section
-              name: blogSection
-              widget: object
-              fields:
-                - { label: Component, name: component, widget: hidden, default: 'BlogSection' }
-                - label: Props
-                  name: props
-                  widget: object
-                  fields:
-                    - { label: Title, name: title, widget: string, required: false }
-                    - { label: Subtitle, name: subtitle, widget: text, required: false }
+          - label: Form
+            name: formSection
+            widget: object
+            fields:
+              - { label: Component, name: component, widget: hidden, default: 'FormSection' }
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: Body, name: body, widget: text, required: false }
+                  - { label: Form Id, name: formId, widget: string, required: false }
+
+          - label: Blog Section
+            name: blogSection
+            widget: object
+            fields:
+              - { label: Component, name: component, widget: hidden, default: 'BlogSection' }
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: Subtitle, name: subtitle, widget: text, required: false }
