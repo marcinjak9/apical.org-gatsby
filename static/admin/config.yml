@@ -55,24 +55,6 @@ collections:
               - {label: Body, name: body, widget: text }
               - {label: Avatar, name: image, widget: image }
 
-      - label: Features
-        name: features
-        file: content/features.md
-        create: true
-        fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "features" }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "text" }
-          - label: Items
-            name: items
-            widget: list
-            fields:
-              - {label: Icon, name: icon, widget: string }
-              - {label: Title, name: title, widget: string }
-              - {label: Body, name: body, widget: text }
-              - {label: Pro, name: pro, widget: boolean, required: false }
-              
-
       - label: Menu
         name: menu
         file: content/menu.md
@@ -127,6 +109,23 @@ collections:
               - { label: Phone, name: phone, widget: string }
               - { label: Email, name: email, widget: string }
 
+  - name: features
+    label: Features
+    folder: "content/features"
+    create: true
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "features" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "text" }
+      - label: Items
+        name: items
+        widget: list
+        fields:
+          - {label: Icon, name: icon, widget: string }
+          - {label: Title, name: title, widget: string }
+          - {label: Body, name: body, widget: text }
+          - {label: Pro, name: pro, widget: boolean, required: false }
+    
   - name: "page"
     label: "Page"
     # editor:
