@@ -105,6 +105,11 @@ export const pageQuery = graphql`
               text
               title
             }
+            items {
+              title
+              nav
+              body
+            }
           }
         }
       }

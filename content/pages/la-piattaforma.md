@@ -145,7 +145,7 @@ sections:
           nav: Marketing
           body: Un nostro esperto di marketing turistico è pronto ad affiancarti passo a passo per strutturare il tuo brand!
       title: >-
-        Apical non è solo tecnologia.\nOttieni dal nostro team il massimo del
+        Apical non è solo tecnologia. Ottieni dal nostro team il massimo del
         supporto
       titleCenter: true
     type: ToolsCards

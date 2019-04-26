@@ -15,6 +15,7 @@ import FormSection from './Wrappers/FormSection'
 import TeamSection from './Wrappers/TeamSection'
 import SimpleHero from './Wrappers/SimpleHero'
 import FeaturesTabs from './Wrappers/FeaturesTabs'
+import ToolsCards from './Wrappers/ToolsCards'
 // import RestartingTypist from './components/TypistLoop'
 
 export default {
@@ -37,4 +38,5 @@ export default {
   // RestartingTypist,
   SimpleHero,
   FeaturesTabs,
+  ToolsCards,
 }
