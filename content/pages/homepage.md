@@ -154,5 +154,17 @@ sections:
         text: Unisciti
       title: Cosa dicono di noi i nostri partner
     type: TestimonialsSection
+  - props:
+      bgImage: 'https://ucarecdn.com/1da972a8-a4be-406e-8427-b7f28345439c/'
+      body: >+
+        We believe that when people share their energy into an intense
+        experience they naturally become more open-minded, curious and able to
+        understand one another Experience Creators have the power to change
+        people’s life.  Apical is here to support them. Join our mission
+
+      fullHeigh: true
+      quote: 'Nicola Zanola, CEO'
+      title: Happiness is a movement
+    type: Cta
 ---
 
