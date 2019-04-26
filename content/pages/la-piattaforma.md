@@ -96,12 +96,6 @@ sections:
       titleCenter: true
     type: FeaturesTabs
   - props:
-      greyBg: false
-      subtitle: >-
-        Con Apical puoi gestire tutti i tuoi prodotti e le tue offerte in un’una
-        piattaforma
-      title: Cosa puoi organizzare e vendere?
-      titleCenter: true
       features:
         - body: >+
             Gestisci come preferisci le strutture di alloggio, la composizione
@@ -132,6 +126,25 @@ sections:
             direttamente al check-in
           image: "\U0001F455"
           title: Servizi e merchandising
+      greyBg: false
+      subtitle: >-
+        Con Apical puoi gestire tutti i tuoi prodotti e le tue offerte in un’una
+        piattaforma
+      title: Cosa puoi organizzare e vendere?
+      titleCenter: true
     type: SpecialFeatures
+  - props:
+      items:
+        - body: >-
+            Noi abbiamo la copertura. Avere una licenza viaggio non è solo un
+            obbligo ma un'importante garanzia per tutti i tuoi clienti e per te
+            stesso.
+          nav: Licenza
+          title: Ti manca una licenza di viaggio?
+      title: >-
+        Apical non è solo tecnologia.\nOttieni dal nostro team il massimo del
+        supporto
+      titleCenter: true
+    type: ToolsCards
 ---
 
