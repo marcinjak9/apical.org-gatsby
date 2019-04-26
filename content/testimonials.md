@@ -3,7 +3,7 @@ testimonials:
   - body: >+
       Il nostro progetto cresce molto velocemente, senza Apical sarebbe
       impossibile gestire la burocrazia che ogni booking produce e offrire al
-      cliente un’esperienza di prenotazione confortevole e sicura
+      cliente un’esperienza di prenotazione confortevole e sicura 
 
 
     company: Surfweek
