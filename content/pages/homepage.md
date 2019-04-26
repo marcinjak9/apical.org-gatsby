@@ -1,6 +1,7 @@
 ---
 templateKey: site-page
 title: Homepage
+slug: home
 type: page
 sections:
   - props:
