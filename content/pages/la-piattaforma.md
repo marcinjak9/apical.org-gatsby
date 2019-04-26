@@ -135,12 +135,15 @@ sections:
     type: SpecialFeatures
   - props:
       items:
-        - body: >-
-            Noi abbiamo la copertura. Avere una licenza viaggio non è solo un
-            obbligo ma un'importante garanzia per tutti i tuoi clienti e per te
-            stesso.
+        - title: Ti manca una licenza di viaggio?
           nav: Licenza
-          title: Ti manca una licenza di viaggio?
+          body: "Noi abbiamo la copertura. Avere una licenza viaggio non è solo un obbligo ma un'importante garanzia per tutti i tuoi clienti e per te stesso."
+        - title: Hai bisogno di aiuto per creare la tua esperienza?
+          nav: Supporto
+          body: "Abbiamo oltre 10 anni di esperienza in travel e una grande rete di partner pronti ad aiutarti a raggiungere i tuoi obbiettivi"
+        - title: Trovare partecipanti è un problema?
+          nav: Marketing
+          body: Un nostro esperto di marketing turistico è pronto ad affiancarti passo a passo per strutturare il tuo brand!
       title: >-
         Apical non è solo tecnologia.\nOttieni dal nostro team il massimo del
         supporto
