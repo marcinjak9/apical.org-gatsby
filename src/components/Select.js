@@ -2,16 +2,6 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
 
-const dynamicStyle = props => css`
-  label {
-    opacity: ${props.value ? 1 : 0};
-  }
-
-  select {
-    color: ${props.value ? 'white' : 'black'};
-  }
-`
-
 const SelectWrapper = styled.div`
   width: 100%;
   position: relative;
@@ -27,6 +17,7 @@ const SelectWrapper = styled.div`
     font-weight: bold;
     color: var(--text-grey);
     text-transform: uppercase;
+    opacity: ${props => (props.value ? 1 : 0)};
   }
 
   .line {
@@ -73,6 +64,7 @@ const SelectWrapper = styled.div`
     box-sizing: content-box;
     background: none;
     -webkit-tap-highlight-color: transparent;
+    color: ${props => (!props.value ? 'var(--text-grey)' : 'var(--text-black)')};
 
     &:focus {
       outline: none;
@@ -112,24 +104,6 @@ const Select = (props) => {
             id="type"
             value={value || 'default'}
             onChange={({ target }) => onSelectChange(target.value)}
-            // css={css`
-            //   width: calc(100% - 32px);
-            //   height: 100%;
-            //   cursor: pointer;
-            //   min-width: 16px;
-            //   user-select: none;
-            //   padding-right: 32px;
-            //   border-radius: 0;
-            //   -moz-appearance: none;
-            //   -webkit-appearance: none;
-            //   width: 100%;
-            //   border: 0;
-            //   margin: 0;
-            //   display: block;
-            //   box-sizing: content-box;
-            //   background: none;
-            //   -webkit-tap-highlight-color: transparent;
-            // `}
           >
             <option value="default" disabled>
               {`${placeholder} - ${required ? '' : 'opzionale'}`}

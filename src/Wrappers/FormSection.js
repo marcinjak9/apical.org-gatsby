@@ -8,7 +8,6 @@ export default class FormSection extends Component {
 
   componentDidMount() {
     this.getForm()
-    console.log(process.env)
   }
 
   getForm = async () => {

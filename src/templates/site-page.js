@@ -28,11 +28,11 @@ const renderProps = (props) => {
 
 const renderElements = (sections) => {
   if (sections) {
-    return sections.map((element) => {
+    return sections.map((element, index) => {
       if (components[element.type]) {
         return React.createElement(
           components[element.type],
-          renderProps(element.props),
+          { ...renderProps(element.props), key: index },
           renderChild(element.children),
         )
       }

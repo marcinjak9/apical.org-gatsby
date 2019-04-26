@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 import styled from '@emotion/styled'
 import Button from './Button'
 import { Container, Row, Column } from './Global'
@@ -58,32 +58,52 @@ const ColumnWithButtons = styled(Column)`
   }
 `
 
-const Footer = () => (
+const FooterInner = ({
+  contacts, menuItems, mobileLogo, logo,
+}) => (
   <StyledFooter>
     <Container>
       <Row>
         <Column size="12" className="footer-section">
-          <img
-            src="/static/images/logo_white.svg"
-            alt="apical-logo-white"
-            className="footer-logo"
-          />
+          <img src={logo} alt="apical-logo-white" className="footer-logo" />
         </Column>
         <Column size="4" className="footer-section">
           <Row>
             <Column size="6">
-              <Link to="/about" className="footer-link">
-                About
-              </Link>
-              <Link to="/features" className="footer-link">
-                La Piattaforma
-              </Link>
-              {/* <Link to="/pricing">
-                <a className="footer-link">Piani</a>
-              </Link> */}
+              {menuItems.slice(0, menuItems.length / 2).map((m, i) => (
+                <Link key={i} to={m.url} className="footer-link">
+                  {m.text}
+                </Link>
+              ))}
             </Column>
             <Column size="6">
-              <a
+              {menuItems
+                .slice(menuItems.length / 2, Math.max(menuItems.length))
+                .map((m, i) => {
+                  if (m.url === '#privacy') {
+                    return (
+                      <React.Fragment key={i}>
+                        <a
+                          href="https://www.iubenda.com/privacy-policy/14773504"
+                          className="iubenda-nostyle no-brand iubenda-embed footer-link"
+                          title="Privacy Policy "
+                        >
+                          Privacy Policy
+                        </a>
+                        <script
+                          type="text/javascript"
+                          dangerouslySetInnerHTML={{ __html: iubenda }}
+                        />
+                      </React.Fragment>
+                    )
+                  }
+                  return (
+                    <Link key={i} to={m.url} className="footer-link">
+                      {m.text}
+                    </Link>
+                  )
+                })}
+              {/* <a
                 href="https://journal.apical.org"
                 className="footer-link"
                 target="_blank"
@@ -100,7 +120,7 @@ const Footer = () => (
               <script
                 type="text/javascript"
                 dangerouslySetInnerHTML={{ __html: iubenda }}
-              />
+              /> */}
             </Column>
           </Row>
         </Column>
@@ -169,6 +189,36 @@ const Footer = () => (
       <p>© 2019 Apical s.r.l. All Rights Reserved</p>
     </div>
   </StyledFooter>
+)
+
+const Footer = () => (
+  <StaticQuery
+    query={graphql`
+      query FooterQuery {
+        markdownRemark(frontmatter: { templateKey: { eq: "footer-menu" } }) {
+          frontmatter {
+            logo
+            mobileLogo
+            menuItems {
+              text
+              url
+            }
+            socialItems {
+              text
+              url
+            }
+            contacts {
+              email
+              phone
+            }
+          }
+        }
+      }
+    `}
+    render={({ markdownRemark: { frontmatter } }) => (
+      <FooterInner {...frontmatter} />
+    )}
+  />
 )
 
 export default Footer
