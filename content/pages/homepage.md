@@ -190,5 +190,11 @@ sections:
       formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
       title: Entra in Apical
     type: FormSection
+  - props:
+      cta:
+        link: /features
+        text: Scopri la piattaforma
+      title: Blog
+    type: BlogSection
 ---
 
