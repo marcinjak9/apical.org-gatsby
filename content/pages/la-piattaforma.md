@@ -157,6 +157,9 @@ sections:
       titleCenter: true
     type: ToolsCards
   - props:
+      cta:
+        link: '#onboarding'
+        text: Diventa anche tu un creator
       subtitle: La piattaforma si può integrare a qualsiasi sito web
       tabs:
         - commission: 5%
