@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React from 'react';
-import styled from '@emotion/styled';
-import SectionContainer from '../components/SectionContainer';
-import Carousel from '../components/Carousel';
-import { Row, Column } from '../components/Global';
-import Button from '../components/Button';
+import React from 'react'
+import styled from '@emotion/styled'
+import SectionContainer from '../components/SectionContainer'
+import Carousel from '../components/Carousel'
+import { Row, Column } from '../components/Global'
+import Button from '../components/Button'
 
 const PresentationRow = styled(Row)`
   margin: 0 auto;
@@ -56,97 +56,36 @@ const PresentationRow = styled(Row)`
       padding-top: 2rem;
     }
   }
-`;
+`
 
-const Presentation = ({ greyBg, title, subtitle }) => (
-  <SectionContainer
-    title={title}
-    subtitle={subtitle}
-    greyBg={greyBg}
-    titleCenter
-  >
-    <Carousel
-      slides={[
-        <PresentationRow>
-          <Column size="6">
-            <div className="body">
-              <h3>1. Dashboard cloud</h3>
-              <p>
-                È visibile solo ai Creators e permette di creare prodotti con
-                estrema semplicità, di monitorare le vendite, gestire gli
-                inventari in tempo reale e conoscere i dettagli di ogni ordine e
-                ospite. Tutto ciò che ti serve in un unico tool professionale e
-                immediato.
-              </p>
-              {/* <a href="#onboarding" className="underline">
-                Iscriviti ora
-              </a> */}
-            </div>
-          </Column>
-          <Column size="6" style={{ textAlign: 'center' }}>
-            <img src="/static/images/mockups/dashboard-triple.png" alt="" />
-          </Column>
-        </PresentationRow>,
-        <PresentationRow>
-          <Column size="6">
-            <div className="body">
-              <h3>2.1 Vetrina E-commerce</h3>
-              <p>
-                L'e-commerce è composto da due parti, la prima è la vetrina
-                online, dove i Creatori possono organizzare e descrivere
-                l'offerta grazie a una serie di bellissime pagine personalizzate
-                in base alla propria identità e comunicazione.
-              </p>
-              {/* <a href="#onboarding" className="underline">
-                Iscriviti ora
-              </a> */}
-            </div>
-          </Column>
-          <Column size="6" style={{ textAlign: 'center' }}>
-            <img src="/static/images/mockups/ecommerce-2.png" alt="" />
-          </Column>
-        </PresentationRow>,
-        <PresentationRow>
-          <Column size="6">
-            <div className="body">
-              <h3>2.2 E-commerce</h3>
-              <p>
-                La seconda parte è il Configuratore, una pagina in cui gli
-                ospiti possono scegliere ciò che desiderano, comporre la propria
-                esperienza e prenotarla in tempo reale.
-              </p>
-              {/* <a href="#onboarding" className="underline">
-                Iscriviti ora
-              </a> */}
-            </div>
-          </Column>
-          <Column size="6" style={{ textAlign: 'center' }}>
-            <img src="/static/images/mockups/ecommerce-1.png" alt="" />
-          </Column>
-        </PresentationRow>,
-        <PresentationRow>
-          <Column size="6">
-            <div className="body">
-              <h3>3 Sistema di pagamenti</h3>
-              <p>
-                Apical permette all’utente finale di pagare con carta o bonifico
-                online e al Creator di ricevere immediatamente il denaro.
-                L’utente può decidere di rateizzare l’acquisto e aggiungere una
-                donazione al carrello contribuendo a piantare un nuovo albero
-                nelle Apical Forest realizzate in partnership con Treedom.
-              </p>
-              {/* <a href="#onboarding" className="underline">
-                Iscriviti ora
-              </a> */}
-            </div>
-          </Column>
-          <Column size="6" style={{ textAlign: 'center' }}>
-            <img src="/static/images/mockups/payment-3.png" alt="" />
-          </Column>
-        </PresentationRow>,
-      ]}
-    />
-  </SectionContainer>
-);
+const Slide = ({ title, body, image }) => (
+  <PresentationRow>
+    <Column size="6">
+      <div className="body">
+        <h3>{title}</h3>
+        <p>{body}</p>
+        {/* <a href="#onboarding" className="underline">
+          Iscriviti ora
+        </a> */}
+      </div>
+    </Column>
+    <Column size="6" style={{ textAlign: 'center' }}>
+      <img src={image} alt="" />
+    </Column>
+  </PresentationRow>
+)
 
-export default Presentation;
+const Presentation = (props) => {
+  const { slides } = props
+  return (
+    <SectionContainer {...props}>
+      <Carousel
+        slides={slides.map((slide, i) => (
+          <Slide title={slide.title} body={slide.body} image={slide.image} />
+        ))}
+      />
+    </SectionContainer>
+  )
+}
+
+export default Presentation

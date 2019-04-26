@@ -57,13 +57,7 @@ export const pageQuery = graphql`
           children
           props {
             heroBody
-            image {
-              childImageSharp {
-                fluid(maxWidth: 2880) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            image
             title
             greyBg
             videoUrl
@@ -75,6 +69,11 @@ export const pageQuery = graphql`
             quote
             formId
             cards {
+              body
+              image
+              title
+            }
+            slides {
               body
               image
               title
