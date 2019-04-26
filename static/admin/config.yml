@@ -63,6 +63,7 @@ collections:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "menu" }
           - {label: Logo, name: logo, widget: image}
           - {label: Mobile Logo, name: mobileLogo, widget: image}
+          - {label: Sidebar Logo, name: sidebarLogo, widget: image}
           - label: Menu Items
             name: menuItems
             widget: list

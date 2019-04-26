@@ -23,6 +23,7 @@ class Navigation extends React.Component {
               frontmatter {
                 logo
                 mobileLogo
+                sidebarLogo
                 menuItems {
                   text
                   url
@@ -42,7 +43,12 @@ class Navigation extends React.Component {
         render={({
           markdownRemark: {
             frontmatter: {
-              logo, mobileLogo, menuItems, cta, contacts,
+              logo,
+              mobileLogo,
+              menuItems,
+              cta,
+              contacts,
+              sidebarLogo,
             },
           },
         }) => (
@@ -51,7 +57,7 @@ class Navigation extends React.Component {
               open={isOpen}
               onClose={() => this.setState({ isOpen: false })}
               menuItems={menuItems}
-              logo={mobileLogo}
+              logo={sidebarLogo}
               contacts={contacts}
             />
             <Menu
