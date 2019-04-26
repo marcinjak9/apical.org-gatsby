@@ -1,11 +1,11 @@
-import React from 'react';
-import classNames from 'classnames';
-import styled from '@emotion/styled';
-import Emoji from '../components/Emoji';
-import SectionContainer from '../components/SectionContainer';
+import React from 'react'
+import classNames from 'classnames'
+import styled from '@emotion/styled'
+import { StaticQuery, graphql } from 'gatsby'
+import Emoji from '../components/Emoji'
+import SectionContainer from '../components/SectionContainer'
 
-import SECTIONS from '../data/features.yaml';
-import { Row, Column } from '../components/Global';
+import { Row, Column } from '../components/Global'
 
 const FeaturesRow = styled(Row)`
   .features-sidebar {
@@ -86,7 +86,7 @@ const FeaturesRow = styled(Row)`
   }
 
   .tag:after {
-    content: '';
+    content: "";
     border-color: transparent var(--blue);
     border-style: solid;
     border-width: 13px 0px 12px 13px;
@@ -106,38 +106,38 @@ const FeaturesRow = styled(Row)`
       display: flex;
     }
   }
-`;
+`
 
 const DescriptionCol = styled(Column)`
   font-size: var(--font-subheader);
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--border-grey);
-`;
+`
 
 class FeaturesTabs extends React.Component {
   state = {
     tabIndex: 0,
-  };
+  }
 
   setIndex = (e, i) => {
-    e.preventDefault();
-    this.setState({ tabIndex: i });
-  };
+    e.preventDefault()
+    this.setState({ tabIndex: i })
+  }
 
   setIndexMobile = (e, i) => {
-    const { tabIndex } = this.state;
-    e.preventDefault();
-    this.setState({ tabIndex: i });
+    const { tabIndex } = this.state
+    e.preventDefault()
+    this.setState({ tabIndex: i })
     if (i === tabIndex) {
-      return this.setState({ tabIndex: null });
+      return this.setState({ tabIndex: null })
     }
-    return this.setState({ tabIndex: i });
-  };
+    return this.setState({ tabIndex: i })
+  }
 
   render() {
-    const { tabIndex } = this.state;
-    const { title } = this.props;
+    const { tabIndex } = this.state
+    const { title } = this.props
     return (
       <SectionContainer
         title={title}
@@ -147,7 +147,35 @@ class FeaturesTabs extends React.Component {
         <FeaturesRow>
           <Column size="4">
             <ul className="features-sidebar">
-              {SECTIONS.map((s, i) => (
+              <StaticQuery
+                query={graphql`
+                  query Features {
+                    allMarkdownRemark(
+                      filter: {
+                        frontmatter: { templateKey: { eq: "features" } }
+                      }
+                    ) {
+                      edges {
+                        node {
+                          html
+                          rawMarkdownBody
+                          frontmatter {
+                            title
+                            items {
+                              icon
+                              title
+                              body
+                              pro
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                `}
+                render={data => JSON.stringify(data)}
+              />
+              {/* {SECTIONS.map((s, i) => (
                 <li
                   key={i}
                   className={classNames('features-sidebar-item', {
@@ -159,11 +187,11 @@ class FeaturesTabs extends React.Component {
                     {s.title}
                   </a>
                 </li>
-              ))}
+              ))} */}
             </ul>
           </Column>
           <Column size="8">
-            {SECTIONS.map((s, i) => (
+            {/* {SECTIONS.map((s, i) => (
               <>
                 <a
                   className="tab-header"
@@ -199,18 +227,18 @@ class FeaturesTabs extends React.Component {
                       </h3>
                       <p>
                         {item.body}
-                        {/* <div className="tag">pro</div> */}
+                        <div className="tag">pro</div>
                       </p>
                     </Column>
                   ))}
                 </Row>
               </>
-            ))}
+            ))} */}
           </Column>
         </FeaturesRow>
       </SectionContainer>
-    );
+    )
   }
 }
 
-export default FeaturesTabs;
+export default FeaturesTabs

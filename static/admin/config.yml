@@ -427,6 +427,7 @@ collections:
                   - { label: Subtitle, name: subtitle, widget: text, required: false }
                   - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
                   - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
+
           - label: Features
             name: FeaturesSection
             widget: object
@@ -453,3 +454,17 @@ collections:
                     fields: 
                       - { label: Cta Text, name: text, widget: string, required: false }
                       - { label: Cta Link, name: link, widget: string, required: false }
+
+          - label: Features Full
+            name: FeaturesTabs
+            widget: object
+            fields:
+              - { label: Component, name: component, widget: hidden, default: 'FeaturesTabs' }
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: Subtitle, name: subtitle, widget: text, required: false }
+                  - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
