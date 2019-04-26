@@ -429,7 +429,7 @@ collections:
                     fields: 
                     - { label: Emoji, name: emoji, widget: string, required: false }
                     - { label: Title, name: title, widget: string, required: false }
-                    - { label: Body, name: body, widget: text, required: false }
+                    - { label: Body, name: body, widget: markdown, required: false }
                   - label: CTA
                     name: cta
                     widget: object

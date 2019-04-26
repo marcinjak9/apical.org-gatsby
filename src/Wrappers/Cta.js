@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import css from '@emotion/css';
-import SectionContainer from '../components/SectionContainer';
-import Button from '../components/Button';
-import { Row, Column } from '../components/Global';
+import React from 'react'
+import styled from '@emotion/styled'
+import css from '@emotion/css'
+import SectionContainer from '../components/SectionContainer'
+import Button from '../components/Button'
+import { Row, Column } from '../components/Global'
 
 const withBg = (props) => {
   if (props.bgImage) {
@@ -11,7 +11,7 @@ const withBg = (props) => {
       padding-top: 5rem;
       padding-bottom: 5rem;
       &:before {
-        content: '';
+        content: "";
         display: block;
         height: 100%;
         position: absolute;
@@ -35,10 +35,10 @@ const withBg = (props) => {
         font-size: var(--font-subheader);
         /* line-height: 2.5rem; */
       }
-    `;
+    `
   }
-  return '';
-};
+  return ''
+}
 
 const Wrapper = styled(SectionContainer)`
   /* background-color: var(--blue); */
@@ -69,7 +69,7 @@ const Wrapper = styled(SectionContainer)`
   }
 
   ${withBg};
-`;
+`
 
 const Cta = ({
   title, body, quote, cta, bgImage, fullHeigh,
@@ -81,15 +81,15 @@ const Cta = ({
         <p>{body}</p>
         <p className="quote">{quote}</p>
       </Column>
-      {cta && cta.text && cta.url && (
+      {cta && cta.text && cta.link && (
         <Column size="12" textCenter>
-          <Button href={cta.url} icon="arrow" primary light>
+          <Button href={cta.link} icon="arrow" primary light>
             {cta.text}
           </Button>
         </Column>
       )}
     </Row>
   </Wrapper>
-);
+)
 
-export default Cta;
+export default Cta

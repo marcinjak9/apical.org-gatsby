@@ -1,4 +1,5 @@
 import React from 'react'
+import Markdown from 'react-markdown/with-html'
 import styled from '@emotion/styled'
 import SectionContainer from '../components/SectionContainer'
 import { Row, Column } from '../components/Global'
@@ -37,7 +38,7 @@ const Features = (props) => {
                 </Column>
                 <Column size="10" mobile="10">
                   <h3>{title}</h3>
-                  {body}
+                  <Markdown source={body} escapeHtml={false} />
                 </Column>
               </Row>
             </Column>

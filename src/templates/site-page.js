@@ -78,6 +78,8 @@ export const pageQuery = graphql`
             fullHeigh
             quote
             formId
+            central
+            smallText
             cards {
               body
               image
