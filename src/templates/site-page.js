@@ -93,6 +93,10 @@ export const pageQuery = graphql`
               body
               image
             }
+            columns {
+              body
+              title
+            }
             cta {
               link
               text

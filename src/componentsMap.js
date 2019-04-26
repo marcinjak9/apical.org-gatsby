@@ -7,10 +7,10 @@ import HowItWorks from './Wrappers/HowItWorks'
 import Presentation from './Wrappers/Presentation'
 // import Features from './Wrappers/Features'
 // import OnboardingForm from './Wrappers/OnboardingForm'
-// import Cta from './Wrappers/Cta'
+import Cta from './Wrappers/Cta'
 import SpecialFeatures from './Wrappers/SpecialFeatures'
 import Quote from './Wrappers/Quote'
-// import WelcomeSteps from './Wrappers/WelcomeSteps'
+import WelcomeSteps from './Wrappers/WelcomeSteps'
 import VideoSection from './Wrappers/VideoSection'
 // import RestartingTypist from './components/TypistLoop'
 
@@ -24,10 +24,10 @@ export default {
   Presentation,
   // Features,
   // OnboardingForm,
-  // Cta,
+  Cta,
   SpecialFeatures,
   Quote,
-  // WelcomeSteps,
+  WelcomeSteps,
   VideoSection,
   // RestartingTypist,
 }

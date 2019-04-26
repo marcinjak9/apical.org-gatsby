@@ -322,7 +322,7 @@ collections:
                   - { label: "Full Height", name: "fullHeigh", widget: "boolean", required: false }
                   - { label: Body, name: body, widget: text, required: false }
                   - { label: Quote, name: quote, widget: string, required: false }
-                  - { label: Background Image, name: bgImage, widget: string, required: false }
+                  - { label: Background Image, name: bgImage, widget: image, required: false }
                   - label: CTA
                     name: cta
                     widget: object
@@ -336,6 +336,8 @@ collections:
             fields:
               - { label: "Component", name: "component", widget: "hidden", default: "WelcomeSteps" }
               - { label: Title, name: title, widget: string, required: false }
+              - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+              - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
               - label: Props
                 name: props
                 widget: object
