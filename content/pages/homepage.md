@@ -153,6 +153,6 @@ sections:
         link: '#onboarding'
         text: Unisciti
       title: Cosa dicono di noi i nostri partner
-    type: testimonialsSection
+    type: TestimonialsSection
 ---
 

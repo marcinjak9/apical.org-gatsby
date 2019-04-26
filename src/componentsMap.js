@@ -1,6 +1,6 @@
 import HomeHero from './Wrappers/HomeHero'
 import WhatWeDo from './Wrappers/WhatWeDo'
-// import TestimonialsSection from './Wrappers/TestimonialsSection'
+import TestimonialsSection from './Wrappers/TestimonialsSection'
 // import BlogSection from './Wrappers/BlogSection'
 import HowItWorks from './Wrappers/HowItWorks'
 // import SectionContainer from './components/SectionContainer'
@@ -17,7 +17,7 @@ import VideoSection from './Wrappers/VideoSection'
 export default {
   HomeHero,
   WhatWeDo,
-  // TestimonialsSection,
+  TestimonialsSection,
   // BlogSection,
   HowItWorks,
   // SectionContainer,

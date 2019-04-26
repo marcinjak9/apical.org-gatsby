@@ -33,7 +33,7 @@ collections:
             name: testimonials
             widget: list
             fields:
-              - { label: Data Type, name: dataType, widget: hidden, default: testimonials }
+              - { label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonials" }
               - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
               - {label: Name, name: name, widget: string }
               - {label: Company, name: company, widget: string }
@@ -49,7 +49,7 @@ collections:
             name: Members
             widget: list
             fields:
-              - { label: Data Type, name: dataType, widget: hidden, default: team }
+              - { label: "Template Key", name: "templateKey", widget: "hidden", default: "team" }
               - {label: Name, name: name, widget: string }
               - {label: Role, name: role, widget: string }
               - {label: Body, name: body, widget: text }
@@ -60,6 +60,7 @@ collections:
         file: content/menu.md
         create: true
         fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "menu" }
           - {label: Logo, name: logo, widget: image}
           - {label: Mobile Logo, name: mobileLogo, widget: image}
           - label: Menu Items
@@ -86,6 +87,7 @@ collections:
         file: content/footer-menu.md
         create: true
         fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "footer-menu" }
           - {label: Logo, name: logo, widget: image}
           - {label: Mobile Logo, name: mobileLogo, widget: image}
           - label: Menu Items
@@ -289,7 +291,7 @@ collections:
                 widget: text
 
           - label: TestimonialsSection
-            name: testimonialsSection
+            name: TestimonialsSection
             widget: object
             fields:
               - {label: "Component", name: "component", widget: "hidden", default: "TestimonialsSection"}
@@ -307,7 +309,7 @@ collections:
                       - { label: Cta Link, name: link, widget: string, required: false }
 
           - label: Cta
-            name: cta
+            name: Cta
             widget: object
             fields:
               - {label: "Component", name: "component", widget: "hidden", default: "Cta"}
@@ -329,7 +331,7 @@ collections:
                       - { label: Cta Link, name: link, widget: string, required: false }
           
           - label: WelcomeSteps
-            name: welcomeSteps
+            name: WelcomeSteps
             widget: object
             fields:
               - { label: "Component", name: "component", widget: "hidden", default: "WelcomeSteps" }
@@ -346,7 +348,7 @@ collections:
                     - { label: Body, name: body, widget: text, required: false }
 
           - label: Form
-            name: formSection
+            name: FormSection
             widget: object
             fields:
               - { label: Component, name: component, widget: hidden, default: 'FormSection' }
@@ -359,7 +361,7 @@ collections:
                   - { label: Form Id, name: formId, widget: string, required: false }
 
           - label: Blog Section
-            name: blogSection
+            name: BlogSection
             widget: object
             fields:
               - { label: Component, name: component, widget: hidden, default: 'BlogSection' }
