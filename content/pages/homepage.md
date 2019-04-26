@@ -181,6 +181,7 @@ sections:
             all’utilizzo in completa autonomia della piattaforma
           title: 3. Go Live
     title: Iniziare è semplice
+    titleCenter: true
     type: WelcomeSteps
 ---
 
