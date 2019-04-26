@@ -78,9 +78,17 @@ sections:
             * Monitoraggio vendite
           emoji: "\U0001F332"
           title: Crescita e impatto sociale
-      greyBg: true
+      greyBg: false
       title: Con Apical attivi subito queste funzionalità
       titleCenter: true
     type: FeaturesSection
+  - props:
+      cta:
+        link: '#onboarding'
+        text: Inizia subito
+      title: >-
+        Con Apical i nostri partner risparmiano fino all'80% del tempo
+        incrementando mediamente del 30% i propri profitti
+    type: Cta
 ---
 
