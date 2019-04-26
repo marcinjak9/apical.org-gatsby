@@ -240,7 +240,7 @@ collections:
                   - { label: "Youtube url", name: "videoUrl", widget: "string", required: false }
 
           - label: Special Features
-            name: specialFeatures
+            name: SpecialFeatures
             widget: object
             fields:
               - { label: "Component", name: "component", widget: "hidden", default: "SpecialFeatures" }

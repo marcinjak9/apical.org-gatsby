@@ -141,6 +141,6 @@ sections:
         piattaforma
       title: Cosa puoi organizzare e vendere?
       titleCenter: true
-    type: specialFeatures
+    type: SpecialFeatures
 ---
 

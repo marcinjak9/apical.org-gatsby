@@ -8,7 +8,7 @@ import Presentation from './Wrappers/Presentation'
 // import Features from './Wrappers/Features'
 // import OnboardingForm from './Wrappers/OnboardingForm'
 // import Cta from './Wrappers/Cta'
-// import SpecialFeatures from './Wrappers/SpecialFeatures'
+import SpecialFeatures from './Wrappers/SpecialFeatures'
 // import Quote from './Wrappers/Quote'
 // import WelcomeSteps from './Wrappers/WelcomeSteps'
 import VideoSection from './Wrappers/VideoSection'
@@ -25,7 +25,7 @@ export default {
   // Features,
   // OnboardingForm,
   // Cta,
-  // SpecialFeatures,
+  SpecialFeatures,
   // Quote,
   // WelcomeSteps,
   VideoSection,

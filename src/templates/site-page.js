@@ -88,6 +88,11 @@ export const pageQuery = graphql`
               image
               title
             }
+            features {
+              title
+              body
+              image
+            }
             cta {
               link
               text

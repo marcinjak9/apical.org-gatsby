@@ -1,13 +1,13 @@
 /* eslint-disable react/destructuring-assignment */
-import React from 'react';
-import { Link } from 'gatsby';
-import ReactGA from 'react-ga';
-import PropTypes from 'prop-types';
-import styled from '@emotion/styled';
-import { css } from '@emotion/core';
+import React from 'react'
+import { Link } from 'gatsby'
+import ReactGA from 'react-ga'
+import PropTypes from 'prop-types'
+import styled from '@emotion/styled'
+import { css } from '@emotion/core'
 
 const dynamicStyle = (props) => {
-  let s = css``;
+  let s = css``
 
   if (props.primary) {
     s = css`
@@ -24,13 +24,13 @@ const dynamicStyle = (props) => {
         /* border-color: ${props.light ? 'var(--light)' : 'transparent'} */
         border-color: ${props.darkBg ? 'var(--light)' : 'var(--blue)'};
       }
-    `;
+    `
   }
   if (props.alignStart) {
     s = css`
       ${s}
       align-self: flex-start;
-    `;
+    `
   }
   if (props.outline) {
     s = css`
@@ -46,7 +46,7 @@ const dynamicStyle = (props) => {
         color: var(--light);
         border-color: var(--light);
       }
-    `;
+    `
   }
   if (props.fluid) {
     s = css`
@@ -61,15 +61,15 @@ const dynamicStyle = (props) => {
       span {
         margin-left: 1rem;
       }
-    `;
+    `
   }
   if (props.icon) {
     s = css`
       ${s} /* padding-top: .6rem; */
-    `;
+    `
   }
-  return s;
-};
+  return s
+}
 
 const StyledButton = styled.a`
   cursor: pointer;
@@ -100,16 +100,16 @@ const StyledButton = styled.a`
   }
 
   ${dynamicStyle}
-`;
+`
 
 const renderIcon = (icon) => {
   switch (icon) {
     case 'arrow':
-      return <i className="icon-arrow_right" />;
+      return <i className="icon-arrow_right" />
     default:
-      return null;
+      return null
   }
-};
+}
 
 const buttonClick = (e, track, onClick) => {
   if (track) {
@@ -117,18 +117,18 @@ const buttonClick = (e, track, onClick) => {
       category: 'cta',
       action: 'click',
       label: e.target.innerText,
-    });
+    })
     if (window && window.fbq) {
-      window.fbq('trackCustom', 'ClickCTA', { name: e.target.innerText });
+      window.fbq('trackCustom', 'ClickCTA', { name: e.target.innerText })
     }
   }
   if (onClick) {
-    onClick(e);
+    onClick(e)
   }
-};
+}
 
 const Button = (props) => {
-  if (props.button || props.href.includes('#')) {
+  if (props.button || (props.href && props.href.includes('#'))) {
     return (
       <StyledButton
         {...props}
@@ -137,7 +137,7 @@ const Button = (props) => {
         {props.children}
         {/* {props.icon && renderIcon(props.icon)} */}
       </StyledButton>
-    );
+    )
   }
   return (
     <Link href={props.href} passHref>
@@ -146,8 +146,8 @@ const Button = (props) => {
         {/* {props.icon && renderIcon(props.icon)} */}
       </StyledButton>
     </Link>
-  );
-};
+  )
+}
 
 Button.propTypes = {
   href: PropTypes.string,
@@ -156,6 +156,6 @@ Button.propTypes = {
   primary: PropTypes.bool,
   outline: PropTypes.bool,
   alignStart: PropTypes.bool,
-};
+}
 
-export default Button;
+export default Button
