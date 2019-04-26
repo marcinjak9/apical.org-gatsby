@@ -183,5 +183,12 @@ sections:
     title: Iniziare è semplice
     titleCenter: true
     type: WelcomeSteps
+  - props:
+      body: >-
+        La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
+        per permetterci di conoscere la tua realtà e i tuoi bisogni.
+      formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
+      title: Entra in Apical
+    type: FormSection
 ---
 
