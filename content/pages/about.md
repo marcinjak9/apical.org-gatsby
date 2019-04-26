@@ -32,5 +32,47 @@ sections:
       title: Conosci il team
       titleCenter: true
     type: TeamSection
+  - props:
+      columns:
+        - body: >-
+            Quello che ti serve per creare, gestire e vendere le tue esperienze
+            o i tuoi viaggi: tutto in uno strumento
+          emoji: ✈️
+          title: Risparmia l’80% del tempo
+        - body: >-
+            La professionalità delle interfacce, del sistema di pagamenti e
+            delle opzioni di personalizzazione rende il tuo prodotto migliore
+          emoji: "\U0001F4BB"
+          title: Aumenta del 30% gli incassi
+        - body: >-
+            Se ci uniamo possiamo generare impatto positivo sul Pianeta. Apical
+            pianta alberi ad ogni esperienza, rendendola ancora più
+            straordinaria
+          emoji: "\U0001F332"
+          title: Genera impatto sociale positivo
+      cta:
+        link: '#onboarding'
+        text: Iscriviti gratuitamente
+      greyBg: true
+      title: Solo con Apical
+      titleCenter: true
+    type: FeaturesSection
+  - props:
+      bgImage: 'https://ucarecdn.com/6a65fb83-205f-411e-9be6-a0e6683b0d1e/'
+      body: >-
+        We believe that when people share their energy into an intense
+        experience they naturally become more open-minded, curious and able to
+        understand one another Experience Creators have the power to change
+        people’s life.  Apical is here to support them. Join our mission
+      quote: '- Nicola Zanola, CEO'
+      title: Happiness is a movement
+    type: Cta
+  - props:
+      body: >-
+        La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
+        per permetterci di conoscere la tua realtà e i tuoi bisogni.
+      formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
+      title: Entra in Apical
+    type: FormSection
 ---
 
