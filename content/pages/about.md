@@ -28,5 +28,9 @@ sections:
       greyBg: true
       title: Mission
     type: WhatWeDo
+  - props:
+      title: Conosci il team
+      titleCenter: true
+    type: TeamSection
 ---
 
