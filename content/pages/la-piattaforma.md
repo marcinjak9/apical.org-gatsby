@@ -90,5 +90,10 @@ sections:
         Con Apical i nostri partner risparmiano fino all'80% del tempo
         incrementando mediamente del 30% i propri profitti
     type: Cta
+  - props:
+      greyBg: true
+      title: Le funzionalità aggiuntive della piattaforma
+      titleCenter: true
+    type: FeaturesTabs
 ---
 
