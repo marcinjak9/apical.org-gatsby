@@ -147,7 +147,8 @@ sections:
     props:
       cta:
         link: '#onboarding'
-        title: Iscriviti
+        text: Iscriviti
+        title: ''
     type: Quote
   - props:
       cta:
