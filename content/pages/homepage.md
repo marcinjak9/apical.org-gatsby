@@ -13,7 +13,7 @@ sections:
 
         Apical è la piattaforma digitale che ti permette di aumentare del 30% le
         vendite e risparmiare fino all'80% del tempo
-      image: /static/images/photo-1461237439866-5a557710c921.jpeg
+      image: 'https://ucarecdn.com/9b238552-e3cc-4ccd-b8d2-51d36e226328/'
       title: Organizza e vendi online
       typings:
         - prova
