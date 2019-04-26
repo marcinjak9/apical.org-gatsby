@@ -95,5 +95,11 @@ sections:
       title: La piattaforma è self-service ed è composta da tre ambienti
       titleCenter: true
     type: Presentation
+  - props:
+      greyBg: true
+      title: Presentazione apical
+      titleCenter: true
+      videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
+    type: videoSection
 ---
 
