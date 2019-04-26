@@ -373,3 +373,9 @@ collections:
                 fields:
                   - { label: Title, name: title, widget: string, required: false }
                   - { label: Subtitle, name: subtitle, widget: text, required: false }
+                  - label: CTA
+                    name: cta
+                    widget: object
+                    fields: 
+                      - { label: Cta Text, name: text, widget: string, required: false }
+                      - { label: Cta Link, name: link, widget: string, required: false }
