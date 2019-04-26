@@ -1,8 +1,9 @@
-import React from 'react';
-import TestimonialItem from '../components/TestimonialItem';
-import SectionContainer from '../components/SectionContainer';
-import { Row, Column } from '../components/Global';
-import Button from '../components/Button';
+import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
+import TestimonialItem from '../components/TestimonialItem'
+import SectionContainer from '../components/SectionContainer'
+import { Row, Column } from '../components/Global'
+import Button from '../components/Button'
 
 const testimonials = [
   {
@@ -26,7 +27,7 @@ const testimonials = [
     image: '/static/images/testimonials/malossi.jpg',
     company: 'Snow Week',
   },
-];
+]
 
 const TestimonialsSection = ({ title, greyBg, cta }) => (
   <SectionContainer
@@ -35,18 +36,42 @@ const TestimonialsSection = ({ title, greyBg, cta }) => (
     titleCenter
   >
     <Row scrolling>
-      {testimonials.map(({
-        name, body, company, image,
-      }, i) => (
-        <Column key={i} size="4" slide>
-          <TestimonialItem
-            name={name}
-            body={body}
-            image={image}
-            company={company}
-          />
-        </Column>
-      ))}
+      <StaticQuery
+        query={graphql`
+          query TestimonialQuery {
+            markdownRemark(
+              frontmatter: { templateKey: { eq: "testimonials" } }
+            ) {
+              id
+              frontmatter {
+                testimonials {
+                  body
+                  company
+                  image
+                  name
+                }
+              }
+            }
+          }
+        `}
+        render={(data) => {
+          if (data.markdownRemark.frontmatter.testimonials) {
+            return data.markdownRemark.frontmatter.testimonials.map(
+              (testimonial, i) => (
+                <Column key={i} size="4" slide>
+                  <TestimonialItem
+                    name={testimonial.name}
+                    body={testimonial.body}
+                    image={testimonial.image}
+                    company={testimonial.company}
+                  />
+                </Column>
+              ),
+            )
+          }
+          return null
+        }}
+      />
     </Row>
     {cta && (
       <Row>
@@ -58,6 +83,6 @@ const TestimonialsSection = ({ title, greyBg, cta }) => (
       </Row>
     )}
   </SectionContainer>
-);
+)
 
-export default TestimonialsSection;
+export default TestimonialsSection
