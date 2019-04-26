@@ -135,19 +135,51 @@ sections:
     type: SpecialFeatures
   - props:
       items:
-        - title: Ti manca una licenza di viaggio?
+        - body: >-
+            Noi abbiamo la copertura. Avere una licenza viaggio non è solo un
+            obbligo ma un'importante garanzia per tutti i tuoi clienti e per te
+            stesso.
           nav: Licenza
-          body: "Noi abbiamo la copertura. Avere una licenza viaggio non è solo un obbligo ma un'importante garanzia per tutti i tuoi clienti e per te stesso."
-        - title: Hai bisogno di aiuto per creare la tua esperienza?
+          title: Ti manca una licenza di viaggio?
+        - body: >-
+            Abbiamo oltre 10 anni di esperienza in travel e una grande rete di
+            partner pronti ad aiutarti a raggiungere i tuoi obbiettivi
           nav: Supporto
-          body: "Abbiamo oltre 10 anni di esperienza in travel e una grande rete di partner pronti ad aiutarti a raggiungere i tuoi obbiettivi"
-        - title: Trovare partecipanti è un problema?
+          title: Hai bisogno di aiuto per creare la tua esperienza?
+        - body: >-
+            Un nostro esperto di marketing turistico è pronto ad affiancarti
+            passo a passo per strutturare il tuo brand!
           nav: Marketing
-          body: Un nostro esperto di marketing turistico è pronto ad affiancarti passo a passo per strutturare il tuo brand!
+          title: Trovare partecipanti è un problema?
       title: >-
         Apical non è solo tecnologia. Ottieni dal nostro team il massimo del
         supporto
       titleCenter: true
     type: ToolsCards
+  - props:
+      subtitle: La piattaforma si può integrare a qualsiasi sito web
+      tabs:
+        - commission: 5%
+          description: >-
+            Lo starter kit senza costi fissi per chi vuole iniziare a creare e
+            vendere le proprie esperienze
+          features:
+            - active: true
+              text: Dashboard personalizzazione prodotti
+            - active: true
+              text: Gestionale di monitoraggio vendite
+            - active: true
+              text: Piattaforma di booking completa
+            - active: true
+              text: Personalizzazione pagamenti
+            - active: true
+              text: Landing Page
+          mobileTitle: Starter
+          monthly: nessun
+          setupFee: nessun
+          title: Apical Starter
+      title: Scegli il tuo piano Apical
+      titleCenter: true
+    type: PricingSection
 ---
 
