@@ -166,5 +166,21 @@ sections:
       quote: 'Nicola Zanola, CEO'
       title: Happiness is a movement
     type: Cta
+  - props:
+      columns:
+        - body: >-
+            Prenota una telefonata di pochi minuti con noi per capire insieme
+            come aiutarti
+          title: 1. Intervista
+        - body: >-
+            Ricevi la nostra presentazione completa e una demo della tua
+            piattaforma
+          title: 2. Demo
+        - body: >-
+            In sole 4 ore potremo mettere online la tua offerta e formarti
+            all’utilizzo in completa autonomia della piattaforma
+          title: 3. Go Live
+    title: Iniziare è semplice
+    type: WelcomeSteps
 ---
 
