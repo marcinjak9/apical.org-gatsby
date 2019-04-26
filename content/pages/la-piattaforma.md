@@ -185,9 +185,7 @@ sections:
       titleCenter: true
     type: PricingSection
   - props:
-      body: >-
-        Sei un tour operator strutturato e vuoi ancora più strumenti? Abbiamo
-        creato per te Apical Pro
+      body: ''
       cta:
         link: '#onboarding'
         text: Versione Pro
@@ -212,5 +210,12 @@ sections:
     title: Iniziare è semplice
     titleCenter: true
     type: WelcomeSteps
+  - props:
+      body: >-
+        La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
+        per permetterci di conoscere la tua realtà e i tuoi bisogni.
+      formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
+      title: Entra in Apical
+    type: FormSection
 ---
 
