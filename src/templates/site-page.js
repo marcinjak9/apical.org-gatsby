@@ -110,6 +110,18 @@ export const pageQuery = graphql`
               nav
               body
             }
+            tabs {
+              commission
+              description
+              mobileTitle
+              monthly
+              setupFee
+              title
+              features {
+                active
+                text
+              }
+            }
           }
         }
       }

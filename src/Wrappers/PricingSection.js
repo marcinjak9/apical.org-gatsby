@@ -1,10 +1,9 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import SectionContainer from '../components/SectionContainer';
-import { Row, Column } from '../components/Global';
-import PricingColumn from '../components/PricingColumn';
-import Button from '../components/Button';
-import pricing from '../data/pricing.yaml';
+import React from 'react'
+import styled from '@emotion/styled'
+import SectionContainer from '../components/SectionContainer'
+import { Row, Column } from '../components/Global'
+import PricingColumn from '../components/PricingColumn'
+import Button from '../components/Button'
 
 const Wrapper = styled(SectionContainer)`
   @media (max-width: 767px) {
@@ -12,7 +11,7 @@ const Wrapper = styled(SectionContainer)`
     padding-left: 0;
     padding-right: 0;
   }
-`;
+`
 
 const MobileColumn = styled(Column)`
   display: none;
@@ -25,7 +24,7 @@ const MobileColumn = styled(Column)`
     justify-content: space-around;
     align-items: center;
   }
-`;
+`
 
 const Link = styled.a`
   color: ${props => (props.active ? 'var(--blue)' : 'var(--text-grey)')} !important;
@@ -44,31 +43,26 @@ const Link = styled.a`
       display: inline;
     }
   }
-`;
+`
 
 class PricingSection extends React.Component {
   state = {
     selectedIndex: 0,
-  };
+  }
 
   changePlan = (e, index) => {
-    e.preventDefault();
-    this.setState({ selectedIndex: index });
-  };
+    e.preventDefault()
+    this.setState({ selectedIndex: index })
+  }
 
   render() {
-    const { greyBg } = this.props;
-    const { selectedIndex } = this.state;
+    const { tabs, cta } = this.props
+    const { selectedIndex } = this.state
     return (
-      <Wrapper
-        title="Scegli il tuo piano Apical"
-        subtitle="La piattaforma si può integrare a qualsiasi sito web"
-        titleCenter
-        greyBg={greyBg}
-      >
+      <Wrapper {...this.props}>
         <Row gap="0" textCenter>
           <MobileColumn>
-            {pricing.map((plan, i) => (
+            {tabs.map((plan, i) => (
               <Link
                 active={selectedIndex === i}
                 href="#"
@@ -79,7 +73,7 @@ class PricingSection extends React.Component {
               </Link>
             ))}
           </MobileColumn>
-          {pricing.map((plan, i) => (
+          {tabs.map((plan, i) => (
             <PricingColumn
               key={i}
               title={plan.title}
@@ -94,16 +88,18 @@ class PricingSection extends React.Component {
             />
           ))}
         </Row>
-        <Row>
-          <Column size="12" textCenter style={{ marginTop: '2rem' }}>
-            <Button href="#onboarding" primary icon="arrow">
-              Diventa anche tu un creator
-            </Button>
-          </Column>
-        </Row>
+        {cta && (
+          <Row>
+            <Column size="12" textCenter style={{ marginTop: '2rem' }}>
+              <Button href={cta.link} primary icon="arrow">
+                {cta.text}
+              </Button>
+            </Column>
+          </Row>
+        )}
       </Wrapper>
-    );
+    )
   }
 }
 
-export default PricingSection;
+export default PricingSection

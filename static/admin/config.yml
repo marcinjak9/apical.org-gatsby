@@ -522,3 +522,10 @@ collections:
                       fields:
                         - { label: Text, name: text, widget: string, required: false }
                         - { label: active, name: active, widget: boolean, required: false }
+                        
+                  - label: CTA
+                    name: cta
+                    widget: object
+                    fields: 
+                      - { label: Cta Text, name: text, widget: string, required: false }
+                      - { label: Cta Link, name: link, widget: string, required: false }
