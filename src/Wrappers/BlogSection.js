@@ -33,15 +33,15 @@ class BlogSection extends React.Component {
   }
 
   render() {
-    const { greyBg } = this.props
+    const { greyBg, titleCenter, title } = this.props
     const { posts } = this.state
     return (
       <SectionContainer
-        title="Blog"
+        title={title}
         scrolling
         className="blog-section no-padd-mobile"
         greyBg={greyBg}
-        titleCenter
+        titleCenter={titleCenter}
       >
         <BlogRow scrolling>
           {posts.map(post => (

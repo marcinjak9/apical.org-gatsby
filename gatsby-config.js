@@ -1,6 +1,5 @@
 require('dotenv').config()
 
-console.log(process.env)
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Default Starter',
@@ -33,10 +32,10 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          {
-            resolve: 'gatsby-remark-prismjs',
-            options: {},
-          },
+          // {
+          //   resolve: 'gatsby-remark-prismjs',
+          //   options: {},
+          // },
           {
             resolve: 'gatsby-remark-relative-images',
             // options: {

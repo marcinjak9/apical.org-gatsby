@@ -94,6 +94,7 @@ export const pageQuery = graphql`
               image
             }
             columns {
+              emoji
               body
               title
             }

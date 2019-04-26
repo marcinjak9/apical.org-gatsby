@@ -118,7 +118,7 @@ collections:
     fields: 
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "site-page" }
       - { label: Title, name: title, widget: string }
-      - { label: Slug, name: slug, widget: string, required: false }
+      - { label: Slug, name: slug, widget: string, required: true, hint: "If it's a root page (homepage), type 'home'." }
       - { label: "Type", name: "type", widget: "hidden", default: "page" }
       - label: Sections
         name: "sections"
@@ -136,6 +136,7 @@ collections:
                 fields:
                   - { label: Title, name: title, widget: string, required: false }
                   - { label: Hero Body, name: heroBody, widget: markdown, required: false }
+                  - { label: "Small Hero", name: "bodyLight", widget: "boolean", required: false, hint: select for small Hero size }
                   - { label: Unsplash Baground, name: image, widget: image, required: false }
                   - label: Typings
                     name: typings
@@ -373,6 +374,47 @@ collections:
                 fields:
                   - { label: Title, name: title, widget: string, required: false }
                   - { label: Subtitle, name: subtitle, widget: text, required: false }
+                  - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
+                  - label: CTA
+                    name: cta
+                    widget: object
+                    fields: 
+                      - { label: Cta Text, name: text, widget: string, required: false }
+                      - { label: Cta Link, name: link, widget: string, required: false }
+          - label: Team Section
+            name: TeamSection
+            widget: object
+            fields:
+              - { label: Component, name: component, widget: hidden, default: 'TeamSection' }
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: Subtitle, name: subtitle, widget: text, required: false }
+                  - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
+          - label: Features
+            name: FeaturesSection
+            widget: object
+            fields:
+              - { label: Component, name: component, widget: hidden, default: 'FeaturesSection' }
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: Subtitle, name: subtitle, widget: text, required: false }
+                  - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
+                  - label: Columns
+                    name: columns
+                    widget: list
+                    fields: 
+                    - { label: Emoji, name: emoji, widget: string, required: false }
+                    - { label: Title, name: title, widget: string, required: false }
+                    - { label: Body, name: body, widget: text, required: false }
                   - label: CTA
                     name: cta
                     widget: object

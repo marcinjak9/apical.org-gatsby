@@ -15,13 +15,16 @@ exports.createPages = ({ actions, graphql }) => {
 
   return graphql(`
     {
-      allMarkdownRemark(filter: { frontmatter: { type: { eq: "page" } } }) {
+      allMarkdownRemark(
+        filter: { frontmatter: { templateKey: { eq: "site-page" } } }
+      ) {
         edges {
           node {
             id
             frontmatter {
               templateKey
               type
+              slug
             }
           }
         }
@@ -49,18 +52,26 @@ exports.createPages = ({ actions, graphql }) => {
     postOrPage.forEach((edge) => {
       let component
       let pathName
-      // if (edge.node.frontmatter.slug) {
-      //   pathName = `/${edge.node.frontmatter.slug}`;
-      //   // component = path.resolve(`src/pages/index.js`);
-      // } else {
-      //   pathName = slugify(edge.node.frontmatter.title)
-      // }
+      console.log(edge.node)
+      if (edge.node.frontmatter.slug) {
+        if (
+          edge.node.frontmatter.slug === 'home'
+          || edge.node.frontmatter.slug === 'homepage'
+        ) {
+          pathName = '/'
+        } else {
+          pathName = `/${edge.node.frontmatter.slug}`
+        }
+        // component = path.resolve(`src/pages/index.js`);
+      } else {
+        return false
+      }
       component = path.resolve(
         `src/templates/${String(edge.node.frontmatter.templateKey)}.js`,
       )
       const { id } = edge.node
       createPage({
-        path: '/',
+        path: pathName,
         component,
         // additional data can be passed via context
         context: {
