@@ -4,6 +4,10 @@ backend:
   branch: master
   # name: test-repo
 media_folder: static/images
+media_library:
+  name: uploadcare
+  config:
+    publicKey: b1c8b2627a0618cf78fb
 # collections:
 #   - name: "meetups"
 #     label: "Meetups"
