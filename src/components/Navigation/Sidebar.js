@@ -104,10 +104,12 @@ const NavigationFooter = styled.div`
   }
 `
 
-const Sidebar = ({ open, onClose }) => (
+const Sidebar = ({
+  open, onClose, logo, menuItems, contacts,
+}) => (
   <Container open={open}>
     <Navigation>
-      <img src="/static/images/a-logo-white.svg" alt="apical-logo" />
+      <img src={logo} alt="apical-logo" />
       <span>MENU</span>
       <a href="#" onClick={onClose}>
         <i className="icon-close" />
@@ -116,32 +118,12 @@ const Sidebar = ({ open, onClose }) => (
 
     <NavigationBody>
       <ul>
-        {/* <li>
-          <Link to="/discover">
-            <a>
-              <i className="icon-arrow_right" />
-              Discover
-            </a>
-          </Link>
-        </li> */}
+        {menuItems.map((m, i) => (
+          <li>
+            <Link to={m.url}>{m.text}</Link>
+          </li>
+        ))}
         {/* <SubMenu /> */}
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/features">La Piattaforma</Link>
-        </li>
-        {/* <li>
-          <Link to="/pricing">
-            <a>Piani</a>
-          </Link>
-        </li> */}
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <a href="https://journal.apical.org">Blog</a>
-        </li>
       </ul>
     </NavigationBody>
     <div className="privacy">
@@ -154,16 +136,20 @@ const Sidebar = ({ open, onClose }) => (
       </a>
     </div>
     <NavigationFooter>
-      <Button href="tel:+393922606862" outline light>
-        Chiamaci
-        {'   '}
-        <span>+39 02 2111 9080</span>
-      </Button>
-      <Button href="mailto:info@apical.org" outline light>
-        Scrivici
-        {'   '}
-        <span>info@apical.org</span>
-      </Button>
+      {contacts.phone && (
+        <Button href={`tel:${contacts.phone}`} outline light>
+          Chiamaci
+          {'   '}
+          <span>{contacts.phone}</span>
+        </Button>
+      )}
+      {contacts.email && (
+        <Button href={`mailto:${contacts.email}`} outline light>
+          Scrivici
+          {'   '}
+          <span>{contacts.email}</span>
+        </Button>
+      )}
     </NavigationFooter>
   </Container>
 )

@@ -51,61 +51,41 @@ class Menu extends React.Component {
   }
 
   render() {
-    const { onMenuClick } = this.props
+    const {
+      onMenuClick, menuItems, logo, mobileLogo, cta,
+    } = this.props
     const { open } = this.state
     return (
       <>
         <NavContainer>
           <Container unpadded spread>
             <Link to="/" className="navbar-brand">
-              <img src="/static/images/logo.svg" alt="apical-logo" />
+              <img src={logo} alt="apical-logo" />
               <img
-                src="/static/images/a-logo.svg"
+                src={mobileLogo || logo}
                 alt="apical-logo"
                 className="mobile-logo"
               />
             </Link>
 
             <div className="nav-center nav-items">
-              {/* <Link to="/discover">
-                <a className={classNames({ active: pathname === '/discover' })}>
-                  Discover
-                </a>
-              </Link>
-              <a href="/" onClick={this.toggleMenu} ref={this.toggler}>
-                Create
-              </a> */}
-              <Link to="/" activeClassName="active">
-                Home
-              </Link>
-              <Link to="/features" activeClassName="active">
-                La piattaforma
-              </Link>
-              {/* <Link to="/pricing">
-                <a className={classNames({ active: pathname === '/pricing' })}>
-                  Piani
-                </a>
-              </Link> */}
-              <Link to="/about" activeClassName="active">
-                About
-              </Link>
-              <Link
-                to="https://journal.apical.org"
-                activeClassName="active"
-                target="_blank"
-              >
-                Blog
-              </Link>
+              {menuItems.map((m, i) => (
+                <Link to={m.url} activeClassName="active">
+                  {m.text}
+                </Link>
+              ))}
             </div>
             <div className="nav-items">
-              <Button
-                outline
-                href="#onboarding"
-                icon="arrow"
-                style={{ minWidth: '6rem', padding: '.5rem 1rem' }}
-              >
-                Unisciti ora
-              </Button>
+              {cta && (
+                <Button
+                  outline
+                  href={cta.url}
+                  icon="arrow"
+                  style={{ minWidth: '6rem', padding: '.5rem 1rem' }}
+                >
+                  {cta.text}
+                </Button>
+              )}
             </div>
 
             {/* <h2 className="mobile-menu">HAPPINESS IS A MOVEMENT</h2> */}
