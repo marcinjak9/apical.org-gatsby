@@ -1,4 +1,5 @@
 ---
+templateKey: testimonials
 testimonials:
   - body: >+
       Il nostro progetto cresce molto velocemente, senza Apical sarebbe
