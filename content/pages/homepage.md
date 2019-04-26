@@ -142,12 +142,17 @@ sections:
       title: Cosa puoi organizzare e vendere?
       titleCenter: true
     type: SpecialFeatures
-  - children: L’iscrizione ad apical è gratuita e non ha costi fissi
+  - children: L’iscrizione ad apical è gratuita e non ha costi fiss
     props:
       cta:
         link: '#onboarding'
-        text: Iscriviti
-      greyBg: true
-    type: Quote
+        title: Iscriviti
+    type: quote
+  - props:
+      cta:
+        link: '#onboarding'
+        text: Unisciti
+      title: Cosa dicono di noi i nostri partner
+    type: testimonialsSection
 ---
 
