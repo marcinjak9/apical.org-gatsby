@@ -61,5 +61,39 @@ sections:
       title: Cosa puoi fare con Apical?
       titleCenter: true
     type: HowItWorks
+  - props:
+      greyBg: true
+      slides:
+        - body: >-
+            È visibile solo ai Creators e permette di creare prodotti con
+            estrema semplicità, di monitorare le vendite, gestire gli inventari
+            in tempo reale e conoscere i dettagli di ogni ordine e ospite. Tutto
+            ciò che ti serve in un unico tool professionale e immediato.
+          image: 'https://ucarecdn.com/2ece4857-d3f6-4a23-bbcb-073b8f6ebd36/'
+          title: 1 Dashboard cloud
+        - body: >-
+            L'e-commerce è composto da due parti, la prima è la vetrina online,
+            dove i Creatori possono organizzare e descrivere l'offerta grazie a
+            una serie di bellissime pagine personalizzate in base alla propria
+            identità e comunicazione.
+          image: 'https://ucarecdn.com/96a197ad-2169-441d-b874-0b7532e0a64f/'
+          title: 2.1 Vetrina E-commerce
+        - body: >-
+            La seconda parte è il Configuratore, una pagina in cui gli ospiti
+            possono scegliere ciò che desiderano, comporre la propria esperienza
+            e prenotarla in tempo reale.
+          image: 'https://ucarecdn.com/d06823c3-0845-4c13-953f-c7b19749d109/'
+          title: 2.2 E-commerce
+        - body: >-
+            Apical permette all’utente finale di pagare con carta o bonifico
+            online e al Creator di ricevere immediatamente il denaro. L’utente
+            può decidere di rateizzare l’acquisto e aggiungere una donazione al
+            carrello contribuendo a piantare un nuovo albero nelle Apical Forest
+            realizzate in partnership con Treedom.
+          image: 'https://ucarecdn.com/b2e75a15-54c2-497c-b26d-405d00e9deef/'
+          title: 3 Sistema di pagamenti
+      title: La piattaforma è self-service ed è composta da tre ambienti
+      titleCenter: true
+    type: Presentation
 ---
 
