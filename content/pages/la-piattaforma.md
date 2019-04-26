@@ -55,5 +55,32 @@ sections:
       title: La piattaforma è self-service ed è composta da tre ambienti
       titleCenter: true
     type: Presentation
+  - props:
+      columns:
+        - body: |-
+            * Il tuo E-commerce facile
+            * Configurazione personalizzata
+            * I tuoi prodotti online
+            * Pagamenti via web
+          emoji: ✈️
+          title: Piattaforma di Booking
+        - body: |-
+            * Dashboard online
+            * Fatturazione elettronica
+            * Informazioni di viaggio
+            * Anagrafica dei clienti
+          emoji: "\U0001F4BB"
+          title: ' Il tuo Back-office'
+        - body: |-
+            * Genera impatto sociale
+            * Servizio di assistenza
+            * Cura l'immagine aziendale
+            * Monitoraggio vendite
+          emoji: "\U0001F332"
+          title: Crescita e impatto sociale
+      greyBg: true
+      title: Con Apical attivi subito queste funzionalità
+      titleCenter: true
+    type: FeaturesSection
 ---
 
