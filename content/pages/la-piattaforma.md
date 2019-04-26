@@ -95,5 +95,13 @@ sections:
       title: Le funzionalità aggiuntive della piattaforma
       titleCenter: true
     type: FeaturesTabs
+  - props:
+      greyBg: true
+      subtitle: >-
+        Con Apical puoi gestire tutti i tuoi prodotti e le tue offerte in un’una
+        piattaforma
+      title: Cosa puoi organizzare e vendere?
+      titleCenter: true
+    type: SpecialFeatures
 ---
 
