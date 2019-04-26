@@ -26,6 +26,22 @@ const renderProps = (props) => {
   return props
 }
 
+const renderElements = (sections) => {
+  if (sections) {
+    return sections.map((element) => {
+      if (components[element.type]) {
+        return React.createElement(
+          components[element.type],
+          renderProps(element.props),
+          renderChild(element.children),
+        )
+      }
+      return null
+    })
+  }
+  return null
+}
+
 const SitePage = ({
   data: {
     markdownRemark: {
@@ -34,13 +50,7 @@ const SitePage = ({
   },
 }) => (
   <Layout>
-    <main>
-      {sections.map(element => React.createElement(
-        components[element.type],
-        renderProps(element.props),
-        renderChild(element.children),
-      ))}
-    </main>
+    <main>{renderElements(sections)}</main>
   </Layout>
 )
 

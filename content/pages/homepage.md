@@ -100,6 +100,6 @@ sections:
       title: Presentazione apical
       titleCenter: true
       videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
-    type: videoSection
+    type: VideoSection
 ---
 

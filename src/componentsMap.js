@@ -11,7 +11,7 @@ import Presentation from './Wrappers/Presentation'
 // import SpecialFeatures from './Wrappers/SpecialFeatures'
 // import Quote from './Wrappers/Quote'
 // import WelcomeSteps from './Wrappers/WelcomeSteps'
-// import VideoSection from './Wrappers/VideoSection'
+import VideoSection from './Wrappers/VideoSection'
 // import RestartingTypist from './components/TypistLoop'
 
 export default {
@@ -28,6 +28,6 @@ export default {
   // SpecialFeatures,
   // Quote,
   // WelcomeSteps,
-  // VideoSection,
+  VideoSection,
   // RestartingTypist,
 }

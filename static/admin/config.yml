@@ -225,8 +225,8 @@ collections:
                         name: image
                         widget: image
 
-          - label: VideoSection
-            name: videoSection
+          - label: Video Section
+            name: VideoSection
             widget: object
             fields:
               - {label: "Component", name: "component", widget: "hidden", default: "VideoSection"}
