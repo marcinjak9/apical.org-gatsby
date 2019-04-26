@@ -137,7 +137,7 @@ collections:
                   - { label: Title, name: title, widget: string, required: false }
                   - { label: Hero Body, name: heroBody, widget: markdown, required: false }
                   - { label: "Small Hero", name: "bodyLight", widget: "boolean", required: false, hint: select for small Hero size }
-                  - { label: Unsplash Baground, name: image, widget: image, required: false }
+                  - { label: Baground, name: image, widget: image, required: false }
                   - label: Typings
                     name: typings
                     widget: list
@@ -150,6 +150,21 @@ collections:
                     fields: 
                       - { label: Cta Text, name: text, widget: string, required: false }
                       - { label: Cta Link, name: link, widget: string, required: false }
+          - label: Simple Hero
+            name: SimpleHero
+            hint: Hero
+            widget: object
+            fields:
+              - { label: "Component", name: "component", widget: "hidden", default: "SimpleHero" }
+              - label: Props
+                name: props
+                widget: object
+                fields:
+                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: Emoji, name: emoji, widget: string, required: false }
+                  - { label: Baground, name: image, widget: image, required: false }
+                  - { label: "Central text", name: "central", widget: "boolean", required: false }
+                  - { label: "Small Text", name: "smallText", widget: "boolean", required: false }
           - label: What We Do
             name: WhatWeDo
             widget: object

@@ -13,6 +13,7 @@ import WelcomeSteps from './Wrappers/WelcomeSteps'
 import VideoSection from './Wrappers/VideoSection'
 import FormSection from './Wrappers/FormSection'
 import TeamSection from './Wrappers/TeamSection'
+import SimpleHero from './Wrappers/SimpleHero'
 // import RestartingTypist from './components/TypistLoop'
 
 export default {
@@ -33,4 +34,5 @@ export default {
   VideoSection,
   TeamSection,
   // RestartingTypist,
+  SimpleHero,
 }
