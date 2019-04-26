@@ -96,12 +96,42 @@ sections:
       titleCenter: true
     type: FeaturesTabs
   - props:
-      greyBg: true
+      greyBg: false
       subtitle: >-
         Con Apical puoi gestire tutti i tuoi prodotti e le tue offerte in un’una
         piattaforma
       title: Cosa puoi organizzare e vendere?
       titleCenter: true
+      features:
+        - body: >+
+            Gestisci come preferisci le strutture di alloggio, la composizione
+            delle camere, le formule di room sharing e tanto altro
+
+          image: "\U0001F3E1"
+          title: Accomodation
+        - body: >+
+            Puoi caricare tutte le esperienze che vuoi e personalizzarle con
+            parametri modulabili sia per i contenuti che per i pagamenti
+
+          image: "\U0001F3C4\U0001F3FD‍"
+          title: Activities
+        - body: >+
+            Gestisci le tue assicurazioni di viaggio a costo fisso o in
+            percentuale. Proponi diverse soluzioni o pacchetti per i tuoi
+            clienti
+
+          image: "\U0001F198"
+          title: Assicurazioni
+        - body: >-
+            Pullman o aereo? Organizza e gestisci i tuoi trasporti pianificando
+            itinerari con uno o più mezzi.
+          image: "\U0001F68C"
+          title: Trasporti
+        - body: >-
+            Permetti ai tuoi clienti di acquistare la tua t-shirt e di ritirarla
+            direttamente al check-in
+          image: "\U0001F455"
+          title: Servizi e merchandising
     type: SpecialFeatures
 ---
 

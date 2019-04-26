@@ -140,102 +140,102 @@ class FeaturesTabs extends React.Component {
     const { title } = this.props
     return (
       <SectionContainer
-        title={title}
-        titleCenter
+        {...this.props}
         style={{ justifyContent: 'flex-start' }}
       >
-        <FeaturesRow>
-          <Column size="4">
-            <ul className="features-sidebar">
-              <StaticQuery
-                query={graphql`
-                  query Features {
-                    allMarkdownRemark(
-                      filter: {
-                        frontmatter: { templateKey: { eq: "features" } }
-                      }
-                    ) {
-                      edges {
-                        node {
-                          html
-                          rawMarkdownBody
-                          frontmatter {
-                            title
-                            items {
-                              icon
-                              title
-                              body
-                              pro
-                            }
-                          }
-                        }
+        <StaticQuery
+          query={graphql`
+            query Features {
+              allMarkdownRemark(
+                filter: { frontmatter: { templateKey: { eq: "features" } } }
+              ) {
+                edges {
+                  node {
+                    html
+                    rawMarkdownBody
+                    frontmatter {
+                      title
+                      items {
+                        icon
+                        title
+                        body
+                        pro
                       }
                     }
                   }
-                `}
-                render={data => JSON.stringify(data)}
-              />
-              {/* {SECTIONS.map((s, i) => (
-                <li
-                  key={i}
-                  className={classNames('features-sidebar-item', {
-                    selected: tabIndex === i,
-                  })}
-                >
-                  <a href="#" onClick={e => this.setIndex(e, i)}>
-                    {tabIndex === i && <span>→</span>}
-                    {s.title}
-                  </a>
-                </li>
-              ))} */}
-            </ul>
-          </Column>
-          <Column size="8">
-            {/* {SECTIONS.map((s, i) => (
-              <>
-                <a
-                  className="tab-header"
-                  href="#"
-                  onClick={e => this.setIndexMobile(e, i)}
-                >
-                  {s.title}
-                  {' '}
-                  <i
-                    className={classNames({
-                      'icon-drop_down': i !== tabIndex,
-                      'icon-drop_up': i === tabIndex,
-                    })}
-                  />
-                </a>
-                <Row
-                  key={i}
-                  className={classNames('feature-tab', {
-                    active: tabIndex === i,
-                  })}
-                >
-                  <DescriptionCol size="12">{s.description}</DescriptionCol>
-                  {s.items.map((item, y) => (
-                    <Column size="6" key={y} className="feature-item">
-                      <h3>
-                        <Emoji
-                          emoji={item.icon}
-                          size={2}
-                          style={{ marginRight: '.5rem' }}
-                        />
-                        {' '}
-                        {item.title}
-                      </h3>
-                      <p>
-                        {item.body}
-                        <div className="tag">pro</div>
-                      </p>
-                    </Column>
+                }
+              }
+            }
+          `}
+          render={({ allMarkdownRemark: { edges } }) => (
+            <FeaturesRow>
+              <Column size="4">
+                <ul className="features-sidebar">
+                  {edges.map((s, i) => (
+                    <li
+                      key={i}
+                      className={classNames('features-sidebar-item', {
+                        selected: tabIndex === i,
+                      })}
+                    >
+                      <a href="#" onClick={e => this.setIndex(e, i)}>
+                        {tabIndex === i && <span>→</span>}
+                        {s.node.frontmatter.title}
+                      </a>
+                    </li>
                   ))}
-                </Row>
-              </>
-            ))} */}
-          </Column>
-        </FeaturesRow>
+                </ul>
+              </Column>
+              <Column size="8">
+                {edges.map((s, i) => (
+                  <>
+                    <a
+                      className="tab-header"
+                      href="#"
+                      onClick={e => this.setIndexMobile(e, i)}
+                    >
+                      {s.node.frontmatter.title}
+                      {' '}
+                      <i
+                        className={classNames({
+                          'icon-drop_down': i !== tabIndex,
+                          'icon-drop_up': i === tabIndex,
+                        })}
+                      />
+                    </a>
+                    <Row
+                      key={i}
+                      className={classNames('feature-tab', {
+                        active: tabIndex === i,
+                      })}
+                    >
+                      <DescriptionCol size="12">
+                        {s.node.rawMarkdownBody}
+                      </DescriptionCol>
+                      {s.node.frontmatter.items.map((item, y) => (
+                        <Column size="6" key={y} className="feature-item">
+                          <h3>
+                            <Emoji
+                              emoji={item.icon}
+                              size={2}
+                              style={{ marginRight: '.5rem' }}
+                            />
+                            {' '}
+                            {item.title}
+                          </h3>
+                          <p>
+                            {item.body}
+                            {/* <div className="tag">pro</div> */}
+                          </p>
+                        </Column>
+                      ))}
+                    </Row>
+                  </>
+                ))}
+              </Column>
+            </FeaturesRow>
+          )}
+        />
       </SectionContainer>
     )
   }
