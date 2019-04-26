@@ -268,7 +268,7 @@ collections:
                       - { label: Text, name: title, widget: string, required: false }
 
           - label: Quote
-            name: quote
+            name: Quote
             widget: object
             fields:
               - {label: "Component", name: "component", widget: "hidden", default: "Quote"}

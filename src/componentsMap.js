@@ -9,7 +9,7 @@ import Presentation from './Wrappers/Presentation'
 // import OnboardingForm from './Wrappers/OnboardingForm'
 // import Cta from './Wrappers/Cta'
 import SpecialFeatures from './Wrappers/SpecialFeatures'
-// import Quote from './Wrappers/Quote'
+import Quote from './Wrappers/Quote'
 // import WelcomeSteps from './Wrappers/WelcomeSteps'
 import VideoSection from './Wrappers/VideoSection'
 // import RestartingTypist from './components/TypistLoop'
@@ -26,7 +26,7 @@ export default {
   // OnboardingForm,
   // Cta,
   SpecialFeatures,
-  // Quote,
+  Quote,
   // WelcomeSteps,
   VideoSection,
   // RestartingTypist,
