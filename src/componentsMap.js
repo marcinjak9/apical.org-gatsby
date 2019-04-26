@@ -6,12 +6,12 @@ import HowItWorks from './Wrappers/HowItWorks'
 // import SectionContainer from './components/SectionContainer'
 import Presentation from './Wrappers/Presentation'
 // import Features from './Wrappers/Features'
-// import OnboardingForm from './Wrappers/OnboardingForm'
 import Cta from './Wrappers/Cta'
 import SpecialFeatures from './Wrappers/SpecialFeatures'
 import Quote from './Wrappers/Quote'
 import WelcomeSteps from './Wrappers/WelcomeSteps'
 import VideoSection from './Wrappers/VideoSection'
+import FormSection from './Wrappers/FormSection'
 // import RestartingTypist from './components/TypistLoop'
 
 export default {
@@ -24,6 +24,7 @@ export default {
   Presentation,
   // Features,
   // OnboardingForm,
+  FormSection,
   Cta,
   SpecialFeatures,
   Quote,

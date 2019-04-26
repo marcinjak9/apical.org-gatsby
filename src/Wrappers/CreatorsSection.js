@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import SectionContainer from '../components/SectionContainer';
-import CREATORS from '../data/creators.yaml';
-import CreatorCardWithLightBox from './CreatorCardWithLightbox';
-import { Row, Column } from '../components/Global';
+import React from 'react'
+import { Link } from 'gatsby'
+import SectionContainer from '../components/SectionContainer'
+import CREATORS from '../data/creators.yaml'
+import CreatorCardWithLightBox from './CreatorCardWithLightbox'
+import { Row, Column } from '../components/Global'
 
 const CreatorsSection = ({ title, textLeft, greyBg }) => (
   <SectionContainer
@@ -32,12 +32,12 @@ const CreatorsSection = ({ title, textLeft, greyBg }) => (
     </Row>
     <Row style={{ textAlign: 'center' }}>
       <Column size="12" textCenter>
-        <Link href="/discover">
+        <Link to="/discover">
           <a>View all</a>
         </Link>
       </Column>
     </Row>
   </SectionContainer>
-);
+)
 
-export default CreatorsSection;
+export default CreatorsSection

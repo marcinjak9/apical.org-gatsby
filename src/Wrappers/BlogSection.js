@@ -1,40 +1,40 @@
-import React from 'react';
-import GhostContentAPI from '@tryghost/content-api';
-import moment from 'moment';
-import { Link } from 'gatsby';
-import styled from '@emotion/styled';
-import BlogCard from '../components/BlogCard';
-import SectionContainer from '../components/SectionContainer';
-import Button from '../components/Button';
-import { Row, Column } from '../components/Global';
+import React from 'react'
+import GhostContentAPI from '@tryghost/content-api'
+import moment from 'moment'
+import { Link } from 'gatsby'
+import styled from '@emotion/styled'
+import BlogCard from '../components/BlogCard'
+import SectionContainer from '../components/SectionContainer'
+import Button from '../components/Button'
+import { Row, Column } from '../components/Global'
 
 const BlogRow = styled(Row)`
   padding-bottom: 2rem;
-`;
+`
 
 class BlogSection extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.api = new GhostContentAPI({
       url: 'https://journal.apical.org',
       key: process.env.GHOST_KEY,
       version: 'v2',
-    });
+    })
     this.state = {
       posts: [],
-    };
+    }
   }
 
   componentDidMount = () => {
     this.api.posts
       .browse({ limit: 3, include: 'tags,authors' })
       .then(posts => this.setState({ posts }))
-      .catch(e => console.log(e));
-  };
+      .catch(e => console.log(e))
+  }
 
   render() {
-    const { greyBg } = this.props;
-    const { posts } = this.state;
+    const { greyBg } = this.props
+    const { posts } = this.state
     return (
       <SectionContainer
         title="Blog"
@@ -63,7 +63,7 @@ class BlogSection extends React.Component {
         </BlogRow>
         <Row>
           <Column size="12" textCenter>
-            {/* <Link href="https://journal.apical.org">
+            {/* <Link to="https://journal.apical.org">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -78,8 +78,8 @@ class BlogSection extends React.Component {
           </Column>
         </Row>
       </SectionContainer>
-    );
+    )
   }
 }
 
-export default BlogSection;
+export default BlogSection

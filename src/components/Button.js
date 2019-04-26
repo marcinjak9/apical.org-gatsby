@@ -101,6 +101,36 @@ const StyledButton = styled.a`
 
   ${dynamicStyle}
 `
+const StyledButtonLink = styled(Link)`
+  cursor: pointer;
+  font-size: var(--font-body);
+  /* padding: ${props => (props.icon ? '0.4rem 1rem 1.2rem 1rem' : '1rem')}; */
+  padding: .8rem 1rem;
+  min-width: 12rem;
+  font-weight: bold;
+
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  i {
+    top: 8px;
+  }
+
+  ${dynamicStyle}
+`
 
 const renderIcon = (icon) => {
   switch (icon) {
@@ -140,12 +170,10 @@ const Button = (props) => {
     )
   }
   return (
-    <Link href={props.href} passHref>
-      <StyledButton {...props} onClick={e => buttonClick(e)}>
-        {props.children}
-        {/* {props.icon && renderIcon(props.icon)} */}
-      </StyledButton>
-    </Link>
+    <StyledButtonLink to={props.href} {...props} onClick={e => buttonClick(e)}>
+      {props.children}
+      {/* {props.icon && renderIcon(props.icon)} */}
+    </StyledButtonLink>
   )
 }
 

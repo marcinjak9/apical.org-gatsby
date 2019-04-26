@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React from 'react';
-import { Link } from 'gatsby';
-import styled from '@emotion/styled';
-import Button from '../Button';
-import SubMenu from './SubMenu';
+import React from 'react'
+import { Link } from 'gatsby'
+import styled from '@emotion/styled'
+import Button from '../Button'
+import SubMenu from './SubMenu'
 
 const Container = styled.div`
   z-index: 999;
@@ -33,7 +33,7 @@ const Container = styled.div`
       color: var(--light);
     }
   }
-`;
+`
 
 const Navigation = styled.div`
   padding: 0.9rem 1rem;
@@ -55,7 +55,7 @@ const Navigation = styled.div`
   img {
     height: 20px;
   }
-`;
+`
 
 const NavigationBody = styled.div`
   width: 100%;
@@ -87,7 +87,7 @@ const NavigationBody = styled.div`
       }
     }
   }
-`;
+`
 
 const NavigationFooter = styled.div`
   h4,
@@ -102,7 +102,7 @@ const NavigationFooter = styled.div`
     margin: 0;
     margin-top: 1rem;
   }
-`;
+`
 
 const Sidebar = ({ open, onClose }) => (
   <Container open={open}>
@@ -117,7 +117,7 @@ const Sidebar = ({ open, onClose }) => (
     <NavigationBody>
       <ul>
         {/* <li>
-          <Link href="/discover">
+          <Link to="/discover">
             <a>
               <i className="icon-arrow_right" />
               Discover
@@ -126,29 +126,21 @@ const Sidebar = ({ open, onClose }) => (
         </li> */}
         {/* <SubMenu /> */}
         <li>
-          <Link prefetch href="/">
-            <a>Home</a>
-          </Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link prefetch href="/features">
-            <a>La Piattaforma</a>
-          </Link>
+          <Link to="/features">La Piattaforma</Link>
         </li>
         {/* <li>
-          <Link prefetch href="/pricing">
+          <Link to="/pricing">
             <a>Piani</a>
           </Link>
         </li> */}
         <li>
-          <Link prefetch href="/about">
-            <a>About</a>
-          </Link>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <Link href="https://journal.apical.org">
-            <a target="_blank">Blog</a>
-          </Link>
+          <a href="https://journal.apical.org">Blog</a>
         </li>
       </ul>
     </NavigationBody>
@@ -174,6 +166,6 @@ const Sidebar = ({ open, onClose }) => (
       </Button>
     </NavigationFooter>
   </Container>
-);
+)
 
-export default Sidebar;
+export default Sidebar

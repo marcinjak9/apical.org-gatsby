@@ -1,10 +1,10 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import styled from '@emotion/styled';
-import Button from './Button';
-import { Container, Row, Column } from './Global';
+import React from 'react'
+import { Link } from 'gatsby'
+import styled from '@emotion/styled'
+import Button from './Button'
+import { Container, Row, Column } from './Global'
 
-const iubenda = '(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);';
+const iubenda = '(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);'
 
 const StyledFooter = styled.footer`
   background: var(--darkblue);
@@ -50,13 +50,13 @@ const StyledFooter = styled.footer`
       border-color: rgba(255, 255, 255, 40%);
     }
   }
-`;
+`
 
 const ColumnWithButtons = styled(Column)`
   a {
     margin-bottom: 1rem;
   }
-`;
+`
 
 const Footer = () => (
   <StyledFooter>
@@ -72,22 +72,24 @@ const Footer = () => (
         <Column size="4" className="footer-section">
           <Row>
             <Column size="6">
-              <Link href="/about">
-                <a className="footer-link">About</a>
+              <Link to="/about" className="footer-link">
+                About
               </Link>
-              <Link href="/features">
-                <a className="footer-link">La Piattaforma</a>
+              <Link to="/features" className="footer-link">
+                La Piattaforma
               </Link>
-              {/* <Link href="/pricing">
+              {/* <Link to="/pricing">
                 <a className="footer-link">Piani</a>
               </Link> */}
             </Column>
             <Column size="6">
-              <Link href="https://journal.apical.org">
-                <a className="footer-link" target="_blank">
-                  Blog
-                </a>
-              </Link>
+              <a
+                href="https://journal.apical.org"
+                className="footer-link"
+                target="_blank"
+              >
+                Blog
+              </a>
               <a
                 href="https://www.iubenda.com/privacy-policy/14773504"
                 className="iubenda-nostyle no-brand iubenda-embed footer-link"
@@ -105,24 +107,30 @@ const Footer = () => (
         <Column size="4" className="footer-section social-footer">
           <Row>
             <Column size="6" mobile="6">
-              <Link href="https://www.linkedin.com/company/apical-org/">
-                <a className="footer-link" target="_blank">
-                  <span className="icon icon-arrow_right" />
-                  Linkedin
-                </a>
-              </Link>
-              <Link href="https://www.instagram.com/apical_official/">
-                <a className="footer-link" target="_blank">
-                  <span className="icon icon-arrow_right" />
-                  Instagram
-                </a>
-              </Link>
-              <Link href="https://www.facebook.com/apical.org/">
-                <a className="footer-link" target="_blank">
-                  <span className="icon icon-arrow_right" />
-                  Facebook
-                </a>
-              </Link>
+              <a
+                href="https://www.linkedin.com/company/apical-org/"
+                className="footer-link"
+                target="_blank"
+              >
+                <span className="icon icon-arrow_right" />
+                Linkedin
+              </a>
+              <a
+                href="https://www.instagram.com/apical_official/"
+                className="footer-link"
+                target="_blank"
+              >
+                <span className="icon icon-arrow_right" />
+                Instagram
+              </a>
+              <a
+                href="https://www.facebook.com/apical.org/"
+                className="footer-link"
+                target="_blank"
+              >
+                <span className="icon icon-arrow_right" />
+                Facebook
+              </a>
             </Column>
           </Row>
         </Column>
@@ -161,6 +169,6 @@ const Footer = () => (
       <p>© 2019 Apical s.r.l. All Rights Reserved</p>
     </div>
   </StyledFooter>
-);
+)
 
-export default Footer;
+export default Footer

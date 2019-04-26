@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import { Link } from 'gatsby';
+import React from 'react'
+import styled from '@emotion/styled'
+import { Link } from 'gatsby'
 
 const Wrapper = styled.article`
   margin-bottom: 1rem;
@@ -22,16 +22,16 @@ const Wrapper = styled.article`
     text-decoration: underline;
     font-size: var(--font-body-secondary);
   }
-`;
+`
 
 const FaqItem = ({ title, body, url }) => (
   <Wrapper>
     <h3>{title}</h3>
     <p>{body}</p>
-    <Link href={url}>
+    <Link to={url}>
       <a target="_blank">View More</a>
     </Link>
   </Wrapper>
-);
+)
 
-export default FaqItem;
+export default FaqItem
