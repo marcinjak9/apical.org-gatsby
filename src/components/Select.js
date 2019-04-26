@@ -1,18 +1,26 @@
-import React from 'react';
-import styled from '@emotion/styled';
+import React from 'react'
+import styled from '@emotion/styled'
+import { css } from '@emotion/core'
+
+const dynamicStyle = props => css`
+  label {
+    opacity: ${props.value ? 1 : 0};
+  }
+
+  select {
+    color: ${props.value ? 'white' : 'black'};
+  }
+`
 
 const SelectWrapper = styled.div`
   width: 100%;
   position: relative;
-  /* padding-top: 2rem; */
   margin-top: 2rem;
   margin-bottom: 2rem;
-
   label {
     position: absolute;
     top: -5px;
     left: 0;
-    opacity: ${props => (props.selecting ? 1 : 0)};
     -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     font-size: var(--font-caption);
@@ -34,7 +42,7 @@ const SelectWrapper = styled.div`
       left: 0;
       right: 0;
       bottom: 0;
-      content: '\00a0';
+      content: "";
       position: absolute;
       transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
       border-bottom: 1px solid var(--border-grey);
@@ -54,7 +62,6 @@ const SelectWrapper = styled.div`
     cursor: pointer;
     min-width: 16px;
     user-select: none;
-    /* padding: 1.5rem 0 1.5rem 1.5rem; */
     padding-right: 32px;
     border-radius: 0;
     -moz-appearance: none;
@@ -66,7 +73,6 @@ const SelectWrapper = styled.div`
     box-sizing: content-box;
     background: none;
     -webkit-tap-highlight-color: transparent;
-    color: ${props => (!props.selecting ? 'var(--text-grey)' : 'var(--text-black)')};
 
     &:focus {
       outline: none;
@@ -75,7 +81,7 @@ const SelectWrapper = styled.div`
 
   span.arrow {
     &:after {
-      content: '';
+      content: "";
       border-color: var(--text-grey) transparent transparent transparent;
       border-style: solid;
       border-width: 10px 6px 0 6px;
@@ -88,36 +94,57 @@ const SelectWrapper = styled.div`
       pointer-events: none;
     }
   }
-`;
+`
 
-const Select = ({
-  options, onChange, value, placeholder, required,
-}) => (
-  <SelectWrapper selecting={!!value}>
-    <label htmlFor="type">
-      {`${placeholder} - ${required ? '' : 'opzionale'}`}
-    </label>
-    <div className="line">
-      <div className="inner-wrapper">
-        <select
-          name="type"
-          id="type"
-          value={value || 'default'}
-          onChange={({ target: { value: val } }) => onChange(val)}
-        >
-          <option value="default" disabled>
-            {`${placeholder} - ${required ? '' : 'opzionale'}`}
-          </option>
-          {options.map((option, i) => (
-            <option key={option} value={option}>
-              {option}
+const Select = (props) => {
+  const {
+    options, onSelectChange, value = null, placeholder, required,
+  } = props
+  return (
+    <SelectWrapper {...props} active>
+      <label htmlFor="type">
+        {`${placeholder} - ${required ? '' : 'opzionale'}`}
+      </label>
+      <div className="line">
+        <div className="inner-wrapper">
+          <select
+            name="type"
+            id="type"
+            value={value || 'default'}
+            onChange={({ target }) => onSelectChange(target.value)}
+            // css={css`
+            //   width: calc(100% - 32px);
+            //   height: 100%;
+            //   cursor: pointer;
+            //   min-width: 16px;
+            //   user-select: none;
+            //   padding-right: 32px;
+            //   border-radius: 0;
+            //   -moz-appearance: none;
+            //   -webkit-appearance: none;
+            //   width: 100%;
+            //   border: 0;
+            //   margin: 0;
+            //   display: block;
+            //   box-sizing: content-box;
+            //   background: none;
+            //   -webkit-tap-highlight-color: transparent;
+            // `}
+          >
+            <option value="default" disabled>
+              {`${placeholder} - ${required ? '' : 'opzionale'}`}
             </option>
-          ))}
-        </select>
-        <span className="arrow" />
+            {options.map((option, i) => (
+              <option key={option} value={option}>
+                {option}
+              </option>
+            ))}
+          </select>
+          <span className="arrow" />
+        </div>
       </div>
-    </div>
-  </SelectWrapper>
-);
+    </SelectWrapper>
+  )
+}
 
-export default Select;
+export default Select

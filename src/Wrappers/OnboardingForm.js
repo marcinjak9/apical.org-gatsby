@@ -1,17 +1,17 @@
 /* eslint-disable react/destructuring-assignment */
-import React, { useState } from 'react';
-import styled from '@emotion/styled';
-import ReactGA from 'react-ga';
-import SectionContainer from '../components/SectionContainer';
-import { Row, Column } from '../components/Global';
-import Input from '../components/Input';
-import Button from '../components/Button';
-import Select from '../components/Select';
-import Accordition from '../components/Accordition';
+import React, { useState } from 'react'
+import styled from '@emotion/styled'
+import ReactGA from 'react-ga'
+import SectionContainer from '../components/SectionContainer'
+import { Row, Column } from '../components/Global'
+import Input from '../components/Input'
+import Button from '../components/Button'
+import Select from '../components/Select'
+import Accordition from '../components/Accordition'
 
 const Title = styled.h2`
   font-size: var(--font-title);
-`;
+`
 
 const ContactColumn = styled(Column)`
   padding: 0 2rem;
@@ -20,7 +20,7 @@ const ContactColumn = styled(Column)`
   @media (max-width: 767px) {
     padding: 0;
   }
-`;
+`
 
 const LegalConsent = styled.div`
   p,
@@ -35,37 +35,35 @@ const LegalConsent = styled.div`
       margin-right: 0.5rem;
     }
   }
-`;
+`
 
 class OnboardingForm extends React.Component {
   constructor(props) {
-    super(props);
-    this.state = {};
+    super(props)
+    this.state = {}
     props.form.formFieldGroups.map((formField) => {
       this.state[formField.fields[0].name] = {
         value: '',
         error: null,
         required: formField.fields[0].required,
-      };
-    });
+      }
+    })
     this.state.legal = {
       process: false,
       error: false,
       communications: [],
-    };
-    const gdpr = props.form.metaData.find(
-      m => m.name === 'legalConsentOptions',
-    );
+    }
+    const gdpr = props.form.metaData.find(m => m.name === 'legalConsentOptions')
     if (gdpr) {
       JSON.parse(gdpr.value).communicationConsentCheckboxes.map((cs) => {
         this.state.legal.communications.push({
           value: false,
           subscriptionTypeId: cs.communicationTypeId,
           text: cs.label,
-        });
-      });
+        })
+      })
     }
-    this.state.success = false;
+    this.state.success = false
   }
 
   setValue = (field, val) => {
@@ -74,39 +72,39 @@ class OnboardingForm extends React.Component {
         ...ps[field],
         value: val,
       },
-    }));
-  };
+    }))
+  }
 
   resetErrors = () => {
-    const { state } = this;
+    const { state } = this
 
     Object.keys(state).map((key) => {
       if (state[key].error) {
-        state[key].error = false;
+        state[key].error = false
       }
-    });
-    this.setState(state);
-  };
+    })
+    this.setState(state)
+  }
 
   submit = (e) => {
-    e.preventDefault();
+    e.preventDefault()
     // this.resetErrors();
-    const gdpr = this.getGdpr();
-    const { form } = this.props;
-    const portal = form.portalId;
-    const id = form.guid;
-    let isNotEmpty = true;
+    const gdpr = this.getGdpr()
+    const { form } = this.props
+    const portal = form.portalId
+    const id = form.guid
+    let isNotEmpty = true
     Object.keys(this.state).map((key) => {
       if (this.state[key].required && !this.state[key].value) {
-        isNotEmpty = false;
+        isNotEmpty = false
         this.setState(ps => ({
           [key]: {
             ...ps[key],
             error: true,
           },
-        }));
+        }))
       }
-    });
+    })
 
     const legalConsentOptions = {
       consent: {
@@ -114,24 +112,24 @@ class OnboardingForm extends React.Component {
         text: gdpr.processingConsentCheckboxLabel,
         communications: this.state.legal.communications,
       },
-    };
+    }
 
     if (!legalConsentOptions.consent.consentToProcess) {
-      return this.setState(ps => ({ legal: { ...ps.legal, error: true } }));
+      return this.setState(ps => ({ legal: { ...ps.legal, error: true } }))
     }
 
     if (!isNotEmpty) {
-      return false;
+      return false
     }
     let fields = Object.keys(this.state).map((key) => {
       if (key !== 'legal' && key !== 'success') {
         return {
           name: key,
           value: this.state[key].value,
-        };
+        }
       }
-    });
-    fields = fields.filter(f => f);
+    })
+    fields = fields.filter(f => f)
 
     const body = JSON.stringify({
       submittedAt: Date.now(),
@@ -141,7 +139,7 @@ class OnboardingForm extends React.Component {
         pageName: document.title,
         pageUri: window.location.href,
       },
-    });
+    })
 
     fetch(
       `https://api.hsforms.com/submissions/v3/integration/submit/${portal}/${id}`,
@@ -153,68 +151,68 @@ class OnboardingForm extends React.Component {
         },
         body,
       },
-    ).then(res => res.json().then(json => this.handleResponse(json)));
-  };
+    ).then(res => res.json().then(json => this.handleResponse(json)))
+  }
 
   handleResponse = (response) => {
     if (response.status === 'error') {
-      this.handleError(response);
+      this.handleError(response)
     }
     if (response.inlineMessage) {
-      this.handleSuccess();
+      this.handleSuccess()
     }
-  };
+  }
 
   handleError = (error) => {
     if (error && error.errors && error.errors.length > 0) {
       error.errors.map((e) => {
-        const r = new RegExp(/'[A-Za-z]+\.([A-Za-z]+)'/);
-        const field = r.exec(e.message)[1];
+        const r = new RegExp(/'[A-Za-z]+\.([A-Za-z]+)'/)
+        const field = r.exec(e.message)[1]
 
         this.setState(ps => ({
           [field]: {
             ...ps[field],
             error: true,
           },
-        }));
-      });
+        }))
+      })
     }
-  };
+  }
 
   handleSuccess = () => {
     ReactGA.event({
       category: 'lead',
       action: 'submit',
       label: 'Form',
-    });
+    })
     if (window && window.fbq) {
-      window.fbq('track', 'Lead');
+      window.fbq('track', 'Lead')
     }
-    this.setState({ success: true });
-  };
+    this.setState({ success: true })
+  }
 
   checkForError = () => {
-    let error = false;
+    let error = false
     Object.keys(this.state).map((key) => {
       if (this.state[key].error) {
-        error = true;
+        error = true
       }
-    });
-    return error;
-  };
+    })
+    return error
+  }
 
   getGdpr = () => {
     const {
       form: { metaData },
-    } = this.props;
-    const gdpr = metaData.find(m => m.name === 'legalConsentOptions');
-    const data = JSON.parse(gdpr.value);
-    return data;
-  };
+    } = this.props
+    const gdpr = metaData.find(m => m.name === 'legalConsentOptions')
+    const data = JSON.parse(gdpr.value)
+    return data
+  }
 
   renderGdpr = () => {
-    const data = this.getGdpr();
-    const { legal } = this.state;
+    const data = this.getGdpr()
+    const { legal } = this.state
     return (
       <>
         <Column size="12">
@@ -251,15 +249,14 @@ class OnboardingForm extends React.Component {
                     name={cb.subscriptionTypeId}
                     value={cb.value}
                     onChange={() => {
-                      const { communications } = legal;
-                      communications[index].value = !communications[index]
-                        .value;
+                      const { communications } = legal
+                      communications[index].value = !communications[index].value
                       this.setState(ps => ({
                         legal: {
                           ...ps.legal,
                           communications,
                         },
-                      }));
+                      }))
                     }}
                   />
                   {cb.text}
@@ -272,15 +269,15 @@ class OnboardingForm extends React.Component {
           </LegalConsent>
         </Column>
       </>
-    );
-  };
+    )
+  }
 
   render() {
     const {
       form: { formFieldGroups },
-      greyBg
-    } = this.props;
-    const { success } = this.state;
+      greyBg,
+    } = this.props
+    const { success } = this.state
 
     if (success) {
       return (
@@ -290,7 +287,7 @@ class OnboardingForm extends React.Component {
             contatterà!
           </h2>
         </SectionContainer>
-      );
+      )
     }
 
     return (
@@ -331,7 +328,7 @@ class OnboardingForm extends React.Component {
                         error={this.state[formField.fields[0].name].error}
                       />
                     </ContactColumn>
-                  );
+                  )
                 }
                 if (formField.fields[0].fieldType === 'select') {
                   return (
@@ -339,14 +336,14 @@ class OnboardingForm extends React.Component {
                       <Select
                         options={formField.fields[0].options.map(o => o.label)}
                         value={this.state[formField.fields[0].name].value}
-                        onChange={val => this.setValue(formField.fields[0].name, val)
+                        onSelectChange={val => this.setValue(formField.fields[0].name, val)
                         }
                         placeholder="Chi sei?"
                         required={formField.fields[0].required}
                         error={this.state[formField.fields[0].name].error}
                       />
                     </ContactColumn>
-                  );
+                  )
                 }
               })}
               {this.renderGdpr()}
@@ -369,8 +366,8 @@ class OnboardingForm extends React.Component {
           </Column>
         </Row>
       </SectionContainer>
-    );
+    )
   }
 }
 
-export default OnboardingForm;
+export default OnboardingForm
