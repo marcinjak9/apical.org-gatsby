@@ -1,10 +1,10 @@
 ---
-templateKey: testimonials
 testimonials:
   - body: >+
       Il nostro progetto cresce molto velocemente, senza Apical sarebbe
       impossibile gestire la burocrazia che ogni booking produce e offrire al
       cliente un’esperienza di prenotazione confortevole e sicura
+
 
     company: Surfweek
     image: 'https://ucarecdn.com/39843746-bd43-4b97-b06c-e181a87012b4/'
