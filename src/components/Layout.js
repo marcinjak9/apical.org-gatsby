@@ -2,13 +2,12 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { StaticQuery, graphql } from "gatsby"
-import PropTypes from "prop-types"
 import Navigation from "./Navigation"
 import Footer from "./Footer"
 
 import "../styles/index.css"
 
-const Layout = ({ children, preview }) => (
+const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -19,7 +18,7 @@ const Layout = ({ children, preview }) => (
         }
       }
     `}
-    render={data => (
+    render={() => (
       <div>
         <Helmet>
           <title>Apical - Crea la tua esperienza</title>

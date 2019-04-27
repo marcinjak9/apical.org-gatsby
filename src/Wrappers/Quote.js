@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import SectionContainer from '../components/SectionContainer';
-import { Row, Column } from '../components/Global';
-import Button from '../components/Button';
+import React from 'react'
+import styled from '@emotion/styled'
+import SectionContainer from '../components/SectionContainer'
+import { Row, Column } from '../components/Global'
+import Button from '../components/Button'
 
 const Text = styled.h4`
   color: var(--blue);
@@ -15,11 +15,11 @@ const Text = styled.h4`
   @media (max-width: 767px) {
     font-size: var(--font-subheader);
   }
-`;
+`
 
 const Section = styled(SectionContainer)`
   min-height: 400px;
-`;
+`
 
 const Quote = ({ children, cta, greyBg }) => (
   <Section greyBg={greyBg}>
@@ -39,13 +39,13 @@ const Quote = ({ children, cta, greyBg }) => (
     {cta && (
       <Row>
         <Column size="12" textCenter>
-          <Button href={cta.url} outline>
+          <Button href={cta.url || cta.link} outline>
             {cta.text}
           </Button>
         </Column>
       </Row>
     )}
   </Section>
-);
+)
 
-export default Quote;
+export default Quote

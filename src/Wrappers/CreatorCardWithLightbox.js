@@ -1,10 +1,9 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import Modal from 'react-modal';
-import CreatorCardModal from '../components/CreatorCardModal';
-import CreatorCard from '../components/CreatorCard';
+import React from 'react'
+import Modal from 'react-modal'
+import CreatorCardModal from '../components/CreatorCardModal'
+import CreatorCard from '../components/CreatorCard'
 
-Modal.setAppElement('#___gatsby');
+Modal.setAppElement('#___gatsby')
 
 const customStyles = {
   content: {
@@ -18,23 +17,23 @@ const customStyles = {
     background: 'transparent',
     border: 'none',
   },
-};
+}
 
 export default class CreatorCardWithLightBox extends React.Component {
   state = {
     modalIsOpen: false,
-  };
+  }
 
   openModal = (e) => {
-    e.preventDefault();
-    this.setState({ modalIsOpen: true });
-  };
+    e.preventDefault()
+    this.setState({ modalIsOpen: true })
+  }
 
   render() {
     const {
       image, name, body, tag, url, cta, excerpt, tagline,
-    } = this.props;
-    const { modalIsOpen } = this.state;
+    } = this.props
+    const { modalIsOpen } = this.state
     return (
       <>
         <Modal
@@ -63,6 +62,6 @@ export default class CreatorCardWithLightBox extends React.Component {
           onPlusClick={this.openModal}
         />
       </>
-    );
+    )
   }
 }

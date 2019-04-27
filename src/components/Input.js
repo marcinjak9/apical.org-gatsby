@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from '@emotion/styled';
+import React from 'react'
+import styled from '@emotion/styled'
 
 const InputContainer = styled.div`
   position: relative;
@@ -38,7 +38,7 @@ const InputContainer = styled.div`
       border-bottom: 1px solid var(--darkblue);
     }
   }
-`;
+`
 
 const Input = ({
   onChange,
@@ -48,16 +48,21 @@ const Input = ({
   type,
   required,
   error,
-}) => (
-  <InputContainer typing={!!value} error={error}>
-    <label>{`${label}${required ? '' : ' - opzionale'}`}</label>
-    <input
-      onChange={({ target: { value } }) => onChange(value)}
-      value={value}
-      placeholder={`${placeholder}${required ? '' : ' - opzionale'}`}
-      type={type}
-    />
-  </InputContainer>
-);
+}) => {
+  const id = label.trim().replace(' ', '-')
+  return (
+    <InputContainer typing={!!value} error={error}>
+      <label htmlFor={id}>{`${label}${required ? '' : ' - opzionale'}`}</label>
+      <input
+        name={id}
+        id={id}
+        onChange={({ target: { value: newVal } }) => onChange(newVal)}
+        value={value}
+        placeholder={`${placeholder}${required ? '' : ' - opzionale'}`}
+        type={type}
+      />
+    </InputContainer>
+  )
+}
 
-export default Input;
+export default Input

@@ -1,6 +1,5 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import BadgeTag from './BadgeTag';
+import React from 'react'
+import styled from '@emotion/styled'
 
 const Wrapper = styled.div`
   background-color: var(--light);
@@ -10,7 +9,7 @@ const Wrapper = styled.div`
     1px 3px 8px rgba(39, 44, 49, 0.03);
   overflow: hidden;
   height: 100%;
-`;
+`
 
 const Header = styled.div`
   min-height: 200px;
@@ -22,7 +21,7 @@ const Header = styled.div`
   border: none;
   border-radius: 0;
   background-image: url('${props => props.image}');
-`;
+`
 
 const Body = styled.div`
   padding: 2rem;
@@ -43,10 +42,10 @@ const Body = styled.div`
   small {
     color: var(--text-grey);
   }
-`;
+`
 
 const BlogCard = ({
-  image, name, body, tag, date, author, url,
+  image, name, body, date, author, url,
 }) => (
   <Wrapper>
     <a href={url} target="_blank" rel="noopener noreferrer">
@@ -64,6 +63,6 @@ const BlogCard = ({
       <p>{body}</p>
     </Body>
   </Wrapper>
-);
+)
 
-export default BlogCard;
+export default BlogCard

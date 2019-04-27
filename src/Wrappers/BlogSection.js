@@ -1,7 +1,6 @@
 import React from 'react'
 import GhostContentAPI from '@tryghost/content-api'
 import moment from 'moment'
-import { Link } from 'gatsby'
 import styled from '@emotion/styled'
 import BlogCard from '../components/BlogCard'
 import SectionContainer from '../components/SectionContainer'

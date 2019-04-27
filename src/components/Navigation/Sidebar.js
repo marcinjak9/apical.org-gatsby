@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from '@emotion/styled'
 import Button from '../Button'
-import SubMenu from './SubMenu'
+// import SubMenu from './SubMenu'
 
 const Container = styled.div`
   z-index: 999;
@@ -119,7 +119,7 @@ const Sidebar = ({
     <NavigationBody>
       <ul>
         {menuItems.map((m, i) => (
-          <li>
+          <li key={i}>
             <Link to={m.url}>{m.text}</Link>
           </li>
         ))}
@@ -137,14 +137,14 @@ const Sidebar = ({
     </div>
     <NavigationFooter>
       {contacts.phone && (
-        <Button href={`tel:${contacts.phone}`} outline light>
+        <Button href={`tel:${contacts.phone}`} outline light external>
           Chiamaci
           {'   '}
           <span>{contacts.phone}</span>
         </Button>
       )}
       {contacts.email && (
-        <Button href={`mailto:${contacts.email}`} outline light>
+        <Button href={`mailto:${contacts.email}`} outline light external>
           Scrivici
           {'   '}
           <span>{contacts.email}</span>

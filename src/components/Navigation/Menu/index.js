@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import classNames from 'classnames'
 import styled from '@emotion/styled'
 import NavContainer from './NavContainer'
 import Button from '../../Button'
@@ -70,7 +69,7 @@ class Menu extends React.Component {
 
             <div className="nav-center nav-items">
               {menuItems.map((m, i) => (
-                <Link to={m.url} activeClassName="active">
+                <Link key={i} to={m.url} activeClassName="active">
                   {m.text}
                 </Link>
               ))}

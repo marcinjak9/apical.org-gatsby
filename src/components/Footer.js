@@ -59,7 +59,7 @@ const ColumnWithButtons = styled(Column)`
 `
 
 const FooterInner = ({
-  contacts, menuItems, mobileLogo, logo,
+  contacts, menuItems, socialItems, logo,
 }) => (
   <StyledFooter>
     <Container>
@@ -103,86 +103,58 @@ const FooterInner = ({
                     </Link>
                   )
                 })}
-              {/* <a
-                href="https://journal.apical.org"
-                className="footer-link"
-                target="_blank"
-              >
-                Blog
-              </a>
-              <a
-                href="https://www.iubenda.com/privacy-policy/14773504"
-                className="iubenda-nostyle no-brand iubenda-embed footer-link"
-                title="Privacy Policy "
-              >
-                Privacy Policy
-              </a>
-              <script
-                type="text/javascript"
-                dangerouslySetInnerHTML={{ __html: iubenda }}
-              /> */}
             </Column>
           </Row>
         </Column>
         <Column size="4" className="footer-section social-footer">
           <Row>
             <Column size="6" mobile="6">
-              <a
-                href="https://www.linkedin.com/company/apical-org/"
-                className="footer-link"
-                target="_blank"
-              >
-                <span className="icon icon-arrow_right" />
-                Linkedin
-              </a>
-              <a
-                href="https://www.instagram.com/apical_official/"
-                className="footer-link"
-                target="_blank"
-              >
-                <span className="icon icon-arrow_right" />
-                Instagram
-              </a>
-              <a
-                href="https://www.facebook.com/apical.org/"
-                className="footer-link"
-                target="_blank"
-              >
-                <span className="icon icon-arrow_right" />
-                Facebook
-              </a>
+              {socialItems
+                && socialItems.map((si, i) => (
+                  <a
+                    key={i}
+                    href={si.url}
+                    className="footer-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="icon icon-arrow_right" />
+                    {si.text}
+                  </a>
+                ))}
             </Column>
           </Row>
         </Column>
-        <ColumnWithButtons size="4" className="footer-section">
-          {/* <Button href="/" light fluid icon="arrow" primary spaced>
-            Sign up now
-          </Button> */}
-          <Button
-            href="tel:+393922606862"
-            primary
-            light
-            darkBg
-            fluid
-            icon="arrow"
-          >
-            Chiamaci
-            {'   '}
-            <span>+39 02 2111 9080</span>
-          </Button>
-          <Button
-            href="mailto:info@apical.org"
-            primary
-            light
-            darkBg
-            fluid
-            icon="arrow"
-          >
-            Scrivici
-            {'   '}
-            <span>info@apical.org</span>
-          </Button>
-        </ColumnWithButtons>
+        {contacts && (
+          <ColumnWithButtons size="4" className="footer-section">
+            <Button
+              href={`tel:${contacts.phone}`}
+              primary
+              light
+              darkBg
+              fluid
+              icon="arrow"
+              external
+            >
+              Chiamaci
+              {'   '}
+              <span>{contacts.phone}</span>
+            </Button>
+            <Button
+              href={`mailto:${contacts.email}`}
+              primary
+              light
+              darkBg
+              fluid
+              icon="arrow"
+              external
+            >
+              Scrivici
+              {'   '}
+              <span>{contacts.email}</span>
+            </Button>
+          </ColumnWithButtons>
+        )}
       </Row>
     </Container>
     <div className="credits">

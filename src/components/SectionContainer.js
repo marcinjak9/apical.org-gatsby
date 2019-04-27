@@ -1,17 +1,17 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import { css } from '@emotion/core';
-import { Container } from './Global';
+import React from 'react'
+import styled from '@emotion/styled'
+import { css } from '@emotion/core'
+import { Container } from './Global'
 
 const dynamicStyles = (props) => {
   if (props.removeHorizontalPadding) {
     return css`
       padding-left: 0;
       padding-right: 0;
-    `;
+    `
   }
-  return css``;
-};
+  return css``
+}
 
 const Section = styled.section`
   padding: ${props => (props.padded ? 'padding: 8rem 1rem;' : '4rem 1rem')};
@@ -50,19 +50,19 @@ const Section = styled.section`
 
   @media (max-width: 1023px) {
   }
-`;
+`
 
 const SectionContainer = (props) => {
   const {
     children,
     title,
     subtitle,
-    titleCenter,
-    removeHorizontalPadding,
-    greyBg,
-    padded,
-    resetParagraph,
-  } = props;
+    // titleCenter,
+    // removeHorizontalPadding,
+    // greyBg,
+    // padded,
+    // resetParagraph,
+  } = props
   return (
     <Section {...props}>
       <Container>
@@ -71,7 +71,7 @@ const SectionContainer = (props) => {
         {children}
       </Container>
     </Section>
-  );
-};
+  )
+}
 
-export default SectionContainer;
+export default SectionContainer

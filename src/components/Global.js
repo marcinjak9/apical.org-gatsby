@@ -1,16 +1,16 @@
-import styled from '@emotion/styled';
-import PropTypes from 'prop-types';
-import { css } from '@emotion/core';
+import styled from '@emotion/styled'
+import PropTypes from 'prop-types'
+import { css } from '@emotion/core'
 
 const spread = (props) => {
   if (props.spread) {
     return css`
       justify-content: space-between;
       align-items: center;
-    `;
+    `
   }
-  return css``;
-};
+  return css``
+}
 
 export const Container = styled.div`
   width: 100%;
@@ -40,7 +40,7 @@ export const Container = styled.div`
   }
 
   ${spread}
-`;
+`
 
 const scroll = (props) => {
   if (props.scrolling) {
@@ -57,10 +57,10 @@ const scroll = (props) => {
       &::-webkit-scrollbar {
         display: none;
       }
-    `;
+    `
   }
-  return css``;
-};
+  return css``
+}
 
 export const Row = styled.div`
   /* margin-right: -15px;
@@ -73,12 +73,12 @@ export const Row = styled.div`
   @media (max-width: 768px) {
     ${scroll};
   }
-`;
+`
 
 Row.propTypes = {
   gap: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   scrolling: PropTypes.bool,
-};
+}
 
 const slide = (props) => {
   if (props.slide) {
@@ -86,10 +86,20 @@ const slide = (props) => {
       min-width: 300px;
       padding: 0.5rem;
       scroll-snap-align: center;
-    `;
+    `
   }
-  return css``;
-};
+  return css``
+}
+
+const alignTextColumn = (props) => {
+  if (props.textCenterMobile) {
+    return 'center'
+  }
+  if (props.textCenter) {
+    return 'center'
+  }
+  return 'inherit'
+}
 
 export const Column = styled.div`
   grid-column: ${props => (props.offset > 1
@@ -100,17 +110,13 @@ export const Column = styled.div`
 
   @media (max-width: 768px) {
     grid-column: span ${props => props.mobile};
-    text-align: ${props => (props.textCenterMobile
-    ? 'center'
-    : props.textCenter
-      ? 'center'
-      : 'inherit')};
+    text-align: ${props => alignTextColumn(props)};
     ${slide}
   }
-`;
+`
 
 Column.defaultProps = {
   size: 12,
   mobile: 12,
   offset: 1,
-};
+}

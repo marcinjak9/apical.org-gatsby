@@ -1,52 +1,52 @@
-import React, { Component } from 'react';
-import Modal from 'react-modal';
-import Select, { components } from 'react-select';
+import React, { Component } from 'react'
+import Modal from 'react-modal'
+import Select, { components } from 'react-select'
 
-import SectionContainer from '../components/SectionContainer';
+import SectionContainer from '../components/SectionContainer'
 
-Modal.setAppElement('#___gatsby');
+Modal.setAppElement('#___gatsby')
 
 const DropdownIndicator = props => (
   <components.DropdownIndicator {...props}>
     <i className="icon-drop_down" />
   </components.DropdownIndicator>
-);
+)
 
-const customStyles = {
-  content: {
-    position: 'relative',
-    top: 'inherit',
-    bottom: 'inherit',
-    left: 'inherit',
-    right: 'inherit',
-    padding: 0,
-    margin: 0,
-    border: 'none',
-    display: 'flex',
-    flex: 1,
-  },
-  overlay: {
-    display: 'flex',
-  },
-};
+// const customStyles = {
+//   content: {
+//     position: 'relative',
+//     top: 'inherit',
+//     bottom: 'inherit',
+//     left: 'inherit',
+//     right: 'inherit',
+//     padding: 0,
+//     margin: 0,
+//     border: 'none',
+//     display: 'flex',
+//     flex: 1,
+//   },
+//   overlay: {
+//     display: 'flex',
+//   },
+// };
 const options = [
   { value: 'chocolate', label: 'Chocolate' },
   { value: 'strawberry', label: 'Strawberry' },
   { value: 'vanilla', label: 'Vanilla' },
-];
+]
 
 export default class SignUpModalComponent extends Component {
   state = {
     selectedOption: null,
-  };
+  }
 
   handleChange = (selectedOption) => {
-    this.setState({ selectedOption });
-  };
+    this.setState({ selectedOption })
+  }
 
   render() {
-    const { toggleModal, open } = this.props;
-    const { selectedOption } = this.state;
+    const { toggleModal } = this.props
+    const { selectedOption } = this.state
     return (
       <div className="signup-modal">
         <SectionContainer
@@ -114,6 +114,6 @@ export default class SignUpModalComponent extends Component {
           </button>
         </SectionContainer>
       </div>
-    );
+    )
   }
 }

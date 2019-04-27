@@ -1,25 +1,22 @@
-import React, { Component } from 'react';
-import styled from '@emotion/styled';
-import { debounce } from 'lodash';
-import Slider from 'react-slick';
-import Dots from './Dots';
-import Slide from './Slide';
+import React, { Component } from 'react'
+import styled from '@emotion/styled'
+import Slider from 'react-slick'
 
-const Wrapper = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  -ms-overflow-style: none;
-  overflow: -moz-scrollbars-none;
-  -webkit-overflow-scrolling: touch;
-  width: '100%';
-  &::-webkit-scrollbar {
-    display: none;
-  }
-`;
+// const Wrapper = styled.div`
+//   position: relative;
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: nowrap;
+//   overflow-x: scroll;
+//   scroll-snap-type: x mandatory;
+//   -ms-overflow-style: none;
+//   overflow: -moz-scrollbars-none;
+//   -webkit-overflow-scrolling: touch;
+//   width: "100%";
+//   &::-webkit-scrollbar {
+//     display: none;
+//   }
+// `
 
 const SlickSlider = styled(Slider)`
   .slick-next,
@@ -30,73 +27,71 @@ const SlickSlider = styled(Slider)`
   .slick-prev:before {
     color: var(--darkblue) !important;
   }
-`;
+`
 
 export default class Carousel extends Component {
   constructor(props) {
-    super(props);
-    this.wrapper = React.createRef();
+    super(props)
+    this.wrapper = React.createRef()
+    const { slides } = props
     this.state = {
-      slides: this.props.slides,
+      slides,
       currentIndex: 0,
-    };
+    }
   }
 
   nextSlide = () => {
-    const { currentIndex, slides } = this.state;
+    const { currentIndex, slides } = this.state
     if (currentIndex < slides.length - 1) {
-      this.setState(ps => ({ currentIndex: ps.currentIndex + 1 }));
+      this.setState(ps => ({ currentIndex: ps.currentIndex + 1 }))
     }
-    this.setState({ currentIndex: 0 });
-  };
+    this.setState({ currentIndex: 0 })
+  }
 
   prevSlide = () => {
-    const { currentIndex, slides } = this.state;
+    const { currentIndex, slides } = this.state
     if (currentIndex > 0) {
-      this.setState(ps => ({ currentIndex: ps.currentIndex - 1 }));
+      this.setState(ps => ({ currentIndex: ps.currentIndex - 1 }))
     }
-    this.setState({ currentIndex: slides.length - 1 });
-  };
+    this.setState({ currentIndex: slides.length - 1 })
+  }
 
   goToSlide = (index) => {
-    const { slides } = this.state;
+    const { slides } = this.state
     if (index >= 0 && index < slides.length) {
-      this.setState({ currentIndex: index });
+      this.setState({ currentIndex: index })
     }
-  };
+  }
 
   getWidth = () => {
     if (this.wrapper && this.wrapper.current) {
-      return this.wrapper.current.offsetWidth;
+      return this.wrapper.current.offsetWidth
     }
-    return 0;
-  };
+    return 0
+  }
 
   onDotClick = (e, index) => {
-    const { slides } = this.state;
-    e.preventDefault();
-    // this.goToSlide(index);
-    const width = this.getWidth();
+    e.preventDefault()
+    const width = this.getWidth()
     this.wrapper.current.scrollTo({
       left: Math.floor(width * index),
       behavior: 'smooth',
-    });
-  };
+    })
+  }
 
   onScroll = () => {
-    console.log('hei');
+    const { slides, currentIndex } = this.state
     if (this.wrapper && this.wrapper.current) {
       const index = (this.wrapper.current.scrollLeft / this.wrapper.current.scrollWidth)
-        * this.state.slides.length;
-      console.log(index);
-      if (this.state.currentIndex !== index) {
-        this.setState({ currentIndex: index });
+        * slides.length
+      if (currentIndex !== index) {
+        this.setState({ currentIndex: index })
       }
     }
-  };
+  }
 
   render() {
-    const { slides, currentIndex } = this.state;
+    const { slides } = this.state
     const settings = {
       dots: true,
       infinite: false,
@@ -105,7 +100,7 @@ export default class Carousel extends Component {
       slidesToScroll: 1,
       arrows: true,
       adaptiveHeight: true,
-    };
+    }
     return (
       <div style={{ width: '100%', marginTop: '2rem' }}>
         <SlickSlider {...settings}>
@@ -114,30 +109,10 @@ export default class Carousel extends Component {
           ))}
         </SlickSlider>
       </div>
-    );
-    return (
-      <div style={{ width: '100%' }}>
-        <Wrapper ref={this.wrapper} onScroll={debounce(this.onScroll, 100)}>
-          {slides.map((slide, index) => (
-            <Slide
-              key={index}
-              slide={slide}
-              currentIndex={currentIndex}
-              index={index}
-              width={this.getWidth()}
-            />
-          ))}
-        </Wrapper>
-        <Dots
-          active={currentIndex}
-          slides={slides}
-          onDotClick={(e, index) => this.onDotClick(e, index)}
-        />
-      </div>
-    );
+    )
   }
 }
 
 Carousel.defaultProps = {
   slides: [],
-};
+}

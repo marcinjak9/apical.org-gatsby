@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import FilterTab from './FilterTab'
+// import FilterTab from './FilterTab'
 
-import CREATORS from '../data/creators.yaml'
-import CreatorCardWithLightBox from './CreatorCardWithLightbox'
+// import CREATORS from '../data/creators.yaml'
+// import CreatorCardWithLightBox from './CreatorCardWithLightbox'
 import SectionContainer from '../components/SectionContainer'
 import { Row, Column } from '../components/Global'
 
@@ -11,7 +11,7 @@ const DiscoverListing = () => (
   <SectionContainer>
     {/* <FilterTab /> */}
     <Row>
-      {CREATORS.creators
+      {/* {CREATORS.creators
         && CREATORS.creators.map((c, i) => (
           <Column size="4">
             <CreatorCardWithLightBox
@@ -25,7 +25,7 @@ const DiscoverListing = () => (
               cta={{ text: 'More Festivals', url: c.url }}
             />
           </Column>
-        ))}
+        ))} */}
     </Row>
     <Row style={{ textAlign: 'center' }}>
       <Column size="12" textCenter>

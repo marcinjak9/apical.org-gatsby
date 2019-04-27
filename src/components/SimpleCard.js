@@ -1,11 +1,10 @@
-import React from 'react';
-import classNames from 'classnames';
-import styled from '@emotion/styled';
-import { css } from '@emotion/core';
-import Emoji from './Emoji';
+import React from 'react'
+import styled from '@emotion/styled'
+import { css } from '@emotion/core'
+import Emoji from './Emoji'
 
 const dynamicStyle = (props) => {
-  let s = css``;
+  let s = css``
   if (props.small) {
     s = css`
       ${s}
@@ -22,7 +21,7 @@ const dynamicStyle = (props) => {
         text-align: ${props.textCenter ? 'center' : 'left'};
         line-height: 1.6rem;
       }
-    `;
+    `
   }
   if (props.sliding) {
     s = css`
@@ -51,10 +50,10 @@ const dynamicStyle = (props) => {
           line-height: 2rem;
         }
       }
-    `;
+    `
   }
-  return s;
-};
+  return s
+}
 
 const Card = styled.div`
   display: flex;
@@ -91,9 +90,9 @@ const Card = styled.div`
   }
 
   ${dynamicStyle}
-`;
+`
 
-const getPosition = (length, index, currentIndex) => index - currentIndex;
+const getPosition = (length, index, currentIndex) => index - currentIndex
 
 const SimpleCard = (props) => {
   const {
@@ -101,13 +100,12 @@ const SimpleCard = (props) => {
     title,
     body,
     image,
-    small,
     badge,
     features,
     active,
     length,
     currentIndex,
-  } = props;
+  } = props
   return (
     <Card
       // className={classNames('card features-card', { 'card-small': small })}
@@ -133,7 +131,7 @@ const SimpleCard = (props) => {
         </div>
       )}
     </Card>
-  );
-};
+  )
+}
 
-export default SimpleCard;
+export default SimpleCard

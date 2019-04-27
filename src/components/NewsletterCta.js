@@ -1,21 +1,21 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import styled from '@emotion/styled';
-import InputWithSubmit from './InputWithSubmit';
-import SectionContainer from './SectionContainer';
-import { Row, Column } from './Global';
+import React from 'react'
+// import { Link } from 'gatsby';
+import styled from '@emotion/styled'
+import InputWithSubmit from './InputWithSubmit'
+import SectionContainer from './SectionContainer'
+import { Row, Column } from './Global'
 
 const NewsletterCol = styled(Column)`
-  input[type='text'] {
+  input[type="text"] {
     margin-bottom: 1rem;
   }
   .form-discolsure {
     color: var(--text-grey);
   }
-`;
+`
 
 const NewsletterCta = ({ title, greyBg }) => (
-  <SectionContainer greyBg={greyBg}>
+  <SectionContainer title={title} greyBg={greyBg}>
     <Row>
       <Column size="6" textCenterMobile>
         <h3>
@@ -38,6 +38,6 @@ const NewsletterCta = ({ title, greyBg }) => (
       </NewsletterCol>
     </Row>
   </SectionContainer>
-);
+)
 
-export default NewsletterCta;
+export default NewsletterCta

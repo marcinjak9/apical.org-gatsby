@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import SectionContainer from '../components/SectionContainer'
-import CREATORS from '../data/creators.yaml'
-import CreatorCardWithLightBox from './CreatorCardWithLightbox'
+// import CREATORS from '../data/creators.yaml'
+// import CreatorCardWithLightBox from './CreatorCardWithLightbox'
 import { Row, Column } from '../components/Global'
 
 const CreatorsSection = ({ title, textLeft, greyBg }) => (
@@ -14,7 +14,7 @@ const CreatorsSection = ({ title, textLeft, greyBg }) => (
     greyBg={greyBg}
   >
     <Row scrolling>
-      {CREATORS.creators
+      {/* {CREATORS.creators
         && CREATORS.creators.slice(0, 3).map((creator, i) => (
           <Column size="4" slide key={i}>
             <CreatorCardWithLightBox
@@ -28,7 +28,7 @@ const CreatorsSection = ({ title, textLeft, greyBg }) => (
               cta={{ text: 'More Festivals', url: creator.url }}
             />
           </Column>
-        ))}
+        ))} */}
     </Row>
     <Row style={{ textAlign: 'center' }}>
       <Column size="12" textCenter>

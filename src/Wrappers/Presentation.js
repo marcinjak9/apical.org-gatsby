@@ -4,7 +4,7 @@ import styled from '@emotion/styled'
 import SectionContainer from '../components/SectionContainer'
 import Carousel from '../components/Carousel'
 import { Row, Column } from '../components/Global'
-import Button from '../components/Button'
+// import Button from '../components/Button'
 
 const PresentationRow = styled(Row)`
   margin: 0 auto;
@@ -81,7 +81,12 @@ const Presentation = (props) => {
     <SectionContainer {...props}>
       <Carousel
         slides={slides.map((slide, i) => (
-          <Slide title={slide.title} body={slide.body} image={slide.image} />
+          <Slide
+            key={i}
+            title={slide.title}
+            body={slide.body}
+            image={slide.image}
+          />
         ))}
       />
     </SectionContainer>

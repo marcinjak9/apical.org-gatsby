@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import classNames from 'classnames';
-import SignUpModalComponent from './SignUpModalComponent';
+import React from 'react'
+import classNames from 'classnames'
+import SignUpModalComponent from './SignUpModalComponent'
 
 export const ModalContext = React.createContext({
   modalOpen: false,
   toggleModal: () => {},
-});
+})
 
 const SignUpModal = () => (
   <ModalContext.Consumer>
@@ -13,14 +13,14 @@ const SignUpModal = () => (
       <SignUpModalComponent open={modalOpen} toggleModal={toggleModal} />
     )}
   </ModalContext.Consumer>
-);
+)
 
-export default SignUpModal;
+export default SignUpModal
 
 function SignUpButton({ text, className }) {
   return (
     <ModalContext.Consumer>
-      {({ modalOpen, toggleModal }) => (
+      {({ toggleModal }) => (
         <button
           type="button"
           onClick={toggleModal}
@@ -30,7 +30,7 @@ function SignUpButton({ text, className }) {
         </button>
       )}
     </ModalContext.Consumer>
-  );
+  )
 }
 
-export { SignUpButton };
+export { SignUpButton }

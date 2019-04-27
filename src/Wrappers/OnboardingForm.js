@@ -128,6 +128,7 @@ class OnboardingForm extends React.Component {
           value: this.state[key].value,
         }
       }
+      return null
     })
     fields = fields.filter(f => f)
 
@@ -141,7 +142,7 @@ class OnboardingForm extends React.Component {
       },
     })
 
-    fetch(
+    return fetch(
       `https://api.hsforms.com/submissions/v3/integration/submit/${portal}/${id}`,
       {
         method: 'POST',
@@ -219,12 +220,12 @@ class OnboardingForm extends React.Component {
           <LegalConsent>
             {legal.process !== undefined && (
               <>
-                <label>
+                <label htmlFor="process">
                   <input
                     type="checkbox"
                     name="process"
                     value={legal.process}
-                    onChange={e => this.setState(ps => ({
+                    onChange={() => this.setState(ps => ({
                       legal: { ...ps.legal, process: !ps.legal.process },
                     }))
                     }
@@ -243,7 +244,7 @@ class OnboardingForm extends React.Component {
             </Accordition>
             {legal.communications
               && legal.communications.map((cb, index) => (
-                <label key={index}>
+                <label key={index} htmlFor={cb.subscriptionTypeId}>
                   <input
                     type="checkbox"
                     name={cb.subscriptionTypeId}
@@ -345,6 +346,7 @@ class OnboardingForm extends React.Component {
                     </ContactColumn>
                   )
                 }
+                return null
               })}
               {this.renderGdpr()}
             </Row>

@@ -1,7 +1,8 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import styled from '@emotion/styled';
-import BadgeTag from './BadgeTag';
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+import React from 'react'
+import styled from '@emotion/styled'
+import BadgeTag from './BadgeTag'
 
 const Card = styled.div`
   background-color: var(--grey-bg);
@@ -57,10 +58,10 @@ const Card = styled.div`
       }
     }
   }
-`;
+`
 
 const CreatorCard = ({
-  image, name, tag, cta, excerpt, onPlusClick,
+  image, name, tag, excerpt, onPlusClick,
 }) => (
   <Card image={image}>
     <header onClick={onPlusClick}>{tag && <BadgeTag>{tag}</BadgeTag>}</header>
@@ -74,6 +75,6 @@ const CreatorCard = ({
       </div>
     </div>
   </Card>
-);
+)
 
-export default CreatorCard;
+export default CreatorCard

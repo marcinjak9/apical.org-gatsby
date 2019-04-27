@@ -137,7 +137,6 @@ class FeaturesTabs extends React.Component {
 
   render() {
     const { tabIndex } = this.state
-    const { title } = this.props
     return (
       <SectionContainer
         {...this.props}

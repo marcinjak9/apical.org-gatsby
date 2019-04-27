@@ -1,8 +1,7 @@
 import React from 'react'
 import createCache from '@emotion/cache'
-import { CacheProvider, jsx, css } from '@emotion/core'
+import { CacheProvider } from '@emotion/core'
 
-// Component used to Enable netlify CMS to apply the styles added through styled-components
 class CSSInjector extends React.Component {
   constructor(props) {
     super(props)
@@ -13,21 +12,28 @@ class CSSInjector extends React.Component {
   }
 
   componentDidMount() {
+    this.inject()
+  }
+
+  inject = () => {
     const iframe = document.querySelector('iframe[class*="PreviewPaneFrame"]')
     const iframeHeadElem = iframe.contentDocument.head
     this.setState({ iframeRef: iframeHeadElem })
   }
 
   renderCache = () => {
+    const { iframeRef } = this.state
+    const { children } = this.props
     const myCache = createCache({
       key: 'my-prefix-key',
-      container: this.state.iframeRef,
+      container: iframeRef,
     })
-    return <CacheProvider value={myCache}>{this.props.children}</CacheProvider>
+    return <CacheProvider value={myCache}>{children}</CacheProvider>
   }
 
   render() {
-    return <>{this.state.iframeRef && this.renderCache()}</>
+    const { iframeRef } = this.state
+    return <>{iframeRef && this.renderCache()}</>
   }
 }
 

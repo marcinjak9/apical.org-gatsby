@@ -1,14 +1,5 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import { css } from '@emotion/core';
-import { Row, Column } from '../Global';
-
-const active = (props) => {
-  if (props.active) {
-    return css``;
-  }
-  return css``;
-};
+import React from 'react'
+import styled from '@emotion/styled'
 
 const Wrapper = styled.div`
   width: ${props => `${props.width}px`};
@@ -32,19 +23,8 @@ const Wrapper = styled.div`
       max-width: 200px;
     }
   }
-`;
+`
 
-const Slide = ({
-  slide, currentIndex, index, width,
-}) => (
-  <Wrapper
-    // style={{
-    //   transform: `translateX(${-currentIndex * 100}%)`,
-    // }}
-    width={width}
-  >
-    {slide}
-  </Wrapper>
-);
+const Slide = ({ slide, width }) => <Wrapper width={width}>{slide}</Wrapper>
 
-export default Slide;
+export default Slide

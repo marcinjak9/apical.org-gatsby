@@ -19,17 +19,20 @@ const Section = styled(SectionContainer)`
   }
 `
 
-const WelcomeSteps = props => (
-  <Section {...props}>
-    <Row>
-      {props.columns.map((c, i) => (
-        <Column size="4">
-          <h4>{c.title}</h4>
-          <p>{c.body}</p>
-        </Column>
-      ))}
-    </Row>
-  </Section>
-)
+const WelcomeSteps = (props) => {
+  const { columns } = props
+  return (
+    <Section {...props}>
+      <Row>
+        {columns.map((c, i) => (
+          <Column key={i} size="4">
+            <h4>{c.title}</h4>
+            <p>{c.body}</p>
+          </Column>
+        ))}
+      </Row>
+    </Section>
+  )
+}
 
 export default WelcomeSteps

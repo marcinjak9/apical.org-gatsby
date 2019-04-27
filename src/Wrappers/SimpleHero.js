@@ -1,9 +1,8 @@
-import React from 'react';
-import classNames from 'classnames';
-import styled from '@emotion/styled';
+import React from 'react'
+import styled from '@emotion/styled'
 
-import Emoji from '../components/Emoji';
-import { Row, Container, Column } from '../components/Global';
+import Emoji from '../components/Emoji'
+import { Row, Container, Column } from '../components/Global'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -14,7 +13,7 @@ const Wrapper = styled.div`
   background-image: url(${props => props.image});
 
   &:before {
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     position: absolute;
@@ -49,7 +48,7 @@ const Wrapper = styled.div`
     display: block;
     font-weight: bold;
   }
-`;
+`
 
 const Body = styled(Row)`
   padding-top: ${props => (props.smallText ? '6rem' : '9rem')};
@@ -66,7 +65,7 @@ const Body = styled(Row)`
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
-`;
+`
 
 const SimpleHero = ({
   image,
@@ -111,6 +110,6 @@ const SimpleHero = ({
       </Container>
     )}
   </Wrapper>
-);
+)
 
-export default SimpleHero;
+export default SimpleHero

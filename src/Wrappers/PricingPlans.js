@@ -1,10 +1,9 @@
-import React from 'react';
-import { css } from '@emotion/core';
-import styled from '@emotion/styled';
-import SectionContainer from '../components/SectionContainer';
-import PricingCard from '../components/PricingCard';
-import Button from '../components/Button';
-import { Row, Column } from '../components/Global';
+import React from 'react'
+import { css } from '@emotion/core'
+import SectionContainer from '../components/SectionContainer'
+import PricingCard from '../components/PricingCard'
+import Button from '../components/Button'
+import { Row, Column } from '../components/Global'
 
 const PricingPlans = ({ greyBg }) => (
   <SectionContainer
@@ -44,6 +43,6 @@ const PricingPlans = ({ greyBg }) => (
       </Column>
     </Row>
   </SectionContainer>
-);
+)
 
-export default PricingPlans;
+export default PricingPlans

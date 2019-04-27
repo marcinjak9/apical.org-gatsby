@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { css } from '@emotion/core'
 
 const SelectWrapper = styled.div`
   width: 100%;
@@ -93,7 +92,7 @@ const Select = (props) => {
     options, onSelectChange, value = null, placeholder, required,
   } = props
   return (
-    <SelectWrapper {...props} active>
+    <SelectWrapper value={value}>
       <label htmlFor="type">
         {`${placeholder} - ${required ? '' : 'opzionale'}`}
       </label>
@@ -108,7 +107,7 @@ const Select = (props) => {
             <option value="default" disabled>
               {`${placeholder} - ${required ? '' : 'opzionale'}`}
             </option>
-            {options.map((option, i) => (
+            {options.map(option => (
               <option key={option} value={option}>
                 {option}
               </option>

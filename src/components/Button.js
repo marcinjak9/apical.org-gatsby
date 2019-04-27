@@ -132,14 +132,14 @@ const StyledButtonLink = styled(Link)`
   ${dynamicStyle}
 `
 
-const renderIcon = (icon) => {
-  switch (icon) {
-    case 'arrow':
-      return <i className="icon-arrow_right" />
-    default:
-      return null
-  }
-}
+// const renderIcon = (icon) => {
+//   switch (icon) {
+//     case 'arrow':
+//       return <i className="icon-arrow_right" />
+//     default:
+//       return null
+//   }
+// }
 
 const buttonClick = (e, track, onClick) => {
   if (track) {
@@ -164,6 +164,14 @@ const Button = (props) => {
         {...props}
         onClick={e => buttonClick(e, true, props.onClick)}
       >
+        {props.children}
+        {/* {props.icon && renderIcon(props.icon)} */}
+      </StyledButton>
+    )
+  }
+  if (props.external || (props.href && props.href.includes('http'))) {
+    return (
+      <StyledButton {...props} href={props.href}>
         {props.children}
         {/* {props.icon && renderIcon(props.icon)} */}
       </StyledButton>
