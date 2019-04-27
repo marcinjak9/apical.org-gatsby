@@ -1,30 +1,39 @@
-import React, { useState } from 'react';
-import Typist from 'react-typist';
-import styled from '@emotion/styled';
+import React from 'react'
+import Typist from 'react-typist'
+import styled from '@emotion/styled'
 
 const StyledTypist = styled(Typist)`
   .Cursor {
     color: transparent !important;
   }
-`;
+`
 
-const RestartingTypist = ({ words }) => {
-  const [typistIndex, setTypistIndex] = useState(0);
-  return (
-    <StyledTypist
-      key={typistIndex}
-      onTypingDone={() => setTypistIndex(typistIndex + 1)}
-      cursor={{
-        show: true,
-      }}
-      avgTypingDelay={30}
-    >
-      {words.map(word => [
-        <span>{word}</span>,
-        <Typist.Backspace count={word.length} delay={500} />,
-      ])}
-    </StyledTypist>
-  );
-};
+class RestartingTypist extends React.Component {
+  state = {
+    typistIndex: 0,
+  }
 
-export default RestartingTypist;
+  setTypistIndex = index => this.setState({ typistIndex: index })
+
+  render() {
+    const { words } = this.props
+    const { typistIndex } = this.state
+    return (
+      <StyledTypist
+        key={typistIndex}
+        onTypingDone={() => this.setTypistIndex(typistIndex + 1)}
+        cursor={{
+          show: true,
+        }}
+        avgTypingDelay={30}
+      >
+        {words.map(word => [
+          <span>{word}</span>,
+          <Typist.Backspace count={word.length} delay={500} />,
+        ])}
+      </StyledTypist>
+    )
+  }
+}
+
+export default RestartingTypist

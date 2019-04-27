@@ -1,5 +1,5 @@
 /* eslint-disable react/destructuring-assignment */
-import React, { useState } from 'react'
+import React from 'react'
 import styled from '@emotion/styled'
 import ReactGA from 'react-ga'
 import SectionContainer from '../components/SectionContainer'

@@ -4,6 +4,7 @@ import OnboardingForm from './OnboardingForm'
 export default class FormSection extends Component {
   state = {
     form: null,
+    error: false,
   }
 
   componentDidMount() {
@@ -11,17 +12,28 @@ export default class FormSection extends Component {
   }
 
   getForm = async () => {
-    const res = await fetch(process.env.BACKEND_URL)
-    const data = await res.json()
-    this.setState({ form: data })
+    const { formId } = this.props
+    if (formId) {
+      try {
+        const res = await fetch(
+          `${process.env.BACKEND_URL}/hubspot/forms/${formId}`,
+        )
+        const { data } = await res.json()
+        this.setState({ form: data })
+      } catch (error) {
+        console.log(error)
+        this.setState({ error: true })
+      }
+    }
   }
 
   render() {
     const { title, body } = this.props
-    const { form } = this.state
+    const { form, error } = this.state
     return (
       <div>
         {form && <OnboardingForm form={form} title={title} body={body} />}
+        {error && <p>Nessun form trovato</p>}
       </div>
     )
   }

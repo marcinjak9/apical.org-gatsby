@@ -26,13 +26,13 @@ const renderProps = (props) => {
   return props
 }
 
-const renderElements = (sections) => {
+const renderElements = (sections, preview) => {
   if (sections) {
     return sections.map((element, index) => {
       if (components[element.type]) {
         return React.createElement(
           components[element.type],
-          { ...renderProps(element.props), key: index },
+          { ...renderProps(element.props), key: index, preview },
           renderChild(element.children),
         )
       }
@@ -43,16 +43,26 @@ const renderElements = (sections) => {
 }
 
 const SitePage = ({
+  preview,
   data: {
     markdownRemark: {
       frontmatter: { sections },
     },
   },
-}) => (
-  <Layout>
-    <main>{renderElements(sections)}</main>
-  </Layout>
-)
+}) => {
+  if (preview) {
+    return (
+      // <Layout preview={preview}>
+      <main>{renderElements(sections, preview)}</main>
+      // </Layout>
+    )
+  }
+  return (
+    <Layout preview={preview}>
+      <main>{renderElements(sections, preview)}</main>
+    </Layout>
+  )
+}
 
 export default SitePage
 

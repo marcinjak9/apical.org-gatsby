@@ -1,14 +1,14 @@
 /* eslint-disable quotes */
 import React from "react"
 import { Helmet } from "react-helmet"
-import { StaticQuery } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
 import Navigation from "./Navigation"
 import Footer from "./Footer"
 
 import "../styles/index.css"
 
-const Layout = ({ children }) => (
+const Layout = ({ children, preview }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import styled from '@emotion/styled';
-import Emoji from './Emoji';
+import React from 'react'
+import styled from '@emotion/styled'
+import Emoji from './Emoji'
 
 const Wrapper = styled.div`
   margin-bottom: 1rem;
@@ -10,27 +10,34 @@ const Wrapper = styled.div`
   span {
     margin-left: 0.5rem;
   }
-  .body  {
+  .body {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-`;
+`
+class Accordition extends React.Component {
+  state = {
+    show: false,
+  }
 
-const Accordition = ({ title, children }) => {
-  const [show, setShow] = useState(false);
-  const toggle = (e) => {
-    e.preventDefault();
-    setShow(!show);
-  };
-  return (
-    <Wrapper>
-      <a href="#" onClick={e => toggle(e)}>
-        {title}
-        <Emoji emoji="▾" />
-      </a>
-      <div className="body">{show && children}</div>
-    </Wrapper>
-  );
-};
+  toggle = (e) => {
+    e.preventDefault()
+    this.setState(ps => ({ show: !ps.show }))
+  }
 
-export default Accordition;
+  render() {
+    const { title, children } = this.props
+    const { show } = this.state
+    return (
+      <Wrapper>
+        <a href="#" onClick={e => this.toggle(e)}>
+          {title}
+          <Emoji emoji="▾" />
+        </a>
+        <div className="body">{show && children}</div>
+      </Wrapper>
+    )
+  }
+}
+
+export default Accordition
