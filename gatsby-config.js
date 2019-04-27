@@ -2,10 +2,8 @@ require('dotenv').config()
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
-    description:
-      'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
-    author: '@gatsbyjs',
+    title: 'Apical - Crea la tua esperienza',
+    description: 'Happiness is a Movement',
     siteUrl: 'https://apical.org',
   },
   plugins: [
@@ -59,42 +57,42 @@ module.exports = {
         display: 'minimal-ui',
         icons: [
           {
-            src: 'src/images/icon-72x72.png',
+            src: 'images/icon-72x72.png',
             sizes: '72x72',
             type: 'image/png',
           },
           {
-            src: 'src/images/icon-96x96.png',
+            src: 'images/icon-96x96.png',
             sizes: '96x96',
             type: 'image/png',
           },
           {
-            src: 'src/images/icon-128x128.png',
+            src: 'images/icon-128x128.png',
             sizes: '128x128',
             type: 'image/png',
           },
           {
-            src: 'src/images/icon-144x144.png',
+            src: 'images/icon-144x144.png',
             sizes: '144x144',
             type: 'image/png',
           },
           {
-            src: 'src/images/icon-152x152.png',
+            src: 'images/icon-152x152.png',
             sizes: '152x152',
             type: 'image/png',
           },
           {
-            src: 'src/images/icon-192x192.png',
+            src: 'images/icon-192x192.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: 'src/images/icon-384x384.png',
+            src: 'images/icon-384x384.png',
             sizes: '384x384',
             type: 'image/png',
           },
           {
-            src: 'src/images/icon-512x512.png',
+            src: 'images/icon-512x512.png',
             sizes: '512x512',
             type: 'image/png',
           },
