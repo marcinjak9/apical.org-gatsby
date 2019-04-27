@@ -50,6 +50,7 @@ const SitePage = ({
     },
   },
 }) => {
+  console.log(process.env)
   if (preview) {
     return (
       // <Layout preview={preview}>
