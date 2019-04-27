@@ -20,7 +20,6 @@ function SEO({
           siteMetadata {
             title
             description
-            author
           }
         }
       }
