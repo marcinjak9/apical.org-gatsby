@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: marcinjak9/apical.org-gatsby
+  name: git-gateway
+  # repo: marcinjak9/apical.org-gatsby
   branch: master
   # name: test-repo
 media_folder: static/images
