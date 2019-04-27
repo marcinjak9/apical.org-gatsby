@@ -16,7 +16,7 @@ class BlogSection extends React.Component {
     super(props)
     this.api = new GhostContentAPI({
       url: 'https://journal.apical.org',
-      key: process.env.GHOST_KEY,
+      key: process.env.GATSBY_GHOST_KEY,
       version: 'v2',
     })
     this.state = {

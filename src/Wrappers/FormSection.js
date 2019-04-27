@@ -16,7 +16,7 @@ export default class FormSection extends Component {
     if (formId) {
       try {
         const res = await fetch(
-          `${process.env.BACKEND_URL}/hubspot/forms/${formId}`,
+          `${process.env.GATSBY_BACKEND_URL}/hubspot/forms/${formId}`,
         )
         const { data } = await res.json()
         this.setState({ form: data })

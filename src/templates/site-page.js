@@ -50,7 +50,7 @@ const SitePage = ({
     },
   },
 }) => {
-  console.log(process.env)
+  console.log(process.env.GATSBY_BACKEND_URL)
   if (preview) {
     return (
       // <Layout preview={preview}>
