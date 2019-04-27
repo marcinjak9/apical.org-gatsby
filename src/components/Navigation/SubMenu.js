@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'gatsby'
+import Link from '../LinkWrapper'
 
 export default class SubMenu extends Component {
   state = {

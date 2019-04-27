@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import styled from '@emotion/styled'
+import Link from '../../LinkWrapper'
 import NavContainer from './NavContainer'
 import Button from '../../Button'
 import { Container, Row, Column } from '../../Global'

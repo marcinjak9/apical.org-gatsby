@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react'
-import { Link } from 'gatsby'
 import styled from '@emotion/styled'
 import Button from '../Button'
+import Link from '../LinkWrapper'
 // import SubMenu from './SubMenu'
 
 const Container = styled.div`

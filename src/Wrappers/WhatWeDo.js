@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { Link } from 'gatsby'
+import Link from '../components/LinkWrapper'
 import SectionContainer from '../components/SectionContainer'
 import { Row, Column } from '../components/Global'
 

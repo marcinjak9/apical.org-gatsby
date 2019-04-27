@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import Link from '../components/LinkWrapper'
 // import FilterTab from './FilterTab'
 
 // import CREATORS from '../data/creators.yaml'

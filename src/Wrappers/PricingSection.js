@@ -65,7 +65,7 @@ class PricingSection extends React.Component {
             {tabs.map((plan, i) => (
               <Link
                 active={selectedIndex === i}
-                href="#"
+                to="#"
                 onClick={e => this.changePlan(e, i)}
               >
                 <span>{plan.title}</span>

@@ -1,10 +1,10 @@
 /* eslint-disable react/destructuring-assignment */
 import React from 'react'
-import { Link } from 'gatsby'
 import ReactGA from 'react-ga'
 import PropTypes from 'prop-types'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
+import Link from './LinkWrapper'
 
 const dynamicStyle = (props) => {
   let s = css``

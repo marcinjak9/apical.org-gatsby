@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import Link from '../components/LinkWrapper'
 import SectionContainer from '../components/SectionContainer'
 // import CREATORS from '../data/creators.yaml'
 // import CreatorCardWithLightBox from './CreatorCardWithLightbox'
