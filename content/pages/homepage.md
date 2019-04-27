@@ -197,7 +197,9 @@ sections:
       cta:
         link: /features
         text: Scopri la piattaforma
+      greyBg: true
       title: Blog
+      titleCenter: true
     type: BlogSection
 ---
 
