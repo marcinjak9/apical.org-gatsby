@@ -18,7 +18,7 @@ sections:
         La nostra mission è trovarne e selezionarne 100 in tutto, metterli in
         rete all’interno di una community per farne decollare la crescita e
         proporre le loro creazioni al pubblico, attraverso una tecnologia
-        altamente innovativa* 
+        altamente innovativa (powered by apical.org)
 
 
         Se stai leggendo questa pagina vuol dire che la ricerca è ancora aperta,
@@ -29,7 +29,18 @@ sections:
       cta:
         text: Chi cerchiamo
       greyBg: true
-      title: 'Cerchiamo produttori di esperienze e di luoghi non convenzionali. '
+      title: 'Cerchiamo creatori di esperienze e di luoghi non convenzionali. '
     type: WhatWeDo
+  - props:
+      greyBg: false
+      title: Esperienze
+      titleCenter: true
+    type: TeamSection
+  - props:
+      greyBg: true
+      title: Luoghi
+      titleCenter: true
+    type: TeamSection
+  - type: FormSection
 ---
 
