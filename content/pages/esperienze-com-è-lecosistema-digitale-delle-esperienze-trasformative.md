@@ -41,6 +41,10 @@ sections:
       title: Luoghi
       titleCenter: true
     type: TeamSection
-  - type: FormSection
+  - props:
+      body: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n  hbspt.forms.create({\n\tportalId: \"5448232\",\n\tformId: \"8a771c01-513c-4b1e-a7d8-68b5ca87e4a1\"\n});\n</script>"
+      formId: "<!--[if lte IE 8]> <script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2-legacy.js\"></script> <![endif]--> <script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script> <script>   hbspt.forms.create({ \tportalId: \"5448232\", \tformId: \"8a771c01-513c-4b1e-a7d8-68b5ca87e4a1\" }); </script>"
+      title: Candidati ora
+    type: FormSection
 ---
 
