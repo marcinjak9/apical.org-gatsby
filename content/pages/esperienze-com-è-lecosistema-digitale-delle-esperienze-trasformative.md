@@ -1,6 +1,6 @@
 ---
 templateKey: site-page
-title: Esperienze.com è l'ecosistema digitale delle esperienze trasformative
+title: Esperienze
 slug: esperienze-trasformative
 type: page
 sections:
