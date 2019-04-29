@@ -444,9 +444,9 @@ collections:
                     name: "members"
                     widget: "relation"
                     collection: "teamNew"
-                    searchFields: ["title"]
+                    searchFields: ["title", "role"]
                     valueField: "title"
-                    displayFields: ["role", "body", "image"]
+                    displayFields: ["title"]
 
           - label: Features
             name: FeaturesSection
