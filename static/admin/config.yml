@@ -130,10 +130,10 @@ collections:
   - name: teamNew
     label: teamNew
     folder: "content/team"
+    slug: "{{slug}}"
     create: true
     fields:
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "team-entity" }
-      - { name: id, widget: hidden, default: "{{uuid}}" }
       - {label: Name, name: title, widget: string }
       - {label: Role, name: role, widget: string }
       - {label: Body, name: body, widget: text }
@@ -442,7 +442,7 @@ collections:
                   - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
                   - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
                   - label: "Members"
-                    name: "members_relation"
+                    name: "teamNew_relation"
                     widget: "relation"
                     collection: "teamNew"
                     searchFields: ["title"]
