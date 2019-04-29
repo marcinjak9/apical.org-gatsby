@@ -7,6 +7,8 @@ sections:
   - props:
       greyBg: true
       subtitle: Hello
+      teamNew_relation:
+        - asd
       title: Lorem ipsum
       titleCenter: true
     type: TeamSection
