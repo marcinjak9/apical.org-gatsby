@@ -51,5 +51,12 @@ sections:
       title: Come funziona Apical
       titleCenter: true
     type: HowItWorks
+  - props:
+      cta:
+        link: /features
+        text: Scopri di più
+      title: L’iscrizione ad apical è gratuita e non ha costi fissi
+      titleCenter: true
+    type: FeaturesSection
 ---
 
