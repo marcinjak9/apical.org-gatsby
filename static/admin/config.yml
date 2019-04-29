@@ -50,7 +50,7 @@ collections:
             name: Members
             widget: list
             fields:
-              - {label: Name, name: title, widget: string }
+              - {label: Name, name: name, widget: string }
               - {label: Role, name: role, widget: string }
               - {label: Body, name: body, widget: text }
               - {label: Avatar, name: image, widget: image }
@@ -133,7 +133,7 @@ collections:
     create: true
     fields:
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "team-entity" }
-      - {label: Name, name: name, widget: string }
+      - {label: Name, name: title, widget: string }
       - {label: Role, name: role, widget: string }
       - {label: Body, name: body, widget: text }
       - {label: Avatar, name: image, widget: image }
