@@ -7,7 +7,7 @@ sections:
   - props:
       greyBg: true
       members:
-        - Mario Rossi
+        - ''
       subtitle: Hello
       title: Lorem ipsum
       titleCenter: true
