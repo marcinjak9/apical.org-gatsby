@@ -24,36 +24,36 @@ collections:
   - label: Entities
     name: entities
     files:
-      - label: Testimonial
-        name: testimonial
-        file: content/testimonials.md
-        create: true
-        fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonials" }
-          - label: Testimonials
-            name: testimonials
-            widget: list
-            fields:
-              - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-              - {label: Name, name: name, widget: string }
-              - {label: Company, name: company, widget: string }
-              - {label: Body, name: body, widget: text }
-              - {label: Avatar, name: image, widget: image }
+      # - label: Testimonial
+      #   name: testimonial
+      #   file: content/testimonials.md
+      #   create: true
+      #   fields:
+      #     - { label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonials" }
+      #     - label: Testimonials
+      #       name: testimonials
+      #       widget: list
+      #       fields:
+      #         - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      #         - {label: Name, name: name, widget: string }
+      #         - {label: Company, name: company, widget: string }
+      #         - {label: Body, name: body, widget: text }
+      #         - {label: Avatar, name: image, widget: image }
 
-      - label: Team
-        name: team
-        file: content/team.md
-        create: true
-        fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "team" }
-          - label: Members
-            name: Members
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string }
-              - {label: Role, name: role, widget: string }
-              - {label: Body, name: body, widget: text }
-              - {label: Avatar, name: image, widget: image }
+      # - label: Team
+      #   name: team
+      #   file: content/team.md
+      #   create: true
+      #   fields:
+      #     - { label: "Template Key", name: "templateKey", widget: "hidden", default: "team" }
+      #     - label: Members
+      #       name: Members
+      #       widget: list
+      #       fields:
+      #         - {label: Name, name: name, widget: string }
+      #         - {label: Role, name: role, widget: string }
+      #         - {label: Body, name: body, widget: text }
+      #         - {label: Avatar, name: image, widget: image }
 
       - label: Menu
         name: menu
@@ -110,22 +110,22 @@ collections:
               - { label: Phone, name: phone, widget: string }
               - { label: Email, name: email, widget: string }
 
-  - name: features
-    label: Features
-    folder: "content/features"
-    create: true
-    fields:
-      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "features" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "text" }
-      - label: Items
-        name: items
-        widget: list
-        fields:
-          - {label: Icon, name: icon, widget: string }
-          - {label: Title, name: title, widget: string }
-          - {label: Body, name: body, widget: text }
-          - {label: Pro, name: pro, widget: boolean, required: false }
+  # - name: features
+  #   label: Features
+  #   folder: "content/features"
+  #   create: true
+  #   fields:
+  #     - { label: "Template Key", name: "templateKey", widget: "hidden", default: "features" }
+      # - { label: "Title", name: "title", widget: "string" }
+      # - { label: "Body", name: "body", widget: "text" }
+      # - label: Items
+      #   name: items
+      #   widget: list
+      #   fields:
+      #     - {label: Icon, name: icon, widget: string }
+      #     - {label: Title, name: title, widget: string }
+      #     - {label: Body, name: body, widget: text }
+      #     - {label: Pro, name: pro, widget: boolean, required: false }
     
   - name: "page"
     label: "Page"
@@ -335,6 +335,14 @@ collections:
                 fields:
                   - { label: Title, name: title, widget: string, required: false }
                   - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
+                  - label: Testimonials
+                    name: testimonials
+                    widget: list
+                    fields:
+                      - {label: Name, name: name, widget: string }
+                      - {label: Company, name: company, widget: string }
+                      - {label: Body, name: body, widget: text }
+                      - {label: Avatar, name: image, widget: image }
                   - label: CTA
                     name: cta
                     widget: object
@@ -428,6 +436,14 @@ collections:
                   - { label: Subtitle, name: subtitle, widget: text, required: false }
                   - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
                   - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
+                  - label: Members
+                    name: Members
+                    widget: list
+                    fields:
+                      - {label: Name, name: name, widget: string }
+                      - {label: Role, name: role, widget: string }
+                      - {label: Body, name: body, widget: text }
+                      - {label: Avatar, name: image, widget: image }
 
           - label: Features
             name: FeaturesSection
@@ -469,6 +485,20 @@ collections:
                   - { label: Subtitle, name: subtitle, widget: text, required: false }
                   - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
                   - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
+                  - label: Features
+                    name: features
+                    widget: list
+                    fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - { label: "Body", name: "body", widget: "text" }
+                      - label: Items
+                        name: items
+                        widget: list
+                        fields:
+                          - {label: Icon, name: icon, widget: string }
+                          - {label: Title, name: title, widget: string }
+                          - {label: Body, name: body, widget: text }
+                          - {label: Pro, name: pro, widget: boolean, required: false }
 
           - label: Tools Cards
             name: ToolsCards

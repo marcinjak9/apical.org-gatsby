@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import ScrollableAnchor from 'react-scrollable-anchor'
 import Layout from '../components/Layout'
 import components from '../componentsMap'
 
@@ -30,6 +31,17 @@ const renderElements = (sections, preview) => {
   if (sections) {
     return sections.map((element, index) => {
       if (components[element.type]) {
+        if (element.type === 'FormSection') {
+          return React.createElement(
+            ScrollableAnchor,
+            { id: 'onboarding' },
+            React.createElement(
+              components[element.type],
+              { ...renderProps(element.props), key: index, preview },
+              renderChild(element.children),
+            ),
+          )
+        }
         return React.createElement(
           components[element.type],
           { ...renderProps(element.props), key: index, preview },
@@ -105,6 +117,12 @@ export const pageQuery = graphql`
               title
               body
               image
+              items {
+                icon
+                title
+                body
+                pro
+              }
             }
             columns {
               emoji
@@ -120,6 +138,18 @@ export const pageQuery = graphql`
               title
               nav
               body
+            }
+            Members {
+              body
+              image
+              name
+              role
+            }
+            testimonials {
+              body
+              company
+              image
+              name
             }
             tabs {
               commission
