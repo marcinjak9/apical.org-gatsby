@@ -69,5 +69,31 @@ sections:
       title: L’iscrizione ad apical è gratuita e non ha costi fissi
       titleCenter: true
     type: FeaturesSection
+  - props:
+      testimonials:
+        - body: >-
+            Alessandro è un property manager e affitta alcuni appartamenti in
+            Croazia. Ha un sito internet e un suo giro di clienti fedeli. Con
+            Apical Alessandro offre pacchetti completi che includono l’affitto
+            dell’accomodation e, per chi vuole, le migliori esperienze sul
+            territorio. In questo modo incrementa il valore dell'ordine medio.
+            Apical offre tutti gli strumenti per aiutarlo a venderle online in
+            un ambiente unico. 
+          company: 'Property Manager '
+          image: 'https://ucarecdn.com/feb277c7-8bed-4a2d-b2c4-61057447014a/'
+          name: Alessandro
+        - body: >-
+            Giulia usa le più famose piattaforme di booking online per vendere
+            le accomodation che ha in Sardegna. Da qualche tempo ha deciso di
+            voler fare upselling proponendo straordinarie esperienze locali. Con
+            Apical, una volta che i clienti hanno prenotato online la propria
+            vacanza in una delle sue strutture, Giulia invia loro il link del
+            suo Apical Store via mail o direttamente al check-in, offrendo loro
+            la possibilità di arricchire la loro vacanza. 
+          company: Property Manager
+          image: 'https://ucarecdn.com/2697e634-6cce-4ffd-8544-64fc85feecce/'
+          name: Giulia
+      title: Come lo usano i nostri partner
+    type: TestimonialsSection
 ---
 
