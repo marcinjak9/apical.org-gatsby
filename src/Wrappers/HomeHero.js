@@ -4,7 +4,7 @@ import Markdown from 'react-markdown/with-html'
 import Button from '../components/Button'
 import { Container, Row, Column } from '../components/Global'
 import Emoji from '../components/Emoji'
-import { rawImageLink } from '../components/Image'
+// import { rawImageLink } from '../components/Image'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -13,7 +13,7 @@ const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url(${props => rawImageLink(props.image)});
+  background-image: url(${props => props.image});
   display: flex;
   flex-direction: column;
   justify-content: center;
