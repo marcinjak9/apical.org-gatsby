@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
   # repo: marcinjak9/apical.org-gatsby
-  branch: master
-  # name: test-repo
+  branch: relations
+  name: test-repo
 media_folder: static/images
 media_library:
   name: uploadcare
@@ -116,6 +116,23 @@ collections:
     create: true
     fields:
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "features" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "text" }
+      - label: Items
+        name: items
+        widget: list
+        fields:
+          - {label: Icon, name: icon, widget: string }
+          - {label: Title, name: title, widget: string }
+          - {label: Body, name: body, widget: text }
+          - {label: Pro, name: pro, widget: boolean, required: false }
+    
+  - name: Team New
+    label: teamNew
+    folder: "content/team"
+    create: true
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "team-entity" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "text" }
       - label: Items
