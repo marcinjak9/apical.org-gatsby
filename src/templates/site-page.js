@@ -105,6 +105,12 @@ export const pageQuery = graphql`
               title
               body
               image
+              items {
+                icon
+                title
+                body
+                pro
+              }
             }
             columns {
               emoji
@@ -120,6 +126,18 @@ export const pageQuery = graphql`
               title
               nav
               body
+            }
+            Members {
+              body
+              image
+              name
+              role
+            }
+            testimonials {
+              body
+              company
+              image
+              name
             }
             tabs {
               commission
