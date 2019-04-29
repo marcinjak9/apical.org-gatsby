@@ -1,6 +1,6 @@
 ---
 templateKey: site-page
-title: Esperienze
+title: 'Esperienze '
 slug: 'esperienze '
 type: page
 sections:
