@@ -13479,6 +13479,11 @@ update-notifier@^2.3.0:
     semver-diff "^2.0.0"
     xdg-basedir "^3.0.0"
 
+uploadcare-react@^0.0.2-alpha:
+  version "0.0.2-alpha"
+  resolved "https://registry.yarnpkg.com/uploadcare-react/-/uploadcare-react-0.0.2-alpha.tgz#e535677517fb9aac7f502a9a8aedcee0294447da"
+  integrity sha512-ifkHtCsH18leA8MqauQ8GHr57Ygb0SW0uQDSNJtoEV4L1cAiCnOsQKr0I7iSsSt8+O7IzsiLHBs3cfxz7bl8kA==
+
 uploadcare-widget-tab-effects@^1.4.0:
   version "1.4.5"
   resolved "https://registry.yarnpkg.com/uploadcare-widget-tab-effects/-/uploadcare-widget-tab-effects-1.4.5.tgz#18647671b77c914e8b9bc058a2f41b39fa749afd"

@@ -36,7 +36,8 @@
     "react-helmet": "^5.2.0",
     "react-markdown": "^4.0.8",
     "react-slick": "^0.24.0",
-    "react-typist": "^2.0.5"
+    "react-typist": "^2.0.5",
+    "uploadcare-react": "^0.0.2-alpha"
   },
   "devDependencies": {
     "autoprefixer": "^9.5.1",
