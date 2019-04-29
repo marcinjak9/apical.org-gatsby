@@ -91,6 +91,13 @@ sections:
         incrementando mediamente del 30% i propri profitti
     type: Cta
   - props:
+      features:
+        - body: test
+          items:
+            - body: '124124'
+              icon: "\U0001F332"
+              title: '241'
+          title: test
       greyBg: true
       title: Le funzionalità aggiuntive della piattaforma
       titleCenter: true
