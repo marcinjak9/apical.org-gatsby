@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
 title: Esperienze
-slug: esperienze
+slug: 'esperienze '
 type: page
 sections:
   - props:
