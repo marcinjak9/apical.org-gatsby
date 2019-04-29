@@ -27,5 +27,16 @@ sections:
       greyBg: true
       title: 'Cos''è Apical '
     type: WhatWeDo
+  - props:
+      cards:
+        - body: >-
+            Scegli le esperienze più straordinarie sul territorio e costruisci
+            il tuo pacchetto prenotazione con la tua accomodation
+          image: ✍️
+          title: CREA
+      greyBg: true
+      title: Come funziona Apical
+      titleCenter: true
+    type: HowItWorks
 ---
 
