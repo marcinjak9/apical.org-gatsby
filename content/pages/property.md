@@ -24,9 +24,19 @@ sections:
       cta:
         link: '#onboarding'
         text: Inizia subito
-      greyBg: true
+      greyBg: false
       title: 'Cos''è Apical '
     type: WhatWeDo
+  - props:
+      slides:
+        - body: >-
+            È visibile solo ai creators e permette di creare prodotti con
+            facilità. 
+          image: 'https://ucarecdn.com/47a50cad-43d1-4cea-9f3d-1b02d438702c/'
+          title: '1. Dashboard (SLIDE COME IN HOME) '
+      title: La piattaforma è self-service ed è composta da tre ambienti
+      titleCenter: true
+    type: Presentation
   - props:
       cards:
         - body: >-
@@ -55,6 +65,7 @@ sections:
       cta:
         link: /features
         text: Scopri di più
+      greyBg: false
       title: L’iscrizione ad apical è gratuita e non ha costi fissi
       titleCenter: true
     type: FeaturesSection
