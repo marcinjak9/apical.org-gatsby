@@ -33,7 +33,12 @@ sections:
             Scegli le esperienze più straordinarie sul territorio e costruisci
             il tuo pacchetto prenotazione con la tua accomodation
           image: ✍️
-          title: CREA
+          title: CREARE
+        - body: >-
+            Decidi se vendere un pacchetto completo accomodation+esperienze o
+            aggiungi le offerte alle piattaforme di booking migliori
+          image: "\U0001F4BB"
+          title: GESTIRE
       greyBg: true
       title: Come funziona Apical
       titleCenter: true
