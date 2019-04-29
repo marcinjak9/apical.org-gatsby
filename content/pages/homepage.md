@@ -155,6 +155,11 @@ sections:
       cta:
         link: '#onboarding'
         text: Unisciti
+      testimonials:
+        - body: Lorem ipsum
+          company: Lorem ipsum
+          image: 'https://ucarecdn.com/b8a6c546-ab29-424a-adb7-df0275686abb/'
+          name: Mario Rossi
       title: Cosa dicono di noi i nostri partner
     type: TestimonialsSection
   - props:
