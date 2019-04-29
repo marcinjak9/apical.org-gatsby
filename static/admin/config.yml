@@ -440,6 +440,13 @@ collections:
                   - { label: Subtitle, name: subtitle, widget: text, required: false }
                   - { label: "Grey Bg", name: "greyBg", widget: "boolean", required: false }
                   - { label: "Title Center", name: "titleCenter", widget: "boolean", required: false }
+                  - label: "Members"
+                    name: "members"
+                    widget: "relation"
+                    collection: "teamNew"
+                    searchFields: ["title"]
+                    valueField: "title"
+                    displayFields: ["role", "body", "image"]
 
           - label: Features
             name: FeaturesSection
