@@ -127,12 +127,13 @@ collections:
           - {label: Body, name: body, widget: text }
           - {label: Pro, name: pro, widget: boolean, required: false }
     
-  - name: Team New
+  - name: teamNew
     label: teamNew
     folder: "content/team"
     create: true
     fields:
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "team-entity" }
+      - { name: id, widget: hidden, default: "{{uuid}}" }
       - {label: Name, name: title, widget: string }
       - {label: Role, name: role, widget: string }
       - {label: Body, name: body, widget: text }
@@ -444,9 +445,10 @@ collections:
                     name: "members"
                     widget: "relation"
                     collection: "teamNew"
-                    searchFields: ["title", "role"]
+                    searchFields: ["title"]
                     valueField: "title"
-                    displayFields: ["title"]
+                    multiple: true
+                    displayFields: ["title", "role"]
 
           - label: Features
             name: FeaturesSection
