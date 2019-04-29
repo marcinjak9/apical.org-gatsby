@@ -29,6 +29,11 @@ sections:
       title: Mission
     type: WhatWeDo
   - props:
+      Members:
+        - body: asdasd
+          image: 'https://ucarecdn.com/ee432236-e03d-4966-9d41-be5c17a3c1db/'
+          name: Lorem iusas
+          role: asdas
       title: Conosci il team
       titleCenter: true
     type: TeamSection
