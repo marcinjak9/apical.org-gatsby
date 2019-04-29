@@ -95,5 +95,15 @@ sections:
           name: Giulia
       title: Come lo usano i nostri partner
     type: TestimonialsSection
+  - children: >-
+      Sei un tour operator o un travel planner? Apical ti offre tutti gli
+      strumenti necessari per la tua attività 
+    props:
+      cta:
+        link: /home
+        text: Scopri Apical
+        title: Sei un tour op
+      greyBg: true
+    type: Quote
 ---
 
