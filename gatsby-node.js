@@ -52,15 +52,16 @@ exports.createPages = ({ actions, graphql }) => {
     postOrPage.forEach((edge) => {
       let component
       let pathName
-      console.log(edge.node)
+
       if (edge.node.frontmatter.slug) {
+        const slug = edge.node.frontmatter.slug.trim().replace(' ', '')
         if (
           edge.node.frontmatter.slug === 'home'
           || edge.node.frontmatter.slug === 'homepage'
         ) {
           pathName = '/'
         } else {
-          pathName = `/${edge.node.frontmatter.slug}`
+          pathName = `/${slug}`
         }
         // component = path.resolve(`src/pages/index.js`);
       } else {
