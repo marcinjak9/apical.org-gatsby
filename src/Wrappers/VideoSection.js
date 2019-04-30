@@ -1,15 +1,15 @@
-import React from 'react';
-import SectionContainer from '../components/SectionContainer';
-import { Row, Column } from '../components/Global';
+import React from 'react'
+import SectionContainer from '../components/SectionContainer'
+import { Row, Column } from '../components/Global'
 
 const VideoSection = props => (
   <SectionContainer {...props}>
     <Row>
-      <Column size={8} offset={3}>
+      <Column size={12}>
         <iframe
           title="Apical Video"
           width="100%"
-          height="400"
+          height="500"
           src="https://www.youtube.com/embed/zLvyl6-s5Tw"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -23,6 +23,6 @@ const VideoSection = props => (
       </Column>
     </Row>
   </SectionContainer>
-);
+)
 
-export default VideoSection;
+export default VideoSection
