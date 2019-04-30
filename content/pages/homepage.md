@@ -15,10 +15,12 @@ sections:
         Apical è la piattaforma digitale che ti permette di aumentare del 30% le
         vendite e risparmiare fino all'80% del tempo
       image: 'https://ucarecdn.com/9b238552-e3cc-4ccd-b8d2-51d36e226328/'
-      title: Esperienze.com
+      title: Organizza e vendi online
       typings:
-        - prova
-        - ciao
+        - i tuoi viaggi
+        - le tue esperienze
+        - i tuoi festival
+        - i tuoi retreats
     type: HomeHero
   - props:
       body: >-
@@ -156,26 +158,27 @@ sections:
         link: '#onboarding'
         text: Unisciti
       testimonials:
-        - body: >+
+        - body: >
             Il nostro progetto cresce molto velocemente, senza Apical sarebbe
-            impossibile gestire la burocrazia che ogni booking produce e offrire al
-            cliente un’esperienza di prenotazione confortevole e sicura  
+            impossibile gestire la burocrazia che ogni booking produce e offrire
+            al cliente un’esperienza di prenotazione confortevole e sicura  
           company: Surfweek
           image: 'https://ucarecdn.com/39843746-bd43-4b97-b06c-e181a87012b4/'
           name: Federico Finotto
         - body: >+
-            Volevamo da sempre spingere il nostro pubblico a vivere Genova e non solo
-            il Festival. Grazie ad Apical collaborare con musei, ostelli e iniziative
-            locali è diventato facile, ora il Festival si è trasformato in
-            un’esperienza completa
+            Volevamo da sempre spingere il nostro pubblico a vivere Genova e non
+            solo il Festival. Grazie ad Apical collaborare con musei, ostelli e
+            iniziative locali è diventato facile, ora il Festival si è
+            trasformato in un’esperienza completa
 
           company: ElectroPark Festival
           image: 'https://ucarecdn.com/07034353-4c39-4bed-83e8-12d08b6a389c/'
           name: Alessandro Mazzone
-        - body: >+
-            Per noi è fondamentale permettere agli ospiti di aggiungere skipass, cene
-            e attività ai loro pacchetti. Con Apical è diventato tutto molto semplice
-            e finalmente anche noi abbiamo iniziato a vendere online.
+        - body: >
+            Per noi è fondamentale permettere agli ospiti di aggiungere skipass,
+            cene e attività ai loro pacchetti. Con Apical è diventato tutto
+            molto semplice e finalmente anche noi abbiamo iniziato a vendere
+            online.
           company: Snow Week
           image: 'https://ucarecdn.com/aa6d20d5-f28e-445d-9f3d-7e11714c1347/'
           name: Roberto Malossi
