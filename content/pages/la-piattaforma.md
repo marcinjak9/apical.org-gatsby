@@ -23,7 +23,7 @@ sections:
     type: WhatWeDo
   - props:
       title: 'Apical in 3 minuti '
-      videoUrl: '"https://www.youtube.com/embed/zLvyl6-s5Tw'
+      videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
     type: VideoSection
   - props:
       greyBg: true
