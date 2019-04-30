@@ -22,6 +22,10 @@ sections:
       title: Cos'è Apical
     type: WhatWeDo
   - props:
+      title: 'Apical in 3 minuti '
+      videoUrl: '"https://www.youtube.com/embed/zLvyl6-s5Tw'
+    type: VideoSection
+  - props:
       greyBg: true
       slides:
         - body: >-
@@ -93,73 +97,113 @@ sections:
   - props:
       features:
         - body: >-
-            Abbiamo creato un pacchetto di strumenti dedicato ai Creator che vogliono crescere, aumentare le vendite e migliorare la comunicazione con i propri clienti acquisiti. Puoi ottenere tutte le funzionalità scegliendo il piano Pro o Pro Suite
+            Abbiamo creato un pacchetto di strumenti dedicato ai Creator che
+            vogliono crescere, aumentare le vendite e migliorare la
+            comunicazione con i propri clienti acquisiti. Puoi ottenere tutte le
+            funzionalità scegliendo il piano Pro o Pro Suite
           items:
-            - icon: 📇
+            - body: >-
+                Sfrutta l’integrazione con HubSpot, il CRM gratuito più diffuso
+                al mondo, per rendere perfetto il flusso di comunicazione con i
+                tuoi clienti
+              icon: "\U0001F4C7"
+              pro: false
               title: CRM
-              body: 'Sfrutta l’integrazione con HubSpot, il CRM gratuito più diffuso al mondo, per rendere perfetto il flusso di comunicazione con i tuoi clienti'
+            - body: >-
+                Visualizza tutti i dati delle tue campagne marketing in modo
+                semplice e completo per migliorare le tue decisioni e
+                raggiungere i tuoi obiettivi di vendita
+              icon: "\U0001F4CA"
               pro: false
-
-            - icon: 📊
               title: Metriche Full
-              body: 'Visualizza tutti i dati delle tue campagne marketing in modo semplice e completo per migliorare le tue decisioni e raggiungere i tuoi obiettivi di vendita'
+            - body: >-
+                Rendi Apical parte del tuo funnel di acquisizione inserendo
+                Facebook Pixel e Google Tag Manager, monitora la tue conversioni
+                per ogni prodotto
+              icon: "\U0001F6E3"
               pro: false
-
-            - icon: 🛣
               title: Integrazione Pixel
-              body: Rendi Apical parte del tuo funnel di acquisizione inserendo Facebook Pixel e Google Tag Manager, monitora la tue conversioni per ogni prodotto
-              pro: false 
-
-            - icon: 🏷
+            - body: >-
+                Crea offerte dedicate. Genera codici sconto “usa e getta” e
+                distribuiscili ad utenti specifici o interi gruppi
+              icon: "\U0001F3F7"
+              pro: false
               title: Coupon
-              body: Crea offerte dedicate. Genera codici sconto “usa e getta” e distribuiscili ad utenti specifici o interi gruppi
+            - body: >-
+                Pubblica il tuo store, proteggilo con una password e riserva
+                l’accesso a chi vuoi. Sfrutta questa funzione per premiare i
+                tuoi clienti fedeli e aprire le vendite prima a loro e poi al
+                pubblico
+              icon: "\U0001F60E"
               pro: false
-            
-            - icon: 😎
               title: Private Sales
-              body: Pubblica il tuo store, proteggilo con una password e riserva l’accesso a chi vuoi. Sfrutta questa funzione per premiare i tuoi clienti fedeli e aprire le vendite prima a loro e poi al pubblico
+            - body: >-
+                Apical si integra con slack e lo trasforma in un centro
+                notifiche che avverte ad ogni prenotazione o da cui si puo
+                gestire comodamente l'assistenza in chat al cliente
+              icon: "\U0001F4AC"
               pro: false
-
-            - icon: 💬
-              title: Apical + slack 
-              body: Apical si integra con slack e lo trasforma in un centro notifiche che avverte ad ogni prenotazione o da cui si puo gestire comodamente l'assistenza in chat al cliente
-              pro: false
+              title: Apical + slack
           title: Strumenti Marketing
         - body: >-
-            Un pacchetto dedicato alle aziende e ai team che hanno bisogno di semplificare i processi amministrativi e il lavoro in gruppo per crescere senza doversi preoccupare della burocrazia. Puoi ottenere tutte le funzionalità scegliendo il piano Pro Suite
+            Un pacchetto dedicato alle aziende e ai team che hanno bisogno di
+            semplificare i processi amministrativi e il lavoro in gruppo per
+            crescere senza doversi preoccupare della burocrazia. Puoi ottenere
+            tutte le funzionalità scegliendo il piano Pro Suite
           items:
-            - icon: 📄
+            - body: >-
+                Sfrutta l’integrazione con Fatture In Cloud, il servizio di
+                fatturazione elettronica più diffuso in Italia. Crea e invia
+                fatture elettroniche automaticamente, ogni volta che un utente
+                acquista. Organizza le tue fatture di attivo direttamente in
+                Fatture in Cloud insieme alle tue fatture di passivo e condividi
+                tutto con il tuo commercialista in modo semplice.
+              icon: "\U0001F4C4"
+              pro: false
               title: Fatturazione Elettronica
-              body: Sfrutta l’integrazione con Fatture In Cloud, il servizio di fatturazione elettronica più diffuso in Italia. Crea e invia fatture elettroniche automaticamente, ogni volta che un utente acquista. Organizza le tue fatture di attivo direttamente in Fatture in Cloud insieme alle tue fatture di passivo e condividi tutto con il tuo commercialista in modo semplice.
+            - body: >-
+                Genera le polizze assicurative per i tuoi clienti travel in modo
+                automatico ogni volta che vuoi, con la compagnia assicurativa
+                che preferisci. Non perdere più un solo minuto per raccogliere e
+                organizzare i dati necessari
+              icon: "\U0001F198"
               pro: false
-
-            - icon: 🆘
               title: Polizze assicurative automatiche
-              body: 'Genera le polizze assicurative per i tuoi clienti travel in modo automatico ogni volta che vuoi, con la compagnia assicurativa che preferisci. Non perdere più un solo minuto per raccogliere e organizzare i dati necessari'
-              pro: false 
-
-            - icon: 📑
+            - body: >-
+                Ad ogni ordine corrisponde un contratto di viaggio, lascialo
+                fare alla piattaforma, controllalo, invialo e permetti al tuo
+                cliente di firmare in digitale. Risparmia tempo prezioso
+              icon: "\U0001F4D1"
+              pro: false
               title: Contratti automatici
-              body: 'Ad ogni ordine corrisponde un contratto di viaggio, lascialo fare alla piattaforma, controllalo, invialo e permetti al tuo cliente di firmare in digitale. Risparmia tempo prezioso'
+            - body: >-
+                Componi le Lettere di Convocazione quando vuoi, in un click.
+                Personalizzale con le informazioni o note che ritieni opportuno
+                aggiungere e inviale a tutti in modo automatico e semplice.
+              icon: ✉️
               pro: false
-
-            - icon: ✉️
               title: Lettere di Convocazione
-              body: 'Componi le Lettere di Convocazione quando vuoi, in un click. Personalizzale con le informazioni o note che ritieni opportuno aggiungere e inviale a tutti in modo automatico e semplice.'
-              pro: false
           title: Strumenti Amministrazione
         - body: >-
-            Alle aziende e i professionisti che gestiscono offerte molto articolate serve più di uno store e-commerce per accompagnare gli utenti nella ricerca e selezione del loro viaggio ideale. Apical offre due configurazione abbinate ai piani Pro e Pro Suite
+            Alle aziende e i professionisti che gestiscono offerte molto
+            articolate serve più di uno store e-commerce per accompagnare gli
+            utenti nella ricerca e selezione del loro viaggio ideale. Apical
+            offre due configurazione abbinate ai piani Pro e Pro Suite
           items:
-            - icon: 🌗
+            - body: >-
+                Tutti i tuoi prodotti in uno store professionale e dotato di
+                funzionalità avanzate. Un’area di vendita personalizzabile
+                composta da categorie in cui organizzare i viaggi per
+                destinazione, collezione o prezzo.
+              icon: "\U0001F317"
+              pro: false
               title: Full Store
-              body: Tutti i tuoi prodotti in uno store professionale e dotato di funzionalità avanzate. Un’area di vendita personalizzabile composta da categorie in cui organizzare i viaggi per destinazione, collezione o prezzo.
+            - body: >-
+                Le funzionalità del Full Store e la costruzione personalizzata
+                di un intero sito internet nel quale accogliere la tua clientela
+              icon: "\U0001F315"
               pro: false
-
-            - icon: 🌕
               title: Full Site
-              body: 'Le funzionalità del Full Store e la costruzione personalizzata di un intero sito internet nel quale accogliere la tua clientela'
-              pro: false
           title: CMS
       greyBg: true
       title: Le funzionalità aggiuntive della piattaforma
