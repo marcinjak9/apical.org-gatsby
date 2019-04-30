@@ -90,6 +90,7 @@ export const pageQuery = graphql`
           children
           props {
             heroBody
+            typings
             image
             title
             greyBg

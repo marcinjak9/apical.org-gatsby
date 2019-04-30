@@ -4,6 +4,7 @@ import Markdown from 'react-markdown/with-html'
 import Button from '../components/Button'
 import { Container, Row, Column } from '../components/Global'
 import Emoji from '../components/Emoji'
+import TypistLoop from '../components/TypistLoop'
 // import { rawImageLink } from '../components/Image'
 
 const Wrapper = styled.div`
@@ -82,13 +83,22 @@ const renderCta = (cta) => {
 }
 
 const HomeHero = ({
-  image, title, heroBody, cta, colRight, bodyLight,
+  image,
+  title,
+  heroBody,
+  cta,
+  colRight,
+  bodyLight,
+  typings,
 }) => (
   <Wrapper image={image}>
     <Container style={{ zIndex: 2 }}>
       <Row>
         <HeroColumn size="10" bodyLight={bodyLight}>
-          <h1>{title}</h1>
+          <h1>
+            {title}
+            <TypistLoop words={typings} />
+          </h1>
           {/* <p>{heroBody}</p> */}
           <Markdown source={heroBody} escapeHtml={false} />
           {renderCta(cta)}
