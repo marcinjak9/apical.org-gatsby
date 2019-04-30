@@ -105,12 +105,5 @@ sections:
         title: Sei un tour op
       greyBg: true
     type: Quote
-  - props:
-      body: >-
-        La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
-        per permetterci di conoscere la tua realtà e i tuoi bisogni.
-      formId: 0fe5112f-fca2-4067-822b-0af43bba2393
-      title: Entra in Apical
-    type: FormSection
 ---
 
