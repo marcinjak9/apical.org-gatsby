@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import Layout from '../components/Layout'
+import ErrorBoundary from '../components/ErrorBuondary'
 import components from '../componentsMap'
 
 const renderChild = (children) => {
@@ -27,25 +28,31 @@ const renderProps = (props) => {
   return props
 }
 
+const withErrorBoundary = element => React.createElement(ErrorBoundary, {}, element)
+
 const renderElements = (sections, preview) => {
   if (sections) {
     return sections.map((element, index) => {
       if (components[element.type]) {
         if (element.type === 'FormSection') {
-          return React.createElement(
-            ScrollableAnchor,
-            { id: 'onboarding' },
+          return withErrorBoundary(
             React.createElement(
-              components[element.type],
-              { ...renderProps(element.props), key: index, preview },
-              renderChild(element.children),
+              ScrollableAnchor,
+              { id: 'onboarding' },
+              React.createElement(
+                components[element.type],
+                { ...renderProps(element.props), key: index, preview },
+                renderChild(element.children),
+              ),
             ),
           )
         }
-        return React.createElement(
-          components[element.type],
-          { ...renderProps(element.props), key: index, preview },
-          renderChild(element.children),
+        return withErrorBoundary(
+          React.createElement(
+            components[element.type],
+            { ...renderProps(element.props), key: index, preview },
+            renderChild(element.children),
+          ),
         )
       }
       return null
