@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   # repo: marcinjak9/apical.org-gatsby
-  branch: master
+  branch: esperienze
   # name: test-repo
 media_folder: static/images
 media_library:

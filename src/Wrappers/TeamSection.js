@@ -8,16 +8,17 @@ const TeamSection = (props) => {
   return (
     <SectionContainer {...props}>
       <Row>
-        {Members.map((m, i) => (
-          <Column size="6" key={i}>
-            <TeamCard
-              title={m.name}
-              subtitle={m.role}
-              body={m.body}
-              image={m.image}
-            />
-          </Column>
-        ))}
+        {Members
+          && Members.map((m, i) => (
+            <Column size="6" key={i}>
+              <TeamCard
+                title={m.name}
+                subtitle={m.role}
+                body={m.body}
+                image={m.image}
+              />
+            </Column>
+          ))}
       </Row>
     </SectionContainer>
   )
