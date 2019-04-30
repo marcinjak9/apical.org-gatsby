@@ -27,10 +27,11 @@ class RestartingTypist extends React.Component {
         }}
         avgTypingDelay={30}
       >
-        {words.map(word => [
-          <span>{word}</span>,
-          <Typist.Backspace count={word.length} delay={500} />,
-        ])}
+        {words
+          && words.map(word => [
+            <span>{word}</span>,
+            <Typist.Backspace count={word.length} delay={500} />,
+          ])}
       </StyledTypist>
     )
   }
