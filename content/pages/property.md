@@ -41,15 +41,15 @@ sections:
           image: "\U0001F4BB"
           title: GESTIRE
         - body: >-
-            Il cliente acquista il prodotto o lo prenota dalla tua dashboard e
-            ti permette di fare upselling sulla tua offerta
-          image: "\U0001F4E6"
-          title: 'VENDERE '
-        - body: >-
             I dati di prenotazioni e pagamenti in un'unica piattaforma. Gestisci
             più facilmente i tuoi clienti, le comunicazioni e le fatture
           image: "\U0001F4A1"
           title: ORGANIZZARE
+        - body: >-
+            Il cliente acquista il prodotto o lo prenota dalla tua dashboard e
+            ti permette di fare upselling sulla tua offerta
+          image: "\U0001F4E6"
+          title: 'VENDERE '
       cta:
         link: '#onboarding'
         text: Crea la tua prima esperienza
@@ -147,5 +147,15 @@ sections:
         title: Sei un tour op
       greyBg: true
     type: Quote
+  - props:
+      columns:
+        - body: ''
+          title: "\U0001F3E0 Affitta la tua accomodation"
+        - title: ⛵️ Aggiungi esperienze in upselling
+        - title: "\U0001F6D2 Gestisci la tua vetrina"
+        - {}
+    title: 'Con Apical puoi costruire la tua offerta modulabile '
+    titleCenter: true
+    type: WelcomeSteps
 ---
 
