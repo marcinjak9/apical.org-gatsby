@@ -106,16 +106,20 @@ class OnboardingForm extends React.Component {
       }
     })
 
-    const legalConsentOptions = {
-      consent: {
-        consentToProcess: this.state.legal.process,
-        text: gdpr.processingConsentCheckboxLabel,
-        communications: this.state.legal.communications,
-      },
-    }
+    let legalConsentOptions
 
-    if (!legalConsentOptions.consent.consentToProcess) {
-      return this.setState(ps => ({ legal: { ...ps.legal, error: true } }))
+    if (gdpr && this.state.legal.process.length !== 0) {
+      legalConsentOptions = {
+        consent: {
+          consentToProcess: this.state.legal.process,
+          text: gdpr.processingConsentCheckboxLabel,
+          communications: this.state.legal.communications,
+        },
+      }
+
+      if (!legalConsentOptions.consent.consentToProcess) {
+        return this.setState(ps => ({ legal: { ...ps.legal, error: true } }))
+      }
     }
 
     if (!isNotEmpty) {
@@ -132,15 +136,20 @@ class OnboardingForm extends React.Component {
     })
     fields = fields.filter(f => f)
 
-    const body = JSON.stringify({
+    const toSend = {
       submittedAt: Date.now(),
       fields,
-      legalConsentOptions,
       context: {
         pageName: document.title,
         pageUri: window.location.href,
       },
-    })
+    }
+
+    if (legalConsentOptions) {
+      toSend.legalConsentOptions = legalConsentOptions
+    }
+
+    const body = JSON.stringify(toSend)
 
     return fetch(
       `https://api.hsforms.com/submissions/v3/integration/submit/${portal}/${id}`,
@@ -207,13 +216,19 @@ class OnboardingForm extends React.Component {
       form: { metaData },
     } = this.props
     const gdpr = metaData.find(m => m.name === 'legalConsentOptions')
-    const data = JSON.parse(gdpr.value)
-    return data
+    if (gdpr) {
+      const data = JSON.parse(gdpr.value)
+      return data
+    }
+    return null
   }
 
   renderGdpr = () => {
     const data = this.getGdpr()
     const { legal } = this.state
+    if (!data) {
+      return null
+    }
     return (
       <>
         <Column size="12">

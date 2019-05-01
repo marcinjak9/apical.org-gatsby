@@ -97,7 +97,7 @@ const HomeHero = ({
         <HeroColumn size="10" bodyLight={bodyLight}>
           <h1>
             {title}
-            <TypistLoop words={typings} />
+            {/* <TypistLoop words={typings} /> */}
           </h1>
           {/* <p>{heroBody}</p> */}
           <Markdown source={heroBody} escapeHtml={false} />

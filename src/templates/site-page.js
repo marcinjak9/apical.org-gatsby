@@ -37,7 +37,7 @@ const renderElements = (sections, preview) => {
         if (element.type === 'FormSection') {
           return withErrorBoundary(
             React.createElement(
-              ScrollableAnchor,
+              'div',
               { id: 'onboarding' },
               React.createElement(
                 components[element.type],
