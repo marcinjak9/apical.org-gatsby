@@ -18,6 +18,9 @@ class RestartingTypist extends React.Component {
   render() {
     const { words } = this.props
     const { typistIndex } = this.state
+    if (!words || words.length === 0) {
+      return null
+    }
     return (
       <StyledTypist
         key={typistIndex}
