@@ -10,46 +10,52 @@ sections:
         text: Iscriviti gratuitamente
       heroBody: >-
         Apical è la piattaforma digitale che ti permette di proporre ai tuoi
-        clienti esperienze sul territorio facendo upselling sui tuoi prodotti
+        clienti esperienze, servizi, transfer e molto altro facendo upselling
+        sui tuoi letti.
       image: 'https://ucarecdn.com/20632fe2-b019-4189-a8d0-07fda5dce1d3/'
-      title: Vendi online le migliori esperienze ai tuoi clienti
+      title: Vendi (solo) hotel e case vacanza?
     type: HomeHero
   - props:
       body: >-
-        Apical è la piattaforma digitale in grado di fornire tutti gli strumenti
-        necessari per il settore travel. Con Apical puoi organizzare e vendere
-        ancora più attività ed esperienze ai tuoi clienti oltre ad offrire le
-        tue accomodation. Puoi integrare l’offerta alle piattaforme di booking
-        più famose o gestire tutto in un unico ambiente. Scegli le attività
-        migliori, le carichi online, le mostri ai tuoi ospiti e guadagni subito
+        Apri subito il tuo negozio online dedicato e inizia a ricevere pagamenti
+        on-line in modo sicuro e semplice. Decidi se riservare un allotment
+        delle tue camere o se vendere solo servizi e attività extra. Con Apical
+        puoi creare più valore per i tuoi ospiti, distinguerti dai tuoi
+        concorrenti, aumentare i ricavi e diminuire dell’80% il tempo che
+        dedichi alla burocrazia 
       cta:
         link: '#onboarding'
         text: Inizia subito
       greyBg: false
-      title: 'Cos''è Apical '
+      title: Cosa ottieni con Apical
     type: WhatWeDo
   - props:
       cards:
         - body: >-
-            Scegli le esperienze più straordinarie sul territorio e costruisci
-            il tuo pacchetto prenotazione con la tua accomodation
-          image: ✍️
-          title: CREARE
+            Avere un negozio online tuo oggi è molto importante. Per esempio lo
+            puoi condividere con i tuoi clienti storici e risparmiare il 65%
+            sulle commissioni che paghi abitualmente
+          image: "\U0001F947"
+          title: Camere + servizi
         - body: >-
-            Decidi se vendere un pacchetto completo accomodation + esperienze o
-            aggiungi le offerte alle piattaforme di booking migliori
-          image: "\U0001F4BB"
-          title: GESTIRE
+            Gestisci solo activities e servizi in Apical e ogni volta che ricevi
+            una prenotazione per una camera o una casa vacanza da altro sito
+            invierai una mail al cliente proponendondogli di personalizzare la
+            propria esperienza con attività e servizi in loco
+          image: "\U0001F98A"
+          title: Fai up selling!
         - body: >-
-            I dati di prenotazioni e pagamenti in un'unica piattaforma. Gestisci
-            più facilmente i tuoi clienti, le comunicazioni e le fatture
+            Quando accogli i tuoi ospiti consegna loro l'indirizzo web del tuo
+            negozio Apical e proponigli di personalizzare la propria esperienza
+            on-the-go
           image: "\U0001F4A1"
-          title: ORGANIZZARE
+          title: Vendi sul posto
         - body: >-
-            Il cliente acquista il prodotto o lo prenota dalla tua dashboard e
-            ti permette di fare upselling sulla tua offerta
-          image: "\U0001F4E6"
-          title: 'VENDERE '
+            Con Apaical può gestire gli inventari di ogni singola attività,
+            servizio o camera in tempo reale e ricevi i pagamenti come tu
+            preferisci, senza rischi 
+          image: "\U0001F511"
+          title: Mai in overbooking + Incassi subito
       cta:
         link: '#onboarding'
         text: Crea la tua prima esperienza
