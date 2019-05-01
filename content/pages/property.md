@@ -28,6 +28,30 @@ sections:
       title: 'Cos''è Apical '
     type: WhatWeDo
   - props:
+      cards:
+        - body: >-
+            Scegli le esperienze più straordinarie sul territorio e costruisci
+            il tuo pacchetto prenotazione con la tua accomodation
+          image: ✍️
+          title: CREARE
+        - body: >-
+            Decidi se vendere un pacchetto completo accomodation + esperienze o
+            aggiungi le offerte alle piattaforme di booking migliori
+          image: "\U0001F4BB"
+          title: GESTIRE
+        - body: >-
+            Il cliente acquista il prodotto o lo prenota dalla tua dashboard e
+            ti permette di fare upselling sulla tua offerta
+          image: "\U0001F4E6"
+          title: 'VENDERE '
+      cta:
+        link: '#onboarding'
+        text: Crea la tua prima esperienza
+      greyBg: true
+      title: Come funziona Apical
+      titleCenter: true
+    type: HowItWorks
+  - props:
       greyBg: true
       slides:
         - body: >-
@@ -61,30 +85,6 @@ sections:
       title: La piattaforma è self-service ed è composta da tre ambienti
       titleCenter: true
     type: Presentation
-  - props:
-      cards:
-        - body: >-
-            Scegli le esperienze più straordinarie sul territorio e costruisci
-            il tuo pacchetto prenotazione con la tua accomodation
-          image: ✍️
-          title: CREARE
-        - body: >-
-            Decidi se vendere un pacchetto completo accomodation +esperienze o
-            aggiungi le offerte alle piattaforme di booking migliori
-          image: "\U0001F4BB"
-          title: GESTIRE
-        - body: >-
-            Il cliente acquista il prodotto o lo prenota dalla tua dashboard e
-            ti permette di fare upselling sulla tua offerta
-          image: "\U0001F4E6"
-          title: 'VENDERE '
-      cta:
-        link: '#onboarding'
-        text: Crea la tua prima esperienza
-      greyBg: true
-      title: Come funziona Apical
-      titleCenter: true
-    type: HowItWorks
   - props:
       cta:
         link: /features
