@@ -147,7 +147,8 @@ sections:
         title: Sei un tour op
       greyBg: true
     type: Quote
-  - props:
+  - greyBg: true
+    props:
       columns:
         - body: ''
           title: "\U0001F3E0 Affitta la tua accomodation"
@@ -157,5 +158,6 @@ sections:
     title: 'Con Apical puoi costruire la tua offerta modulabile '
     titleCenter: true
     type: WelcomeSteps
+  - type: BlogSection
 ---
 
