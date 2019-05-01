@@ -94,6 +94,7 @@ sections:
       titleCenter: true
     type: FeaturesSection
   - props:
+      greyBg: true
       testimonials:
         - body: >-
             Alessandro è un property manager e affitta alcuni appartamenti in
@@ -117,7 +118,18 @@ sections:
           company: Property Manager
           image: 'https://ucarecdn.com/2697e634-6cce-4ffd-8544-64fc85feecce/'
           name: Giulia
-      title: Come lo usano i nostri partner
+        - body: >-
+            Daria ha un sito dove affitta parte delle sue accomodation. Per
+            gestire l'offerta e i pagamenti usa Apical, che gli permette di
+            avere margini più competitivi rispetto alle grandi platform e un
+            filo diretto con i potenziali clienti. Quando un cliente entra per
+            la prima volta in uno degli appartamenti di Daria trova un aperitivo
+            di benvenuto e una lista di attività consigliate, come i migliori
+            ristoranti, escursioni, visite ai musei. 
+          company: Property Manager
+          image: 'https://ucarecdn.com/bb1a93d3-38ce-45d1-ace8-b7bf4e187eaa/'
+          name: Daria
+      title: Come lo usano i Property Manager
     type: TestimonialsSection
   - children: >-
       Sei un tour operator o un travel planner? Apical ti offre tutti gli
