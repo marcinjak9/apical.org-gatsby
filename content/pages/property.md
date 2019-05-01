@@ -28,10 +28,13 @@ sections:
       title: 'Cos''è Apical '
     type: WhatWeDo
   - props:
+      greyBg: true
       slides:
         - body: >-
-            È visibile solo ai creators e permette di creare prodotti con
-            facilità. 
+            È visibile solo ai Creators e permette di creare prodotti con
+            estrema semplicità, di monitorare le vendite, gestire gli inventari
+            in tempo reale e conoscere i dettagli di ogni ordine e ospite. Tutto
+            ciò che ti serve in un unico tool professionale e immediato.
           image: 'https://ucarecdn.com/47a50cad-43d1-4cea-9f3d-1b02d438702c/'
           title: '1. Dashboard (SLIDE COME IN HOME) '
       title: La piattaforma è self-service ed è composta da tre ambienti
