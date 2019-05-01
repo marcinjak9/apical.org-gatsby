@@ -45,6 +45,11 @@ sections:
             ti permette di fare upselling sulla tua offerta
           image: "\U0001F4E6"
           title: 'VENDERE '
+        - body: >-
+            I dati di prenotazioni e pagamenti in un'unica piattaforma. Gestisci
+            più facilmente i tuoi clienti, le comunicazioni e le fatture
+          image: "\U0001F4A1"
+          title: ORGANIZZARE
       cta:
         link: '#onboarding'
         text: Crea la tua prima esperienza
