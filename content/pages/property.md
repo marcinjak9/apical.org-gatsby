@@ -37,6 +37,27 @@ sections:
             ciò che ti serve in un unico tool professionale e immediato.
           image: 'https://ucarecdn.com/47a50cad-43d1-4cea-9f3d-1b02d438702c/'
           title: '1. Dashboard (SLIDE COME IN HOME) '
+        - body: >-
+            L'e-commerce è composto da due parti, la prima è la vetrina online,
+            dove i Creatori possono organizzare e descrivere l'offerta grazie a
+            una serie di bellissime pagine personalizzate in base alla propria
+            identità e comunicazione.
+          image: 'https://ucarecdn.com/6633b389-4064-4067-8214-22bd8fee02f2/'
+          title: 2.1 Vetrina E-commerce
+        - body: >-
+            La seconda parte è il Configuratore, una pagina in cui gli ospiti
+            possono scegliere ciò che desiderano, comporre la propria esperienza
+            e prenotarla in tempo reale.
+          image: 'https://ucarecdn.com/90c69f93-d6ea-488d-87b5-d45edf218e23/'
+          title: 2.2 E-commerce
+        - body: >-
+            Apical permette all’utente finale di pagare con carta o bonifico
+            online e al Creator di ricevere immediatamente il denaro. L’utente
+            può decidere di rateizzare l’acquisto e aggiungere una donazione al
+            carrello contribuendo a piantare un nuovo albero nelle Apical Forest
+            realizzate in partnership con Treedom.
+          image: 'https://ucarecdn.com/f65baf1a-436f-440e-b492-2396717f157e/'
+          title: 3 Sistema di pagamenti
       title: La piattaforma è self-service ed è composta da tre ambienti
       titleCenter: true
     type: Presentation
