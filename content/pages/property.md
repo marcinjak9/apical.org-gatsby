@@ -51,7 +51,7 @@ sections:
           image: "\U0001F4A1"
           title: Vendi sul posto
         - body: >-
-            Con Apaical può gestire gli inventari di ogni singola attività,
+            Con Apical puoi gestire gli inventari di ogni singola attività,
             servizio o camera in tempo reale e ricevi i pagamenti come tu
             preferisci, senza rischi 
           image: "\U0001F511"
