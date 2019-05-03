@@ -106,7 +106,7 @@ sections:
     type: VideoSection
   - props:
       cta:
-        link: /features
+        link: /platform
         text: Esplora
         title: Scopri tutte le funzionalità di Apical
       features:
@@ -222,7 +222,7 @@ sections:
     type: FormSection
   - props:
       cta:
-        link: /features
+        link: /platform
         text: Scopri la piattaforma
       greyBg: true
       title: Blog

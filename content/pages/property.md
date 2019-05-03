@@ -63,7 +63,7 @@ sections:
     type: HowItWorks
   - props:
       cta:
-        link: /features
+        link: /platform
         text: Scopri di più
       greyBg: false
       title: L’iscrizione ad apical è gratuita e non ha costi fissi

@@ -60,7 +60,6 @@ const renderElements = (sections, preview) => {
   }
   return null
 }
-
 const SitePage = ({
   preview,
   data: {
@@ -69,7 +68,6 @@ const SitePage = ({
     },
   },
 }) => {
-  console.log(process.env.GATSBY_BACKEND_URL)
   if (preview) {
     return (
       // <Layout preview={preview}>

@@ -7,7 +7,7 @@ menuItems:
   - text: Home
     url: /
   - text: La Piattaforma
-    url: /features
+    url: /platform
   - text: About
     url: /about
   - text: Blog

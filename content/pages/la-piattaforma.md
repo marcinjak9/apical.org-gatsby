@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
 title: La piattaforma
-slug: features
+slug: platform
 type: page
 sections:
   - props:

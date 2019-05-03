@@ -20,12 +20,12 @@
 // // import RestartingTypist from './components/TypistLoop'
 
 import {
-  HomeHero,
+  // HomeHero,
   WhatWeDo,
   TestimonialsSection,
   BlogSection,
   HowItWorks,
-  // Presentation,
+  Presentation,
   Features,
   Cta,
   SpecialFeatures,
@@ -37,11 +37,11 @@ import {
   SimpleHero,
   FeaturesTabs,
   ToolsCards,
-  // PrcingSection,
+  PricingSection,
 } from 'apical-components'
 
-import Presentation from './Wrappers/Presentation'
-import PricingSection from './Wrappers/PricingSection'
+import HomeHero from './Wrappers/HomeHero'
+// import PricingSection from './Wrappers/PricingSection'
 
 export default {
   HomeHero,

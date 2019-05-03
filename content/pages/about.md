@@ -23,7 +23,7 @@ sections:
         eventi, coinvolgendo inoltre il pubblico in attività ad impatto sociale
         o ambientale positivo.
       cta:
-        link: features
+        link: /platform
         text: Scopri le funzionalità
       greyBg: true
       title: Mission

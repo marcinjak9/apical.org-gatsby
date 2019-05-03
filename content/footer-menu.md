@@ -6,7 +6,7 @@ menuItems:
   - text: About
     url: /about
   - text: La Piattaforma
-    url: /features
+    url: /platform
   - text: Blog
     url: 'https://journal.apical.org'
   - text: Privacy Policy

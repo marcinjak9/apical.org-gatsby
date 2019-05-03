@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import Markdown from 'react-markdown/with-html'
-import Button from '../components/Button'
-import { Container, Row, Column } from '../components/Global'
-import Emoji from '../components/Emoji'
-import TypistLoop from '../components/TypistLoop'
+import { Button, Container, Row, Column, Emoji, TypistLoop } from 'apical-components'
+// import Button from '../components/Button'
+// import { Container, Row, Column } from '../components/Global'
+// import Emoji from '../components/Emoji'
+// import TypistLoop from '../components/TypistLoop'
 // import { rawImageLink } from '../components/Image'
 
 const Wrapper = styled.div`
@@ -97,7 +98,7 @@ const HomeHero = ({
         <HeroColumn size="10" bodyLight={bodyLight}>
           <h1>
             {title}
-            <TypistLoop words={typings} />
+            {(typings && typings.length > 0) && <TypistLoop words={typings} />}
           </h1>
           {/* <p>{heroBody}</p> */}
           <Markdown source={heroBody} escapeHtml={false} />
