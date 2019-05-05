@@ -228,5 +228,17 @@ sections:
       title: Blog
       titleCenter: true
     type: BlogSection
+  - props:
+      creators:
+        - body: Lorem ipsum dolor set
+          excerpt: Lorem ipsum
+          image: 'https://ucarecdn.com/de673094-63fc-4d01-944a-cd00179e30a9/'
+          name: John doe
+          tag: Ipsum
+          tagline: Lorem
+          url: /
+      subtitle: Lorem ipsum dolor set
+      title: Hello world
+    type: DiscoverListing
 ---
 
