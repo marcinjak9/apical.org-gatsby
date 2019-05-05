@@ -60,27 +60,55 @@ const renderElements = (sections, preview) => {
   }
   return null
 }
-const SitePage = ({
-  preview,
-  data: {
-    markdownRemark: {
-      frontmatter: { sections },
-    },
-  },
-}) => {
-  if (preview) {
+class SitePage extends React.Component {
+  componentDidMount() {
+    console.log('render')
+  }
+
+  render() {
+    const {
+      preview,
+      data: {
+        markdownRemark: {
+          frontmatter: { sections },
+        },
+      },
+    } = this.props
+    if (preview) {
+      return (
+        // <Layout preview={preview}>
+        <main>{renderElements(sections, preview)}</main>
+        // </Layout>
+      )
+    }
     return (
-      // <Layout preview={preview}>
-      <main>{renderElements(sections, preview)}</main>
-      // </Layout>
+      <Layout preview={preview}>
+        <main>{renderElements(sections, preview)}</main>
+      </Layout>
     )
   }
-  return (
-    <Layout preview={preview}>
-      <main>{renderElements(sections, preview)}</main>
-    </Layout>
-  )
 }
+// const SitePage = ({
+//   preview,
+//   data: {
+//     markdownRemark: {
+//       frontmatter: { sections },
+//     },
+//   },
+// }) => {
+//   if (preview) {
+//     return (
+//       // <Layout preview={preview}>
+//       <main>{renderElements(sections, preview)}</main>
+//       // </Layout>
+//     )
+//   }
+//   return (
+//     <Layout preview={preview}>
+//       <main>{renderElements(sections, preview)}</main>
+//     </Layout>
+//   )
+// }
 
 export default SitePage
 
@@ -156,6 +184,15 @@ export const pageQuery = graphql`
               company
               image
               name
+            }
+            creators {
+              image
+              name
+              body
+              excerpt
+              tagline
+              tag
+              url
             }
             tabs {
               commission

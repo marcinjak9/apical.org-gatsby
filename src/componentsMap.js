@@ -17,7 +17,10 @@ import {
   FeaturesTabs,
   ToolsCards,
   PricingSection,
+  // DiscoverListing
 } from 'apical-components'
+
+import DiscoverListing from './components/DiscoverListing'
 
 export default {
   HomeHero,
@@ -41,4 +44,5 @@ export default {
   FeaturesTabs,
   ToolsCards,
   PricingSection,
+  DiscoverListing,
 }

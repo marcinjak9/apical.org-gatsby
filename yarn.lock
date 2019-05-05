@@ -1534,10 +1534,10 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-apical-components@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/apical-components/-/apical-components-1.0.2.tgz#6e6b1103db35baed5f511bb2d4749522908d6d70"
-  integrity sha512-oDk3FnYmlIz5eeDwzSEAP2ERkol0WZV578MZXb45LtivNVNVQaoPHHeiKv/t/+CA/kbxHRBzzCzKHYbz8l1ttw==
+apical-components@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/apical-components/-/apical-components-1.0.5.tgz#7da6702cd44f3c4ee35a19f733fac4e5f359172f"
+  integrity sha512-GEDYTrvgTqVJbiaH2SLSQG16gwmZ91WL5t6sFdKfzUzFFAwUtrc8LrsejZbSoFPhAgCDQq7uwMlmigoGlQeqXQ==
   dependencies:
     "@emotion/core" "^10.0.10"
     "@emotion/styled" "^10.0.10"

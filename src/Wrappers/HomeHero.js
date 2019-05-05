@@ -91,32 +91,35 @@ const HomeHero = ({
   colRight,
   bodyLight,
   typings,
-}) => (
-  <Wrapper image={image}>
-    <Container style={{ zIndex: 2 }}>
-      <Row>
-        <HeroColumn size="10" bodyLight={bodyLight}>
-          <h1>
-            {title}
-            {(typings && typings.length > 0) && <TypistLoop words={typings} />}
-          </h1>
-          {/* <p>{heroBody}</p> */}
-          <Markdown source={heroBody} escapeHtml={false} />
-          {renderCta(cta)}
-        </HeroColumn>
-        {colRight && (
-          <Column
-            size="6"
-            className="d-flex justify-content-center align-items-center"
-          >
-            <span className="emoji" role="img">
-              <Emoji emoji={colRight} size={5} />
-            </span>
-          </Column>
-        )}
-      </Row>
-    </Container>
-  </Wrapper>
-)
+}) => {
+  console.log('update')
+  return (
+    <Wrapper image={image}>
+      <Container style={{ zIndex: 2 }}>
+        <Row>
+          <HeroColumn size="10" bodyLight={bodyLight}>
+            <h1>
+              {title}
+              {/* {(typings && typings.length > 0) && <TypistLoop words={typings} />} */}
+            </h1>
+            {/* <p>{heroBody}</p> */}
+            <Markdown source={heroBody} escapeHtml={false} />
+            {renderCta(cta)}
+          </HeroColumn>
+          {colRight && (
+            <Column
+              size="6"
+              className="d-flex justify-content-center align-items-center"
+            >
+              <span className="emoji" role="img">
+                <Emoji emoji={colRight} size={5} />
+              </span>
+            </Column>
+          )}
+        </Row>
+      </Container>
+    </Wrapper>
+  )
+}
 
 export default HomeHero
