@@ -15,6 +15,9 @@ sections:
     type: SimpleHero
   - props:
       body: >
+        Cerchiamo creatori di esperienze e di luoghi non convenzionali.
+
+
         La nostra mission è trovarne e selezionarne 100 in tutto, metterli in
         rete all’interno di una community per farne decollare la crescita e
         proporre le loro creazioni al pubblico, attraverso una tecnologia
@@ -29,7 +32,7 @@ sections:
       cta:
         text: Chi cerchiamo
       greyBg: true
-      title: 'Cerchiamo creatori di esperienze e di luoghi non convenzionali. '
+      title: ''
     type: WhatWeDo
   - props:
       greyBg: false
