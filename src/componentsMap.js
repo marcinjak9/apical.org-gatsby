@@ -17,10 +17,10 @@ import {
   FeaturesTabs,
   ToolsCards,
   PricingSection,
-  // DiscoverListing
+  DiscoverListing
 } from 'apical-components'
 
-import DiscoverListing from './components/DiscoverListing'
+// import DiscoverListing from './Wrappers/DiscoverListing'
 
 export default {
   HomeHero,
