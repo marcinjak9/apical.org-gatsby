@@ -10,50 +10,52 @@ sections:
         text: Iscriviti gratuitamente
       heroBody: >-
         Apical è la piattaforma digitale che ti permette di proporre ai tuoi
-        clienti esperienze sul territorio facendo upselling sui tuoi prodotti
+        clienti esperienze, servizi, transfer e molto altro facendo upselling
+        sui tuoi letti.
       image: 'https://ucarecdn.com/20632fe2-b019-4189-a8d0-07fda5dce1d3/'
-      title: Vendi online le migliori esperienze ai tuoi clienti
+      title: Vendi (solo) hotel e case vacanza?
     type: HomeHero
   - props:
       body: >-
-        Apical offre una piattaforma per organizzare e vendere ancora più
-        attività ed esperienze ai tuoi clienti. Puoi integrare l’offerta alle
-        piattaforme di booking più famose o gestire tutto in un unico ambiente.
-        Scegli le attività migliori, le carichi online, le mostri ai tuoi ospiti
-        e guadagni subito
+        Apri subito il tuo negozio online dedicato e inizia a ricevere pagamenti
+        on-line in modo sicuro e semplice. Decidi se riservare un allotment
+        delle tue camere o se vendere solo servizi e attività extra. Con Apical
+        puoi creare più valore per i tuoi ospiti, distinguerti dai tuoi
+        concorrenti, aumentare i ricavi e diminuire dell’80% il tempo che
+        dedichi alla burocrazia 
       cta:
         link: '#onboarding'
         text: Inizia subito
       greyBg: false
-      title: 'Cos''è Apical '
+      title: Cosa ottieni con Apical
     type: WhatWeDo
-  - props:
-      slides:
-        - body: >-
-            È visibile solo ai creators e permette di creare prodotti con
-            facilità. 
-          image: 'https://ucarecdn.com/47a50cad-43d1-4cea-9f3d-1b02d438702c/'
-          title: '1. Dashboard (SLIDE COME IN HOME) '
-      title: La piattaforma è self-service ed è composta da tre ambienti
-      titleCenter: true
-    type: Presentation
   - props:
       cards:
         - body: >-
-            Scegli le esperienze più straordinarie sul territorio e costruisci
-            il tuo pacchetto prenotazione con la tua accomodation
-          image: ✍️
-          title: CREARE
+            Avere un negozio online tuo oggi è molto importante. Per esempio lo
+            puoi condividere con i tuoi clienti storici e risparmiare il 65%
+            sulle commissioni che paghi abitualmente
+          image: "\U0001F947"
+          title: Camere + servizi
         - body: >-
-            Decidi se vendere un pacchetto completo accomodation +esperienze o
-            aggiungi le offerte alle piattaforme di booking migliori
-          image: "\U0001F4BB"
-          title: GESTIRE
+            Gestisci solo activities e servizi in Apical e ogni volta che ricevi
+            una prenotazione per una camera o una casa vacanza da altro sito
+            invierai una mail al cliente proponendondogli di personalizzare la
+            propria esperienza con attività e servizi in loco
+          image: "\U0001F98A"
+          title: Fai up selling!
         - body: >-
-            Il cliente acquista il prodotto o lo prenota dalla tua dashboard e
-            ti permette di fare upselling sulla tua offerta
-          image: "\U0001F4E6"
-          title: 'VENDERE '
+            Quando accogli i tuoi ospiti consegna loro l'indirizzo web del tuo
+            negozio Apical e proponigli di personalizzare la propria esperienza
+            on-the-go
+          image: "\U0001F4A1"
+          title: Vendi sul posto
+        - body: >-
+            Con Apical puoi gestire gli inventari di ogni singola attività,
+            servizio o camera in tempo reale e ricevi i pagamenti come tu
+            preferisci, senza rischi 
+          image: "\U0001F511"
+          title: Mai in overbooking + Incassi subito
       cta:
         link: '#onboarding'
         text: Crea la tua prima esperienza
@@ -61,6 +63,40 @@ sections:
       title: Come funziona Apical
       titleCenter: true
     type: HowItWorks
+  - props:
+      greyBg: true
+      slides:
+        - body: >-
+            È visibile solo ai Creators e permette di creare prodotti con
+            estrema semplicità, di monitorare le vendite, gestire gli inventari
+            in tempo reale e conoscere i dettagli di ogni ordine e ospite. Tutto
+            ciò che ti serve in un unico tool professionale e immediato.
+          image: 'https://ucarecdn.com/47a50cad-43d1-4cea-9f3d-1b02d438702c/'
+          title: '1. Dashboard '
+        - body: >-
+            L'e-commerce è composto da due parti, la prima è la vetrina online,
+            dove i Creatori possono organizzare e descrivere l'offerta grazie a
+            una serie di bellissime pagine personalizzate in base alla propria
+            identità e comunicazione.
+          image: 'https://ucarecdn.com/6633b389-4064-4067-8214-22bd8fee02f2/'
+          title: 2.1 Vetrina E-commerce
+        - body: >-
+            La seconda parte è il Configuratore, una pagina in cui gli ospiti
+            possono scegliere ciò che desiderano, comporre la propria esperienza
+            e prenotarla in tempo reale.
+          image: 'https://ucarecdn.com/90c69f93-d6ea-488d-87b5-d45edf218e23/'
+          title: 2.2 E-commerce
+        - body: >-
+            Apical permette all’utente finale di pagare con carta o bonifico
+            online e al Creator di ricevere immediatamente il denaro. L’utente
+            può decidere di rateizzare l’acquisto e aggiungere una donazione al
+            carrello contribuendo a piantare un nuovo albero nelle Apical Forest
+            realizzate in partnership con Treedom.
+          image: 'https://ucarecdn.com/f65baf1a-436f-440e-b492-2396717f157e/'
+          title: 3 Sistema di pagamenti
+      title: La piattaforma è self-service ed è composta da tre ambienti
+      titleCenter: true
+    type: Presentation
   - props:
       cta:
         link: /features
@@ -70,6 +106,7 @@ sections:
       titleCenter: true
     type: FeaturesSection
   - props:
+      greyBg: true
       testimonials:
         - body: >-
             Alessandro è un property manager e affitta alcuni appartamenti in
@@ -93,7 +130,18 @@ sections:
           company: Property Manager
           image: 'https://ucarecdn.com/2697e634-6cce-4ffd-8544-64fc85feecce/'
           name: Giulia
-      title: Come lo usano i nostri partner
+        - body: >-
+            Daria ha un sito dove affitta parte delle sue accomodation. Per
+            gestire l'offerta e i pagamenti usa Apical, che gli permette di
+            avere margini più competitivi rispetto alle grandi platform e un
+            filo diretto con i potenziali clienti. Quando un cliente entra per
+            la prima volta in uno degli appartamenti di Daria trova un aperitivo
+            di benvenuto e una lista di attività consigliate, come i migliori
+            ristoranti, escursioni, visite ai musei. 
+          company: Property Manager
+          image: 'https://ucarecdn.com/bb1a93d3-38ce-45d1-ace8-b7bf4e187eaa/'
+          name: Daria
+      title: Come lo usano i Property Manager
     type: TestimonialsSection
   - children: >-
       Sei un tour operator o un travel planner? Apical ti offre tutti gli
@@ -105,10 +153,17 @@ sections:
         title: Sei un tour op
       greyBg: true
     type: Quote
-  - props:
-      body: asdasdeasd
-      formId: 0fe5112f-fca2-4067-822b-0af43bba2393
-      title: assd
-    type: FormSection
+  - greyBg: true
+    props:
+      columns:
+        - body: ''
+          title: "\U0001F3E0 Affitta la tua accomodation"
+        - title: ⛵️ Aggiungi esperienze in upselling
+        - title: "\U0001F6D2 Gestisci la tua vetrina"
+        - {}
+    title: 'Con Apical puoi costruire la tua offerta modulabile '
+    titleCenter: true
+    type: WelcomeSteps
+  - type: BlogSection
 ---
 
