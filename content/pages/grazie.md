@@ -13,9 +13,9 @@ sections:
       title: 'Grazie, ora acquisisci la tua priorità'
     type: SimpleHero
   - children: >-
-      Apical sta ricevendo un enorme volume di richieste, ai più veloci vogliamo
-      dare l'opportunità di iniziare ad usare Apical usufruendo di un'offerta di
-      benvenuto. Riserva la tua demo personalizzata enttro l'11 maggio
+      Apical sta ricevendo un enorme volume di richieste, per garantirti
+      l'accesso riserva ora la tua demo personalizzata, le iscrizioni
+      termineranno l'11 maggio
     props:
       cta:
         link: 'https://meet.apical.org/meetings/demo-60-minuti/30-minuti-demo-apical'
