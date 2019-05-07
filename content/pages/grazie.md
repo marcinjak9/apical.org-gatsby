@@ -13,11 +13,10 @@ sections:
       title: 'Grazie, ora acquisisci la tua priorità'
     type: SimpleHero
   - children: >-
-      Apical sta ricevendo un enorme volume di richieste, ai più veloci vogliamo
-      dare l'opportunità di iniziare ad usare Apical usufruendo di un'offerta di
-      benvenuto che comprende il supporto iniziale gratuito per la creazione del
-      tuo marketplace di viaggi ed esperienze. Puoi riservare a questo link un
-      appuntamento online con me il prima possibile e non oltre l'11 maggio
+      Ci sei quasi! Apical sta ricevendo un enorme volume di richieste, per
+      garantirti l'accesso riserva ora la tua demo personalizzata, le iscrizioni
+      termineranno l'11 maggio per riaprire a giugno con nuove condizioni.
+      Grazie
     props:
       cta:
         link: 'https://meet.apical.org/meetings/demo-60-minuti/30-minuti-demo-apical'
@@ -31,3 +30,4 @@ sections:
       videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
     type: VideoSection
 ---
+
