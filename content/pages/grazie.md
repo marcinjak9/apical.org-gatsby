@@ -10,7 +10,7 @@ sections:
       central: true
       emoji: "\U0001F680"
       image: 'https://ucarecdn.com/7e43971a-41da-4d41-b9b1-0ff44dcb9b29/'
-      title: 'Grazie, ora acquisisci la tua priorità'
+      title: 'Grazie, ora acquisisci la tua priorità '
     type: SimpleHero
   - children: >-
       Apical sta ricevendo un enorme volume di richieste, per garantirti
