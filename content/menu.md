@@ -1,8 +1,8 @@
 ---
 templateKey: menu
-logo: 'https://ucarecdn.com/c2946d5e-55e6-4765-94cd-04365fbe4ff0/'
-mobileLogo: 'https://ucarecdn.com/9014f5a3-40e2-451c-b94e-3ca1029ea3a1/'
-sidebarLogo: 'https://ucarecdn.com/95b7e940-a264-48d1-80db-925c3b786761/'
+logo: 'https://ucarecdn.com/a7073aab-8201-4a52-aa17-ee6b6f2df0be/'
+mobileLogo: 'https://ucarecdn.com/0fb28ba0-2dce-4bb1-9dec-f3e9be360c6a/'
+sidebarLogo: 'https://ucarecdn.com/6db98d5f-5254-4f88-91be-993c482292c1/'
 menuItems:
   - text: Home
     url: /
