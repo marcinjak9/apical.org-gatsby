@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
-title: 'Esperienze '
-slug: 'esperienze  '
+title: 'Esperienze'
+slug: 'home'
 type: page
 sections:
   - props:
@@ -36,6 +36,48 @@ sections:
     type: WhatWeDo
   - props:
       creators:
+        - body: >-
+            Surf Week non è un semplice Tour operator. Surf Week è una community
+            fatta di persone con gli stessi valori basati sul surf, la
+            condivisione, il rispetto per la natura e la voglia di esplorare
+            posti nuovi.
+
+            Potrai scegliere liberamente come passare il tuo tempo; i nostri
+            sono consigli, non vincoli. Tutte le Surf Week inoltre sono
+            esperienze a impatto sociale e ambientale, perché il rispetto
+            dell'ambiente fa parte della nostra cultura.
+          excerpt: >+
+            Surf Week non è un semplice Tour operator. Surf Week è una community
+            fatta di persone con gli stessi valori basati sul surf, la
+            condivisione, il rispetto per la natura e la voglia di esplorare
+            posti nuovi.
+
+          image: 'https://ucarecdn.com/1642817f-a7d7-466a-8990-3211d49ced1b/'
+          name: Surfweek
+          tag: surf
+          tagline: Surfweek for impact
+          url: 'https://www.surfweek.it/'
+        - body: >-
+            Surf Week non è un semplice Tour operator. Surf Week è una community
+            fatta di persone con gli stessi valori basati sul surf, la
+            condivisione, il rispetto per la natura e la voglia di esplorare
+            posti nuovi.
+
+            Potrai scegliere liberamente come passare il tuo tempo; i nostri
+            sono consigli, non vincoli. Tutte le Surf Week inoltre sono
+            esperienze a impatto sociale e ambientale, perché il rispetto
+            dell'ambiente fa parte della nostra cultura.
+          excerpt: >+
+            Surf Week non è un semplice Tour operator. Surf Week è una community
+            fatta di persone con gli stessi valori basati sul surf, la
+            condivisione, il rispetto per la natura e la voglia di esplorare
+            posti nuovi.
+
+          image: 'https://ucarecdn.com/1642817f-a7d7-466a-8990-3211d49ced1b/'
+          name: Surfweek
+          tag: surf
+          tagline: Surfweek for impact
+          url: 'https://www.surfweek.it/'
         - body: >-
             Surf Week non è un semplice Tour operator. Surf Week è una community
             fatta di persone con gli stessi valori basati sul surf, la
