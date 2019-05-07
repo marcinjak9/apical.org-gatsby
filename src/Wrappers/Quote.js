@@ -39,7 +39,7 @@ const Quote = ({ children, cta, greyBg }) => (
     {cta && (
       <Row>
         <Column size="12" textCenter>
-          <Button href={cta.url || cta.link} outline>
+          <Button href={cta.url || cta.link} primary>
             {cta.text}
           </Button>
         </Column>

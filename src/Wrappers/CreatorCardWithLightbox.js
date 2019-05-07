@@ -3,8 +3,6 @@ import Modal from 'react-modal'
 import CreatorCardModal from '../components/CreatorCardModal'
 import CreatorCard from '../components/CreatorCard'
 
-Modal.setAppElement('#___gatsby')
-
 const customStyles = {
   content: {
     top: '50%',
@@ -22,6 +20,12 @@ const customStyles = {
 export default class CreatorCardWithLightBox extends React.Component {
   state = {
     modalIsOpen: false,
+  }
+
+  componentDidMount() {
+    if (document.getElementById('___gatsby')) {
+      Modal.setAppElement('#___gatsby')
+    }
   }
 
   openModal = (e) => {
