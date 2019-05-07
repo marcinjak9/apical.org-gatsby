@@ -10,19 +10,17 @@ sections:
       image: 'https://ucarecdn.com/7e43971a-41da-4d41-b9b1-0ff44dcb9b29/'
       title: 'Grazie, ora acquisisci la tua priorità'
     type: SimpleHero
-  - props:
-      body: >-
-        Apical sta ricevendo un enorme volume di richieste, ai più veloci
-        vogliamo dare l'opportunità di iniziare ad usare Apical usufruendo di
-        un'offerta di benvenuto che comprende il supporto iniziale gratuito per
-        la creazione del tuo marketplace di viaggi ed esperienze. Puoi riservare
-        a questo link un appuntamento online con me il prima possibile e non
-        oltre l'11 maggio
+  - children: >-
+      Apical sta ricevendo un enorme volume di richieste, ai più veloci vogliamo
+      dare l'opportunità di iniziare ad usare Apical usufruendo di un'offerta di
+      benvenuto che comprende il supporto iniziale gratuito per la creazione del
+      tuo marketplace di viaggi ed esperienze. Puoi riservare a questo link un
+      appuntamento online con me il prima possibile e non oltre l'11 maggio
+    props:
       cta:
         link: 'https://meet.apical.org/meetings/demo-60-minuti/30-minuti-demo-apical'
-        text: Prenota demo
-      title: Prenota la tua demo personalizzata
-    type: Cta
+        title: Prenota demo
+    type: Quote
   - props:
       title: Presentazione Apical
       titleCenter: true
