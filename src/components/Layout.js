@@ -7,7 +7,7 @@ import Footer from "./Footer"
 
 import "../styles/index.css"
 
-const Layout = ({ children }) => (
+const Layout = ({ children, hideNav, hideFooter }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -24,9 +24,9 @@ const Layout = ({ children }) => (
           <title>Apical - Crea la tua esperienza</title>
           <meta name="description" content="Happiness is a Movement" />
         </Helmet>
-        <Navigation />
+        {!hideNav && <Navigation />}
         {children}
-        <Footer />
+        {!hideFooter && <Footer />}
       </div>
     )}
   />
