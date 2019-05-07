@@ -8,6 +8,7 @@ import Input from '../components/Input'
 import Button from '../components/Button'
 import Select from '../components/Select'
 import Accordition from '../components/Accordition'
+import Textarea from '../components/TextArea'
 
 const Title = styled.h2`
   font-size: var(--font-title);
@@ -346,6 +347,21 @@ class OnboardingForm extends React.Component {
                     </ContactColumn>
                   )
                 }
+                if (formField.fields[0].fieldType === 'textarea') {
+                  return (
+                    <ContactColumn size="12" bordered key={index}>
+                      <Textarea
+                        placeholder={formField.fields[0].label}
+                        value={this.state[formField.fields[0].name].value}
+                        onChange={val => this.setValue(formField.fields[0].name, val)
+                        }
+                        label={formField.fields[0].label}
+                        required={formField.fields[0].required}
+                        error={this.state[formField.fields[0].name].error}
+                      />
+                    </ContactColumn>
+                  )
+                }
                 if (formField.fields[0].fieldType === 'select') {
                   return (
                     <ContactColumn size="12" bordered key={index}>
@@ -354,7 +370,7 @@ class OnboardingForm extends React.Component {
                         value={this.state[formField.fields[0].name].value}
                         onSelectChange={val => this.setValue(formField.fields[0].name, val)
                         }
-                        placeholder="Chi sei?"
+                        placeholder={formField.fields[0].label}
                         required={formField.fields[0].required}
                         error={this.state[formField.fields[0].name].error}
                       />
