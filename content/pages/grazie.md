@@ -19,6 +19,7 @@ sections:
     props:
       cta:
         link: 'https://meet.apical.org/meetings/demo-60-minuti/30-minuti-demo-apical'
+        text: Prenota demo
         title: Prenota demo
     type: Quote
   - props:
