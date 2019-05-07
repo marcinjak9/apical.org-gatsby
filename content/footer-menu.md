@@ -1,7 +1,7 @@
 ---
 templateKey: footer-menu
-logo: 'https://ucarecdn.com/6150c5ce-288a-4085-9095-a53b3e84911b/'
-mobileLogo: 'https://ucarecdn.com/9cdb61b0-6794-45da-a62c-017e9679bedb/'
+logo: 'https://ucarecdn.com/2ef045a6-42fd-40b3-9437-8892a0f2a7fb/'
+mobileLogo: 'https://ucarecdn.com/77ed1c9d-b236-415f-b46a-188fb961370a/'
 menuItems:
   - text: About
     url: /about
