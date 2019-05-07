@@ -3,6 +3,8 @@ templateKey: site-page
 title: La piattaforma
 slug: features
 type: page
+hideNav: false
+hideFooter: false
 sections:
   - props:
       central: true

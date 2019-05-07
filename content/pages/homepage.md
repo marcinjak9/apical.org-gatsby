@@ -3,6 +3,8 @@ templateKey: site-page
 title: Homepage
 slug: home
 type: page
+hideNav: false
+hideFooter: false
 sections:
   - props:
       cta:

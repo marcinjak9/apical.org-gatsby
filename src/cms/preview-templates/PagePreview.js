@@ -11,7 +11,7 @@ const PagePreview = ({ entry }) => {
   }
   return (
     <StyleInjector>
-      <SitePage data={data} />
+      <SitePage data={data} preview />
     </StyleInjector>
   )
 }

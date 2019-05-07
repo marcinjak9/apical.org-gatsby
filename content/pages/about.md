@@ -3,6 +3,8 @@ templateKey: site-page
 title: About
 slug: about
 type: page
+hideNav: false
+hideFooter: false
 sections:
   - props:
       bodyLight: true

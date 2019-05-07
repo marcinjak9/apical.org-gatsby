@@ -65,7 +65,7 @@ const SitePage = ({
   preview,
   data: {
     markdownRemark: {
-      frontmatter: { sections },
+      frontmatter: { sections, hideNav, hideFooter },
     },
   },
 }) => {
@@ -78,7 +78,7 @@ const SitePage = ({
     )
   }
   return (
-    <Layout preview={preview}>
+    <Layout preview={preview} hideNav={hideNav} hideFooter={hideFooter}>
       <main>{renderElements(sections, preview)}</main>
     </Layout>
   )
@@ -92,6 +92,8 @@ export const pageQuery = graphql`
       frontmatter {
         templateKey
         type
+        hideNav
+        hideFooter
         sections {
           type
           children

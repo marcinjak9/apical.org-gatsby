@@ -3,6 +3,8 @@ templateKey: site-page
 title: Property
 slug: property-manager
 type: page
+hideNav: false
+hideFooter: false
 sections:
   - props:
       cta:
