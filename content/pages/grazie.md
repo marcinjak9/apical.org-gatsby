@@ -21,6 +21,7 @@ sections:
         link: 'https://meet.apical.org/meetings/demo-60-minuti/30-minuti-demo-apical'
         text: Prenota demo
         title: Prenota demo
+      greyBg: true
     type: Quote
   - props:
       title: Presentazione Apical
