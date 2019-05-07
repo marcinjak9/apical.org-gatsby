@@ -3,6 +3,8 @@ templateKey: site-page
 title: Grazie
 slug: grazie
 type: page
+hideNav: true
+hideFooter: true
 sections:
   - props:
       central: true
