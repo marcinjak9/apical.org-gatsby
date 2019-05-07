@@ -15,9 +15,7 @@ sections:
   - children: >-
       Apical sta ricevendo un enorme volume di richieste, ai più veloci vogliamo
       dare l'opportunità di iniziare ad usare Apical usufruendo di un'offerta di
-      benvenuto che comprende il supporto iniziale gratuito per la creazione del
-      tuo marketplace di viaggi ed esperienze. Puoi riservare a questo link un
-      appuntamento online con me il prima possibile e non oltre l'11 maggio
+      benvenuto. Riserva la tua demo personalizzata enttro l'11 maggio
     props:
       cta:
         link: 'https://meet.apical.org/meetings/demo-60-minuti/30-minuti-demo-apical'
