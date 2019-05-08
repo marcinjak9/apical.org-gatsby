@@ -26,7 +26,7 @@ sections:
       cta:
         link: '#onboarding'
         text: Inizia subito
-      greyBg: false
+      greyBg: true
       title: 'Cos''è Apical '
     type: WhatWeDo
   - props:
