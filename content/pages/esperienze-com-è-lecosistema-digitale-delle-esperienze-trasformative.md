@@ -99,6 +99,36 @@ sections:
       titleCenter: true
     type: TeamSection
   - props:
+      bgImage: 'https://ucarecdn.com/924dfeda-3f36-44ca-812a-2bbd2aaa9eaa/'
+      body: >-
+        Ci piacerebbe conoscere la tua esperienza, ci impegnamo a rispondere a
+        ogni candidatura
+      cta:
+        link: form
+        text: Compila il form
+      fullHeigh: false
+      greyBg: false
+      title: _
+    type: Cta
+  - props:
+      cards:
+        - body: _
+          image: "\U0001F3E1"
+          title: CO-LIVING
+        - body: _
+          image: "\U0001F333"
+          title: Eco-villaggi
+        - body: _
+          image: "\U0001F30C"
+          title: Planetari
+        - body: _
+          image: "\U0001F3D4"
+          title: Rifugi e eremi
+      cta:
+        link: form
+        text: Compila il form
+    type: HowItWorks
+  - props:
       body: ''
       formId: 8a771c01-513c-4b1e-a7d8-68b5ca87e4a1
       title: Candidati ora
