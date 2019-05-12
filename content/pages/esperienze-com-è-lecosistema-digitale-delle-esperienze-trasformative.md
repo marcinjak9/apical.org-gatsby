@@ -104,7 +104,7 @@ sections:
         Ci piacerebbe conoscere la tua esperienza, ci impegnamo a rispondere a
         ogni candidatura
       cta:
-        link: form
+        link: 'https://esperienze.com/#onboarding'
         text: Compila il form
       fullHeigh: false
       greyBg: false
@@ -114,7 +114,7 @@ sections:
       cards:
         - body: _
           image: "\U0001F3E1"
-          title: CO-LIVING
+          title: Co-living
         - body: _
           image: "\U0001F333"
           title: Eco-villaggi
@@ -124,14 +124,33 @@ sections:
         - body: _
           image: "\U0001F3D4"
           title: Rifugi e eremi
+        - body: Surf-Kite-Snowboard-whatever
+          image: "\_\U0001F576"
+          title: Sport-house
+        - body: _
+          image: "\U0001F68E"
+          title: Van e Camper
+        - body: >-
+            Parapendio-Aliante-Paracadute-Aerei-Mongolfiere-Se vola qualcosa va
+            bene ;)
+          image: "\U0001F4AB"
+          title: Campi volo
+        - body: Grandi-piccole-preferibilmente non a motore
+          image: ⛵️
+          title: Barche
+        - body: Fondazioni-associazioni-scuole-prati-ecc.ecc.
+          image: ❤️
+          title: Nonprofit
       cta:
-        link: form
+        link: 'https://esperienze.com/#onboarding'
         text: Compila il form
       greyBg: true
       subtitle: >-
         Vogliamo mettere una selezione di luoghi in connessione con i migliori
         creatori di esperienze perché possano nascere proposte innovative da
-        proporre al pubblico
+        proporre al pubblico. Ci piacerebbe conoscere il luogo che hai creato,
+        cerchiamo in particolar modo le categorie che seguono ma siamo
+        interessati a qualsiasi idea incredibile :)
       title: 'Luoghi non convenzionali '
       titleCenter: true
     type: HowItWorks
