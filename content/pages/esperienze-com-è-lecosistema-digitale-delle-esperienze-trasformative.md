@@ -7,13 +7,13 @@ hideNav: true
 hideFooter: true
 sections:
   - props:
-      central: false
+      central: true
       emoji: ◉
       image: 'https://ucarecdn.com/4e808aee-8fcf-43da-ad7f-8c5220a6e3cb/'
-      smallText: true
+      smallText: false
       title: >-
         Esperienze.com è l'ecosistema digitale delle esperienze trasformative.
-        Sta per nascere e vogliamo costruirlo con te, seguici
+        Sta per nascere e vogliamo costruirlo con te
     type: SimpleHero
   - props:
       body: >
