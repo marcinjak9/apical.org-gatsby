@@ -7,7 +7,7 @@ hideNav: true
 hideFooter: true
 sections:
   - props:
-      central: true
+      central: false
       emoji: ◉
       image: 'https://ucarecdn.com/4e808aee-8fcf-43da-ad7f-8c5220a6e3cb/'
       smallText: false
@@ -29,7 +29,7 @@ sections:
 
         Siamo interessati a qualsiasi proposta, ma in modo particolare a queste:
       cta:
-        text: Chi cerchiamo
+        text: ''
       greyBg: true
       title: Cerchiamo creatori di esperienze e di luoghi non convenzionali
     type: WhatWeDo
@@ -96,7 +96,10 @@ sections:
             crociere, viaggi in treno, retreats in luoghi incredibili  e molto
             di più. Ci piacerebbe selezionarne alcuni 
       greyBg: false
-      subtitle: Queste ma non solo. Stupiscici
+      subtitle: >-
+        Cerchiamo creatori capaci di immaginare e realizzare esperienze
+        incredibili. Vogliamo aiutarti a crescere, a trovare nuovo pubblico e
+        nuovi stimoli
       title: Cerchiamo esperienze
       titleCenter: true
     type: TeamSection
@@ -114,7 +117,7 @@ sections:
     type: Cta
   - props:
       cards:
-        - body: _
+        - body: Destination-residenziali
           image: "\U0001F3E1"
           title: Co-living
         - body: _
@@ -148,11 +151,11 @@ sections:
         text: Compila il form
       greyBg: true
       subtitle: >-
-        Vogliamo mettere una selezione di luoghi in connessione con i migliori
-        creatori di esperienze perché possano nascere proposte innovative da
-        proporre al pubblico. Ci piacerebbe conoscere il luogo che hai creato,
-        cerchiamo in particolar modo le categorie che seguono ma siamo
-        interessati a qualsiasi idea incredibile :)
+        Vogliamo selezionare alcuni luoghi per metterli in connessione con i
+        migliori creatori di esperienze perché possano nascere proposte
+        innovative da proporre al pubblico. Ci piacerebbe conoscere il luogo che
+        hai creato, cerchiamo in particolar modo le categorie che seguono ma
+        siamo interessati a qualsiasi idea incredibile :)
       title: 'Luoghi non convenzionali '
       titleCenter: true
     type: HowItWorks
