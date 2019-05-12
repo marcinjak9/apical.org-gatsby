@@ -95,6 +95,18 @@ sections:
             Abbiamo visto moltissimi progetti super interessanti, ci sono
             crociere, viaggi in treno, retreats in luoghi incredibili  e molto
             di più. Ci piacerebbe selezionarne alcuni 
+        - body: _
+          image: 'https://ucarecdn.com/9d833913-3635-4f22-ba41-eef26efb277e/'
+          name: Esperienze di volo
+          role: >-
+            Le persone in futuro vorranno sempre più alzare il proprio punto di
+            vista, vorremmo supportare i creator che lo rendono possibile
+        - body: _
+          image: 'https://ucarecdn.com/1cf66683-08e5-4aff-83b6-800474504d64/'
+          name: Energy trips
+          role: >-
+            Pensiamo agli action sports, alla montagna, alle biciclette e agli
+            sport estremi. 
       greyBg: false
       subtitle: >-
         Cerchiamo creatori capaci di immaginare e realizzare esperienze
