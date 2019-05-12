@@ -103,10 +103,11 @@ sections:
             vista, vorremmo supportare i creator che lo rendono possibile
         - body: _
           image: 'https://ucarecdn.com/1cf66683-08e5-4aff-83b6-800474504d64/'
-          name: Energy trips
+          name: 'Action '
           role: >-
             Pensiamo agli action sports, alla montagna, alle biciclette e agli
-            sport estremi. 
+            sport estremi, fino alle corse non competitive più assurde. Ci
+            piacerebbe pubblicarne alcuni
       greyBg: false
       subtitle: >-
         Cerchiamo creatori capaci di immaginare e realizzare esperienze
