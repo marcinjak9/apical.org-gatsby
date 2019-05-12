@@ -127,6 +127,13 @@ sections:
       cta:
         link: form
         text: Compila il form
+      greyBg: true
+      subtitle: >-
+        Vogliamo mettere una selezione di luoghi in connessione con i migliori
+        creatori di esperienze perché possano nascere proposte innovative da
+        proporre al pubblico
+      title: 'Luoghi non convenzionali '
+      titleCenter: true
     type: HowItWorks
   - props:
       body: ''
