@@ -1,6 +1,6 @@
 ---
 templateKey: site-page
-title: Esperienze
+title: 'Esperienze '
 slug: home
 type: page
 hideNav: true
