@@ -95,7 +95,7 @@ sections:
             Abbiamo visto moltissimi progetti super interessanti, ci sono
             crociere, viaggi in treno, retreats in luoghi incredibili  e molto
             di più. Ci piacerebbe selezionarne alcuni 
-        - body: _
+        - body: '_ '
           image: 'https://ucarecdn.com/9d833913-3635-4f22-ba41-eef26efb277e/'
           name: Esperienze di volo
           role: >-
