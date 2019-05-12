@@ -36,7 +36,9 @@ sections:
     type: WhatWeDo
   - props:
       Members:
-        - body: _
+        - body: >-
+            Raccontaci cosa condividi con il tuo gruppo e perché il tuo Retreat
+            ha un potere trasformatativo
           image: 'https://ucarecdn.com/d0941e62-8fe2-4a25-982d-183c40b0a0d6/'
           name: Retreats
           role: >-
@@ -44,7 +46,9 @@ sections:
             condivide un momento di apprendimento o di relax o magari collabora
             alla creazione di un progetto. Raccontaci cosa condividi con il tuo
             gruppo e perché il tuo Retreat ha un potere trasformatativo
-        - body: _
+        - body: >-
+            Raccontaci cosa condividi con il tuo gruppo e perché il tuo Retreat
+            ha un potere trasformatativo
           image: 'https://ucarecdn.com/e3a456f6-dd0c-44f9-b935-1001702f4ab6/'
           name: Viaggiavventura
           role: >-
@@ -67,10 +71,8 @@ sections:
             futurologia e sport. Cechiamo festival di richiamo nazionale in
             grado di offrire esperienze immersive e di ricerca
       greyBg: false
-      subtitle: >-
-        Se l'Esperienza che organizzi non rientra in queste categorie non ti
-        preoccupare, compila il form e stupiscici
-      title: Esperienze
+      subtitle: 'Queste ma non solo, stupiscici'
+      title: Che Esperienze cerchiamo?
       titleCenter: true
     type: TeamSection
   - props:
