@@ -15,9 +15,6 @@ sections:
     type: SimpleHero
   - props:
       body: >
-        Cerchiamo creatori di esperienze e di luoghi non convenzionali.
-
-
         La nostra mission è trovarne e selezionarne 100 in tutto, metterli in
         rete all’interno di una community per farne decollare la crescita e
         proporre le loro creazioni al pubblico, attraverso una tecnologia
@@ -32,37 +29,34 @@ sections:
       cta:
         text: Chi cerchiamo
       greyBg: true
-      title: ''
+      title: Cerchiamo creatori di esperienze e di luoghi non convenzionali
     type: WhatWeDo
   - props:
       Members:
-        - body: >-
-            Raccontaci cosa condividi con il tuo gruppo e perché il tuo Retreat
-            ha un potere trasformatativo
+        - body: _
           image: 'https://ucarecdn.com/d0941e62-8fe2-4a25-982d-183c40b0a0d6/'
           name: Retreats
           role: >-
-            Sono "ritiri" in cui un gruppo solitamente piccolo di persone
+            Cerchiamo "ritiri" in cui un gruppo solitamente piccolo di persone
             condivide un momento di apprendimento o di relax o magari collabora
             alla creazione di un progetto. Raccontaci cosa condividi con il tuo
             gruppo e perché il tuo Retreat ha un potere trasformatativo
-        - body: >-
-            Raccontaci cosa condividi con il tuo gruppo e perché il tuo Retreat
-            ha un potere trasformatativo
+        - body: _
           image: 'https://ucarecdn.com/e3a456f6-dd0c-44f9-b935-1001702f4ab6/'
           name: Viaggiavventura
           role: >-
             Tipicamente si tratta di viaggi organizzati per piccoli gruppi
             omogenei che condividono un viaggio basato sull'esplorazione di uno
-            o più luoghi. Raccontaci in quale avventura accompagni i tuoi 
+            o più luoghi. Raccontaci in quale avventura accompagni i tuoi
+            viaggiatori e come il tuo viaggio riesce a trasformarli
         - body: _
           image: 'https://ucarecdn.com/724d6ae6-1ef6-473f-95ce-1321dbb042e0/'
           name: Solo travel
           role: >-
-            Raccontaci come  crei valore per chi viaggia in solitaria! Viaggi in
-            solitaria, chi li fa normalmente si organizza in modo autonomo ma
-            non è detto che non ci possano essere idee, per sempio, in grado di
-            farli convergere verso una stessa meta
+            Raccontaci come  crei valore per chi viaggia in solitaria! Chi li fa
+            normalmente si organizza in modo autonomo ma non è detto che non ci
+            possano essere idee, per sempio, in grado di farli convergere verso
+            una stessa meta
         - body: _
           image: 'https://ucarecdn.com/638ff4ed-1cf7-4a3f-8a17-c0a763e3aaa0/'
           name: Festival
@@ -70,9 +64,38 @@ sections:
             Vale tutto, dalla musica al teatro passando per tecnologia,
             futurologia e sport. Cechiamo festival di richiamo nazionale in
             grado di offrire esperienze immersive e di ricerca
+        - body: _
+          image: 'https://ucarecdn.com/e3283400-3667-4e2c-848e-b9e5b56c4b98/'
+          name: Volontariato
+          role: >-
+            Volontariato internazionale o anche in Italia, scambio alla pari,
+            woofing e molto di più. Facci innamorare dell'esperienza di
+            cooperazione che offri al pubblico
+        - body: _
+          image: 'https://ucarecdn.com/4a8542c6-6a53-410d-ae3f-60c6e480c594/'
+          name: Culture locali
+          role: >-
+            Chi visita una città nuova è tendenzialmente bombardato da offerte
+            super mainstream, davvero non interessanti. Se la tua esperienza
+            offre stimolti insoliti e autentici, proponi il tuo progetto  
+        - body: _
+          image: 'https://ucarecdn.com/f3f61832-a693-4df5-a0a8-2140eea7d918/'
+          name: Turismo spaziale
+          role: >-
+            In attesa dei primi viaggi sulla Luna, su Marte e sulle basi
+            spaziali, cerchiamo ogni tipo di esperienza legata alla cosmologia,
+            ci interessano planetari, viaggi, retreat, camps. Qualsiasi cosa che
+            aiuti a scoprire l'universo ci interessa enormemente
+        - body: _
+          image: 'https://ucarecdn.com/c153ad1a-d007-4dac-a88c-867be1b4659c/'
+          name: Nomadi Digitali
+          role: >-
+            Abbiamo visto moltissimi progetti super interessanti, ci sono
+            crociere, viaggi in treno, retreats in luoghi incredibili  e molto
+            di più. Ci piacerebbe selezionarne alcuni 
       greyBg: false
-      subtitle: 'Queste ma non solo, stupiscici'
-      title: Che Esperienze cerchiamo?
+      subtitle: Queste ma non solo. Stupiscici
+      title: Cerchiamo esperienze
       titleCenter: true
     type: TeamSection
   - props:
