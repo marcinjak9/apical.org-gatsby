@@ -3,8 +3,8 @@ templateKey: site-page
 title: 'Esperienze '
 slug: home
 type: page
-hideNav: true
-hideFooter: true
+hideNav: false
+hideFooter: false
 sections:
   - props:
       central: false
