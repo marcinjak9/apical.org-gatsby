@@ -5,6 +5,8 @@ slug: home
 type: page
 hideNav: false
 hideFooter: false
+meta:
+  pageTitle: Esperienze.com by Apical
 sections:
   - props:
       central: false
