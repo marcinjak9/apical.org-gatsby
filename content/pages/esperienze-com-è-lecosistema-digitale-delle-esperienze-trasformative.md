@@ -7,6 +7,7 @@ hideNav: false
 hideFooter: false
 meta:
   pageTitle: Esperienze.com by Apical
+  pageDescription: Esperienze.com è l'ecosistema digitale delle esperienze trasformative.
 sections:
   - props:
       heroBody: >-

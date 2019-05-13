@@ -65,11 +65,12 @@ const SitePage = ({
   preview,
   data: {
     markdownRemark: {
-      frontmatter: { sections, hideNav, hideFooter },
+      frontmatter: {
+        sections, hideNav, hideFooter, meta,
+      },
     },
   },
 }) => {
-  console.log(process.env.GATSBY_BACKEND_URL)
   if (preview) {
     return (
       // <Layout preview={preview}>
@@ -78,7 +79,12 @@ const SitePage = ({
     )
   }
   return (
-    <Layout preview={preview} hideFooter={hideFooter} hideNav={hideNav}>
+    <Layout
+      preview={preview}
+      hideFooter={hideFooter}
+      hideNav={hideNav}
+      meta={meta}
+    >
       <main>{renderElements(sections, preview)}</main>
     </Layout>
   )
@@ -94,6 +100,10 @@ export const pageQuery = graphql`
         type
         hideNav
         hideFooter
+        meta {
+          pageTitle
+          pageDescription
+        }
         sections {
           type
           children
