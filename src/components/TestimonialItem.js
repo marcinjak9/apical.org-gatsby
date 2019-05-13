@@ -1,5 +1,6 @@
-import React from 'react';
-import styled from '@emotion/styled';
+import React from 'react'
+import styled from '@emotion/styled'
+import Image from './image'
 
 const Testimonial = styled.div`
   border-left: 1px solid #fff;
@@ -32,7 +33,7 @@ const Testimonial = styled.div`
   p.testimonial-body {
     font-size: var(--font-body);
   }
-`;
+`
 
 const TestimonialItem = ({
   name, body, image, company,
@@ -43,11 +44,11 @@ const TestimonialItem = ({
         <h4>{name}</h4>
         <small>{company}</small>
       </div>
-      <img src={image} alt={name} className="avatar" />
+      <Image src={image} resize="120" alt={name} className="avatar" />
     </header>
 
     <p className="testimonial-body">{body}</p>
   </Testimonial>
-);
+)
 
-export default TestimonialItem;
+export default TestimonialItem

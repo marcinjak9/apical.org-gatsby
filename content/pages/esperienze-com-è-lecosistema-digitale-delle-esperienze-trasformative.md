@@ -7,15 +7,11 @@ hideNav: false
 hideFooter: false
 sections:
   - props:
-      central: false
-      emoji: ◉
-      image: >-
-        https://ucarecdn.com/4e808aee-8fcf-43da-ad7f-8c5220a6e3cb/-/crop/1110x1234/122,408/-/preview/
-      smallText: false
-      title: >-
-        Esperienze.com è l'ecosistema digitale delle esperienze trasformative.
+      heroBody: >-
         Sta per nascere e vogliamo costruirlo con te
-    type: SimpleHero
+      image: https://ucarecdn.com/4e808aee-8fcf-43da-ad7f-8c5220a6e3cb/-/crop/1110x1234/122,408/-/preview/
+      title: "**Esperienze.com** è l'ecosistema digitale delle esperienze trasformative."
+    type: HomeHero
   - props:
       body: >
         La nostra mission è trovarne e selezionarne 100 in tutto, metterli in

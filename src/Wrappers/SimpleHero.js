@@ -1,8 +1,10 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import Markdown from 'react-markdown/with-html'
 
 import Emoji from '../components/Emoji'
 import { Row, Container, Column } from '../components/Global'
+import { rawImageLink } from '../components/image'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -10,7 +12,7 @@ const Wrapper = styled.div`
   background-position: center center;
   background-size: cover;
   position: relative;
-  background-image: url(${props => props.image});
+  background-image: url(${props => rawImageLink(props.image)});
 
   &:before {
     content: "";
@@ -32,6 +34,11 @@ const Wrapper = styled.div`
     h1 {
       font-size: var(--font-headline);
       color: var(--light);
+      font-weight: normal;
+
+      strong {
+        /* font-weight: bold */
+      }
     }
 
     &.slim {
@@ -103,7 +110,8 @@ const SimpleHero = ({
               </Emoji>
             )}
             {tag && <span className="hero-tag">{tag}</span>}
-            <h1>{title}</h1>
+            {/* <h1>{title}</h1> */}
+            {title && <Markdown source={title} escapeHtml={false} />}
             {body && <p>{body}</p>}
           </Column>
         </Body>

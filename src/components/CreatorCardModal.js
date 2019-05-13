@@ -1,6 +1,7 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import BadgeTag from './BadgeTag';
+import React from 'react'
+import styled from '@emotion/styled'
+import BadgeTag from './BadgeTag'
+import { rawImageLink } from './image'
 
 const Card = styled.div`
   display: flex;
@@ -90,7 +91,7 @@ const Card = styled.div`
       }
     }
   }
-`;
+`
 
 const CreatorCardBig = ({
   tag,
@@ -108,7 +109,7 @@ const CreatorCardBig = ({
     <div
       className="image"
       style={{
-        backgroundImage: `url(${image})`,
+        backgroundImage: `url(${rawImageLink(image, { resize: '700' })})`,
       }}
     />
     {tag && <BadgeTag>{tag}</BadgeTag>}
@@ -125,6 +126,6 @@ const CreatorCardBig = ({
       </div>
     </div>
   </Card>
-);
+)
 
-export default CreatorCardBig;
+export default CreatorCardBig

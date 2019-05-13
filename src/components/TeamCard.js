@@ -1,6 +1,7 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import { Row, Column } from './Global';
+import React from 'react'
+import styled from '@emotion/styled'
+import { Row, Column } from './Global'
+import Image from './image'
 
 const Card = styled.div`
   padding: 1.5rem;
@@ -46,7 +47,7 @@ const Card = styled.div`
     padding: 0;
     border: none;
   }
-`;
+`
 
 const TeamCard = ({
   image, title, subtitle, body,
@@ -60,13 +61,13 @@ const TeamCard = ({
         </div>
       </Column>
       <Column size="4" mobile="4">
-        <img src={image} alt="" />
+        <Image src={image} alt="" resize="200" />
       </Column>
       <Column size="12">
         <p>{body}</p>
       </Column>
     </Row>
   </Card>
-);
+)
 
-export default TeamCard;
+export default TeamCard

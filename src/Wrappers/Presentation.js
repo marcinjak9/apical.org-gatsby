@@ -4,6 +4,7 @@ import styled from '@emotion/styled'
 import SectionContainer from '../components/SectionContainer'
 import Carousel from '../components/Carousel'
 import { Row, Column } from '../components/Global'
+import Image from '../components/image'
 // import Button from '../components/Button'
 
 const PresentationRow = styled(Row)`
@@ -70,7 +71,7 @@ const Slide = ({ title, body, image }) => (
       </div>
     </Column>
     <Column size="6" style={{ textAlign: 'center' }}>
-      <img src={image} alt="" />
+      <Image src={image} alt="" resize="800" />
     </Column>
   </PresentationRow>
 )

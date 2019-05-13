@@ -1,6 +1,7 @@
 ---
 templateKey: menu
 logo: 'https://ucarecdn.com/a7073aab-8201-4a52-aa17-ee6b6f2df0be/'
+powered: true
 mobileLogo: 'https://ucarecdn.com/0fb28ba0-2dce-4bb1-9dec-f3e9be360c6a/'
 sidebarLogo: 'https://ucarecdn.com/6db98d5f-5254-4f88-91be-993c482292c1/'
 menuItems:

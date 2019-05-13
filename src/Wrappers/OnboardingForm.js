@@ -293,6 +293,8 @@ class OnboardingForm extends React.Component {
     const {
       form: { formFieldGroups },
       greyBg,
+      title,
+      body,
     } = this.props
     const { success } = this.state
 
@@ -318,12 +320,8 @@ class OnboardingForm extends React.Component {
           <Column size="6" offset="4">
             <Row>
               <Column size="12">
-                <Title>Entra in Apical</Title>
-                <p>
-                  La tua Apical Experience può cominciare adesso! Ci vogliono
-                  pochi minuti per permetterci di conoscere la tua realtà e i
-                  tuoi bisogni.
-                </p>
+                <Title>{title}</Title>
+                <p>{body}</p>
                 {/* <h3>Intervista</h3>
                 <p>
                   Prenota una call di 15 minuti con noi, potremo capire come
