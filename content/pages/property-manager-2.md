@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
 title: Property Manager 2
-slug: 'property-manager '
+slug: property-manager-2
 type: page
 hideNav: false
 hideFooter: false
