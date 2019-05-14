@@ -143,7 +143,7 @@ sections:
       strumenti necessari per la tua attività 
     props:
       cta:
-        link: /home
+        link: 'https://apical.org/'
         text: Scopri Apical
         title: Sei un tour op
       greyBg: true
