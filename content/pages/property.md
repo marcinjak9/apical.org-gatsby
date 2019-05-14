@@ -25,7 +25,7 @@ sections:
         Scegli le attività migliori, le carichi online, le mostri ai tuoi ospiti
         e guadagni subito
       cta:
-        link: '#onboarding'
+        link: 'property-manager#onboarding'
         text: Inizia subito
       greyBg: true
       title: 'Cos''è Apical '
