@@ -35,6 +35,10 @@ const Wrapper = styled.div`
   .container {
     z-index: 2;
   }
+
+  @media (max-width: 767px) {
+    min-height: 500px;
+  }
 `
 
 const HeroColumn = styled(Column)`
@@ -66,8 +70,8 @@ const HeroColumn = styled(Column)`
   }
   @media (max-width: 767px) {
     h1 {
-      font-size: var(--font-headline);
-      line-height: var(--font-headline);
+      font-size: var(--font-title);
+      line-height: var(--font-title);
     }
   }
 `
