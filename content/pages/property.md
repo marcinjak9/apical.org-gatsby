@@ -127,6 +127,15 @@ sections:
       title: La piattaforma è self-service ed è composta da tre ambienti
       titleCenter: true
     type: Presentation
+  - children: >-
+      L’iscrizione ad apical è gratuita e non ha costi fissi se compili il form
+      entro il 17 maggio
+    props:
+      cta:
+        link: 'property-manager#onboarding'
+        text: Regitrati
+        title: ''
+    type: Quote
   - props:
       cta:
         link: ''
