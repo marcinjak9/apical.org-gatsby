@@ -3,6 +3,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import BadgeTag from './BadgeTag'
+import { rawImageLink } from './image'
 
 const Card = styled.div`
   background-color: var(--grey-bg);
@@ -24,7 +25,7 @@ const Card = styled.div`
     background-color: var(--darkgray);
     border: none;
     border-radius: 0;
-    background-image: url(${props => props.image});
+    background-image: url(${props => rawImageLink(props.image, { resize: '500 ' })});
     cursor: pointer;
   }
 

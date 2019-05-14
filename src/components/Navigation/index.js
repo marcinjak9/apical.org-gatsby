@@ -22,6 +22,7 @@ class Navigation extends React.Component {
             markdownRemark(frontmatter: { templateKey: { eq: "menu" } }) {
               frontmatter {
                 logo
+                powered
                 mobileLogo
                 sidebarLogo
                 menuItems {
@@ -49,6 +50,7 @@ class Navigation extends React.Component {
               cta,
               contacts,
               sidebarLogo,
+              powered,
             },
           },
         }) => (
@@ -63,6 +65,7 @@ class Navigation extends React.Component {
             <Menu
               onMenuClick={this.onMenuClick}
               mobileLogo={mobileLogo}
+              powered={powered}
               logo={logo}
               cta={cta}
               menuItems={menuItems}

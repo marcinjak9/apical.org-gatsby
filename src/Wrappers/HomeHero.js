@@ -5,7 +5,7 @@ import Button from '../components/Button'
 import { Container, Row, Column } from '../components/Global'
 import Emoji from '../components/Emoji'
 import TypistLoop from '../components/TypistLoop'
-// import { rawImageLink } from '../components/Image'
+import { rawImageLink } from '../components/image'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -14,7 +14,7 @@ const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url(${props => props.image});
+  background-image: url(${props => rawImageLink(props.image, { resize: '2000' })});
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,6 +35,10 @@ const Wrapper = styled.div`
   .container {
     z-index: 2;
   }
+
+  @media (max-width: 767px) {
+    min-height: 500px;
+  }
 `
 
 const HeroColumn = styled(Column)`
@@ -51,6 +55,7 @@ const HeroColumn = styled(Column)`
     font-size: 3.7rem;
     color: var(--light);
     line-height: 3.6rem;
+    font-weight: normal;
   }
 
   p {
@@ -65,8 +70,8 @@ const HeroColumn = styled(Column)`
   }
   @media (max-width: 767px) {
     h1 {
-      font-size: var(--font-headline);
-      line-height: var(--font-headline);
+      font-size: var(--font-title);
+      line-height: var(--font-title);
     }
   }
 `
@@ -96,7 +101,13 @@ const HomeHero = ({
       <Row>
         <HeroColumn size="10" bodyLight={bodyLight}>
           <h1>
-            {title}
+            {/* {title} */}
+            <Markdown
+              source={title}
+              escapeHtml={false}
+              // disallowedTypes={['paragraph']}
+              renderers={{ paragraph: 'span' }}
+            />
             <TypistLoop words={typings} />
           </h1>
           {/* <p>{heroBody}</p> */}

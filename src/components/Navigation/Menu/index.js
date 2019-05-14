@@ -13,6 +13,26 @@ const SubMenu = styled.section`
   }
 `
 
+const Powered = styled.p`
+  color: #16385a;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  word-spacing: -1px;
+  margin-left: 54px;
+  margin-top: -8px;
+
+  img {
+    height: 23px;
+    margin-top: -4px;
+    /* margin-left: -2px; */
+  }
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+`
+
 class Menu extends React.Component {
   constructor(props) {
     super(props)
@@ -51,7 +71,12 @@ class Menu extends React.Component {
 
   render() {
     const {
-      onMenuClick, menuItems, logo, mobileLogo, cta,
+      onMenuClick,
+      menuItems,
+      logo,
+      mobileLogo,
+      cta,
+      powered,
     } = this.props
     const { open } = this.state
     return (
@@ -60,11 +85,13 @@ class Menu extends React.Component {
           <Container unpadded spread>
             <Link to="/" className="navbar-brand">
               <img src={logo} alt="apical-logo" />
-              <img
-                src={mobileLogo || logo}
-                alt="apical-logo"
-                className="mobile-logo"
-              />
+              <img src={logo} alt="apical-logo" className="mobile-logo" />
+              {powered && (
+                <Powered>
+                  powered by
+                  <img src="https://apical.it/skin/frontend/ultimo/default/images/apical-logo.png" />
+                </Powered>
+              )}
             </Link>
 
             <div className="nav-center nav-items">

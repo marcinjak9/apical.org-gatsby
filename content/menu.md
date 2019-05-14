@@ -3,6 +3,7 @@ templateKey: menu
 logo: 'https://ucarecdn.com/c2946d5e-55e6-4765-94cd-04365fbe4ff0/'
 mobileLogo: 'https://ucarecdn.com/9014f5a3-40e2-451c-b94e-3ca1029ea3a1/'
 sidebarLogo: 'https://ucarecdn.com/95b7e940-a264-48d1-80db-925c3b786761/'
+powered: false
 menuItems:
   - text: Home
     url: /
