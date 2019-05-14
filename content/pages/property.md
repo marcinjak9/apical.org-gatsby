@@ -55,6 +55,9 @@ sections:
       titleCenter: true
     type: HowItWorks
   - props:
+      cta:
+        link: 'property-manager#onboarding'
+        text: Unisciti ad Apical
       testimonials:
         - body: >-
             Alessandro è un property manager e affitta alcuni appartamenti in
