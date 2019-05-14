@@ -108,7 +108,9 @@ const HomeHero = ({
               // disallowedTypes={['paragraph']}
               renderers={{ paragraph: 'span' }}
             />
-            <TypistLoop words={typings} />
+            {typings && typings.length > 0 && !!typings[0] && (
+              <TypistLoop words={typings} />
+            )}
           </h1>
           {/* <p>{heroBody}</p> */}
           <Markdown source={heroBody} escapeHtml={false} />
