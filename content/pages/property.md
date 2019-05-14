@@ -11,7 +11,7 @@ sections:
         link: '#onboarding'
         text: Iscriviti gratuitamente
       heroBody: >-
-        Apical è la piattaforma digitale che permette ai property manager di
+        Apical è la piattaforma digitale che permette ai Property Manager di
         proporre esperienze sul territorio facendo upselling sui tuoi prodotti
       image: 'https://ucarecdn.com/20632fe2-b019-4189-a8d0-07fda5dce1d3/'
       title: Vendi online le migliori esperienze ai tuoi clienti
