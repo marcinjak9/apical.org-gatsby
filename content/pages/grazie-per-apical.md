@@ -1,6 +1,6 @@
 ---
 templateKey: site-page
-title: 'Grazie per Apical '
+title: Grazie per Esperienze
 slug: benvenuto
 type: page
 hideNav: false
