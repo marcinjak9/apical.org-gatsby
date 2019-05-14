@@ -78,6 +78,16 @@ sections:
           company: Property Manager
           image: 'https://ucarecdn.com/2697e634-6cce-4ffd-8544-64fc85feecce/'
           name: Giulia
+        - body: >-
+            Daria è una property manager e la sua attività è versatile: parte
+            delle sue stanze le affitta su Booking, altre direttamente con il
+            suo sito. In entrambi i casi usa Apical, perché le permette di
+            caricare infinite esperienze sul suo portale gratuitamente. Daria ha
+            fatto accordi con diversi operatori turistici per organizzare le
+            attività e ha incrementato così i suoi profitti.
+          company: Property Manager
+          image: 'https://ucarecdn.com/7ac88adb-0558-4623-85e6-c0b44abd7c22/'
+          name: Daria
       title: Come lo usano i nostri partner
     type: TestimonialsSection
   - props:
