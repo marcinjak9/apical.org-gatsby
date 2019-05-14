@@ -10,6 +10,8 @@ menuItems:
     url: /features
   - text: About
     url: /about
+  - text: Esperienze.com
+    url: 'https://www.esperienze.com'
   - text: Blog
     url: 'https://journal.apical.org'
 cta:
