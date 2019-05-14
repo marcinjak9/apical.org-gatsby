@@ -19,8 +19,9 @@ sections:
     type: HomeHero
   - props:
       body: >-
-        Apical offre una piattaforma per organizzare e vendere ancora più
-        attività ed esperienze ai tuoi clienti. Puoi integrare l’offerta alle
+        Apical offre una piattaforma per organizzare e vendere prodotti Travel.
+        Con Apical puoi affittare ai tuoi clienti le accomodation e offrire
+        ancora più attività ed esperienze. Puoi integrare l’offerta alle
         piattaforme di booking più famose o gestire tutto in un unico ambiente.
         Scegli le attività migliori, le carichi online, le mostri ai tuoi ospiti
         e guadagni subito
@@ -39,7 +40,7 @@ sections:
           title: CREARE
         - body: >-
             Decidi se vendere un pacchetto completo accomodation +esperienze o
-            aggiungi le offerte alle piattaforme di booking migliori
+            aggiungi solo le attività alle piattaforme di booking migliori
           image: "\U0001F4BB"
           title: GESTIRE
         - body: >-
