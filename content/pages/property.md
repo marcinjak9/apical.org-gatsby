@@ -126,8 +126,8 @@ sections:
       title: Come lo usano i nostri partner
     type: TestimonialsSection
   - children: >-
-      Sei un tour operator o un travel planner? Apical ti offre tutti gli
-      strumenti necessari per la tua attività 
+      Sei un tour operator o un travel planner? Apical offre tutti gli strumenti
+      digitali necessari per il tuo store
     props:
       cta:
         link: /home
