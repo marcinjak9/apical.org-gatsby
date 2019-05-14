@@ -164,7 +164,21 @@ sections:
     title: 'Con Apical puoi costruire la tua offerta modulabile '
     titleCenter: true
     type: WelcomeSteps
-  - type: BlogSection
+  - props:
+      columns:
+        - body: >-
+            Prenota una telefonata di pochi minuti con noi per capire insieme
+            come aiutarti
+          title: 1. Intervista
+        - body: >-
+            Ricevi la nostra presentazione completa e una demo della tua
+            piattaforma
+          title: 2. Demo
+        - body: >-
+            In sole 4 ore potremo mettere online la tua offerta e formarti
+            all’utilizzo in completa autonomia della piattaforma
+          title: 3. Go Live
+    type: FeaturesSection
   - props:
       body: >-
         La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
@@ -172,5 +186,6 @@ sections:
       formId: 0fe5112f-fca2-4067-822b-0af43bba2393
       title: Entra in Apical
     type: FormSection
+  - type: BlogSection
 ---
 
