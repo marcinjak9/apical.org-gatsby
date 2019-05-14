@@ -126,9 +126,9 @@ sections:
     type: Presentation
   - props:
       cta:
-        link: /features
+        link: 'property-manager#onboarding'
         text: Scopri di più
-      greyBg: false
+      greyBg: true
       title: >-
         L’iscrizione ad apical è gratuita e non ha costi fissi se compili il
         form entro il 17 maggio
