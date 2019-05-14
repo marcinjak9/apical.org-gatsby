@@ -28,7 +28,7 @@ const renderProps = (props) => {
   return props
 }
 
-const withErrorBoundary = element => React.createElement(ErrorBoundary, {}, element)
+const withErrorBoundary = (element, i) => React.createElement(ErrorBoundary, { key: i }, element)
 
 const renderElements = (sections, preview) => {
   if (sections) {
@@ -45,6 +45,7 @@ const renderElements = (sections, preview) => {
                 renderChild(element.children),
               ),
             ),
+            index,
           )
         }
         return withErrorBoundary(
@@ -53,6 +54,7 @@ const renderElements = (sections, preview) => {
             { ...renderProps(element.props), key: index, preview },
             renderChild(element.children),
           ),
+          index,
         )
       }
       return null

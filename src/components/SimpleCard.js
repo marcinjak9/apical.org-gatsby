@@ -94,6 +94,16 @@ const Card = styled.div`
 
 const getPosition = (length, index, currentIndex) => index - currentIndex
 
+const getZIndex = (currentIndex, index) => {
+  if (!currentIndex) {
+    return 1
+  }
+  if (currentIndex === index) {
+    return 100
+  }
+  return 90 + currentIndex * index - index
+}
+
 const SimpleCard = (props) => {
   const {
     index,
@@ -114,8 +124,7 @@ const SimpleCard = (props) => {
         transform: `translate(${getPosition(length, index, currentIndex)
           * 300}px)
         scale(${active ? '1' : '0.9'})`,
-        zIndex:
-          currentIndex === index ? 100 : 90 + currentIndex * index - index,
+        zIndex: getZIndex(currentIndex, index),
       }}
     >
       {image && <Emoji emoji={image} size={3} />}

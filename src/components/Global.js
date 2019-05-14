@@ -1,4 +1,5 @@
 import styled from '@emotion/styled'
+import isPropValid from '@emotion/is-prop-valid'
 import PropTypes from 'prop-types'
 import { css } from '@emotion/core'
 
@@ -62,7 +63,9 @@ const scroll = (props) => {
   return css``
 }
 
-export const Row = styled.div`
+export const Row = styled('div', {
+  shouldForwardProp: prop => isPropValid(prop) && prop !== 'scrolling',
+})`
   /* margin-right: -15px;
   margin-left: -15px; */
   width: 100%;
