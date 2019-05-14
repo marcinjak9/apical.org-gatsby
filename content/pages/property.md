@@ -133,21 +133,13 @@ sections:
     props:
       cta:
         link: 'property-manager#onboarding'
-        text: Regitrati
+        text: Registrati
         title: ''
+      greyBg: true
     type: Quote
   - props:
-      cta:
-        link: ''
-        text: ''
-      greyBg: true
-      title: >-
-        L’iscrizione ad apical è gratuita e non ha costi fissi se compili il
-        form entro il 17 maggio
-      titleCenter: true
-    type: FeaturesSection
-  - props:
       title: Apical spiegato in 3 minuti
+      titleCenter: false
       videoUrl: 'https://www.youtube.com/watch?v=zLvyl6-s5Tw'
     type: VideoSection
   - children: >-
