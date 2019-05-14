@@ -11,8 +11,7 @@ meta:
 sections:
   - props:
       heroBody: Sta per nascere e vogliamo costruirlo con te
-      image: >-
-        https://ucarecdn.com/4e808aee-8fcf-43da-ad7f-8c5220a6e3cb/-/crop/1110x1234/122,408/-/preview/
+      image: 'https://ucarecdn.com/b9e75a06-094e-41ec-bcc0-2ddad4ad5510/'
       title: >-
         **Esperienze.com** è l'ecosistema digitale delle esperienze
         trasformative.
