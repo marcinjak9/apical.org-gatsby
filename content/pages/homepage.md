@@ -10,30 +10,22 @@ sections:
       cta:
         link: '#onboarding'
         text: Iscriviti Gratuitamente
-      heroBody: >-
-        **Sei un tour operator, un'associazione o un singolo travel planner?**
-
-
-        Apical è la piattaforma digitale che ti permette di aumentare del 30% le
-        vendite e risparmiare fino all'80% del tempo
+      heroBody: "**Semplice e professionale, adatto a tutti**\r\n\nOttieni pieno controllo sui tuoi prodotti, aumenta le vendite, fidelizza il pubblico e risparmia l'80% del tempo"
       image: 'https://ucarecdn.com/9b238552-e3cc-4ccd-b8d2-51d36e226328/'
-      title: Organizza e vendi online
-      typings:
-        - i tuoi viaggi
-        - le tue esperienze
-        - i tuoi festival
-        - i tuoi retreats
+      title: Crea e lancia il tuo travel store online
+      typings: []
     type: HomeHero
   - props:
       body: >-
-        Apical permette ai creatori di esperienze di avere in un’unica
-        piattaforma tutti gli strumenti necessari per gestire l’offerta, le
-        prenotazioni e le vendite dei propri viaggi, eventi e reatreat.
+        Apical permette a chiunque operi nel settore travel di avere in un’unica
+        piattaforma tutti gli strumenti digitali necessari per gestire
+        l’offerta, le prenotazioni e le vendite dei propri viaggi, eventi e
+        reatreat
       cta:
         link: '#onboarding'
         text: Unisciti ad Apical
       greyBg: true
-      title: Cosa facciamo?
+      title: Cosa fa Apical
     type: WhatWeDo
   - props:
       cards:
@@ -142,9 +134,9 @@ sections:
           image: "\U0001F455"
           title: Servizi e merchandising
       subtitle: >-
-        Con Apical puoi gestire tutti i tuoi prodotti e le tue offerte in un’una
-        piattaforma
-      title: Cosa puoi organizzare e vendere?
+        Con Apical puoi gestire tutti i tuoi prodotti e le tue offerte in
+        un’unica piattaforma
+      title: Cosa puoi organizzare e vendere con Apical?
       titleCenter: true
     type: SpecialFeatures
   - children: L’iscrizione ad apical è gratuita e non ha costi fissi
