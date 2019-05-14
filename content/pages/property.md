@@ -174,5 +174,8 @@ sections:
       redirectTo: /grazie
       title: Entra in Apical
     type: FormSection
+  - props:
+      title: Il blog di Apical
+    type: BlogSection
 ---
 
