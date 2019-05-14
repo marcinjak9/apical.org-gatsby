@@ -88,6 +88,10 @@ sections:
       titleCenter: true
     type: HowItWorks
   - props:
+      title: 'Apical in tre minuti '
+      videoUrl: 'https://www.youtube.com/watch?v=zLvyl6-s5Tw'
+    type: VideoSection
+  - props:
       cta:
         link: /features
         text: Scopri di più
