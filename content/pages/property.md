@@ -129,7 +129,7 @@ sections:
     type: Presentation
   - props:
       cta:
-        link: 'property-manager#onboarding'
+        link: 'https://apical.org/property-manager#onboarding'
         text: Scopri di più
       greyBg: true
       title: >-
