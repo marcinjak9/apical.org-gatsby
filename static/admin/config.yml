@@ -169,7 +169,7 @@ collections:
                     name: typings
                     widget: list
                     field: { label: Typing, name: typing, widget: string }
-                    default: ["i tuoi viaggi", "le tue esperienze", "i tuoi festival", "i tuoi retreats"]
+                    default: ['']
                     required: false
                   - label: CTA
                     name: cta
