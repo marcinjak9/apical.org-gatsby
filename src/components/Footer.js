@@ -4,6 +4,7 @@ import styled from '@emotion/styled'
 import Button from './Button'
 import { Container, Row, Column } from './Global'
 import Link from './LinkWrapper'
+import Image from './image'
 
 const iubenda = '(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);'
 
@@ -66,7 +67,7 @@ const FooterInner = ({
     <Container>
       <Row>
         <Column size="12" className="footer-section">
-          <img src={logo} alt="apical-logo-white" className="footer-logo" />
+          <Image src={logo} alt="apical-logo-white" className="footer-logo" />
         </Column>
         <Column size="4" className="footer-section">
           <Row>

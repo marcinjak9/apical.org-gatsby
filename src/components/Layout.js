@@ -7,29 +7,23 @@ import Footer from "./Footer"
 
 import "../styles/index.css"
 
-const Layout = ({ children, hideFooter, hideNav }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={() => (
-      <div>
-        <Helmet>
-          <title>Apical - Crea la tua esperienza</title>
-          <meta name="description" content="Happiness is a Movement" />
-        </Helmet>
-        {!hideNav && <Navigation />}
-        {children}
-        {!hideFooter && <Footer />}
-      </div>
-    )}
-  />
+const Layout = ({
+  children, hideNav, hideFooter, meta,
+}) => (
+  <div>
+    <Helmet>
+      <title>
+        {(meta && meta.pageTitle) || "Apical - Crea la tua esperienza"}
+      </title>
+      <meta
+        name="description"
+        content={(meta && meta.pageDescription) || "Happiness is a Movement"}
+      />
+    </Helmet>
+    {!hideNav && <Navigation />}
+    {children}
+    {!hideFooter && <Footer />}
+  </div>
 )
 
 // Layout.propTypes = {

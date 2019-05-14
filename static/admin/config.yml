@@ -62,6 +62,7 @@ collections:
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "menu" }
           - {label: Logo, name: logo, widget: image}
+          - {label: Powered by, name: powered, widget: boolean, default: false, required: false}
           - {label: Mobile Logo, name: mobileLogo, widget: image}
           - {label: Sidebar Logo, name: sidebarLogo, widget: image}
           - label: Menu Items
@@ -140,6 +141,12 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "page" }
       - { label: Hide Navigation, name: hideNav, widget: boolean, default: false, required: false }
       - { label: Hide Footer, name: hideFooter, widget: boolean, default: false, required: false }
+      - label: Meta
+        name: meta
+        widget: object
+        fields:
+          - { label: Page title, name: pageTitle, widget: string, required: false }
+          - { label: Page Description, name: pageDescription, widget: text, required: false }
       - label: Sections
         name: "sections"
         widget: "list"
@@ -180,7 +187,7 @@ collections:
                 name: props
                 widget: object
                 fields:
-                  - { label: Title, name: title, widget: string, required: false }
+                  - { label: Title, name: title, widget: markdown, required: false }
                   - { label: Emoji, name: emoji, widget: string, required: false }
                   - { label: Baground, name: image, widget: image, required: false }
                   - { label: "Central text", name: "central", widget: "boolean", required: false }

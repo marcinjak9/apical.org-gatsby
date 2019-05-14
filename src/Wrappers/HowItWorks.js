@@ -19,13 +19,13 @@ const CustomRow = styled(Row)`
 `
 
 const HowItWorks = (props) => {
-  const { cards } = props
+  const { cards, cta } = props
   return (
     <HowItWorksWrapper {...props}>
       {/* <TablerCards items={FEATURES} /> */}
       <CustomRow>
         {cards.map((feature, i) => (
-          <Column key={i} size="3">
+          <Column key={i} size={cards.length % 2 === 0 ? 3 : 4}>
             <Card
               // bodySmall
               index={i}
@@ -37,13 +37,15 @@ const HowItWorks = (props) => {
           </Column>
         ))}
       </CustomRow>
-      <Row>
-        <Column size="12" textCenter>
-          <Button href="#onboarding" outline icon="arrow">
-            Inizia subito
-          </Button>
-        </Column>
-      </Row>
+      {cta && (
+        <Row>
+          <Column size="12" textCenter>
+            <Button href={cta.link} outline icon="arrow">
+              {cta.text}
+            </Button>
+          </Column>
+        </Row>
+      )}
     </HowItWorksWrapper>
   )
 }

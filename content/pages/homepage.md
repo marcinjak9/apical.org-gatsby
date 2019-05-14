@@ -5,6 +5,9 @@ slug: home
 type: page
 hideNav: false
 hideFooter: false
+meta:
+  pageTitle: Apical - Crea la tua esperienza
+  pageDescription: Happiness is a Movement
 sections:
   - props:
       cta:
