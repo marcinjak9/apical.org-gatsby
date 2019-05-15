@@ -24,7 +24,7 @@ sections:
         concorrenti, aumentare i ricavi e diminuire dell’80% il tempo che
         dedichi alla burocrazia 
       cta:
-        link: 'property-manager#onboarding'
+        link: 'property-managerbis#onboarding'
         text: Inizia subito
       greyBg: false
       title: Cosa ottieni con Apical
@@ -157,6 +157,7 @@ sections:
     titleCenter: true
     type: WelcomeSteps
   - props:
+      greyBg: true
       title: 'Apical in 3 minuti '
       videoUrl: 'https://www.youtube.com/watch?v=zLvyl6-s5Tw'
     type: VideoSection
@@ -165,7 +166,7 @@ sections:
       entro il 22 maggio
     props:
       cta:
-        link: 'property-manager#onboarding'
+        link: 'property-managerbis#onboarding'
         text: Inizia
     type: Quote
   - props:
