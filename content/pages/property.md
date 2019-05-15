@@ -24,7 +24,7 @@ sections:
         concorrenti, aumentare i ricavi e diminuire dell’80% il tempo che
         dedichi alla burocrazia 
       cta:
-        link: '#onboarding'
+        link: 'property-manager#onboarding'
         text: Inizia subito
       greyBg: false
       title: Cosa ottieni con Apical
@@ -156,6 +156,10 @@ sections:
     title: 'Con Apical puoi costruire la tua offerta modulabile '
     titleCenter: true
     type: WelcomeSteps
+  - props:
+      title: 'Apical in 3 minuti '
+      videoUrl: 'https://www.youtube.com/watch?v=zLvyl6-s5Tw'
+    type: VideoSection
   - children: >-
       L'iscrizione ad Apical è gratuita e non ha costi fissi se ti registri
       entro il 22 maggio
