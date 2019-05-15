@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
 title: Impatto sociale
-slug: 'social impact '
+slug: 'social-impact '
 type: page
 hideNav: false
 hideFooter: false
