@@ -99,7 +99,7 @@ sections:
     type: Presentation
   - props:
       cta:
-        link: /features
+        link: 'property-manager#onboarding'
         text: Scopri di più
       greyBg: false
       title: L’iscrizione ad apical è gratuita e non ha costi fissi
@@ -148,7 +148,7 @@ sections:
       strumenti necessari per la tua attività 
     props:
       cta:
-        link: /home
+        link: 'https://apical.org/'
         text: Scopri Apical
         title: Sei un tour op
       greyBg: true
@@ -164,6 +164,28 @@ sections:
     title: 'Con Apical puoi costruire la tua offerta modulabile '
     titleCenter: true
     type: WelcomeSteps
+  - props:
+      columns:
+        - body: >-
+            Prenota una telefonata di pochi minuti con noi per capire insieme
+            come aiutarti
+          title: 1. Intervista
+        - body: >-
+            Ricevi la nostra presentazione completa e una demo della tua
+            piattaforma
+          title: 2. Demo
+        - body: >-
+            In sole 4 ore potremo mettere online la tua offerta e formarti
+            all’utilizzo in completa autonomia della piattaforma
+          title: 3. Go Live
+    type: FeaturesSection
+  - props:
+      body: >-
+        La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
+        per permetterci di conoscere la tua realtà e i tuoi bisogni.
+      formId: 0fe5112f-fca2-4067-822b-0af43bba2393
+      title: Entra in Apical
+    type: FormSection
   - type: BlogSection
 ---
 
