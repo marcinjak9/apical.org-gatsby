@@ -54,16 +54,22 @@ sections:
       title: "**Happiness is a movement**\r\n\nWe believe that when people share their energy into an intense experience they naturally become more open-minded, curious and able to understand one another Experience Creators have the power to change people’s life. Apical is here to support them. Join our mission\r\n\n\rNicola Zanola, CEO"
     type: SimpleHero
   - children: >-
-      La Co2 è la grande emergenza dei nostri tempi. Apical ha deciso di
-      investire nel verde e grazie alla partnership con Treedom pianta ogni
-      giorno alberi ad alto assorbimento di anidride carbonica. Questo non
-      sarebbe possibile senza la sinergia fra di noi, creator e clienti finali. 
-
-      Visita la nostra Apical Forest! 
+      Puoi cercare un'associazione o una ONG sul territorio o contribuire ai
+      partner attivi di Apical 
     props:
       cta:
-        link: 'https://www.treedom.net/it/organization/apical'
-        text: 'Vai alla foresta! '
+        link: ''
+        text: Unisciti
     type: Quote
+  - props:
+      central: false
+      image: 'https://ucarecdn.com/f1abd4a8-2f3e-49be-9870-7eb78b5bd585/'
+      smallText: false
+      title: >-
+        La Co2 è la grande emergenza dei nostri tempi. Apical ha deciso di
+        investire nel verde e grazie alla partnership con Treedom pianta ogni
+        giorno alberi ad alto assorbimento di anidride carbonica. Questo non
+        sarebbe possibile senza la sinergia fra di noi, creator e clienti finali
+    type: SimpleHero
 ---
 
