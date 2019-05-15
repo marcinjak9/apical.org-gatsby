@@ -98,14 +98,6 @@ sections:
       titleCenter: true
     type: Presentation
   - props:
-      cta:
-        link: 'property-manager#onboarding'
-        text: Scopri di più
-      greyBg: false
-      title: L’iscrizione ad apical è gratuita e non ha costi fissi
-      titleCenter: true
-    type: FeaturesSection
-  - props:
       greyBg: true
       testimonials:
         - body: >-
@@ -164,6 +156,14 @@ sections:
     title: 'Con Apical puoi costruire la tua offerta modulabile '
     titleCenter: true
     type: WelcomeSteps
+  - children: >-
+      L'iscrizione ad Apical è gratuita e non ha costi fissi se ti registri
+      entro il 22 maggio
+    props:
+      cta:
+        link: 'property-manager#onboarding'
+        text: Inizia
+    type: Quote
   - props:
       columns:
         - body: >-
