@@ -18,6 +18,11 @@ sections:
       title: '#traveldifferently '
     type: HomeHero
   - props:
+      body: >-
+        Apical offre ad ogni suo partner la possibilità di proporre alla propria
+        clientela di contribuire a migliorare i luoghi che visitano. Azioni
+        dirette, volontariato e contributi economici: chi sceglie Apical ha
+        diversi modi per far parte del nostro movimento. 
       greyBg: true
       title: 'Come facciamo impatto sociale '
     type: WhatWeDo
