@@ -199,7 +199,8 @@ class OnboardingForm extends React.Component {
     if (window && window.fbq) {
       window.fbq('track', 'Lead')
     }
-    this.setState({ success: true })
+    // this.setState({ success: true })
+    window.location.href = this.props.redirectTo
   }
 
   checkForError = () => {

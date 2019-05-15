@@ -28,11 +28,18 @@ export default class FormSection extends Component {
   }
 
   render() {
-    const { title, body } = this.props
+    const { title, body, redirectTo } = this.props
     const { form, error } = this.state
     return (
       <div>
-        {form && <OnboardingForm form={form} title={title} body={body} />}
+        {form && (
+          <OnboardingForm
+            form={form}
+            title={title}
+            body={body}
+            redirectTo={redirectTo}
+          />
+        )}
         {error && <p>Nessun form trovato</p>}
       </div>
     )
