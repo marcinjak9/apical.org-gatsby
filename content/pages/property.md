@@ -161,7 +161,7 @@ sections:
       entro il 22 maggio
     props:
       cta:
-        link: '#onboarding'
+        link: 'property-manager#onboarding'
         text: Inizia
     type: Quote
   - props:
