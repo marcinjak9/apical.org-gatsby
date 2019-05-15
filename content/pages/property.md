@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
 title: Property
-slug: property-manager
+slug: property-managerbis
 type: page
 sections:
   - props:
