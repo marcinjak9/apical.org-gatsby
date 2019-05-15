@@ -180,6 +180,7 @@ sections:
         verrai invitat* al Camp Esperienze.com dove insieme alla community
         potrai partecipare attivamente alla nascita del progetto
       formId: 8a771c01-513c-4b1e-a7d8-68b5ca87e4a1
+      redirectTo: /benvenuto
       title: Candidati ora
     type: FormSection
 ---
