@@ -50,5 +50,17 @@ sections:
       image: 'https://ucarecdn.com/6c333fa9-45ab-4b80-b85c-2033563f32c7/'
       title: "**Happiness is a movement**\r\n\nWe believe that when people share their energy into an intense experience they naturally become more open-minded, curious and able to understand one another Experience Creators have the power to change people’s life. Apical is here to support them. Join our mission\r\n\n\rNicola Zanola, CEO"
     type: SimpleHero
+  - children: >-
+      La Co2 è la grande emergenza dei nostri tempi. Apical ha deciso di
+      investire nel verde e grazie alla partnership con Treedom pianta ogni
+      giorno alberi ad alto assorbimento di anidride carbonica. Questo non
+      sarebbe possibile senza la sinergia fra di noi, creator e clienti finali. 
+
+      Visita la nostra Apical Forest! 
+    props:
+      cta:
+        link: 'https://www.treedom.net/it/organization/apical'
+        text: 'Vai alla foresta! '
+    type: Quote
 ---
 
