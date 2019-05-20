@@ -90,6 +90,12 @@ sections:
             straordinaria!  
           image: "\U0001F4AA"
           title: Organizza activities di volontariato
+        - body: >-
+            Scegli la tua associazione di volontariato e integrala alla tua
+            piattaforma di Apical. La tua azienda sosterrà attivamente il
+            progetto in cui hai deciso di credere
+          image: "\U0001F4E2"
+          title: Sostieni la ONG a te più vicina
       greyBg: true
       title: Come creare impatto sociale con Apical
     type: HowItWorks
