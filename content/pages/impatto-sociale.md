@@ -62,8 +62,9 @@ sections:
         benvenuta nella nostra foresta! 
     type: SimpleHero
   - children: >-
-      Puoi cercare un'associazione o una ONG sul territorio o contribuire ai
-      partner attivi di Apical 
+      Se crei esperienze con Apical puoi cercare un'associazione o una ONG sul
+      territorio da aiutare o contribuire direttamente ai progetti attivi di
+      Apical 
     props:
       cta:
         link: ''
