@@ -8,53 +8,12 @@ media_library:
   name: uploadcare
   config:
     publicKey: b1c8b2627a0618cf78fb
-# collections:
-#   - name: "meetups"
-#     label: "Meetups"
-#     description: "Meetup dates, location, and presenter information."
-#     folder: "src/pages/meetups"
-#     create: true
-#     fields:
-#       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "meetup" }
-#       - { label: "Title", name: "title", widget: "string" }
-#       - { label: "Date", name: "date", widget: "datetime" }
          
 collections:
 
   - label: Entities
     name: entities
     files:
-      # - label: Testimonial
-      #   name: testimonial
-      #   file: content/testimonials.md
-      #   create: true
-      #   fields:
-      #     - { label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonials" }
-      #     - label: Testimonials
-      #       name: testimonials
-      #       widget: list
-      #       fields:
-      #         - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      #         - {label: Name, name: name, widget: string }
-      #         - {label: Company, name: company, widget: string }
-      #         - {label: Body, name: body, widget: text }
-      #         - {label: Avatar, name: image, widget: image }
-
-      # - label: Team
-      #   name: team
-      #   file: content/team.md
-      #   create: true
-      #   fields:
-      #     - { label: "Template Key", name: "templateKey", widget: "hidden", default: "team" }
-      #     - label: Members
-      #       name: Members
-      #       widget: list
-      #       fields:
-      #         - {label: Name, name: name, widget: string }
-      #         - {label: Role, name: role, widget: string }
-      #         - {label: Body, name: body, widget: text }
-      #         - {label: Avatar, name: image, widget: image }
-
       - label: Menu
         name: menu
         file: content/menu.md
