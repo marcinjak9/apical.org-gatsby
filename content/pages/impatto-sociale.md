@@ -83,6 +83,13 @@ sections:
             sarà 
           image: "\U0001F332"
           title: Unisciti alla nostra foresta
+        - body: >-
+            Con Apical puoi aggiungere attività di volontariato in loco e
+            proporle ai tuoi clienti. Partecipare alla comunità in cui si è
+            ospiti è un'esperienza che potrebbe rendere la tua offerta davvero
+            straordinaria!  
+          image: "\U0001F4AA"
+          title: Organizza activities di volontariato
       greyBg: true
       title: Come creare impatto sociale con Apical
     type: HowItWorks
