@@ -74,5 +74,17 @@ sections:
       image: 'https://ucarecdn.com/6c333fa9-45ab-4b80-b85c-2033563f32c7/'
       title: "**Happiness is a movement**\r\n\nWe believe that when people share their energy into an intense experience they naturally become more open-minded, curious and able to understand one another. Experience Creators have the power to change people’s life. Apical is here to support them. Join our mission\r\n\n\rNicola Zanola, CEO"
     type: SimpleHero
+  - props:
+      cards:
+        - body: >-
+            Abbatti la Co2! Con Apical puoi dare la possibilità ai tuoi clienti
+            di piantare alberi e ridurre il proprio impatto ecologico. Basterà
+            aggiungere una piccola donazione facoltativa al carrello, l'albero
+            sarà 
+          image: "\U0001F332"
+          title: Unisciti alla nostra foresta
+      greyBg: true
+      title: Come creare impatto sociale con Apical
+    type: HowItWorks
 ---
 
