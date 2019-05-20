@@ -75,6 +75,10 @@ sections:
       title: "**Happiness is a movement**\r\n\nWe believe that when people share their energy into an intense experience they naturally become more open-minded, curious and able to understand one another. Experience Creators have the power to change people’s life. Apical is here to support them. Join our mission\r\n\n\rNicola Zanola, CEO"
     type: SimpleHero
   - props:
+      title: 'Apical: in tre minuti! '
+      videoUrl: 'https://www.youtube.com/watch?v=zLvyl6-s5Tw'
+    type: VideoSection
+  - props:
       cards:
         - body: >-
             Abbatti la Co2! Con Apical puoi dare la possibilità ai tuoi clienti
@@ -106,5 +110,6 @@ sections:
       formId: 0fe5112f-fca2-4067-822b-0af43bba2393
       title: Unisciti a noi - Happiness is a movement
     type: FormSection
+  - type: BlogSection
 ---
 
