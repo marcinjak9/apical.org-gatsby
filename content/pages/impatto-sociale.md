@@ -96,6 +96,9 @@ sections:
             progetto in cui hai deciso di credere
           image: "\U0001F4E2"
           title: Sostieni la ONG a te più vicina
+      cta:
+        link: 'social-impact#onboarding'
+        text: 'Contamina il mondo del tuo impatto '
       greyBg: true
       title: Come creare impatto sociale con Apical
     type: HowItWorks
