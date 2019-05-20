@@ -2,6 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Sidebar from './Sidebar'
 import Menu from './Menu'
+import { language } from '../../LanguageProvider'
 
 class Navigation extends React.Component {
   state = {
@@ -58,8 +59,7 @@ class Navigation extends React.Component {
           }
         `}
         render={({ markdownRemark: { frontmatter } }) => {
-          const lang = navigator.language.substring(0, 2)
-            || navigator.userLanguage.substring(0, 2)
+          const lang = language()
           const {
             sidebarLogo, mobileLogo, powered, logo,
           } = frontmatter

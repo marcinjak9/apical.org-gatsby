@@ -4,6 +4,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import Layout from '../components/Layout'
 import ErrorBoundary from '../components/ErrorBuondary'
 import components from '../componentsMap'
+import { language } from '../LanguageProvider'
 
 const renderChild = (children) => {
   if (!children) {
@@ -16,7 +17,10 @@ const renderChild = (children) => {
 }
 
 const selectLanguage = (props) => {
-  const lang = navigator.language.substring(0, 2) || navigator.userLanguage.substring(0, 2)
+  const lang = language()
+  if (!props) {
+    return props
+  }
   if (props[lang]) {
     // todo language selection by browser
     return props[lang]
@@ -277,15 +281,15 @@ export const pageQuery = graphql`
                 image
                 name
               }
-              # creators {
-              #   body
-              #   excerpt
-              #   image
-              #   name
-              #   tag
-              #   tagline
-              #   url
-              # }
+              creators {
+                body
+                excerpt
+                image
+                name
+                tag
+                tagline
+                url
+              }
               tabs {
                 commission
                 description

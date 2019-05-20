@@ -5,6 +5,7 @@ import Button from './Button'
 import { Container, Row, Column } from './Global'
 import Link from './LinkWrapper'
 import Image from './image'
+import { language } from '../LanguageProvider'
 
 const iubenda = '(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);'
 
@@ -62,7 +63,7 @@ const ColumnWithButtons = styled(Column)`
 
 const FooterInner = (props) => {
   const { logo } = props
-  const lang = navigator.language.substring(0, 2) || navigator.userLanguage.substring(0, 2)
+  const lang = language()
   const { menuItems, socialItems, contacts } = props[lang]
   return (
     <StyledFooter>
