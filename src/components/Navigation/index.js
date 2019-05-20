@@ -25,53 +25,64 @@ class Navigation extends React.Component {
                 powered
                 mobileLogo
                 sidebarLogo
-                menuItems {
-                  text
-                  url
+                it {
+                  menuItems {
+                    text
+                    url
+                  }
+                  cta {
+                    text
+                    url
+                  }
+                  contacts {
+                    email
+                    phone
+                  }
                 }
-                cta {
-                  text
-                  url
-                }
-                contacts {
-                  email
-                  phone
+                en {
+                  menuItems {
+                    text
+                    url
+                  }
+                  cta {
+                    text
+                    url
+                  }
+                  contacts {
+                    email
+                    phone
+                  }
                 }
               }
             }
           }
         `}
-        render={({
-          markdownRemark: {
-            frontmatter: {
-              logo,
-              mobileLogo,
-              menuItems,
-              cta,
-              contacts,
-              sidebarLogo,
-              powered,
-            },
-          },
-        }) => (
-          <>
-            <Sidebar
-              open={isOpen}
-              onClose={() => this.setState({ isOpen: false })}
-              menuItems={menuItems}
-              logo={sidebarLogo}
-              contacts={contacts}
-            />
-            <Menu
-              onMenuClick={this.onMenuClick}
-              mobileLogo={mobileLogo}
-              powered={powered}
-              logo={logo}
-              cta={cta}
-              menuItems={menuItems}
-            />
-          </>
-        )}
+        render={({ markdownRemark: { frontmatter } }) => {
+          const lang = navigator.language.substring(0, 2)
+            || navigator.userLanguage.substring(0, 2)
+          const {
+            sidebarLogo, mobileLogo, powered, logo,
+          } = frontmatter
+          return (
+            <>
+              <Sidebar
+                open={isOpen}
+                onClose={() => this.setState({ isOpen: false })}
+                menuItems={frontmatter[lang].menuItems}
+                logo={sidebarLogo}
+                contacts={frontmatter[lang].contacts}
+              />
+              <Menu
+                onMenuClick={this.onMenuClick}
+                mobileLogo={mobileLogo}
+                powered={powered}
+                logo={logo}
+                cta={frontmatter[lang].cta}
+                menuItems={frontmatter[lang].menuItems}
+              />
+            </>
+          )
+        }}
       />
     )
   }

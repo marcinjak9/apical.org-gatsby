@@ -7,28 +7,45 @@ hideNav: false
 hideFooter: false
 sections:
   - props:
-      bodyLight: true
-      heroBody: >-
-        Apical unisce le esperienze dei Creator di viaggi o eventi fornendo loro
-        ogni mezzo necessario. La somma di ognuna di queste forze genera impatto
-        sociale e ambientale positivo
-      image: 'https://ucarecdn.com/9e215015-c439-4c1b-a516-3ab46951eed3/'
-      title: Happiness is a movement
-      typings: []
+      it:
+        bodyLight: true
+        heroBody: >-
+          Apical unisce le esperienze dei Creator di viaggi o eventi fornendo loro
+          ogni mezzo necessario. La somma di ognuna di queste forze genera impatto
+          sociale e ambientale positivo
+        image: 'https://ucarecdn.com/9e215015-c439-4c1b-a516-3ab46951eed3/'
+        title: Happiness is a movement
+        typings: ['']
+      en:
+        bodyLight: true
+        heroBody: >-
+          Apical combines the experiences of travel or event creators by providing them with all necessary means. The sum of each of these forces generates positive social and environmental impact
+        image: 'https://ucarecdn.com/9e215015-c439-4c1b-a516-3ab46951eed3/'
+        title: Happiness is a movement
+        typings: ['']
     type: HomeHero
   - props:
-      body: >-
-        Apical è la piattaforma di booking che permette ai creatori di
-        esperienze di aumentare del 30% gli incassi risparmiando fino all’80%
-        del tempo. Con Apical tour operator, brand, associazioni o singole
-        persone possono creare, gestire e vendere facilmente online viaggi o
-        eventi, coinvolgendo inoltre il pubblico in attività ad impatto sociale
-        o ambientale positivo.
-      cta:
-        link: features
-        text: Scopri le funzionalità
-      greyBg: true
-      title: Mission
+      it:
+        body: >-
+          Apical è la piattaforma di booking che permette ai creatori di
+          esperienze di aumentare del 30% gli incassi risparmiando fino all’80%
+          del tempo. Con Apical tour operator, brand, associazioni o singole
+          persone possono creare, gestire e vendere facilmente online viaggi o
+          eventi, coinvolgendo inoltre il pubblico in attività ad impatto sociale
+          o ambientale positivo.
+        cta:
+          link: features
+          text: Scopri le funzionalità
+        greyBg: true
+        title: Mission
+      en:
+        body: >-
+          Apical is the booking platform which allows experience creators to increase collections by 30%, saving up to 80% of the time. With Apical tour operators, brands, associations or individuals can easily create, manage and sell travel or events online, also involving the public in activities with a positive social or environmental impact.
+        cta:
+          link: features
+          text: Discover the features
+        greyBg: true
+        title: Mission
     type: WhatWeDo
   - props:
       Members:
@@ -64,46 +81,89 @@ sections:
       titleCenter: true
     type: TeamSection
   - props:
-      columns:
-        - body: >-
-            Quello che ti serve per creare, gestire e vendere le tue esperienze
-            o i tuoi viaggi: tutto in uno strumento
-          emoji: ✈️
-          title: Risparmia l’80% del tempo
-        - body: >-
-            La professionalità delle interfacce, del sistema di pagamenti e
-            delle opzioni di personalizzazione rende il tuo prodotto migliore
-          emoji: "\U0001F4BB"
-          title: Aumenta del 30% gli incassi
-        - body: >-
-            Se ci uniamo possiamo generare impatto positivo sul Pianeta. Apical
-            pianta alberi ad ogni esperienza, rendendola ancora più
-            straordinaria
-          emoji: "\U0001F332"
-          title: Genera impatto sociale positivo
-      cta:
-        link: '#onboarding'
-        text: Iscriviti gratuitamente
-      greyBg: true
-      title: Solo con Apical
-      titleCenter: true
+      it:
+        columns:
+          - body: >-
+              Quello che ti serve per creare, gestire e vendere le tue esperienze
+              o i tuoi viaggi: tutto in uno strumento
+            emoji: ✈️
+            title: Risparmia l’80% del tempo
+          - body: >-
+              La professionalità delle interfacce, del sistema di pagamenti e
+              delle opzioni di personalizzazione rende il tuo prodotto migliore
+            emoji: "\U0001F4BB"
+            title: Aumenta del 30% gli incassi
+          - body: >-
+              Se ci uniamo possiamo generare impatto positivo sul Pianeta. Apical
+              pianta alberi ad ogni esperienza, rendendola ancora più
+              straordinaria
+            emoji: "\U0001F332"
+            title: Genera impatto sociale positivo
+        cta:
+          link: '#onboarding'
+          text: Iscriviti gratuitamente
+        greyBg: true
+        title: Solo con Apical
+        titleCenter: true
+      en:
+        columns:
+          - body: >-
+              "What you need to create, manage and sell your experiences or travels: all in one tool"
+            emoji: ✈️
+            title: Save 80% of the time
+          - body: >-
+              The professional interface, payment system and customization options make your product better
+            emoji: "\U0001F4BB"
+            title: Increase receipts by 30%
+          - body: >-
+              If we join together, we can generate positive impact on the planet. Apical plants trees at every experience, making it even more extraordinary
+            emoji: "\U0001F332"
+            title: Generate positive social impact
+        cta:
+          link: '#onboarding'
+          text: Sign up for free
+        greyBg: true
+        title: Only with apical
+        titleCenter: true
     type: FeaturesSection
   - props:
-      bgImage: 'https://ucarecdn.com/6a65fb83-205f-411e-9be6-a0e6683b0d1e/'
-      body: >-
-        We believe that when people share their energy into an intense
-        experience they naturally become more open-minded, curious and able to
-        understand one another Experience Creators have the power to change
-        people’s life.  Apical is here to support them. Join our mission
-      quote: '- Nicola Zanola, CEO'
-      title: Happiness is a movement
+      it:
+        bgImage: 'https://ucarecdn.com/1da972a8-a4be-406e-8427-b7f28345439c/'
+        body: >+
+          We believe that when people share their energy into an intense
+          experience they naturally become more open-minded, curious and able to
+          understand one another Experience Creators have the power to change
+          people’s life.  Apical is here to support them. Join our mission
+
+        fullHeigh: true
+        quote: 'Nicola Zanola, CEO'
+        title: Happiness is a movement
+      en:
+        bgImage: 'https://ucarecdn.com/1da972a8-a4be-406e-8427-b7f28345439c/'
+        body: >+
+          We believe that when people share their energy into an intense
+          experience they naturally become more open-minded, curious and able to
+          understand one another Experience Creators have the power to change
+          people’s life.  Apical is here to support them. Join our mission
+
+        fullHeigh: true
+        quote: 'Nicola Zanola, CEO'
+        title: Happiness is a movement
     type: Cta
   - props:
-      body: >-
-        La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
-        per permetterci di conoscere la tua realtà e i tuoi bisogni.
-      formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
-      title: Entra in Apical
+      it:
+        body: >-
+          La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
+          per permetterci di conoscere la tua realtà e i tuoi bisogni.
+        formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
+        redirectTo: /grazie
+        title: Entra in Apical
+      en:
+        body: >-
+          Your Apical Experience can start now! It takes a few minutes to let us know your situation and your needs.
+        formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
+        redirectTo: /grazie
+        title: Enter Apical
     type: FormSection
 ---
 

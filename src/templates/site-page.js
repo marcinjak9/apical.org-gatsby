@@ -15,7 +15,23 @@ const renderChild = (children) => {
   return React.createElement(components[children.id], children.props || {})
 }
 
-const renderProps = (props) => {
+const selectLanguage = (props) => {
+  const lang = navigator.language.substring(0, 2) || navigator.userLanguage.substring(0, 2)
+  if (props[lang]) {
+    // todo language selection by browser
+    return props[lang]
+  }
+  if (!props.it) {
+    if (!props.en) {
+      return props
+    }
+    return props.en
+  }
+  return props.it
+}
+
+const renderProps = (oldProps) => {
+  const props = selectLanguage(oldProps)
   if (!props) {
     return {}
   }
@@ -50,6 +66,7 @@ const renderElements = (sections, preview) => {
         return withErrorBoundary(
           React.createElement(
             components[element.type],
+            // LANGUAGE SELECTION
             { ...renderProps(element.props), key: index, preview },
             renderChild(element.children),
           ),
@@ -108,91 +125,265 @@ export const pageQuery = graphql`
           type
           children
           props {
-            heroBody
-            typings
-            image
-            title
-            greyBg
-            videoUrl
-            subtitle
-            titleCenter
-            bgImage
-            body
-            fullHeigh
-            quote
-            formId
-            central
-            smallText
-            redirectTo
-            cards {
-              body
+            it {
+              heroBody
+              typings
               image
               title
-            }
-            slides {
+              greyBg
+              videoUrl
+              subtitle
+              titleCenter
+              bgImage
               body
-              image
-              title
-            }
-            features {
-              title
-              body
-              image
-              items {
-                icon
+              fullHeigh
+              quote
+              formId
+              central
+              smallText
+              redirectTo
+              cards {
+                body
+                image
+                title
+              }
+              slides {
+                body
+                image
+                title
+              }
+              features {
                 title
                 body
-                pro
+                image
+                items {
+                  icon
+                  title
+                  body
+                  pro
+                }
+              }
+              columns {
+                emoji
+                body
+                title
+              }
+              cta {
+                link
+                text
+                title
+              }
+              items {
+                title
+                nav
+                body
+              }
+              # Members {
+              #   body
+              #   image
+              #   name
+              #   role
+              # }
+              testimonials {
+                body
+                company
+                image
+                name
+              }
+              # creators {
+              #   body
+              #   excerpt
+              #   image
+              #   name
+              #   tag
+              #   tagline
+              #   url
+              # }
+              tabs {
+                commission
+                description
+                mobileTitle
+                monthly
+                setupFee
+                title
+                features {
+                  active
+                  text
+                }
               }
             }
-            columns {
-              emoji
+            en {
+              heroBody
+              typings
+              image
+              title
+              greyBg
+              videoUrl
+              subtitle
+              titleCenter
+              bgImage
               body
-              title
+              fullHeigh
+              quote
+              formId
+              central
+              smallText
+              redirectTo
+              cards {
+                body
+                image
+                title
+              }
+              slides {
+                body
+                image
+                title
+              }
+              features {
+                title
+                body
+                image
+                items {
+                  icon
+                  title
+                  body
+                  pro
+                }
+              }
+              columns {
+                emoji
+                body
+                title
+              }
+              cta {
+                link
+                text
+                title
+              }
+              items {
+                title
+                nav
+                body
+              }
+              # Members {
+              #   body
+              #   image
+              #   name
+              #   role
+              # }
+              testimonials {
+                body
+                company
+                image
+                name
+              }
+              # creators {
+              #   body
+              #   excerpt
+              #   image
+              #   name
+              #   tag
+              #   tagline
+              #   url
+              # }
+              tabs {
+                commission
+                description
+                mobileTitle
+                monthly
+                setupFee
+                title
+                features {
+                  active
+                  text
+                }
+              }
             }
-            cta {
-              link
-              text
-              title
-            }
-            items {
-              title
-              nav
-              body
-            }
+            # heroBody
+            # typings
+            # image
+            title
+            # greyBg
+            # videoUrl
+            # subtitle
+            titleCenter
+            # bgImage
+            # body
+            # fullHeigh
+            # quote
+            # formId
+            # central
+            # smallText
+            # redirectTo
+            # cards {
+            #   body
+            #   image
+            #   title
+            # }
+            # slides {
+            #   body
+            #   image
+            #   title
+            # }
+            # features {
+            #   title
+            #   body
+            #   image
+            #   items {
+            #     icon
+            #     title
+            #     body
+            #     pro
+            #   }
+            # }
+            # columns {
+            #   emoji
+            #   body
+            #   title
+            # }
+            # cta {
+            #   link
+            #   text
+            #   title
+            # }
+            # items {
+            #   title
+            #   nav
+            #   body
+            # }
             Members {
               body
               image
               name
               role
             }
-            testimonials {
-              body
-              company
-              image
-              name
-            }
-            creators {
-              body
-              excerpt
-              image
-              name
-              tag
-              tagline
-              url
-            }
-            tabs {
-              commission
-              description
-              mobileTitle
-              monthly
-              setupFee
-              title
-              features {
-                active
-                text
-              }
-            }
+            # testimonials {
+            #   body
+            #   company
+            #   image
+            #   name
+            # }
+            # creators {
+            #   body
+            #   excerpt
+            #   image
+            #   name
+            #   tag
+            #   tagline
+            #   url
+            # }
+            # tabs {
+            #   commission
+            #   description
+            #   mobileTitle
+            #   monthly
+            #   setupFee
+            #   title
+            #   features {
+            #     active
+            #     text
+            #   }
+            # }
           }
         }
       }

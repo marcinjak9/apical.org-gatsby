@@ -53,7 +53,7 @@ const dynamicStyle = (props) => {
     s = css`
       ${s}
       width: 100%;
-      text-align: left;
+      /* text-align: left; */
       /* padding: 1.1rem 1.5rem 0.8rem 1.5rem !important; */
       i {
         float: right;
