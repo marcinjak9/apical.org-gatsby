@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from '@emotion/styled';
+import React from 'react'
+import styled from '@emotion/styled'
 
 const Container = styled.nav`
   position: relative;
@@ -70,12 +70,18 @@ const Container = styled.nav`
       display: none;
     }
   }
-`;
+
+  @media (max-width: 995px) {
+    .cta-menu {
+      display: none;
+    }
+  }
+`
 
 const NavContainer = ({ children }) => (
   <header>
     <Container>{children}</Container>
   </header>
-);
+)
 
-export default NavContainer;
+export default NavContainer

@@ -8,7 +8,14 @@ import { goToAnchor } from 'react-scrollable-anchor'
 import Link from './LinkWrapper'
 
 const dynamicStyle = (props) => {
-  let s = css``
+  let s = css`
+    &:hover {
+      box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1),
+        0 3px 6px rgba(0, 0, 0, 0.08);
+      transform: translateY(-1px);
+      color: #fff;
+    }
+  `
 
   if (props.primary) {
     s = css`
@@ -16,15 +23,11 @@ const dynamicStyle = (props) => {
       background-color: ${props.light ? 'var(--light)' : 'var(--blue)'};
       border-color: ${props.light ? 'var(--light)' : 'var(--blue)'};
       color: ${props.light ? 'var(--darkblue)' : 'var(--light)'};
-      &:hover {
+      /* &:hover {
         color: ${props.darkBg ? 'var(--light)' : 'var(--blue)'};
-        /* background-color: ${
-  props.light ? 'transparent' : 'var(--darkblue)'
-}; */
         background-color: transparent;
-        /* border-color: ${props.light ? 'var(--light)' : 'transparent'} */
         border-color: ${props.darkBg ? 'var(--light)' : 'var(--blue)'};
-      }
+      } */
     `
   }
   if (props.alignStart) {
@@ -42,10 +45,11 @@ const dynamicStyle = (props) => {
       /* padding: 0.5rem 1rem; */
       /* font-weight: normal; */
       /* line-height: 2rem; */
+
       &:hover {
-        background-color: var(--blue);
-        color: var(--light);
-        border-color: var(--light);
+        /* background-color: var(--blue); */
+        color: ${props.light ? 'var(--darkblue)' : 'var(--blue)'};
+        /* border-color: var(--light); */
       }
     `
   }

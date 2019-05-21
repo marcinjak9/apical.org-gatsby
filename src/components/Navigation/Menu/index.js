@@ -106,7 +106,7 @@ class Menu extends React.Component {
               ))}
               <LanguageSelection />
             </div>
-            <div className="nav-items">
+            <div className="nav-items cta-menu">
               {cta && (
                 <Button
                   outline
