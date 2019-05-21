@@ -82,6 +82,13 @@ const renderElements = (sections, preview) => {
   return null
 }
 
+const selectMeta = (meta) => {
+  if (!meta) {
+    return null
+  }
+  return meta[language()] || meta
+}
+
 const SitePage = ({
   preview,
   data: {
@@ -104,7 +111,7 @@ const SitePage = ({
       preview={preview}
       hideFooter={hideFooter}
       hideNav={hideNav}
-      meta={meta[language()] || meta}
+      meta={selectMeta(meta)}
     >
       <main>{renderElements(sections, preview)}</main>
     </Layout>
