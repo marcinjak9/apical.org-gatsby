@@ -130,7 +130,7 @@ sections:
     type: Presentation
   - children: >-
       L’iscrizione ad apical è gratuita e non ha costi fissi se compili il form
-      entro il 22 maggio
+      entro il 30 maggio
     props:
       cta:
         link: 'property-manager#onboarding'
