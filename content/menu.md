@@ -1,10 +1,16 @@
 ---
 templateKey: menu
-logo: 'https://ucarecdn.com/c2946d5e-55e6-4765-94cd-04365fbe4ff0/'
-mobileLogo: 'https://ucarecdn.com/9014f5a3-40e2-451c-b94e-3ca1029ea3a1/'
-sidebarLogo: 'https://ucarecdn.com/95b7e940-a264-48d1-80db-925c3b786761/'
+logo: 'https://ucarecdn.com/d5ab5ea0-ec73-4bac-8353-1cd09b7634e4/'
 powered: false
+mobileLogo: 'https://ucarecdn.com/1c158d52-0f6c-420c-853f-0c409b903043/'
+sidebarLogo: 'https://ucarecdn.com/bce3c499-5048-4c6b-be46-88a49df0f1ff/'
 it:
+  contacts:
+    email: info@apical.org
+    phone: +39 392 2606862
+  cta:
+    text: Unisciti ora
+    url: '#onboarding'
   menuItems:
     - text: Home
       url: /
@@ -16,13 +22,13 @@ it:
       url: 'https://www.esperienze.com'
     - text: Blog
       url: 'https://journal.apical.org'
-  cta:
-    text: Unisciti ora
-    url: '#onboarding'
+en:
   contacts:
     email: info@apical.org
     phone: +39 392 2606862
-en:
+  cta:
+    text: Join now
+    url: '#onboarding'
   menuItems:
     - text: Home
       url: /
@@ -34,11 +40,5 @@ en:
       url: 'https://www.esperienze.com'
     - text: Blog
       url: 'https://journal.apical.org'
-  cta:
-    text: Join now
-    url: '#onboarding'
-  contacts:
-    email: info@apical.org
-    phone: +39 392 2606862
 ---
 
