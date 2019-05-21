@@ -104,7 +104,7 @@ const SitePage = ({
       preview={preview}
       hideFooter={hideFooter}
       hideNav={hideNav}
-      meta={meta}
+      meta={meta[language()] || meta}
     >
       <main>{renderElements(sections, preview)}</main>
     </Layout>
@@ -122,8 +122,14 @@ export const pageQuery = graphql`
         hideNav
         hideFooter
         meta {
-          pageTitle
-          pageDescription
+          it {
+            pageTitle
+            pageDescription
+          }
+          en {
+            pageTitle
+            pageDescription
+          }
         }
         sections {
           type

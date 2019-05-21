@@ -6,8 +6,12 @@ type: page
 hideNav: false
 hideFooter: false
 meta:
-  pageTitle: Apical - Crea la tua esperienza
-  pageDescription: Happiness is a Movement
+  it:
+    pageTitle: Apical - Crea la tua esperienza
+    pageDescription: Happiness is a Movement
+  en:
+    pageTitle: Apical - Create your experience
+    pageDescription: Happiness is a Movement
 sections:
   - props:
       it:

@@ -6,7 +6,10 @@ type: page
 hideNav: false
 hideFooter: false
 meta:
-  pageTitle: Impatto sociale
+  it:
+    pageTitle: Impatto sociale
+  en:
+    pageTitle: Impatto sociale
 sections:
   - props:
       it:

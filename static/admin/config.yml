@@ -65,24 +65,50 @@ collections:
           - {label: Powered by, name: powered, widget: boolean, default: false, required: false}
           - {label: Mobile Logo, name: mobileLogo, widget: image}
           - {label: Sidebar Logo, name: sidebarLogo, widget: image}
-          - label: Menu Items
-            name: menuItems
-            widget: list
-            fields:
-              - { label: Url, name: url, widget: string }
-              - {label: Text, name: text, widget: string }
-          - label: Call to Action
-            name: cta
+          - label: Italian
+            name: it
             widget: object
             fields:
-              - { label: Url, name: url, widget: string }
-              - {label: Text, name: text, widget: string }
-          - label: Contacts
-            name: contacts
+              - label: Menu Items
+                name: menuItems
+                widget: list
+                fields:
+                  - { label: Url, name: url, widget: string }
+                  - {label: Text, name: text, widget: string }
+              - label: Call to Action
+                name: cta
+                widget: object
+                fields:
+                  - { label: Url, name: url, widget: string }
+                  - {label: Text, name: text, widget: string }
+              - label: Contacts
+                name: contacts
+                widget: object
+                fields:
+                  - { label: Phone, name: phone, widget: string }
+                  - { label: Email, name: email, widget: string }
+          - label: English
+            name: en
             widget: object
             fields:
-              - { label: Phone, name: phone, widget: string }
-              - { label: Email, name: email, widget: string }
+              - label: Menu Items
+                name: menuItems
+                widget: list
+                fields:
+                  - { label: Url, name: url, widget: string }
+                  - {label: Text, name: text, widget: string }
+              - label: Call to Action
+                name: cta
+                widget: object
+                fields:
+                  - { label: Url, name: url, widget: string }
+                  - {label: Text, name: text, widget: string }
+              - label: Contacts
+                name: contacts
+                widget: object
+                fields:
+                  - { label: Phone, name: phone, widget: string }
+                  - { label: Email, name: email, widget: string }
 
       - label: Footer Menu
         name: footerMenu
@@ -92,24 +118,50 @@ collections:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "footer-menu" }
           - {label: Logo, name: logo, widget: image}
           - {label: Mobile Logo, name: mobileLogo, widget: image}
-          - label: Menu Items
-            name: menuItems
-            widget: list
-            fields:
-              - { label: Url, name: url, widget: string }
-              - {label: Text, name: text, widget: string }
-          - label: Social Items
-            name: socialItems
-            widget: list
-            fields:
-              - { label: Url, name: url, widget: string }
-              - {label: Text, name: text, widget: string }
-          - label: Contacts
-            name: contacts
+          - label: Italian
+            name: it
             widget: object
             fields:
-              - { label: Phone, name: phone, widget: string }
-              - { label: Email, name: email, widget: string }
+              - label: Menu Items
+                name: menuItems
+                widget: list
+                fields:
+                  - { label: Url, name: url, widget: string }
+                  - {label: Text, name: text, widget: string }
+              - label: Social Items
+                name: socialItems
+                widget: list
+                fields:
+                  - { label: Url, name: url, widget: string }
+                  - {label: Text, name: text, widget: string }
+              - label: Contacts
+                name: contacts
+                widget: object
+                fields:
+                  - { label: Phone, name: phone, widget: string }
+                  - { label: Email, name: email, widget: string }
+          - label: English
+            name: en
+            widget: object
+            fields:
+              - label: Menu Items
+                name: menuItems
+                widget: list
+                fields:
+                  - { label: Url, name: url, widget: string }
+                  - {label: Text, name: text, widget: string }
+              - label: Social Items
+                name: socialItems
+                widget: list
+                fields:
+                  - { label: Url, name: url, widget: string }
+                  - {label: Text, name: text, widget: string }
+              - label: Contacts
+                name: contacts
+                widget: object
+                fields:
+                  - { label: Phone, name: phone, widget: string }
+                  - { label: Email, name: email, widget: string }
 
   # - name: features
   #   label: Features
@@ -145,8 +197,18 @@ collections:
         name: meta
         widget: object
         fields:
-          - { label: Page title, name: pageTitle, widget: string, required: false }
-          - { label: Page Description, name: pageDescription, widget: text, required: false }
+          - label: Italian
+            name: it
+            widget: object
+            fields:
+              - { label: Page title, name: pageTitle, widget: string, required: false }
+              - { label: Page Description, name: pageDescription, widget: text, required: false }
+          - label: English
+            name: en
+            widget: object
+            fields:
+              - { label: Page title, name: pageTitle, widget: string, required: false }
+              - { label: Page Description, name: pageDescription, widget: text, required: false }
       - label: Sections
         name: "sections"
         widget: "list"

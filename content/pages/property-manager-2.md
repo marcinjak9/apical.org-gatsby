@@ -6,7 +6,10 @@ type: page
 hideNav: false
 hideFooter: false
 meta:
-  pageTitle: 'Apical, la piattaforma per Property Manager '
+  it:
+    pageTitle: 'Apical, la piattaforma per Property Manager '
+  en:
+    pageTitle: 'Apical, la piattaforma per Property Manager '
 sections:
   - props:
       it:

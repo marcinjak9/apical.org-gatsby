@@ -4,6 +4,7 @@ import Link from '../../LinkWrapper'
 import NavContainer from './NavContainer'
 import Button from '../../Button'
 import { Container, Row, Column } from '../../Global'
+import LanguageSelection from './LanguageSelection'
 
 const SubMenu = styled.section`
   padding: 4rem 0;
@@ -89,7 +90,10 @@ class Menu extends React.Component {
               {powered && (
                 <Powered>
                   powered by
-                  <img src="https://apical.it/skin/frontend/ultimo/default/images/apical-logo.png" />
+                  <img
+                    src="https://apical.it/skin/frontend/ultimo/default/images/apical-logo.png"
+                    alt="logo"
+                  />
                 </Powered>
               )}
             </Link>
@@ -100,6 +104,7 @@ class Menu extends React.Component {
                   {m.text}
                 </Link>
               ))}
+              <LanguageSelection />
             </div>
             <div className="nav-items">
               {cta && (
