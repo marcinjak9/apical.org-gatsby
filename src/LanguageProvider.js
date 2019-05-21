@@ -3,7 +3,6 @@ export const language = () => {
     let cached = null
     if (typeof localStorage !== 'undefined') {
       cached = localStorage.getItem('apical_language')
-      console.log(cached)
     }
     return (
       cached

@@ -16,7 +16,6 @@ export default class LanguageSelection extends Component {
   constructor(props) {
     super(props)
     const lang = language()
-    console.log(lang)
     this.state = {
       selected: lang,
     }
