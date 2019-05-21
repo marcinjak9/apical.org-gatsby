@@ -29,7 +29,7 @@ const Navigation = styled.div`
       a {
         color: var(--blue);
       }
-    }
+    } 
   }
 `;
 

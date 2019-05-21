@@ -4,6 +4,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import Layout from '../components/Layout'
 import ErrorBoundary from '../components/ErrorBuondary'
 import components from '../componentsMap'
+import { language } from '../LanguageProvider'
 
 const renderChild = (children) => {
   if (!children) {
@@ -15,7 +16,26 @@ const renderChild = (children) => {
   return React.createElement(components[children.id], children.props || {})
 }
 
-const renderProps = (props) => {
+const selectLanguage = (props) => {
+  const lang = language()
+  if (!props) {
+    return props
+  }
+  if (props[lang]) {
+    // todo language selection by browser
+    return props[lang]
+  }
+  if (!props.it) {
+    if (!props.en) {
+      return props
+    }
+    return props.en
+  }
+  return props.it
+}
+
+const renderProps = (oldProps) => {
+  const props = selectLanguage(oldProps)
   if (!props) {
     return {}
   }
@@ -50,6 +70,7 @@ const renderElements = (sections, preview) => {
         return withErrorBoundary(
           React.createElement(
             components[element.type],
+            // LANGUAGE SELECTION
             { ...renderProps(element.props), key: index, preview },
             renderChild(element.children),
           ),
@@ -59,6 +80,13 @@ const renderElements = (sections, preview) => {
     })
   }
   return null
+}
+
+const selectMeta = (meta) => {
+  if (!meta) {
+    return null
+  }
+  return meta[language()] || meta
 }
 
 const SitePage = ({
@@ -83,7 +111,7 @@ const SitePage = ({
       preview={preview}
       hideFooter={hideFooter}
       hideNav={hideNav}
-      meta={meta}
+      meta={selectMeta(meta)}
     >
       <main>{renderElements(sections, preview)}</main>
     </Layout>
@@ -101,98 +129,278 @@ export const pageQuery = graphql`
         hideNav
         hideFooter
         meta {
-          pageTitle
-          pageDescription
+          it {
+            pageTitle
+            pageDescription
+          }
+          en {
+            pageTitle
+            pageDescription
+          }
         }
         sections {
           type
           children
           props {
-            heroBody
-            typings
-            image
-            title
-            greyBg
-            videoUrl
-            subtitle
-            titleCenter
-            bgImage
-            body
-            fullHeigh
-            quote
-            formId
-            central
-            smallText
-            redirectTo
-            cards {
-              body
+            it {
+              heroBody
+              typings
               image
               title
-            }
-            slides {
+              greyBg
+              videoUrl
+              subtitle
+              titleCenter
+              bgImage
               body
-              image
-              title
-            }
-            features {
-              title
-              body
-              image
-              items {
-                icon
+              fullHeigh
+              quote
+              formId
+              central
+              smallText
+              redirectTo
+              cards {
+                body
+                image
+                title
+              }
+              slides {
+                body
+                image
+                title
+              }
+              features {
                 title
                 body
-                pro
+                image
+                items {
+                  icon
+                  title
+                  body
+                  pro
+                }
+              }
+              columns {
+                emoji
+                body
+                title
+              }
+              cta {
+                link
+                text
+                title
+              }
+              items {
+                title
+                nav
+                body
+              }
+              # Members {
+              #   body
+              #   image
+              #   name
+              #   role
+              # }
+              testimonials {
+                body
+                company
+                image
+                name
+              }
+              # creators {
+              #   body
+              #   excerpt
+              #   image
+              #   name
+              #   tag
+              #   tagline
+              #   url
+              # }
+              tabs {
+                commission
+                description
+                mobileTitle
+                monthly
+                setupFee
+                title
+                features {
+                  active
+                  text
+                }
               }
             }
-            columns {
-              emoji
+            en {
+              heroBody
+              typings
+              image
+              title
+              greyBg
+              videoUrl
+              subtitle
+              titleCenter
+              bgImage
               body
-              title
+              fullHeigh
+              quote
+              formId
+              central
+              smallText
+              redirectTo
+              cards {
+                body
+                image
+                title
+              }
+              slides {
+                body
+                image
+                title
+              }
+              features {
+                title
+                body
+                image
+                items {
+                  icon
+                  title
+                  body
+                  pro
+                }
+              }
+              columns {
+                emoji
+                body
+                title
+              }
+              cta {
+                link
+                text
+                title
+              }
+              items {
+                title
+                nav
+                body
+              }
+              # Members {
+              #   body
+              #   image
+              #   name
+              #   role
+              # }
+              testimonials {
+                body
+                company
+                image
+                name
+              }
+              creators {
+                body
+                excerpt
+                image
+                name
+                tag
+                tagline
+                url
+              }
+              tabs {
+                commission
+                description
+                mobileTitle
+                monthly
+                setupFee
+                title
+                features {
+                  active
+                  text
+                }
+              }
             }
-            cta {
-              link
-              text
-              title
-            }
-            items {
-              title
-              nav
-              body
-            }
+            # heroBody
+            # typings
+            # image
+            title
+            # greyBg
+            # videoUrl
+            # subtitle
+            titleCenter
+            # bgImage
+            # body
+            # fullHeigh
+            # quote
+            # formId
+            # central
+            # smallText
+            # redirectTo
+            # cards {
+            #   body
+            #   image
+            #   title
+            # }
+            # slides {
+            #   body
+            #   image
+            #   title
+            # }
+            # features {
+            #   title
+            #   body
+            #   image
+            #   items {
+            #     icon
+            #     title
+            #     body
+            #     pro
+            #   }
+            # }
+            # columns {
+            #   emoji
+            #   body
+            #   title
+            # }
+            # cta {
+            #   link
+            #   text
+            #   title
+            # }
+            # items {
+            #   title
+            #   nav
+            #   body
+            # }
             Members {
               body
               image
               name
               role
             }
-            testimonials {
-              body
-              company
-              image
-              name
-            }
-            creators {
-              body
-              excerpt
-              image
-              name
-              tag
-              tagline
-              url
-            }
-            tabs {
-              commission
-              description
-              mobileTitle
-              monthly
-              setupFee
-              title
-              features {
-                active
-                text
-              }
-            }
+            # testimonials {
+            #   body
+            #   company
+            #   image
+            #   name
+            # }
+            # creators {
+            #   body
+            #   excerpt
+            #   image
+            #   name
+            #   tag
+            #   tagline
+            #   url
+            # }
+            # tabs {
+            #   commission
+            #   description
+            #   mobileTitle
+            #   monthly
+            #   setupFee
+            #   title
+            #   features {
+            #     active
+            #     text
+            #   }
+            # }
           }
         }
       }

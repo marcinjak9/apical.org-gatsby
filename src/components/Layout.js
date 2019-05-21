@@ -19,6 +19,12 @@ const Layout = ({
         name="description"
         content={(meta && meta.pageDescription) || "Happiness is a Movement"}
       />
+      <link
+        rel="icon"
+        type="image/png"
+        href="/images/favicon.png"
+        sizes="16x16"
+      />
     </Helmet>
     {!hideNav && <Navigation />}
     {children}
