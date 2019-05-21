@@ -61,9 +61,28 @@ const ColumnWithButtons = styled(Column)`
   }
 `
 
-const PartnersRow = styled(Row)`
+const PartnersRow = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 960px;
   img {
     width: 100%;
+    max-width: 200px;
+  }
+
+  .partner-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  @media (max-width: 767px) {
+    flex-wrap: wrap;
+    img {
+      max-width: 100px;
+    }
   }
 `
 
@@ -167,15 +186,17 @@ const FooterInner = (props) => {
             </ColumnWithButtons>
           )}
         </Row>
-        <PartnersRow>
+        <Row>
           <Column size="12">
             <h3>Partners</h3>
           </Column>
+        </Row>
+        <PartnersRow>
           {partners
             && partners.map((partner, i) => (
-              <Column size="2">
+              <div className="partner-col">
                 <Image src={partner} alt="" grayscale />
-              </Column>
+              </div>
             ))}
         </PartnersRow>
       </Container>
