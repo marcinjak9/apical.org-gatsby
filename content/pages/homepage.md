@@ -161,12 +161,18 @@ sections:
         title: The platform is self-service and consists of three environments
         titleCenter: true
     type: Presentation
-  # - props:
-  #     greyBg: true
-  #     title: Presentazione apical
-  #     titleCenter: true
-  #     videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
-  #   type: VideoSection
+  - props:
+      it:
+        greyBg: true
+        title: Presentazione apical
+        titleCenter: true
+        videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
+      en:
+        greyBg: true
+        title: Video Presentation
+        titleCenter: true
+        videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
+    type: VideoSection
   - props:
       it:
         cta:
