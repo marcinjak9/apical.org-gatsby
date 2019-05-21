@@ -163,7 +163,7 @@ sections:
     type: VideoSection
   - children: >-
       L'iscrizione ad Apical è gratuita e non ha costi fissi se ti registri
-      entro il 22 maggio
+      entro il 30 maggio
     props:
       cta:
         link: 'property-managerbis#onboarding'
