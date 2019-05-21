@@ -97,7 +97,7 @@ sections:
       it:
         central: false
         image: 'https://ucarecdn.com/f1abd4a8-2f3e-49be-9870-7eb78b5bd585/'
-        smallText: false
+        smallText: true
         title: >-
           La Co2 è la grande emergenza dei nostri tempi. Apical ha deciso di
           investire nel verde e grazie alla partnership con Treedom, l'azienda
@@ -108,7 +108,7 @@ sections:
       en:
         central: false
         image: 'https://ucarecdn.com/f1abd4a8-2f3e-49be-9870-7eb78b5bd585/'
-        smallText: false
+        smallText: true
         title: >-
           La Co2 è la grande emergenza dei nostri tempi. Apical ha deciso di
           investire nel verde e grazie alla partnership con Treedom, l'azienda
@@ -134,9 +134,11 @@ sections:
   - props:
       it:
         image: 'https://ucarecdn.com/6c333fa9-45ab-4b80-b85c-2033563f32c7/'
+        smallText: true
         title: "**Happiness is a movement**\r\n\nWe believe that when people share their energy into an intense experience they naturally become more open-minded, curious and able to understand one another. Experience Creators have the power to change people’s life. Apical is here to support them. Join our mission\r\n\n\rNicola Zanola, CEO"
       en:
         image: 'https://ucarecdn.com/6c333fa9-45ab-4b80-b85c-2033563f32c7/'
+        smallText: true
         title: "**Happiness is a movement**\r\n\nWe believe that when people share their energy into an intense experience they naturally become more open-minded, curious and able to understand one another. Experience Creators have the power to change people’s life. Apical is here to support them. Join our mission\r\n\n\rNicola Zanola, CEO"
     type: SimpleHero
   - props:

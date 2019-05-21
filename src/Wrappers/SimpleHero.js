@@ -5,6 +5,7 @@ import Markdown from 'react-markdown/with-html'
 import Emoji from '../components/Emoji'
 import { Row, Container, Column } from '../components/Global'
 import { rawImageLink } from '../components/image'
+import Button from '../components/Button'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -74,6 +75,17 @@ const Body = styled(Row)`
   }
 `
 
+const renderCta = (cta) => {
+  if (cta && cta.text && cta.link) {
+    return (
+      <Button primary href={cta.link} icon="arrow" alignStart>
+        {cta.text}
+      </Button>
+    )
+  }
+  return null
+}
+
 const SimpleHero = ({
   image,
   title,
@@ -83,6 +95,7 @@ const SimpleHero = ({
   emoji,
   tag,
   emojiSize,
+  cta,
 }) => (
   <Wrapper image={image}>
     {title && (
@@ -111,8 +124,17 @@ const SimpleHero = ({
             )}
             {tag && <span className="hero-tag">{tag}</span>}
             {/* <h1>{title}</h1> */}
-            {title && <Markdown source={title} escapeHtml={false} />}
+            {title && (
+              <h1>
+                <Markdown
+                  source={title}
+                  escapeHtml={false}
+                  // renderers={{ paragraph: 'span' }}
+                />
+              </h1>
+            )}
             {body && <p>{body}</p>}
+            {renderCta(cta)}
           </Column>
         </Body>
       </Container>

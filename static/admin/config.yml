@@ -282,6 +282,12 @@ collections:
                       - { label: Baground, name: image, widget: image, required: false }
                       - { label: "Central text", name: "central", widget: "boolean", required: false }
                       - { label: "Small Text", name: "smallText", widget: "boolean", required: false }
+                      - label: CTA
+                        name: cta
+                        widget: object
+                        fields: 
+                          - { label: Cta Text, name: text, widget: string, required: false }
+                          - { label: Cta Link, name: link, widget: string, required: false }
                   - label: English
                     name: en
                     widget: object
@@ -291,6 +297,12 @@ collections:
                       - { label: Baground, name: image, widget: image, required: false }
                       - { label: "Central text", name: "central", widget: "boolean", required: false }
                       - { label: "Small Text", name: "smallText", widget: "boolean", required: false }
+                      - label: CTA
+                        name: cta
+                        widget: object
+                        fields: 
+                          - { label: Cta Text, name: text, widget: string, required: false }
+                          - { label: Cta Link, name: link, widget: string, required: false }
           - label: What We Do
             name: WhatWeDo
             widget: object
