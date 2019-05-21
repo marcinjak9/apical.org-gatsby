@@ -48,7 +48,7 @@ const dynamicStyle = (props) => {
 
       &:hover {
         /* background-color: var(--blue); */
-        color: ${props.light ? 'var(--darkblue)' : 'var(--blue)'};
+        color: ${props.light ? 'var(--light)' : 'var(--blue)'};
         /* border-color: var(--light); */
       }
     `
@@ -71,6 +71,14 @@ const dynamicStyle = (props) => {
   if (props.icon) {
     s = css`
       ${s} /* padding-top: .6rem; */
+    `
+  }
+  if (props.light) {
+    s = css`
+      ${s} /* padding-top: .6rem; */
+      &:hover {
+        color: var(--darkblue);
+      }
     `
   }
   return s
