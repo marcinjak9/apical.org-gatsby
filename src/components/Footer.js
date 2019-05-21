@@ -61,6 +61,12 @@ const ColumnWithButtons = styled(Column)`
   }
 `
 
+const PartnersRow = styled(Row)`
+  img {
+    width: 100%;
+  }
+`
+
 const FooterInner = (props) => {
   const { logo } = props
   const lang = language()
@@ -74,6 +80,9 @@ const FooterInner = (props) => {
           </Column>
           <Column size="4" className="footer-section">
             <Row>
+              <Column size="12">
+                <h3>Link utili</h3>
+              </Column>
               <Column size="6">
                 {menuItems.slice(0, menuItems.length / 2).map((m, i) => (
                   <Link key={i} to={m.url} className="footer-link">
@@ -113,6 +122,9 @@ const FooterInner = (props) => {
           </Column>
           <Column size="4" className="footer-section social-footer">
             <Row>
+              <Column size="12">
+                <h3>Social</h3>
+              </Column>
               <Column size="6" mobile="6">
                 {socialItems
                   && socialItems.map((si, i) => (
@@ -155,6 +167,47 @@ const FooterInner = (props) => {
             </ColumnWithButtons>
           )}
         </Row>
+        <PartnersRow>
+          <Column size="12">
+            <h3>Partners</h3>
+          </Column>
+          <Column size="2">
+            <img
+              src="https://apical.it/skin/frontend/ultimo/default/images/impacthub.png"
+              alt=""
+            />
+          </Column>
+          <Column size="2">
+            <img
+              src="https://apical.it/skin/frontend/ultimo/default/images/impacthub.png"
+              alt=""
+            />
+          </Column>
+          <Column size="2">
+            <img
+              src="https://apical.it/skin/frontend/ultimo/default/images/impacthub.png"
+              alt=""
+            />
+          </Column>
+          <Column size="2">
+            <img
+              src="https://apical.it/skin/frontend/ultimo/default/images/impacthub.png"
+              alt=""
+            />
+          </Column>
+          <Column size="2">
+            <img
+              src="https://apical.it/skin/frontend/ultimo/default/images/impacthub.png"
+              alt=""
+            />
+          </Column>
+          <Column size="2">
+            <img
+              src="https://apical.it/skin/frontend/ultimo/default/images/impacthub.png"
+              alt=""
+            />
+          </Column>
+        </PartnersRow>
       </Container>
       <div className="credits">
         <p>© 2019 Apical s.r.l. All Rights Reserved</p>
