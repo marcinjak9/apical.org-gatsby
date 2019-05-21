@@ -68,7 +68,7 @@ const PartnersRow = styled(Row)`
 `
 
 const FooterInner = (props) => {
-  const { logo } = props
+  const { logo, partners } = props
   const lang = language()
   const { menuItems, socialItems, contacts } = props[lang]
   return (
@@ -171,42 +171,12 @@ const FooterInner = (props) => {
           <Column size="12">
             <h3>Partners</h3>
           </Column>
-          <Column size="2">
-            <img
-              src="https://apical.it/skin/frontend/ultimo/default/images/impacthub.png"
-              alt=""
-            />
-          </Column>
-          <Column size="2">
-            <img
-              src="https://apical.it/skin/frontend/ultimo/default/images/impacthub.png"
-              alt=""
-            />
-          </Column>
-          <Column size="2">
-            <img
-              src="https://apical.it/skin/frontend/ultimo/default/images/impacthub.png"
-              alt=""
-            />
-          </Column>
-          <Column size="2">
-            <img
-              src="https://apical.it/skin/frontend/ultimo/default/images/impacthub.png"
-              alt=""
-            />
-          </Column>
-          <Column size="2">
-            <img
-              src="https://apical.it/skin/frontend/ultimo/default/images/impacthub.png"
-              alt=""
-            />
-          </Column>
-          <Column size="2">
-            <img
-              src="https://apical.it/skin/frontend/ultimo/default/images/impacthub.png"
-              alt=""
-            />
-          </Column>
+          {partners
+            && partners.map((partner, i) => (
+              <Column size="2">
+                <Image src={partner} alt="" grayscale />
+              </Column>
+            ))}
         </PartnersRow>
       </Container>
       <div className="credits">
@@ -224,6 +194,7 @@ const Footer = () => (
           frontmatter {
             logo
             mobileLogo
+            partners
             it {
               menuItems {
                 text

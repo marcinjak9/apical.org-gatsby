@@ -118,6 +118,10 @@ collections:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "footer-menu" }
           - {label: Logo, name: logo, widget: image}
           - {label: Mobile Logo, name: mobileLogo, widget: image}
+          - label: Partners
+            name: partners
+            widget: list
+            field: { label: Logo, name: logo, widget: image}
           - label: Italian
             name: it
             widget: object
@@ -140,10 +144,6 @@ collections:
                 fields:
                   - { label: Phone, name: phone, widget: string }
                   - { label: Email, name: email, widget: string }
-              - label: Partners
-                name: partners
-                widget: list
-                field: { label: Logo, name: logo, widget: image}
           - label: English
             name: en
             widget: object
@@ -166,10 +166,6 @@ collections:
                 fields:
                   - { label: Phone, name: phone, widget: string }
                   - { label: Email, name: email, widget: string }
-              - label: Partners
-                name: partners
-                widget: list
-                field: { label: Logo, name: logo, widget: image}
 
   # - name: features
   #   label: Features
