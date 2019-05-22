@@ -122,12 +122,14 @@ const CreatorCardBig = ({
       <p>{body}</p>
       {tagline && <small>{tagline}</small>}
       <div className="modal-cta">
-        {url && (
+        {url ? (
           <a href={url}>
             Visit website
             {' '}
             <i className="icon-link" />
           </a>
+        ) : (
+          'coming soon'
         )}
       </div>
     </div>
