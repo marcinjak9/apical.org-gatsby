@@ -186,6 +186,15 @@ sections:
             tagline: Travel
             url: >-
               https://apical.it/electropark_en/electropark-festival-preview-13-14-ottobre.html
+          - excerpt: >-
+              The journey, in its entirety, will be the true EXPERIENCE, the
+              reason that will make you return home with tears in your eyes,
+              with a heavy stomach and a smile with 4000 thousand teeth.
+            image: 'https://ucarecdn.com/804bb5e4-b024-4992-86fd-7b50be4e372d/'
+            name: Wave
+            tag: Travel
+            tagline: Travel
+            url: 'https://apical.it/wave/wave.html'
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -383,6 +392,15 @@ sections:
             tagline: Travel
             url: >-
               https://apical.it/electropark_en/electropark-festival-preview-13-14-ottobre.html
+          - excerpt: >-
+              Il viaggio, nella sua totalità, sarà la vera ESPERIENZA , il
+              motivo che ti farà tornare a casa con le lacrime agli occhi, con
+              il magone allo stomaco e un sorriso a 4000mila denti.
+            image: 'https://ucarecdn.com/fbfb9371-abc5-4939-8f36-1dac978f0699/'
+            name: Wave
+            tag: Travel
+            tagline: Travel
+            url: 'https://apical.it/wave/wave.html'
         subtitle: Qui una breve lista di alcuni dei nostri partner
         title: Scopri i nostri partner
         titleCenter: true
