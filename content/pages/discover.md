@@ -21,13 +21,13 @@ sections:
   - props:
       en:
         creators:
-          - body: Ottava edizione di musica elettronica per il festival siciliano
-            excerpt: Ottava edizione di musica elettronica per il festival siciliano
+          - body: ''
+            excerpt: Eighth edition of electronic music for the Sicilian festival
             image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
             name: Unlocked festival
             tag: Festival
             tagline: Festival
-            url: apical.it/unlockedmusicfestival
+            url: 'https://apical.it/unlockedmusicfestival/unlocked-festival.html'
           - body: >-
               Impara a dipingere all’aria aperta con il pittore e artista Martin
               Cambriglia
