@@ -123,3 +123,7 @@ span.underline {
 p {
       white-space: pre-line;
 }
+
+main {
+  padding-top: 70px;
+}
