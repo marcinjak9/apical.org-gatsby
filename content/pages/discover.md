@@ -135,6 +135,7 @@ sections:
             name: Tuttiservizi
             tag: Travel
             tagline: Travel
+            url: 'https://apical.it/paolo_duca/vietnam-cambogia.html'
           - body: Viaggio a San Pietroburgo sulle "orme degli zar"
             excerpt: Viaggio a San Pietroburgo sulle "orme degli zar"
             image: 'https://ucarecdn.com/d1b6c520-a749-48bd-8344-f64a40909de0/'
