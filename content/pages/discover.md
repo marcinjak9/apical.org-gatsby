@@ -113,7 +113,7 @@ sections:
             excerpt: >-
               Impara a dipingere all’aria aperta con il pittore e artista Martin
               Cambriglia
-            image: 'https://ucarecdn.com/ff103445-0e15-4bd7-afd1-cc0f3be1c9ff/'
+            image: 'https://ucarecdn.com/30e8a4c5-f433-4919-a982-1d68c68fba07/'
             name: Martin Studio
             tag: Arte
             tagline: Arte
@@ -147,7 +147,7 @@ sections:
             excerpt: >-
               Scopri fantastiche ed uniche esperienze ed escursioni a Sharm el
               Sheik
-            image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
+            image: 'https://ucarecdn.com/b7fc3e53-288d-4b57-b220-f45b0f993971/'
             name: Associazione Culturale Promozione culturale
             tag: Travel
             tagline: Travel
