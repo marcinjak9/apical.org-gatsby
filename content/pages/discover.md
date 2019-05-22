@@ -117,6 +117,11 @@ sections:
             name: Martinissimaviaggi
             tag: Travel
             tagline: Travel
+          - excerpt: Historical tours of the Second World War
+            image: 'https://ucarecdn.com/b3e48b01-28ce-40e7-8a3a-347cabed95f3/'
+            name: Associazione Cultura Xplora
+            tag: Travel
+            tagline: Travel
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -241,6 +246,14 @@ sections:
               Friuli-Venezia-Giulia
             image: 'https://ucarecdn.com/5b3160a1-2076-448e-8678-dec6202f2dde/'
             name: Martinissimaviaggi
+            tag: Travel
+            tagline: Travel
+          - excerpt: >-
+              Tour di Luoghi Storici come Bunker della Seconda Guerra Mondiale e
+              Castelli, creando pacchetti che comprenderanno Visita, Trasporto,
+              Vitto e Alloggio.
+            image: 'https://ucarecdn.com/e7b12f19-a272-40f5-96ec-ac49b2db9a7d/'
+            name: Associazione Cultura Xplora
             tag: Travel
             tagline: Travel
         subtitle: Qui una breve lista di alcuni dei nostri partner
