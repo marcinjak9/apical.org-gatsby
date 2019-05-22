@@ -131,7 +131,7 @@ sections:
             url: ''
           - body: Un viaggio tra le meraviglie del Vietnam e della Cambogia
             excerpt: Un viaggio tra le meraviglie del Vietnam e della Cambogia
-            image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
+            image: 'https://ucarecdn.com/349b9391-b4c8-4e4c-ac84-f2c59f9b0c4b/'
             name: Tuttiservizi
             tag: Travel
             tagline: Travel
