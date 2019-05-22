@@ -9,9 +9,18 @@ meta:
   en:
     pageTitle: Impatto sociale
   it:
-    pageTitle: Social Impact
+    pageDescription: >-
+      Apical è la piattaforma dedicata a chiunque lavori nel settore travel. Con
+      Apical puoi coinvolgere il uo pubblico in progetti ad impatto sociale
+    pageTitle: Organizza eperienze e viaggi ad impatto sociale
 sections:
   - props:
+      en:
+        heroBody: >-
+          Apical is a booking platform that enables the travel operators to
+          engige their public in social and enviromental positive impact
+        image: 'https://ucarecdn.com/cd8004a2-1390-494a-a82c-e6bae07ecbab/'
+        title: '#traveldifferently '
       it:
         heroBody: >-
           Apical è la booking platform che permette agli operatori del settore
@@ -19,25 +28,19 @@ sections:
           e ambientale positivo
         image: 'https://ucarecdn.com/cd8004a2-1390-494a-a82c-e6bae07ecbab/'
         title: '#traveldifferently '
-      en:
-        heroBody: >-
-          Apical is a booking platform that enables the travel operators to engige
-          their public in social and enviromental positive impact
-        image: 'https://ucarecdn.com/cd8004a2-1390-494a-a82c-e6bae07ecbab/'
-        title: '#traveldifferently '
     type: HomeHero
   - props:
       en:
         body: >-
-          We belive that every experience has a transformative potential that could
-          open the mind of anyone involved in it. This is why Apical promotes social 
-          and enviromental initiatives.
-          Apical offers to each of its partners the opportunity to involve their 
-          community having a positive footprint. Direct actions, volunteering and 
-          economical contributions: who choose Apical has different methods to be 
-          a part of our movement.
+          We belive that every experience has a transformative potential that
+          could open the mind of anyone involved in it. This is why Apical
+          promotes social  and enviromental initiatives. Apical offers to each
+          of its partners the opportunity to involve their  community having a
+          positive footprint. Direct actions, volunteering and  economical
+          contributions: who choose Apical has different methods to be  a part
+          of our movement.
         greyBg: true
-        title: 'Why we do social impact'
+        title: Why we do social impact
       it:
         body: >-
           Siamo convinti che ogni esperienza abbia un potenziale trasformativo
@@ -56,21 +59,21 @@ sections:
       en:
         cards:
           - body: >-
-              Apical offers to anyone who work in Travel industry the opportunity
-              to create, manage, and sell their products
+              Apical offers to anyone who work in Travel industry the
+              opportunity to create, manage, and sell their products
             image: ✍️
             title: Experiences
           - body: >-
               Who takes part in Apical generates social and enviromental impact.
               Add a plus to your experiences
             image: "\U0001F332"
-            title: 'Impact'
+            title: Impact
           - body: >-
-              Volunteering activities and donations imoprove the relations with locals,
-              making your experiences more valuable
+              Volunteering activities and donations imoprove the relations with
+              locals, making your experiences more valuable
             image: "\U0001F91D"
             title: Locals
-        title: 'Social Impact'
+        title: Social Impact
       it:
         cards:
           - body: >-
@@ -96,12 +99,12 @@ sections:
         image: 'https://ucarecdn.com/f1abd4a8-2f3e-49be-9870-7eb78b5bd585/'
         smallText: true
         title: >-
-          The great emergency of our times is the CO2. Apical has decided to invest
-          in green thanks to the partnership with Treedom, the italian company that 
-          plants trees every day.
-          All of this would not be possible without the synergy within us, creators and 
-          final customers. Any company that works in partnership with us is welcome 
-          in out Forest!
+          The great emergency of our times is the CO2. Apical has decided to
+          invest in green thanks to the partnership with Treedom, the italian
+          company that  plants trees every day. All of this would not be
+          possible without the synergy within us, creators and  final customers.
+          Any company that works in partnership with us is welcome  in out
+          Forest!
       it:
         central: false
         image: 'https://ucarecdn.com/f1abd4a8-2f3e-49be-9870-7eb78b5bd585/'
@@ -151,25 +154,28 @@ sections:
       en:
         cards:
           - body: >-
-              Take down the CO2! With Apical you can give customers the opportunity 
-              to plant trees and reduce their ecological impact.
-              Just add a optional donation to the cart and the tree will be planted.
+              Take down the CO2! With Apical you can give customers the
+              opportunity  to plant trees and reduce their ecological impact.
+              Just add a optional donation to the cart and the tree will be
+              planted.
             image: "\U0001F332"
             title: Join our fores
           - body: >-
-              With Apical you can add volunteering activities on site and propose them
-              to your customers. Partecipate to the community in which you are a guest
-              is a great experience that can make your offer extraordinary!
+              With Apical you can add volunteering activities on site and
+              propose them to your customers. Partecipate to the community in
+              which you are a guest is a great experience that can make your
+              offer extraordinary!
             image: "\U0001F4AA"
             title: Organize volunteering activities
           - body: >-
-              Choose your volunteering NGO and integrate it to Apical's platform.
-              Your company will support activly the project in which you belive
+              Choose your volunteering NGO and integrate it to Apical's
+              platform. Your company will support activly the project in which
+              you belive
             image: "\U0001F4E2"
             title: Support your favourite NGO
         cta:
           link: 'social-impact#onboarding'
-          text: 'Start your impact now'
+          text: Start your impact now
         greyBg: true
         title: How to create social impact with Apical
       it:
