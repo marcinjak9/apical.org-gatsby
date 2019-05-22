@@ -12,6 +12,8 @@ const Card = styled.div`
   box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 4px;
   position: relative;
   height: 100%;
+  max-height: 100vh;
+  overflow-x: auto;
 
   .close {
     background: none;
@@ -26,6 +28,7 @@ const Card = styled.div`
 
     i {
       font-size: var(--font-body);
+      color: #fff;
       padding: 1rem;
     }
   }
