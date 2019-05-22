@@ -210,34 +210,9 @@ const Sidebar = ({
             </Button>
           )}
         </Column>
-        {/* <div className="privacy">
-          <a
-            href="https://www.iubenda.com/privacy-policy/14773504"
-            className="iubenda-nostyle no-brand iubenda-embed"
-            title="Privacy Policy "
-          >
-            Privacy Policy
-          </a>
-        </div> */}
-        {/* <NavigationFooter>
-          {contacts.phone && (
-            <Button href={`tel:${contacts.phone}`} outline light external>
-              Chiamaci
-              {'   '}
-              <span>{contacts.phone}</span>
-            </Button>
-          )}
-          {contacts.email && (
-            <Button href={`mailto:${contacts.email}`} outline light external>
-              Scrivici
-              {'   '}
-              <span>{contacts.email}</span>
-            </Button>
-          )}
-        </NavigationFooter> */}
       </Row>
+      <Footer sidebar />
     </Container>
-    <Footer sidebar />
   </NavContainer>
 )
 
