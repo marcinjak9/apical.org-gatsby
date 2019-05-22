@@ -159,7 +159,7 @@ sections:
               offrire le città è i paesi accompagnati da guide esperte e
               appassionate tutte immancabilmente del luogo.
             excerpt: Asseggiate alla scoperta di cosa più hanno da offrire le città
-            image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
+            image: 'https://ucarecdn.com/b62d5fb1-406b-49df-842d-2e8915956183/'
             name: Associazione di Promozione Sociale "Italia Night & Day"
             tag: Travel
             tagline: Travel
