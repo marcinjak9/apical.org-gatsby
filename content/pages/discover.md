@@ -195,6 +195,11 @@ sections:
             tag: Travel
             tagline: Travel
             url: 'https://apical.it/wave/wave.html'
+          - excerpt: Travel experiences in the Aosta region
+            image: 'https://ucarecdn.com/ef56ad95-f671-4557-990e-b81ca5517e68/'
+            name: Nextcom
+            tag: Travel
+            tagline: Travel
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -401,6 +406,11 @@ sections:
             tag: Travel
             tagline: Travel
             url: 'https://apical.it/wave/wave.html'
+          - excerpt: Esperienze di viaggio nel territorio valdostano
+            image: 'https://ucarecdn.com/eac672b5-7df0-44ee-8340-3c4a29579a7f/'
+            name: Nextcom
+            tag: Travel
+            tagline: Travel
         subtitle: Qui una breve lista di alcuni dei nostri partner
         title: Scopri i nostri partner
         titleCenter: true
