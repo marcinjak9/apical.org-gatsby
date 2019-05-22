@@ -21,7 +21,7 @@ const NavContainer = styled.div`
   bottom: 0;
   right: 0;
   top: 0;
-  transform: ${props => (props.open ? 'translateY(0)' : 'translateY(-100%)')};
+  transform: ${props => (props.open ? 'translateX(0)' : 'translateX(-100%)')};
   visibility: ${props => (props.open ? 'visible' : 'hidden')};
   pointer-events: ${props => (props.open ? 'all' : 'none')};
   background-color: var(--darkblue);
