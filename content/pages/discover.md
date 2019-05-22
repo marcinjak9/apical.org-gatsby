@@ -177,6 +177,15 @@ sections:
             tag: Travel
             tagline: Travel
             url: 'https://apical.it/marketers/marketers-experience.html'
+          - excerpt: >-
+              Electropark is the international electronic music festival
+              dedicated to multimedia artistic experimentation
+            image: 'https://ucarecdn.com/b71fa079-38de-405e-8db8-84ccd3c2f3e9/'
+            name: Electropark
+            tag: Travel
+            tagline: Travel
+            url: >-
+              https://apical.it/electropark_en/electropark-festival-preview-13-14-ottobre.html
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -365,6 +374,15 @@ sections:
             tag: Travel
             tagline: Travel
             url: 'https://apical.it/marketers/marketers-experience.html'
+          - excerpt: >-
+              Electropark è il festival internazionale di musica elettronica
+              dedicato alla sperimentazione artistica multimediale
+            image: 'https://ucarecdn.com/4691871d-0c46-44b9-8fba-7e84aa3cae5a/'
+            name: Electropark
+            tag: Travel
+            tagline: Travel
+            url: >-
+              https://apical.it/electropark_en/electropark-festival-preview-13-14-ottobre.html
         subtitle: Qui una breve lista di alcuni dei nostri partner
         title: Scopri i nostri partner
         titleCenter: true
