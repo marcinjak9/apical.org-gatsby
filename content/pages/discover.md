@@ -169,6 +169,14 @@ sections:
             tag: Travel
             tagline: Travel
             url: 'https://apical.it/snowweek/snowweek-2018.html'
+          - excerpt: >-
+              The largest Italian training and information community on digital
+              marketing
+            image: 'https://ucarecdn.com/9675cb89-eba1-4008-9b32-f417ef3ddad6/'
+            name: Marketers
+            tag: Travel
+            tagline: Travel
+            url: 'https://apical.it/marketers/marketers-experience.html'
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -349,6 +357,14 @@ sections:
             tag: Travel
             tagline: Travel
             url: 'https://apical.it/snowweek/snowweek-2018.html'
+          - excerpt: >-
+              La più grande community di formazione e informazione italiana sul
+              digital marketing
+            image: 'https://ucarecdn.com/246db9d3-5818-4523-9cc0-b9ff98745465/'
+            name: Marketers
+            tag: Travel
+            tagline: Travel
+            url: 'https://apical.it/marketers/marketers-experience.html'
         subtitle: Qui una breve lista di alcuni dei nostri partner
         title: Scopri i nostri partner
         titleCenter: true
