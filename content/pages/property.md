@@ -271,11 +271,11 @@ sections:
       it:
         title: Apical spiegato in 3 minuti
         titleCenter: false
-        videoUrl: 'https://www.youtube.com/watch?v=zLvyl6-s5Tw'
+        videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
       en:
         title: Apical spiegato in 3 minuti
         titleCenter: false
-        videoUrl: 'https://www.youtube.com/watch?v=zLvyl6-s5Tw'
+        videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
     type: VideoSection
   - children: >-
       Sei un tour operator o un travel planner? Apical ti offre tutti gli
