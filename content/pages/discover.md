@@ -158,7 +158,9 @@ sections:
               è City Tour: passeggiate alla scoperta di cosa più hanno da
               offrire le città è i paesi accompagnati da guide esperte e
               appassionate tutte immancabilmente del luogo.
-            excerpt: Asseggiate alla scoperta di cosa più hanno da offrire le città
+            excerpt: >-
+              Passeggiate alla scoperta di cosa più hanno da offrire le città
+              accompagnati da guide esperte
             image: 'https://ucarecdn.com/b62d5fb1-406b-49df-842d-2e8915956183/'
             name: Associazione di Promozione Sociale "Italia Night & Day"
             tag: Travel
