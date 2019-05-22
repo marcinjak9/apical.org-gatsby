@@ -10,6 +10,7 @@ const Card = styled.div`
   position: relative;
   margin-bottom: 2rem;
   transition: all 0.3s;
+  height: 100%;
 
   &:hover {
     box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
@@ -25,13 +26,15 @@ const Card = styled.div`
     background-color: var(--darkgray);
     border: none;
     border-radius: 0;
-    background-image: url(${props => rawImageLink(props.image, { resize: '500 ' })});
+    background-image: url(${props => rawImageLink(props.image, { resize: '500' })});
     cursor: pointer;
   }
 
   .body {
     padding: 2rem;
     padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
 
     h4 {
       font-size: var(--font-subheader);
@@ -67,8 +70,10 @@ const CreatorCard = ({
   <Card image={image}>
     <header onClick={onPlusClick}>{tag && <BadgeTag>{tag}</BadgeTag>}</header>
     <div className="body">
-      <h4>{name}</h4>
-      <p>{excerpt}</p>
+      <div>
+        <h4>{name}</h4>
+        <p>{excerpt}</p>
+      </div>
       <div className="action">
         <a href="#" className="with-icon" onClick={onPlusClick}>
           <span className="icon-add" />

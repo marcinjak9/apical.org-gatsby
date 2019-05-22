@@ -11,6 +11,7 @@ const Card = styled.div`
   margin: 1rem;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 4px;
   position: relative;
+  height: 100%;
 
   .close {
     background: none;
@@ -118,11 +119,13 @@ const CreatorCardBig = ({
       <p>{body}</p>
       {tagline && <small>{tagline}</small>}
       <div className="modal-cta">
-        <a href={url}>
-          Visit website
-          {' '}
-          <i className="icon-link" />
-        </a>
+        {url && (
+          <a href={url}>
+            Visit website
+            {' '}
+            <i className="icon-link" />
+          </a>
+        )}
       </div>
     </div>
   </Card>

@@ -113,6 +113,7 @@ class Menu extends React.Component {
               <a href="#" onClick={e => onMenuClick(e)}>
                 <i className="icon-menu" />
               </a>
+              <LanguageSelection />
             </div>
           </Container>
         </NavContainer>

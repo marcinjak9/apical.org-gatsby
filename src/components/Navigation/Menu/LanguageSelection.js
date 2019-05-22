@@ -2,13 +2,10 @@ import React, { Component } from 'react'
 import styled from '@emotion/styled'
 import { language, switchLanguage } from '../../../LanguageProvider'
 
-const ArrowDown = styled.div`
-  width: 0;
-  height: 0;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-
-  border-top: 10px solid var(--darkblue);
+const Select = styled.a`
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 8px;
   display: inline-block;
 `
 
@@ -42,9 +39,9 @@ export default class LanguageSelection extends Component {
 
   render() {
     return (
-      <a href="#" onClick={this.setLanguage}>
+      <Select href="#" onClick={this.setLanguage}>
         {this.renderLang()}
-      </a>
+      </Select>
     )
   }
 }

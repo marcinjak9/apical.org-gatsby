@@ -207,15 +207,15 @@ export const pageQuery = graphql`
                 image
                 name
               }
-              # creators {
-              #   body
-              #   excerpt
-              #   image
-              #   name
-              #   tag
-              #   tagline
-              #   url
-              # }
+              creators {
+                body
+                excerpt
+                image
+                name
+                tag
+                tagline
+                url
+              }
               tabs {
                 commission
                 description
