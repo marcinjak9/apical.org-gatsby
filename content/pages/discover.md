@@ -210,6 +210,16 @@ sections:
             name: Nesto Viaggi
             tag: Travel
             tagline: Travel
+          - excerpt: Travel packages for riders in Europe.
+            image: 'https://ucarecdn.com/cf859688-240b-49ba-80ea-6bd06dd99d9c/'
+            name: Pirani Viaggi
+            tag: Travel
+            tagline: Travel
+          - excerpt: 'Guided visits, trekking and food and wine tours in Campania'
+            image: 'https://ucarecdn.com/a5f13544-d559-4062-b3eb-033fbeeab27a/'
+            name: Rizzelli Viaggi
+            tag: Travel
+            tagline: Travel
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -431,6 +441,18 @@ sections:
               individuali
             image: 'https://ucarecdn.com/521b6fb9-c939-4374-8acd-feea09f6f4d0/'
             name: Nesto Viaggi
+          - excerpt: Pacchetti Viaggi legati al mondo Motoristico in Europa
+            image: 'https://ucarecdn.com/3c5cf60a-4cdb-4f20-a417-2400398e1082/'
+            name: Pirani Viaggi
+            tag: Travel
+            tagline: Travel
+          - excerpt: >-
+              Tour, escursioni, visite guidate, percorsi enogastronomia in
+              Campania
+            image: 'https://ucarecdn.com/f664082a-f3a5-423b-b8eb-342647221fa7/'
+            name: Rizzelli Viaggi
+            tag: Travel
+            tagline: Travel
         subtitle: Qui una breve lista di alcuni dei nostri partner
         title: Scopri i nostri partner
         titleCenter: true
