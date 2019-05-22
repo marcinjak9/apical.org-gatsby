@@ -89,6 +89,18 @@ sections:
             name: Sardegna Sacra
             tag: Travel
             tagline: Travel
+          - excerpt: >-
+              A Journey to South America should be savored first of all with the
+              senses: it is the land of Tango and Samba, of Bossanova, of
+              Capoeira, of the carnival. Taking a Tour in South America means
+              getting carried away by its cheerfulness and cultural vivacity...
+              We at "Rotta delle Emozioni" are specialists in planning organized
+              tours and tours in South America, tours in Brazil and tours in
+              Colombia.
+            image: 'https://ucarecdn.com/65d61ec5-2f54-47eb-9867-2653e7334e47/'
+            name: La Rotta delle Emozioni
+            tag: Travel
+            tagline: Travel
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -183,7 +195,20 @@ sections:
             name: Sardegna Sacra
             tag: Travel
             tagline: Travel
-          - {}
+          - excerpt: >-
+              "Un Viaggio in Sud America va gustato prima di tutto con i sensi:
+              è la terra di Tango e Samba, della Bossanova, della Capoeira, del
+              carnevale. Fare un Tour in Sud America significa farsi trasportare
+              dalla sua allegria e dalla vivacità culturale, a tempo di
+              musica...
+
+              Noi di ""Rotta delle Emozioni"" siamo specialisti nella
+              pianificazione di viaggi organizzati e Tour in Sud America, Tour
+              in Brasile e Tour in Colombia."
+            image: 'https://ucarecdn.com/2803b1fa-1f5b-41f0-8092-9008ce600db6/'
+            name: La Rotta delle Emozioni
+            tag: Travel
+            tagline: Travel
         subtitle: Qui una breve lista di alcuni dei nostri partner
         title: Scopri i nostri partner
         titleCenter: true
