@@ -300,6 +300,7 @@ sections:
               Viaggi alla scoperta della natura selvaggia ed inesplorata tra il
               Monferrato e il Cile. Attività outdoor e corsi di formazione per
               adulti e bambini.
+            image: 'https://ucarecdn.com/7d7ad36c-468b-4aaa-ba74-a28df7cba949/'
             name: Pachamama
             tag: Travel
             tagline: Travel
