@@ -221,5 +221,12 @@ sections:
         title: Unisciti a noi
     type: FormSection
   - type: BlogSection
+  - props:
+      en:
+        title: Happiness is a movement
+      it:
+        image: 'https://ucarecdn.com/cbea8e68-1ee3-47a6-ac93-74213db4f34e/'
+        title: Happiness is a movement
+    type: HomeHero
 ---
 
