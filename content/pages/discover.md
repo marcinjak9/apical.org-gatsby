@@ -220,6 +220,16 @@ sections:
             name: Rizzelli Viaggi
             tag: Travel
             tagline: Travel
+          - excerpt: >-
+              "The best routes in the main European cities, which will include
+              tips and guides on how to get around, avoid the
+
+              queues, where to stay, transport, museums, and general Sightseeing
+              activities"
+            image: 'https://ucarecdn.com/59473d96-f8ba-454c-bfe3-91df386b7791/'
+            name: Caliendo Viaggi
+            tag: Travel
+            tagline: Travel
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -451,6 +461,16 @@ sections:
               Campania
             image: 'https://ucarecdn.com/f664082a-f3a5-423b-b8eb-342647221fa7/'
             name: Rizzelli Viaggi
+            tag: Travel
+            tagline: Travel
+          - excerpt: >-
+              "I migliori percorsi nelle principali città Europee, che
+              comprenderanno tips e guide su come spostarsi, evitare le
+
+              code, dove alloggiare, trasporti, musei e attività generali di
+              Sightseeing"
+            image: 'https://ucarecdn.com/d26315dc-d3a5-4350-b0db-a1dcf2b868f3/'
+            name: Caliendo Viaggi
             tag: Travel
             tagline: Travel
         subtitle: Qui una breve lista di alcuni dei nostri partner
