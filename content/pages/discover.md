@@ -28,20 +28,28 @@ sections:
             tag: Festival
             tagline: Festival
             url: apical.it/unlockedmusicfestival
-          - body: Impara a dipingere all’aria aperta con il pittore e artista Martin Cambriglia
-            excerpt: Impara a dipingere all’aria aperta con il pittore e artista Martin Cambriglia
+          - body: >-
+              Impara a dipingere all’aria aperta con il pittore e artista Martin
+              Cambriglia
+            excerpt: >-
+              Impara a dipingere all’aria aperta con il pittore e artista Martin
+              Cambriglia
             image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
             name: Martin Studio
             tag: Arte
             tagline: Arte
-            url: https://apical.it/martin_studio/martin-studio.html
-          - body: Un tuffo in un passato rimosso per troppo tempo dalla storia italiana
-            excerpt: Un tuffo in un passato rimosso per troppo tempo dalla storia italiana
+            url: 'https://apical.it/martin_studio/martin-studio.html'
+          - body: >-
+              Un tuffo in un passato rimosso per troppo tempo dalla storia
+              italiana
+            excerpt: >-
+              Un tuffo in un passato rimosso per troppo tempo dalla storia
+              italiana
             image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
             name: Latina Turismo
             tag: Travel
             tagline: Travel
-            url: https://apical.it/latina_turismo/latina-turismo.html
+            url: 'https://apical.it/latina_turismo/latina-turismo.html'
           - body: Un viaggio tra le meraviglie del Vietnam e della Cambogia
             excerpt: Un viaggio tra le meraviglie del Vietnam e della Cambogia
             image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
@@ -54,21 +62,35 @@ sections:
             name: Calypso Tour
             tag: Travel
             tagline: Travel
-          - body: Scopri fantastiche ed uniche esperienze ed escursioni a Sharm el Sheik
-            excerpt: Scopri fantastiche ed uniche esperienze ed escursioni a Sharm el Sheik
+          - body: >-
+              Scopri fantastiche ed uniche esperienze ed escursioni a Sharm el
+              Sheik
+            excerpt: >-
+              Scopri fantastiche ed uniche esperienze ed escursioni a Sharm el
+              Sheik
             image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
             name: Associazione Culturale Promozione culturale
             tag: Travel
             tagline: Travel
           - body: >-
-              Ami viaggiare? conoscere davvero le città e i Paesi che visiti? Desideri incontrare persone con gli stessi interessi? La risposta è City Tour: passeggiate alla scoperta di cosa più hanno da offrire le città è i paesi accompagnati da guide esperte e appassionate tutte immancabilmente del luogo.
+              Ami viaggiare? conoscere davvero le città e i Paesi che visiti?
+              Desideri incontrare persone con gli stessi interessi? La risposta
+              è City Tour: passeggiate alla scoperta di cosa più hanno da
+              offrire le città è i paesi accompagnati da guide esperte e
+              appassionate tutte immancabilmente del luogo.
             excerpt: Asseggiate alla scoperta di cosa più hanno da offrire le città
             image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
             name: Associazione di Promozione Sociale "Italia Night & Day"
             tag: Travel
             tagline: Travel
-          - body: City House è un’agenzia di viaggi privata situata nella parte più attrattiva della città di Parenzo. L’agenzia è stata fondata con l’intento di offrire ai suoi ospiti una vacanza tranquilla, rilassante e piacevole.
-            excerpt: L’agenzia è stata fondata con l’intento di offrire ai suoi ospiti una vacanza tranquilla, rilassante e piacevole.
+          - body: >-
+              City House è un’agenzia di viaggi privata situata nella parte più
+              attrattiva della città di Parenzo. L’agenzia è stata fondata con
+              l’intento di offrire ai suoi ospiti una vacanza tranquilla,
+              rilassante e piacevole.
+            excerpt: >-
+              L’agenzia è stata fondata con l’intento di offrire ai suoi ospiti
+              una vacanza tranquilla, rilassante e piacevole.
             image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
             name: City House Porec
             tag: Travel
@@ -78,13 +100,13 @@ sections:
         titleCenter: true
       it:
         creators:
-          - body: Ottava edizione di musica elettronica per il festival siciliano
+          - body: Ottava edizione di musica elettronica per il Festival siciliano
             excerpt: Ottava edizione di musica elettronica per il festival siciliano
             image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
             name: Unlocked festival
             tag: Festival
             tagline: Festival
-            url: apical.it/unlockedmusicfestival
+            url: 'https://apical.it/unlockedmusicfestival/unlocked-festival.html'
           - body: >-
               Impara a dipingere all’aria aperta con il pittore e artista Martin
               Cambriglia
