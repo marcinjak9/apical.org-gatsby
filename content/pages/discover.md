@@ -148,7 +148,7 @@ sections:
               Scopri fantastiche ed uniche esperienze ed escursioni a Sharm el
               Sheik
             image: 'https://ucarecdn.com/b7fc3e53-288d-4b57-b220-f45b0f993971/'
-            name: Associazione Culturale Promozione culturale
+            name: Associazione Promozione Culturale
             tag: Travel
             tagline: Travel
           - body: >-
