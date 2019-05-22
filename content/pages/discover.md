@@ -146,6 +146,17 @@ sections:
             name: Pachamama
             tag: Travel
             tagline: Travel
+          - excerpt: >-
+              "Surf Week was born in 2014 by a group of friends who decide to
+              try surfing for the first time ...
+
+              After 4 years we have gone from 16 to 500 participants but for us
+              the concept is still the same, those who are part of Surf Week for
+              us are AMIGOS"
+            image: 'https://ucarecdn.com/b7517268-a76f-4b9e-94f9-c23662f9d43c/'
+            name: Surfweek
+            tag: Travel
+            tagline: Travel
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -302,6 +313,17 @@ sections:
               adulti e bambini.
             image: 'https://ucarecdn.com/7d7ad36c-468b-4aaa-ba74-a28df7cba949/'
             name: Pachamama
+            tag: Travel
+            tagline: Travel
+          - excerpt: >-
+              "Surf Week nasce nel 2014 da un gruppo di Amici che decidono di
+              provare per la prima volta il surf...
+
+              A distanza di 4 anni siamo passati da 16 a 500 partecipanti ma per
+              noi il concetto resta sempre lo stesso, chi fa parte di Surf Week
+              per noi è AMIGOS"
+            image: 'https://ucarecdn.com/0eb8b18b-959d-4204-b106-5d8f62a174cb/'
+            name: Surfweek
             tag: Travel
             tagline: Travel
         subtitle: Qui una breve lista di alcuni dei nostri partner
