@@ -44,12 +44,13 @@ sections:
             tag: Travel
             tagline: Travel
             url: ''
-          - body: Un viaggio tra le meraviglie del Vietnam e della Cambogia
-            excerpt: Un viaggio tra le meraviglie del Vietnam e della Cambogia
-            image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
+          - body: ''
+            excerpt: A journey through the wonders of Vietnam and Cambodia
+            image: 'https://ucarecdn.com/6d94131c-22d4-40aa-9427-8cb28a975856/'
             name: Tuttiservizi
             tag: Travel
             tagline: Travel
+            url: 'https://apical.it/paolo_duca/vietnam-cambogia.html'
           - body: Viaggio a San Pietroburgo sulle "orme degli zar"
             excerpt: Viaggio a San Pietroburgo sulle "orme degli zar"
             image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
