@@ -81,6 +81,14 @@ sections:
             name: City House Porec
             tag: Travel
             tagline: Travel
+          - excerpt: >-
+              With Sacred Sardinia we don't just visit spectacular and millenary
+              monuments. With Sacred Sardinia we deepen into the ancient sacred
+              places starting from data we can extract from modern archeology.
+            image: 'https://ucarecdn.com/835291a3-eb28-4266-a75a-c1b6b308a0de/'
+            name: Sardegna Sacra
+            tag: Travel
+            tagline: Travel
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -161,6 +169,21 @@ sections:
             name: City House Porec
             tag: Travel
             tagline: Travel
+          - body: ''
+            excerpt: >-
+              "Con Sardegna Sacra non visitiamo solo spettacolari monumenti
+              ultramillenari ripercorrendone la storia e il significato in modo
+              molto approfondito e dettagliato.
+
+              Con Sardegna Sacra approfondiamo la conoscenza dei luoghi sacri
+              antichi a partire dai dati che possiamo trarre dalla moderna
+              ricerca archeologica, e in particolare di quella che è definita
+              Archeologia del Sacro."
+            image: 'https://ucarecdn.com/fa083f5e-5e0b-46fb-890a-fece952b6dfe/'
+            name: Sardegna Sacra
+            tag: Travel
+            tagline: Travel
+          - {}
         subtitle: Qui una breve lista di alcuni dei nostri partner
         title: Scopri i nostri partner
         titleCenter: true
