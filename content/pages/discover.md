@@ -51,9 +51,9 @@ sections:
             tag: Travel
             tagline: Travel
             url: 'https://apical.it/paolo_duca/vietnam-cambogia.html'
-          - body: Viaggio a San Pietroburgo sulle "orme degli zar"
-            excerpt: Viaggio a San Pietroburgo sulle "orme degli zar"
-            image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
+          - body: ''
+            excerpt: Journey to St. Petersburg on the Tzar's history
+            image: ''
             name: Calypso Tour
             tag: Travel
             tagline: Travel
