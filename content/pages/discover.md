@@ -53,18 +53,16 @@ sections:
             url: 'https://apical.it/paolo_duca/vietnam-cambogia.html'
           - body: ''
             excerpt: Journey to St. Petersburg on the Tzar's history
-            image: ''
+            image: 'https://ucarecdn.com/f86f644c-3a2e-4f14-a26a-954e06b7b8cc/'
             name: Calypso Tour
             tag: Travel
             tagline: Travel
-          - body: >-
-              Scopri fantastiche ed uniche esperienze ed escursioni a Sharm el
-              Sheik
+          - body: ''
             excerpt: >-
-              Scopri fantastiche ed uniche esperienze ed escursioni a Sharm el
-              Sheik
-            image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
-            name: Associazione Culturale Promozione culturale
+              Discover fantastic and unique experiences and excursions in Sharm
+              el Sheik
+            image: 'https://ucarecdn.com/548532ce-fe3a-450b-816f-b38beee14168/'
+            name: Associazione Promozione Culturale
             tag: Travel
             tagline: Travel
           - body: >-
