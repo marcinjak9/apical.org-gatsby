@@ -137,7 +137,7 @@ sections:
             tagline: Travel
           - body: Viaggio a San Pietroburgo sulle "orme degli zar"
             excerpt: Viaggio a San Pietroburgo sulle "orme degli zar"
-            image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
+            image: 'https://ucarecdn.com/d1b6c520-a749-48bd-8344-f64a40909de0/'
             name: Calypso Tour
             tag: Travel
             tagline: Travel
