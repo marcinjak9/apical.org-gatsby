@@ -65,14 +65,11 @@ sections:
             name: Associazione Promozione Culturale
             tag: Travel
             tagline: Travel
-          - body: >-
-              Ami viaggiare? conoscere davvero le città e i Paesi che visiti?
-              Desideri incontrare persone con gli stessi interessi? La risposta
-              è City Tour: passeggiate alla scoperta di cosa più hanno da
-              offrire le città è i paesi accompagnati da guide esperte e
-              appassionate tutte immancabilmente del luogo.
-            excerpt: Asseggiate alla scoperta di cosa più hanno da offrire le città
-            image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
+          - body: ''
+            excerpt: >-
+              Walks to discover what more cities have to offer accompanied by
+              expert and passionate local guides.
+            image: 'https://ucarecdn.com/5de3fe53-e22d-4976-87f8-630a42907247/'
             name: Associazione di Promozione Sociale "Italia Night & Day"
             tag: Travel
             tagline: Travel
