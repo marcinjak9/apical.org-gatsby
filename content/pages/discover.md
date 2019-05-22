@@ -138,6 +138,14 @@ sections:
             name: LaCamilla
             tag: Travel
             tagline: Travel
+          - excerpt: >-
+              Discovering nature while traveling into the wild from the
+              Monferrato to Chile. Outdoor activities and training for adults
+              and children.
+            image: 'https://ucarecdn.com/5c5a12e0-ff2c-4a6d-a3be-1f63487fe407/'
+            name: Pachamama
+            tag: Travel
+            tagline: Travel
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -286,6 +294,13 @@ sections:
               in un vero e proprio viaggio alla scoperta del mondo. 
             image: 'https://ucarecdn.com/b045d00e-0069-4e61-9383-712cc9faa1b5/'
             name: LaCamilla
+            tag: Travel
+            tagline: Travel
+          - excerpt: >-
+              Viaggi alla scoperta della natura selvaggia ed inesplorata tra il
+              Monferrato e il Cile. Attività outdoor e corsi di formazione per
+              adulti e bambini.
+            name: Pachamama
             tag: Travel
             tagline: Travel
         subtitle: Qui una breve lista di alcuni dei nostri partner
