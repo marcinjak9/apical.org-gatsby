@@ -128,7 +128,7 @@ sections:
             name: Latina Turismo
             tag: Travel
             tagline: Travel
-            url: 'https://apical.it/latina_turismo/latina-turismo.html'
+            url: ''
           - body: Un viaggio tra le meraviglie del Vietnam e della Cambogia
             excerpt: Un viaggio tra le meraviglie del Vietnam e della Cambogia
             image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
