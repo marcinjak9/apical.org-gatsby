@@ -205,6 +205,11 @@ sections:
             name: E'nn'amuri
             tag: Travel
             tagline: Travel
+          - excerpt: Travel packages enriched by cultural experiences.
+            image: 'https://ucarecdn.com/3a9b2e89-27f3-42a6-beed-1feb3b7c7aad/'
+            name: Nesto Viaggi
+            tag: Travel
+            tagline: Travel
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -421,6 +426,11 @@ sections:
             name: E'nn'amuri
             tag: Travel
             tagline: Travel
+          - excerpt: >-
+              Tour di viaggio arricchiti da esperienze culturali di gruppo e/o
+              individuali
+            image: 'https://ucarecdn.com/521b6fb9-c939-4374-8acd-feea09f6f4d0/'
+            name: Nesto Viaggi
         subtitle: Qui una breve lista di alcuni dei nostri partner
         title: Scopri i nostri partner
         titleCenter: true
