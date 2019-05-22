@@ -37,17 +37,13 @@ sections:
             tag: Art
             tagline: Art
             url: 'https://apical.it/martin_studio/martin-studio.html'
-          - body: >-
-              Un tuffo in un passato rimosso per troppo tempo dalla storia
-              italiana
-            excerpt: >-
-              Un tuffo in un passato rimosso per troppo tempo dalla storia
-              italiana
-            image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
+          - body: ''
+            excerpt: 'A dive into a past that has been removed from Italian history '
+            image: 'https://ucarecdn.com/2f81afa2-464e-4763-b55d-80984167a6e3/'
             name: Latina Turismo
             tag: Travel
             tagline: Travel
-            url: 'https://apical.it/latina_turismo/latina-turismo.html'
+            url: ''
           - body: Un viaggio tra le meraviglie del Vietnam e della Cambogia
             excerpt: Un viaggio tra le meraviglie del Vietnam e della Cambogia
             image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
