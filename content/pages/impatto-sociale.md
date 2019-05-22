@@ -96,6 +96,9 @@ sections:
   - props:
       en:
         central: false
+        cta:
+          link: 'https://www.treedom.net/it/organization/apical'
+          text: Visit our forest
         image: 'https://ucarecdn.com/f1abd4a8-2f3e-49be-9870-7eb78b5bd585/'
         smallText: true
         title: >-
@@ -107,6 +110,9 @@ sections:
           Forest!
       it:
         central: false
+        cta:
+          link: 'https://www.treedom.net/it/organization/apical'
+          text: Visita la foresta
         image: 'https://ucarecdn.com/f1abd4a8-2f3e-49be-9870-7eb78b5bd585/'
         smallText: true
         title: >-
