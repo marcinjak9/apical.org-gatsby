@@ -101,6 +101,15 @@ sections:
             name: La Rotta delle Emozioni
             tag: Travel
             tagline: Travel
+          - excerpt: >-
+              Sahara Desert Travel was born from the decennial experience of a
+              passionate traveler, combined with the practical knowledge of an
+              experienced local guide.
+            image: 'https://ucarecdn.com/bd0a556f-124c-4a2e-b865-9634bb6fa12c/'
+            name: Sahara Desert Travel
+          - excerpt: Travel packages and experiences dedicated to golf enthusiasts
+            image: 'https://ucarecdn.com/aeac521b-cc37-4b77-bf4c-41ffe9b817d8/'
+            name: Nextgolf
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -209,6 +218,17 @@ sections:
             name: La Rotta delle Emozioni
             tag: Travel
             tagline: Travel
+          - excerpt: >-
+              Sahara Desert Travel è nata dall'esperienza decennale di una
+              viaggiatrice appassionata, unita alla sapienza pratica di una
+              guida locale esperta.
+            image: 'https://ucarecdn.com/176e1e3e-0da2-4fbe-adec-b9a456964094/'
+            name: Sahara Desert Travel
+          - excerpt: >
+              Esperienze e pacchetti di viaggio dedicati al settore dello sport
+              del Golf
+            image: 'https://ucarecdn.com/f91351e0-d1aa-4df8-9661-5fa4a331317e/'
+            name: Nextgolf
         subtitle: Qui una breve lista di alcuni dei nostri partner
         title: Scopri i nostri partner
         titleCenter: true
