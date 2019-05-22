@@ -7,12 +7,12 @@ hideNav: true
 hideFooter: true
 sections:
   - props:
-      it:
+      en:
         central: true
         emoji: "\U0001F680"
         image: 'https://ucarecdn.com/7e43971a-41da-4d41-b9b1-0ff44dcb9b29/'
         title: 'Grazie, ora acquisisci la tua priorità'
-      en:
+      it:
         central: true
         emoji: "\U0001F680"
         image: 'https://ucarecdn.com/7e43971a-41da-4d41-b9b1-0ff44dcb9b29/'
@@ -21,28 +21,30 @@ sections:
   - children: >-
       Ci sei quasi! Apical sta ricevendo un enorme volume di richieste, per
       garantirti l'accesso riserva ora la tua demo personalizzata, le iscrizioni
-      termineranno l'11 maggio per riaprire a giugno con nuove condizioni.
+      termineranno il 30 maggio per riaprire a giugno con nuove condizioni.
       Grazie
     props:
-      it:
+      en:
         cta:
-          link: 'https://meet.apical.org/meetings/demo-60-minuti/30-minuti-demo-apical'
+          link: >-
+            https://meet.apical.org/meetings/demo-60-minuti/30-minuti-demo-apical
           text: Prenota demo
           title: Prenota demo
         greyBg: true
-      en: 
+      it:
         cta:
-          link: 'https://meet.apical.org/meetings/demo-60-minuti/30-minuti-demo-apical'
+          link: >-
+            https://meet.apical.org/meetings/demo-60-minuti/30-minuti-demo-apical
           text: Prenota demo
           title: Prenota demo
         greyBg: true
     type: Quote
   - props:
-      it:
+      en:
         title: Presentazione Apical
         titleCenter: true
         videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
-      en:
+      it:
         title: Presentazione Apical
         titleCenter: true
         videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
