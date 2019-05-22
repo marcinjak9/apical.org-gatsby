@@ -86,7 +86,7 @@ class Menu extends React.Component {
           <Container unpadded spread>
             <Link to="/" className="navbar-brand">
               <img src={logo} alt="apical-logo" />
-              <img src={logo} alt="apical-logo" className="mobile-logo" />
+              <img src={mobileLogo} alt="apical-logo" className="mobile-logo" />
               {powered && (
                 <Powered>
                   powered by
@@ -97,30 +97,19 @@ class Menu extends React.Component {
                 </Powered>
               )}
             </Link>
-
-            <div className="nav-center nav-items">
-              {menuItems.map((m, i) => (
-                <Link key={i} to={m.url} activeClassName="active">
-                  {m.text}
-                </Link>
-              ))}
-              <LanguageSelection />
-            </div>
-            <div className="nav-items cta-menu">
-              {cta && (
-                <Button
-                  outline
-                  href={cta.url}
-                  icon="arrow"
-                  style={{ minWidth: '6rem', padding: '.5rem 1rem' }}
-                >
-                  {cta.text}
-                </Button>
-              )}
-            </div>
-
-            {/* <h2 className="mobile-menu">HAPPINESS IS A MOVEMENT</h2> */}
             <div className="right mobile-menu">
+              <div className="nav-items cta-menu">
+                {cta && (
+                  <Button
+                    outline
+                    href={cta.url}
+                    icon="arrow"
+                    style={{ minWidth: '6rem', padding: '.5rem 1rem' }}
+                  >
+                    {cta.text}
+                  </Button>
+                )}
+              </div>
               <a href="#" onClick={e => onMenuClick(e)}>
                 <i className="icon-menu" />
               </a>

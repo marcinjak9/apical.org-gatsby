@@ -27,7 +27,11 @@ class Navigation extends React.Component {
                 mobileLogo
                 sidebarLogo
                 it {
-                  menuItems {
+                  menuItemsLeft {
+                    text
+                    url
+                  }
+                  menuItemsRight {
                     text
                     url
                   }
@@ -41,7 +45,11 @@ class Navigation extends React.Component {
                   }
                 }
                 en {
-                  menuItems {
+                  menuItemsLeft {
+                    text
+                    url
+                  }
+                  menuItemsRight {
                     text
                     url
                   }
@@ -68,7 +76,8 @@ class Navigation extends React.Component {
               <Sidebar
                 open={isOpen}
                 onClose={() => this.setState({ isOpen: false })}
-                menuItems={frontmatter[lang].menuItems}
+                menuItemsLeft={frontmatter[lang].menuItemsLeft}
+                menuItemsRight={frontmatter[lang].menuItemsRight}
                 logo={sidebarLogo}
                 contacts={frontmatter[lang].contacts}
               />
@@ -78,7 +87,8 @@ class Navigation extends React.Component {
                 powered={powered}
                 logo={logo}
                 cta={frontmatter[lang].cta}
-                menuItems={frontmatter[lang].menuItems}
+                menuItemsLeft={frontmatter[lang].menuItemsLeft}
+                menuItemsRight={frontmatter[lang].menuItemsRight}
               />
             </>
           )

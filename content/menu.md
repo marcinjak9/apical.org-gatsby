@@ -5,17 +5,22 @@ powered: false
 mobileLogo: 'https://ucarecdn.com/1c158d52-0f6c-420c-853f-0c409b903043/'
 sidebarLogo: 'https://ucarecdn.com/bce3c499-5048-4c6b-be46-88a49df0f1ff/'
 it:
-  menuItems:
+  menuItemsLeft:
     - text: Home
       url: /
     - text: La Piattaforma
       url: /features
     - text: About
       url: /about
-    - text: Esperienze.com
-      url: 'https://www.esperienze.com'
+    - text: Discover
+      url: /discover
     - text: Blog
       url: 'https://journal.apical.org'
+  menuItemsRight:
+    - text: Esperienze.com
+      url: 'https://www.esperienze.com'
+    - text: Impatto Sociale
+      url: /social-impact
   cta:
     text: Unisciti ora
     url: '#onboarding'
@@ -23,17 +28,22 @@ it:
     email: info@apical.org
     phone: +39 392 2606862
 en:
-  menuItems:
+  menuItemsLeft:
     - text: Home
       url: /
-    - text: Features
+    - text: La Piattaforma
       url: /features
     - text: About
       url: /about
-    - text: Esperienze.com
-      url: 'https://www.esperienze.com'
+    - text: Discover
+      url: /discover
     - text: Blog
       url: 'https://journal.apical.org'
+  menuItemsRight:
+    - text: Esperienze.com
+      url: 'https://www.esperienze.com'
+    - text: Impatto Sociale
+      url: /social-impact
   cta:
     text: Join now
     url: '#onboarding'

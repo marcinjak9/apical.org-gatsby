@@ -122,18 +122,19 @@ collections:
             name: partners
             widget: list
             field: { label: Logo, name: logo, widget: image}
+          - label: Social Items
+            name: socialItems
+            widget: object
+            fields:
+              - { label: Linkedin, name: linkedin, widget: string, required: false }
+              - { label: Instagram, name: instagram, widget: string, required: false }
+              - { label: Facebook, name: facebook, widget: string, required: false }
           - label: Italian
             name: it
             widget: object
             fields:
               - label: Menu Items
                 name: menuItems
-                widget: list
-                fields:
-                  - { label: Url, name: url, widget: string }
-                  - {label: Text, name: text, widget: string }
-              - label: Social Items
-                name: socialItems
                 widget: list
                 fields:
                   - { label: Url, name: url, widget: string }
@@ -150,12 +151,6 @@ collections:
             fields:
               - label: Menu Items
                 name: menuItems
-                widget: list
-                fields:
-                  - { label: Url, name: url, widget: string }
-                  - {label: Text, name: text, widget: string }
-              - label: Social Items
-                name: socialItems
                 widget: list
                 fields:
                   - { label: Url, name: url, widget: string }

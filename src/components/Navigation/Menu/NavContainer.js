@@ -2,7 +2,12 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 const Container = styled.nav`
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 4px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -26,7 +31,13 @@ const Container = styled.nav`
   }
 
   .mobile-menu {
-    display: none;
+    display: block;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cta-menu {
+    margin-right: 2rem;
   }
 
   .nav-items.nav-center {
@@ -62,20 +73,20 @@ const Container = styled.nav`
       max-width: 86px;
     }
 
-    .mobile-menu {
+    /* .mobile-menu {
       display: block;
     }
 
     .nav-items {
       display: none;
-    }
+    } */
   }
 
-  @media (max-width: 995px) {
+  /* @media (max-width: 995px) {
     .cta-menu {
       display: none;
     }
-  }
+  } */
 `
 
 const NavContainer = ({ children }) => (

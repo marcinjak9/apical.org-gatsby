@@ -8,6 +8,10 @@ partners:
   - 'https://ucarecdn.com/2b4abef7-78c9-4b30-985c-6b6c23f4ffd8/'
   - 'https://ucarecdn.com/5cb3cc50-a9fc-45c7-9153-1071f3e69636/'
   - 'https://ucarecdn.com/876b4c8d-f838-4626-b7b2-05efa3b3375d/'
+socialItems:
+  linkedin: 'https://www.linkedin.com/company/apical-org/'
+  instagram: 'https://www.instagram.com/apical_official/'
+  facebook: 'https://www.facebook.com/apical.org/ '
 it:
   contacts:
     email: info@apical.org
@@ -21,13 +25,6 @@ it:
       url: 'https://journal.apical.org'
     - text: Privacy Policy
       url: '#privacy'
-  socialItems:
-    - text: Linkedin
-      url: 'https://www.linkedin.com/company/apical-org/'
-    - text: Instagram
-      url: 'https://www.instagram.com/apical_official/'
-    - text: Facebook
-      url: 'https://www.facebook.com/apical.org/'
 en:
   contacts:
     email: info@apical.org
@@ -41,12 +38,5 @@ en:
       url: 'https://journal.apical.org'
     - text: Privacy Policy
       url: '#privacy'
-  socialItems:
-    - text: Linkedin
-      url: 'https://www.linkedin.com/company/apical-org/'
-    - text: Instagram
-      url: 'https://www.instagram.com/apical_official/'
-    - text: Facebook
-      url: 'https://www.facebook.com/apical.org/'
 ---
 
