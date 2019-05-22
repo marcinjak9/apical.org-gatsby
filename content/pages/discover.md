@@ -129,6 +129,15 @@ sections:
             name: WebViaggi
             tag: Travel
             tagline: Travel
+          - excerpt: >-
+              With a corporate philosophy aimed at increasing the knowledge and
+              well-being of its customers, this travel agency assists you in
+              creating the itinerary, turning a tourist trip into a real journey
+              to discover the world.
+            image: 'https://ucarecdn.com/850efab8-ed5d-4dfc-a3ae-383d16f436e1/'
+            name: LaCamilla
+            tag: Travel
+            tagline: Travel
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -268,6 +277,15 @@ sections:
               Egiziano (Sharm El Sheik).
             image: 'https://ucarecdn.com/c677b1cd-c070-47ed-88c4-bfb9f96afc0c/'
             name: WebViaggi
+            tag: Travel
+            tagline: Travel
+          - excerpt: >-
+              Con una filosofia aziendale volta ad accrescere la conoscenza e il
+              benessere dei propri clienti, questa agenzia di viaggi vi assiste
+              nella creazione dell’itinerario, trasformando una gita turistica
+              in un vero e proprio viaggio alla scoperta del mondo. 
+            image: 'https://ucarecdn.com/b045d00e-0069-4e61-9383-712cc9faa1b5/'
+            name: LaCamilla
             tag: Travel
             tagline: Travel
         subtitle: Qui una breve lista di alcuni dei nostri partner
