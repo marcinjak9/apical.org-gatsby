@@ -73,15 +73,11 @@ sections:
             name: Associazione di Promozione Sociale "Italia Night & Day"
             tag: Travel
             tagline: Travel
-          - body: >-
-              City House è un’agenzia di viaggi privata situata nella parte più
-              attrattiva della città di Parenzo. L’agenzia è stata fondata con
-              l’intento di offrire ai suoi ospiti una vacanza tranquilla,
-              rilassante e piacevole.
+          - body: ''
             excerpt: >-
-              L’agenzia è stata fondata con l’intento di offrire ai suoi ospiti
-              una vacanza tranquilla, rilassante e piacevole.
-            image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
+              City House is a private travel agency located in the most
+              attractive part of the city of Porec.
+            image: 'https://ucarecdn.com/fb478302-a20c-4b3b-970d-39aebede1af1/'
             name: City House Porec
             tag: Travel
             tagline: Travel
