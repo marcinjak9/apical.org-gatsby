@@ -124,7 +124,7 @@ sections:
             excerpt: >-
               Un tuffo in un passato rimosso per troppo tempo dalla storia
               italiana
-            image: 'https://ucarecdn.com/700f8612-bc3d-4634-a241-3dd7694c597b/'
+            image: 'https://ucarecdn.com/ba6c5589-b30a-4dfb-8801-7b78a741bf39/'
             name: Latina Turismo
             tag: Travel
             tagline: Travel
