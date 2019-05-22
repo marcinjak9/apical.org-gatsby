@@ -166,14 +166,12 @@ sections:
             tag: Travel
             tagline: Travel
           - body: >-
-              City House è un’agenzia di viaggi privata situata nella parte più
-              attrattiva della città di Parenzo. L’agenzia è stata fondata con
-              l’intento di offrire ai suoi ospiti una vacanza tranquilla,
-              rilassante e piacevole.
+              . L’agenzia è stata fondata con l’intento di offrire ai suoi
+              ospiti una vacanza tranquilla, rilassante e piacevole.
             excerpt: >-
-              L’agenzia è stata fondata con l’intento di offrire ai suoi ospiti
-              una vacanza tranquilla, rilassante e piacevole.
-            image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
+              City House è un’agenzia di viaggi privata situata nella parte più
+              attrattiva della città di Parenzo
+            image: 'https://ucarecdn.com/b1951f52-9d3f-4889-a0e2-cdc91f2e93ac/'
             name: City House Porec
             tag: Travel
             tagline: Travel
