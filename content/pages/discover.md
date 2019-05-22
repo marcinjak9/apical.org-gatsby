@@ -157,6 +157,18 @@ sections:
             name: Surfweek
             tag: Travel
             tagline: Travel
+            url: 'https://apical.it/surfweek/surf-week.html'
+          - excerpt: >-
+              The appointment of the bridge of the Immaculate Conception for
+              thousands of university students and young people from all over
+              Italy: a landmark event for those who want to have fun in the
+              snow, it is extended to wider age groups and also offers an
+              appointment at the end of the season.
+            image: 'https://ucarecdn.com/5df8174e-08e2-45b2-8b91-b4d35cbad817/'
+            name: Snowweek
+            tag: Travel
+            tagline: Travel
+            url: 'https://apical.it/snowweek/snowweek-2018.html'
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -326,6 +338,16 @@ sections:
             name: Surfweek
             tag: Travel
             tagline: Travel
+            url: 'https://apical.it/surfweek/surf-week.html'
+          - excerpt: >-
+              L’appuntamento del ponte dell’Immacolata per migliaia di studenti
+              universitari e giovani da tutta Italia:un evento di riferimento
+              per chi vuole divertirsi sulla neve, è esteso a fasce di età più
+              ampie e propone un appuntamento anche a fine stagione.
+            name: Snowweek
+            tag: Travel
+            tagline: Travel
+            url: 'https://apical.it/snowweek/snowweek-2018.html'
         subtitle: Qui una breve lista di alcuni dei nostri partner
         title: Scopri i nostri partner
         titleCenter: true
