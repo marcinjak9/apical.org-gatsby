@@ -147,6 +147,7 @@ sections:
         videoUrl: 'https://www.youtube.com/watch?v=zLvyl6-s5Tw'
       it:
         title: 'Apical: in tre minuti! '
+        titleCenter: true
         videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
     type: VideoSection
   - props:
