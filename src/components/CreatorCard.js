@@ -10,7 +10,7 @@ const Card = styled.div`
   position: relative;
   margin-bottom: 2rem;
   transition: all 0.3s;
-  height: 100%;
+  /* height: 100%; */
 
   &:hover {
     box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
@@ -28,6 +28,12 @@ const Card = styled.div`
     border-radius: 0;
     background-image: url(${props => rawImageLink(props.image, { resize: '500' })});
     cursor: pointer;
+  }
+
+  .comingsoon {
+    color: var(--blue);
+    font-size: var(--font-body-secondary);
+    font-weight: bold;
   }
 
   .body {
@@ -65,7 +71,7 @@ const Card = styled.div`
 `
 
 const CreatorCard = ({
-  image, name, tag, excerpt, onPlusClick,
+  image, name, tag, excerpt, onPlusClick, url,
 }) => (
   <Card image={image}>
     <header onClick={onPlusClick}>{tag && <BadgeTag>{tag}</BadgeTag>}</header>
@@ -75,9 +81,14 @@ const CreatorCard = ({
         <p>{excerpt}</p>
       </div>
       <div className="action">
-        <a href="#" className="with-icon" onClick={onPlusClick}>
-          <span className="icon-add" />
-        </a>
+        {url ? (
+          <a className="with-icon" href={url}>
+            {/* <span className="icon-add" /> */}
+            <i className="icon-link" />
+          </a>
+        ) : (
+          <span className="comingsoon">Coming soon</span>
+        )}
       </div>
     </div>
   </Card>

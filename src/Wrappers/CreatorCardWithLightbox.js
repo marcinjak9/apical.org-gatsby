@@ -40,7 +40,7 @@ export default class CreatorCardWithLightBox extends React.Component {
     const { modalIsOpen } = this.state
     return (
       <>
-        <Modal
+        {/* <Modal
           isOpen={modalIsOpen}
           // onAfterOpen={this.afterOpenModal}
           onRequestClose={() => this.setState({ modalIsOpen: false })}
@@ -56,7 +56,7 @@ export default class CreatorCardWithLightBox extends React.Component {
             image={image}
             tagline={tagline}
           />
-        </Modal>
+        </Modal> */}
         <CreatorCard
           image={image}
           name={name}
@@ -64,6 +64,7 @@ export default class CreatorCardWithLightBox extends React.Component {
           cta={cta}
           excerpt={excerpt}
           onPlusClick={this.openModal}
+          url={url}
         />
       </>
     )
