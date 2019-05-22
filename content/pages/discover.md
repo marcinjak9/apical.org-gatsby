@@ -344,6 +344,7 @@ sections:
               universitari e giovani da tutta Italia:un evento di riferimento
               per chi vuole divertirsi sulla neve, è esteso a fasce di età più
               ampie e propone un appuntamento anche a fine stagione.
+            image: 'https://ucarecdn.com/a1063987-9442-49c3-a477-45e68617ef20/'
             name: Snowweek
             tag: Travel
             tagline: Travel
