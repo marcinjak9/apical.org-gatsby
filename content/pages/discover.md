@@ -28,16 +28,14 @@ sections:
             tag: Festival
             tagline: Festival
             url: 'https://apical.it/unlockedmusicfestival/unlocked-festival.html'
-          - body: >-
-              Impara a dipingere all’aria aperta con il pittore e artista Martin
-              Cambriglia
+          - body: ''
             excerpt: >-
-              Impara a dipingere all’aria aperta con il pittore e artista Martin
+              Learn to paint outdoors with the painter and artist Martin
               Cambriglia
-            image: 'https://ucarecdn.com/5c379211-70f8-4a13-a8df-306bc0de15e0/'
+            image: 'https://ucarecdn.com/74fbb8ea-b882-43ee-971e-80bdf2c0946a/'
             name: Martin Studio
-            tag: Arte
-            tagline: Arte
+            tag: Art
+            tagline: Art
             url: 'https://apical.it/martin_studio/martin-studio.html'
           - body: >-
               Un tuffo in un passato rimosso per troppo tempo dalla storia
