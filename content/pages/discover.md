@@ -200,6 +200,11 @@ sections:
             name: Nextcom
             tag: Travel
             tagline: Travel
+          - excerpt: Touristic services in the territory of Enna's Province
+            image: 'https://ucarecdn.com/1d608742-860d-45fb-85e9-6956e314a7b7/'
+            name: E'nn'amuri
+            tag: Travel
+            tagline: Travel
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -409,6 +414,11 @@ sections:
           - excerpt: Esperienze di viaggio nel territorio valdostano
             image: 'https://ucarecdn.com/eac672b5-7df0-44ee-8340-3c4a29579a7f/'
             name: Nextcom
+            tag: Travel
+            tagline: Travel
+          - excerpt: Servizi turistici nel territorio della Provincia di Enna
+            image: 'https://ucarecdn.com/7f594803-1052-429c-9d6c-6316e4a6957f/'
+            name: E'nn'amuri
             tag: Travel
             tagline: Travel
         subtitle: Qui una breve lista di alcuni dei nostri partner
