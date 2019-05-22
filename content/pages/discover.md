@@ -110,6 +110,13 @@ sections:
           - excerpt: Travel packages and experiences dedicated to golf enthusiasts
             image: 'https://ucarecdn.com/aeac521b-cc37-4b77-bf4c-41ffe9b817d8/'
             name: Nextgolf
+          - excerpt: >-
+              Travel packages and experiences into the region of
+              Friuli-Venezia-Giulia
+            image: 'https://ucarecdn.com/2b6d6a1c-88d1-45fb-a999-299f9f8772d3/'
+            name: Martinissimaviaggi
+            tag: Travel
+            tagline: Travel
         subtitle: Here you have a brief list of some our Partners
         title: Discover our partners
         titleCenter: true
@@ -229,6 +236,13 @@ sections:
               del Golf
             image: 'https://ucarecdn.com/f91351e0-d1aa-4df8-9661-5fa4a331317e/'
             name: Nextgolf
+          - excerpt: >-
+              Esperienze e pacchetti di viaggio dedicati nella regione del
+              Friuli-Venezia-Giulia
+            image: 'https://ucarecdn.com/5b3160a1-2076-448e-8678-dec6202f2dde/'
+            name: Martinissimaviaggi
+            tag: Travel
+            tagline: Travel
         subtitle: Qui una breve lista di alcuni dei nostri partner
         title: Scopri i nostri partner
         titleCenter: true
