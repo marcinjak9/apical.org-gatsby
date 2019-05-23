@@ -13,7 +13,7 @@ const DiscoverListing = (props) => {
         {creators
           && creators.length > 0
           && creators.map((c, i) => (
-            <Column size="4">
+            <Column size="4" style={{ display: 'flex' }}>
               <CreatorCardWithLightBox
                 image={c.image}
                 name={c.name}

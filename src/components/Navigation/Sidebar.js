@@ -190,9 +190,7 @@ const Sidebar = ({
               external
               style={{ marginBottom: '1rem' }}
             >
-              Chiamaci
-              {'   '}
-              <span>{contacts.phone}</span>
+              {contacts.phone}
             </Button>
           )}
           {contacts.email && (
@@ -204,9 +202,7 @@ const Sidebar = ({
               fluid
               external
             >
-              Scrivici
-              {'   '}
-              <span>{contacts.email}</span>
+              {contacts.email}
             </Button>
           )}
         </Column>

@@ -31,7 +31,7 @@ en:
   menuItemsLeft:
     - text: Home
       url: /
-    - text: La Piattaforma
+    - text: Features
       url: /features
     - text: About
       url: /about
@@ -42,7 +42,7 @@ en:
   menuItemsRight:
     - text: Esperienze.com
       url: 'https://www.esperienze.com'
-    - text: Impatto Sociale
+    - text: Social Impact
       url: /social-impact
   cta:
     text: Join now

@@ -10,6 +10,7 @@ const Card = styled.div`
   position: relative;
   margin-bottom: 2rem;
   transition: all 0.3s;
+  padding-bottom: 30px;
   /* height: 100%; */
 
   &:hover {
@@ -55,6 +56,9 @@ const Card = styled.div`
     .action {
       display: flex;
       justify-content: flex-end;
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
 
       a {
         color: var(--text-grey);
@@ -74,7 +78,9 @@ const CreatorCard = ({
   image, name, tag, excerpt, onPlusClick, url,
 }) => (
   <Card image={image}>
-    <header onClick={onPlusClick}>{tag && <BadgeTag>{tag}</BadgeTag>}</header>
+    <a href={url}>
+      <header>{tag && <BadgeTag>{tag}</BadgeTag>}</header>
+    </a>
     <div className="body">
       <div>
         <h4>{name}</h4>
