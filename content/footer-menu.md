@@ -14,7 +14,7 @@ socialItems:
   linkedin: 'https://www.linkedin.com/company/apical-org/'
 it:
   contacts:
-    email: info@apical.org
+    email: get@apical.org
     phone: +39 392 2606862
   menuItems:
     - text: About
@@ -27,7 +27,7 @@ it:
       url: '#privacy'
 en:
   contacts:
-    email: info@apical.org
+    email: get@apical.org
     phone: +39 392 2606862
   menuItems:
     - text: About

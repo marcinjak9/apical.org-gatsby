@@ -242,6 +242,20 @@ sections:
             tag: Festival
             tagline: Festival
             url: 'https://apical.it/unlockedmusicfestival/unlocked-festival.html'
+          - excerpt: >-
+              Il più importante evento del Mezzogiorno, con oltre 2.000
+              partecipanti e  200 speaker da tutto il mondo. Heroes è il
+              festival euro mediterraneo dell’innovazione che si svolge a
+              Maratea e coinvolge i più ispirati eroi del nostro tempo: leader
+              d’impresa, business angels e investitori, creativi, policy makers
+              e le startup più interessanti. Un evento imperdibile
+              sull’innovazione, sull’impresa e sul futuro che nella passate
+              edizioni ha visto ospiti incredibili avvicendarsi sui palchi vista
+              mare.
+            image: 'https://ucarecdn.com/0edbd75b-80ed-4312-8807-ce45ca6b195a/'
+            name: Heroes
+            tag: Festival
+            tagline: Festival
           - body: >-
               Impara a dipingere all’aria aperta con il pittore e artista Martin
               Cambriglia

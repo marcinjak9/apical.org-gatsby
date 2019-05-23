@@ -5,6 +5,12 @@ powered: false
 mobileLogo: 'https://ucarecdn.com/1c158d52-0f6c-420c-853f-0c409b903043/'
 sidebarLogo: 'https://ucarecdn.com/bce3c499-5048-4c6b-be46-88a49df0f1ff/'
 it:
+  contacts:
+    email: get@apical.org
+    phone: +39 392 2606862
+  cta:
+    text: Unisciti ora
+    url: '#onboarding'
   menuItemsLeft:
     - text: Home
       url: /
@@ -21,13 +27,13 @@ it:
       url: 'https://www.esperienze.com'
     - text: Impatto Sociale
       url: /social-impact
-  cta:
-    text: Unisciti ora
-    url: '#onboarding'
-  contacts:
-    email: info@apical.org
-    phone: +39 392 2606862
 en:
+  contacts:
+    email: get@apical.org
+    phone: +39 392 2606862
+  cta:
+    text: Join now
+    url: '#onboarding'
   menuItemsLeft:
     - text: Home
       url: /
@@ -44,11 +50,5 @@ en:
       url: 'https://www.esperienze.com'
     - text: Social Impact
       url: /social-impact
-  cta:
-    text: Join now
-    url: '#onboarding'
-  contacts:
-    email: info@apical.org
-    phone: +39 392 2606862
 ---
 
