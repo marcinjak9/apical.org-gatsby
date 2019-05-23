@@ -541,10 +541,11 @@ sections:
           link: '#onboarding'
           text: Become a creator
         subtitle: >-
-          We have created offers for every kind of business. Apical Starter is
-          the plan with no fixed costs and no start-up costs for those who want
-          to create first ecperiences. For structured business we have dedicated
-          offers, like Apical Pro, with different conditions on commissions
+          We have created offers for every kind of business. **Apical Starter**
+          is the plan with no fixed costs and no start-up costs for those who
+          want to create first ecperiences. For structured business we have
+          dedicated offers, like Apical Pro, with different conditions on
+          commissions
         tabs:
           - commission: 5%
             description: >-
