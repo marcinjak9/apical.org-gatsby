@@ -284,27 +284,21 @@ sections:
           Sei un tour operator o un travel planner? Apical ti offre tutti gli strumenti necessari per la tua attività 
         greyBg: true
     type: Quote
-  - greyBg: true
-    props:
+  - props:
       it:
-        columns:
-          - body: ''
-            title: "\U0001F3E0 Affitta la tua accomodation"
-          - title: ⛵️ Aggiungi esperienze in upselling
-          - title: "\U0001F6D2 Gestisci la tua vetrina"
-          - {}
-        title: 'Con Apical puoi costruire la tua offerta modulabile '
-        titleCenter: true
+        body: Apri il tuo account gratuito in pochi secondi e scegli dopo quale piano attivare!
+        cta:
+          link: 'https://apical.dashboard.org/register'
+          text: Iscriviti
+          title: ''
       en:
-        columns:
-          - body: ''
-            title: "\U0001F3E0 Affitta la tua accomodation"
-          - title: ⛵️ Aggiungi esperienze in upselling
-          - title: "\U0001F6D2 Gestisci la tua vetrina"
-          - {}
-        title: 'Con Apical puoi costruire la tua offerta modulabile '
-        titleCenter: true
-    type: WelcomeSteps
+        body: Open your free account now and choose later the plan that suits your needs!
+        cta:
+          link: 'https://apical.dashboard.org/register'
+          text: Register now
+          title: ''
+    type: Quote
+    scrollTo: true
   - props:
       it:
         greyBg: true

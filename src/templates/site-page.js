@@ -54,7 +54,7 @@ const renderElements = (sections, preview) => {
   if (sections) {
     return sections.map((element, index) => {
       if (components[element.type]) {
-        if (element.type === 'FormSection') {
+        if (element.scrollTo) {
           return withErrorBoundary(
             React.createElement(
               'div',
@@ -141,6 +141,7 @@ export const pageQuery = graphql`
         sections {
           type
           # children
+          scrollTo
           props {
             it {
               heroBody

@@ -213,13 +213,20 @@ sections:
         title: Come creare impatto sociale con Apical
     type: HowItWorks
   - props:
-      en:
-        formId: 0fe5112f-fca2-4067-822b-0af43bba2393
-        title: Join us
       it:
-        formId: 0fe5112f-fca2-4067-822b-0af43bba2393
-        title: Unisciti a noi
-    type: FormSection
+        body: Apri il tuo account gratuito in pochi secondi e scegli dopo quale piano attivare!
+        cta:
+          link: 'https://apical.dashboard.org/register'
+          text: Iscriviti
+          title: ''
+      en:
+        body: Open your free account now and choose later the plan that suits your needs!
+        cta:
+          link: 'https://apical.dashboard.org/register'
+          text: Register now
+          title: ''
+    type: Quote
+    scrollTo: true
   - type: BlogSection
   - props:
       en:

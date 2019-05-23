@@ -152,18 +152,18 @@ sections:
     type: Cta
   - props:
       it:
-        body: >-
-          La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
-          per permetterci di conoscere la tua realtà e i tuoi bisogni.
-        formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
-        redirectTo: /grazie
-        title: Entra in Apical
+        body: Apri il tuo account gratuito in pochi secondi e scegli dopo quale piano attivare!
+        cta:
+          link: 'https://apical.dashboard.org/register'
+          text: Iscriviti
+          title: ''
       en:
-        body: >-
-          Your Apical Experience can start now! It takes a few minutes to let us know your situation and your needs.
-        formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
-        redirectTo: /grazie
-        title: Enter Apical
-    type: FormSection
+        body: Open your free account now and choose later the plan that suits your needs!
+        cta:
+          link: 'https://apical.dashboard.org/register'
+          text: Register now
+          title: ''
+    type: Quote
+    scrollTo: true
 ---
 

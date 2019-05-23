@@ -554,52 +554,19 @@ sections:
           costi fissi e senza alcun costo di avviamento
     type: Cta
   - props:
-      en:
-        columns:
-          - body: >-
-              Book a short phone call with us so that together, we can
-              understand how to help you
-            title: 1. Interview
-          - body: Receive our complete presentation and a demo of your platform
-            title: 2. Demo
-          - body: >-
-              In just 4 hours we will be able to put your offer online and train
-              you to use the platform completely independently
-            title: 3. Go Live
-        title: Starting is simple
-        titleCenter: true
       it:
-        columns:
-          - body: >-
-              Prenota una telefonata di pochi minuti con noi per capire insieme
-              come aiutarti
-            title: 1. Intervista
-          - body: >-
-              Ricevi la nostra presentazione completa e una demo della tua
-              piattaforma
-            title: 2. Demo
-          - body: >-
-              In sole 4 ore potremo mettere online la tua offerta e formarti
-              all’utilizzo in completa autonomia della piattaforma
-            title: 3. Go Live
-        title: Iniziare è semplice
-        titleCenter: true
-    type: WelcomeSteps
-  - props:
+        body: Apri il tuo account gratuito in pochi secondi e scegli dopo quale piano attivare!
+        cta:
+          link: 'https://apical.dashboard.org/register'
+          text: Iscriviti
+          title: ''
       en:
-        body: >-
-          Your Apical Experience can start now! It takes a few minutes to let us
-          know your situation and your needs.
-        formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
-        redirectTo: /grazie
-        title: Enter Apical
-      it:
-        body: >-
-          La tua Apical Experience può cominciare adesso! Ci vogliono pochi
-          minuti per permetterci di conoscere la tua realtà e i tuoi bisogni.
-        formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
-        redirectTo: /grazie
-        title: Entra in Apical
-    type: FormSection
+        body: Open your free account now and choose later the plan that suits your needs!
+        cta:
+          link: 'https://apical.dashboard.org/register'
+          text: Register now
+          title: ''
+    type: Quote
+    scrollTo: true
 ---
 
