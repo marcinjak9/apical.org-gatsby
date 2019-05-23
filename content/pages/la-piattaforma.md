@@ -540,10 +540,10 @@ sections:
         body: ''
         cta:
           link: '#onboarding'
-          text: Pro Version
+          text: Join Apical for free
         title: >-
-          Are you a structured tour operator and do you want even more tools? We
-          have created Apical Pro for you
+          Join Apical today, immediately start creating your products with no
+          fixed fees and no start-up costs
       it:
         body: ''
         cta:
