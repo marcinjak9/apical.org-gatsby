@@ -540,7 +540,11 @@ sections:
         cta:
           link: '#onboarding'
           text: Become a creator
-        subtitle: The platform can be integrated into any website
+        subtitle: >-
+          We have created offers for every kind of business. Apical Starter is
+          the plan with no fixed costs and no start-up costs for those who want
+          to create first ecperiences. For structured business we have dedicated
+          offers, like Apical Pro, with different conditions on commissions
         tabs:
           - commission: 5%
             description: >-
@@ -561,7 +565,9 @@ sections:
             monthly: nessun
             setupFee: nessun
             title: Apical Starter
-        title: Choose your Apical plan
+        title: >-
+          Join Apical, try all the features and decide with us the best plan for
+          your business
         titleCenter: true
       it:
         cta:
