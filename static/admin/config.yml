@@ -501,6 +501,7 @@ collections:
                           - { label: Cta Text, name: title, widget: string, required: false }
                           - { label: Cta Link, name: link, widget: string, required: false }
                           - { label: Text, name: text, widget: string, required: false }
+                          - { label: Body, name: body, widget: text, required: false }
                   - label: English
                     name: en
                     widget: object
@@ -513,9 +514,10 @@ collections:
                           - { label: Cta Text, name: title, widget: string, required: false }
                           - { label: Cta Link, name: link, widget: string, required: false }
                           - { label: Text, name: text, widget: string, required: false }
-              - label: Children text
-                name: children
-                widget: text
+                          - { label: Body, name: body, widget: text, required: false }
+              # - label: Children text
+              #   name: children
+              #   widget: text
           - label: TestimonialsSection
             name: TestimonialsSection
             widget: object

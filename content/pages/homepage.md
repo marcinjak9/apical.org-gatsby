@@ -249,13 +249,21 @@ sections:
         title: What can you organize and sell with Apical?
         titleCenter: true
     type: SpecialFeatures
-  - children: Subscription to Apical is free and has no fixed costs
-    props:
-      cta:
-        link: '#onboarding'
-        text: Subscribe
-        title: ''
-      greyBg: true
+  - props:
+      it:
+        cta:
+          link: '#onboarding'
+          text: Subscribe
+          title: ''
+        body: Subscription to Apical is free and has no fixed   costs
+        greyBg: true
+      en:
+        cta:
+          link: '#onboarding'
+          text: Subscribe
+          title: ''
+        body: Subscription to Apical is free and has no fixed   costs
+        greyBg: true
     type: Quote
   - props:
       it:

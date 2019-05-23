@@ -21,19 +21,11 @@ const Section = styled(SectionContainer)`
   min-height: 400px;
 `
 
-const Quote = ({ children, cta, greyBg }) => (
+const Quote = ({ body, cta, greyBg }) => (
   <Section greyBg={greyBg}>
     <Row>
       <Column size="12">
-        <Text>
-          {children || (
-            <>
-              La prima esperienza è sempre gratuita, con qualsiasi piano.
-              <br />
-              Prova Apical senza impegno, sei il benvenuto
-            </>
-          )}
-        </Text>
+        <Text>{body}</Text>
       </Column>
     </Row>
     {cta && (

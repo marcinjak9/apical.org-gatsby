@@ -266,21 +266,22 @@ sections:
             name: Daria
         title: Come lo usano i Property Manager
     type: TestimonialsSection
-  - children: >-
-      Sei un tour operator o un travel planner? Apical ti offre tutti gli
-      strumenti necessari per la tua attività 
-    props:
+  - props:
       it:
         cta:
           link: 'https://apical.org/'
           text: Scopri Apical
           title: Sei un tour op
+        body: >-
+          Sei un tour operator o un travel planner? Apical ti offre tutti gli strumenti necessari per la tua attività 
         greyBg: true
       en:
         cta:
           link: 'https://apical.org/'
           text: Scopri Apical
           title: Sei un tour op
+        body: >-
+          Sei un tour operator o un travel planner? Apical ti offre tutti gli strumenti necessari per la tua attività 
         greyBg: true
     type: Quote
   - greyBg: true
@@ -314,18 +315,21 @@ sections:
         title: 'Apical in 3 minuti '
         videoUrl: 'https://www.youtube.com/watch?v=zLvyl6-s5Tw'
     type: VideoSection
-  - children: >-
-      L'iscrizione ad Apical è gratuita e non ha costi fissi se ti registri
-      entro il 30 maggio
-    props:
+  - props:
       it:
         cta:
           link: 'property-managerbis#onboarding'
           text: Inizia
+        body: >-
+          L'iscrizione ad Apical è gratuita e non ha costi fissi se ti registri
+          entro il 30 maggio
       en:
         cta:
           link: 'property-managerbis#onboarding'
           text: Inizia
+        body: >-
+          L'iscrizione ad Apical è gratuita e non ha costi fissi se ti registri
+          entro il 30 maggio
     type: Quote
   - props:
       it:

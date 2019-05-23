@@ -250,21 +250,24 @@ sections:
         title: La piattaforma è self-service ed è composta da tre ambienti
         titleCenter: true
     type: Presentation
-  - children: >-
-      L’iscrizione ad apical è gratuita e non ha costi fissi se compili il form
-      entro il 30 maggio
-    props:
+  - props:
       it:
         cta:
           link: 'property-manager#onboarding'
           text: Registrati
           title: ''
+        body: >-
+          L’iscrizione ad apical è gratuita e non ha costi fissi se compili il form
+          entro il 30 maggio
         greyBg: true
       en:
         cta:
           link: 'property-manager#onboarding'
           text: Registrati
           title: ''
+        body: >-
+          L’iscrizione ad apical è gratuita e non ha costi fissi se compili il form
+          entro il 30 maggio
         greyBg: true
     type: Quote
   - props:
@@ -277,21 +280,24 @@ sections:
         titleCenter: false
         videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
     type: VideoSection
-  - children: >-
-      Sei un tour operator o un travel planner? Apical ti offre tutti gli
-      strumenti necessari per la tua attività 
-    props:
+  - props:
       it:
         cta:
           link: 'https://apical.org/'
           text: Scopri Apical
-          title: Sei un tour op
+          title: Sei un tour operator
+          body: >-
+            Sei un tour operator o un travel planner? Apical ti offre tutti gli
+            strumenti necessari per la tua attività
         greyBg: true
       en:
         cta:
           link: 'https://apical.org/'
           text: Scopri Apical
-          title: Sei un tour op
+          title: Sei un tour operator
+          body: >-
+            Sei un tour operator o un travel planner? Apical ti offre tutti gli
+            strumenti necessari per la tua attività
         greyBg: true
     type: Quote
   - props:

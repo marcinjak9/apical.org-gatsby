@@ -123,19 +123,19 @@ sections:
           di noi, creator e clienti finali. Qualsiasi azienda che collabora con
           noi è benvenuta nella nostra foresta! 
     type: SimpleHero
-  - children: >-
-      Se crei esperienze con Apical puoi cercare un'associazione o una ONG sul
-      territorio da aiutare o contribuire direttamente ai progetti attivi di
-      Apical 
-    props:
+  - props:
       en:
         cta:
           link: ''
           text: Join
+        body: >-
+          Se crei esperienze con Apical puoi cercare un'associazione o una ONG sul territorio da aiutare o contribuire direttamente ai progetti attivi di Apical 
       it:
         cta:
           link: ''
           text: Unisciti
+        body: >-
+          Se crei esperienze con Apical puoi cercare un'associazione o una ONG sul territorio da aiutare o contribuire direttamente ai progetti attivi di Apical 
     type: Quote
   - props:
       en:

@@ -140,7 +140,7 @@ export const pageQuery = graphql`
         }
         sections {
           type
-          children
+          # children
           props {
             it {
               heroBody
