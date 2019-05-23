@@ -7,11 +7,11 @@ partners:
   - 'https://ucarecdn.com/5ad1b0df-94d7-4c51-b418-b0ab8f0f6812/'
   - 'https://ucarecdn.com/2b4abef7-78c9-4b30-985c-6b6c23f4ffd8/'
   - 'https://ucarecdn.com/5cb3cc50-a9fc-45c7-9153-1071f3e69636/'
-  - 'https://ucarecdn.com/876b4c8d-f838-4626-b7b2-05efa3b3375d/'
+  - 'https://ucarecdn.com/852dcf30-f425-4356-90fb-3ec43cdc66cb/'
 socialItems:
-  linkedin: 'https://www.linkedin.com/company/apical-org/'
-  instagram: 'https://www.instagram.com/apical_official/'
   facebook: 'https://www.facebook.com/apical.org/ '
+  instagram: 'https://www.instagram.com/apical_official/'
+  linkedin: 'https://www.linkedin.com/company/apical-org/'
 it:
   contacts:
     email: info@apical.org
