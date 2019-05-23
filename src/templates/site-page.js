@@ -216,18 +216,18 @@ export const pageQuery = graphql`
                 tagline
                 url
               }
-              tabs {
-                commission
-                description
-                mobileTitle
-                monthly
-                setupFee
-                title
-                features {
-                  active
-                  text
-                }
-              }
+              # tabs {
+              #  commission
+              #  description
+              #  mobileTitle
+              #  monthly
+              #  setupFee
+              #  title
+              #  features {
+              #    active
+              #    text
+              #  }
+              # }
             }
             en {
               heroBody
@@ -303,18 +303,18 @@ export const pageQuery = graphql`
                 tagline
                 url
               }
-              tabs {
-                commission
-                description
-                mobileTitle
-                monthly
-                setupFee
-                title
-                features {
-                  active
-                  text
-                }
-              }
+              # tabs {
+              #  commission
+              #  description
+              #  mobileTitle
+              #  monthly
+              #  setupFee
+              #  title
+              #  features {
+              #    active
+              #    text
+              #  }
+              # }
             }
             # heroBody
             # typings
