@@ -334,24 +334,24 @@ sections:
         greyBg: false
         title: ''
     type: FeaturesSection
-  - props:
-      it:
-        body: >+
-          La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
-          per permetterci di conoscere la tua realtà e i tuoi bisogni.
+  # - props:
+  #     it:
+  #       body: >+
+  #         La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
+  #         per permetterci di conoscere la tua realtà e i tuoi bisogni.
 
-        formId: 0fe5112f-fca2-4067-822b-0af43bba2393
-        redirectTo: /grazie
-        title: Entra in Apical
-      en:
-        body: >+
-          La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
-          per permetterci di conoscere la tua realtà e i tuoi bisogni.
+  #       formId: 0fe5112f-fca2-4067-822b-0af43bba2393
+  #       redirectTo: /grazie
+  #       title: Entra in Apical
+  #     en:
+  #       body: >+
+  #         La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
+  #         per permetterci di conoscere la tua realtà e i tuoi bisogni.
 
-        formId: 0fe5112f-fca2-4067-822b-0af43bba2393
-        redirectTo: /grazie
-        title: Entra in Apical
-    type: FormSection
+  #       formId: 0fe5112f-fca2-4067-822b-0af43bba2393
+  #       redirectTo: /grazie
+  #       title: Entra in Apical
+  #   type: FormSection
   - props:
       it:
         title: Il blog di Apical

@@ -388,21 +388,21 @@ sections:
           title: ''
     type: Quote
     scrollTo: true
-  - props:
-      it:
-        body: >-
-          La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
-          per permetterci di conoscere la tua realtà e i tuoi bisogni.
-        formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
-        redirectTo: /grazie
-        title: Entra in Apical
-      en:
-        body: >-
-          Your Apical Experience can start now! It takes a few minutes to let us know your situation and your needs.
-        formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
-        redirectTo: /grazie
-        title: Enter Apical
-    type: FormSection
+  # - props:
+  #     it:
+  #       body: >-
+  #         La tua Apical Experience può cominciare adesso! Ci vogliono pochi minuti
+  #         per permetterci di conoscere la tua realtà e i tuoi bisogni.
+  #       formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
+  #       redirectTo: /grazie
+  #       title: Entra in Apical
+  #     en:
+  #       body: >-
+  #         Your Apical Experience can start now! It takes a few minutes to let us know your situation and your needs.
+  #       formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
+  #       redirectTo: /grazie
+  #       title: Enter Apical
+  #   type: FormSection
   # - props:
   #     cta:
   #       link: /features
