@@ -154,13 +154,13 @@ sections:
       it:
         body: Apri il tuo account gratuito in pochi secondi e scegli dopo quale piano attivare!
         cta:
-          link: 'https://apical.dashboard.org/register'
+          link: 'https://dashboard.apical.org/register'
           text: Iscriviti
           title: ''
       en:
         body: Open your free account now and choose later the plan that suits your needs!
         cta:
-          link: 'https://apical.dashboard.org/register'
+          link: 'https://dashboard.apical.org/register'
           text: Register now
           title: ''
     type: Quote
