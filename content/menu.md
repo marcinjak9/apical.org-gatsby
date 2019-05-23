@@ -13,6 +13,8 @@ menuItems:
     url: /about
   - text: Blog
     url: 'https://journal.apical.org'
+  - text: Apical
+    url: 'https://apical.org'
 cta:
   text: Unisciti ora
   url: '#onboarding'
