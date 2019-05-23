@@ -344,11 +344,15 @@ sections:
               guida locale esperta.
             image: 'https://ucarecdn.com/176e1e3e-0da2-4fbe-adec-b9a456964094/'
             name: Sahara Desert Travel
+            tag: Travel
+            tagline: Travel
           - excerpt: >
               Esperienze e pacchetti di viaggio dedicati al settore dello sport
               del Golf
             image: 'https://ucarecdn.com/f91351e0-d1aa-4df8-9661-5fa4a331317e/'
             name: Nextgolf
+            tag: Travel
+            tagline: Travel
           - excerpt: >-
               Esperienze e pacchetti di viaggio dedicati nella regione del
               Friuli-Venezia-Giulia
@@ -451,6 +455,8 @@ sections:
               individuali
             image: 'https://ucarecdn.com/521b6fb9-c939-4374-8acd-feea09f6f4d0/'
             name: Nesto Viaggi
+            tag: Travel
+            tagline: Travel
           - excerpt: Pacchetti Viaggi legati al mondo Motoristico in Europa
             image: 'https://ucarecdn.com/3c5cf60a-4cdb-4f20-a417-2400398e1082/'
             name: Pirani Viaggi
