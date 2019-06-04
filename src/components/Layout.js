@@ -19,6 +19,7 @@ const Layout = ({
         name="description"
         content={(meta && meta.pageDescription) || "Happiness is a Movement"}
       />
+      <meta property="og:image" content="/images/dash.png" />
       <link
         rel="icon"
         type="image/png"
