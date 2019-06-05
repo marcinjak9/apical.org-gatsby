@@ -25,6 +25,8 @@ it:
       url: 'https://journal.apical.org'
     - text: Privacy Policy
       url: '#privacy'
+    - text: Hai bisogno di aiuto?
+      url: 'https://help.apical.org'
 en:
   contacts:
     email: get@apical.org
@@ -38,5 +40,7 @@ en:
       url: 'https://journal.apical.org'
     - text: Privacy Policy
       url: '#privacy'
+    - text: Do you need help?
+      url: 'https://help.apical.org'
 ---
 
