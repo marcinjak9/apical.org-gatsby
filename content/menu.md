@@ -27,6 +27,8 @@ it:
       url: 'https://www.esperienze.com'
     - text: Impatto Sociale
       url: /social-impact
+    - text: Hai bisogno di supporto?
+      url: 'https://help.apical.org'
 en:
   contacts:
     email: get@apical.org
@@ -50,5 +52,7 @@ en:
       url: 'https://www.esperienze.com'
     - text: Social Impact
       url: /social-impact
+    - text: Do you need help?
+      url: 'https://help.apical.org'
 ---
 
