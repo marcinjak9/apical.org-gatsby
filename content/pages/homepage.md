@@ -395,24 +395,5 @@ sections:
         formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
         title: Prenota Apical
     type: FormSection
-  - props:
-      en:
-        body: >-
-          Open your free account now and choose later the plan that suits your
-          needs!
-        cta:
-          link: 'https://dashboard.apical.org/register'
-          text: Register now
-          title: ''
-      it:
-        body: >-
-          Apri il tuo account gratuito in pochi secondi e scegli dopo quale
-          piano attivare!
-        cta:
-          link: 'https://dashboard.apical.org/register'
-          text: Iscriviti
-          title: ''
-    scrollTo: true
-    type: Quote
 ---
 
