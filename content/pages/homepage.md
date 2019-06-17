@@ -378,6 +378,26 @@ sections:
   - props:
       en:
         body: >-
+          Because of high number of requests, registration with Apical is
+          temporarily suspended for new users. Do you want to sign up in the
+          future? No problem, the possibility of joining Apical will be
+          available soon. Fill out the form, you will be contacted when we
+          re-open the process of acquiring new accounts
+        formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
+        title: Book Apical now
+      it:
+        body: >-
+          Visto l'altissimo numero di richieste l'iscrizione ad Apical è
+          momentaneamente sospesa per i nuovi utenti. Vuoi iscriverti in futuro?
+          Nessun problema, tra poco tornerà disponibile la possibilità di unirti
+          ad Apical. Compila il form, verrai ricontattato quando riapriremo i
+          processi di acquisizione di nuovi account
+        formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
+        title: Prenota Apical
+    type: FormSection
+  - props:
+      en:
+        body: >-
           Open your free account now and choose later the plan that suits your
           needs!
         cta:
