@@ -34,6 +34,13 @@ const Powered = styled.p`
   }
 `
 
+const LoginButton = styled.span`
+  a {
+    color: var(--blue);
+    font-weight: bold;
+  }
+`
+
 class Menu extends React.Component {
   constructor(props) {
     super(props)
@@ -100,20 +107,36 @@ class Menu extends React.Component {
             <div className="right mobile-menu">
               <div className="nav-items cta-menu">
                 {cta && (
-                  <Button
-                    outline
-                    href={cta.url}
-                    icon="arrow"
-                    style={{ minWidth: '6rem', padding: '.5rem 1rem' }}
-                  >
-                    {cta.text}
-                  </Button>
+                  <>
+                    <Button
+                      outline
+                      href={cta.url}
+                      icon="arrow"
+                      style={{ minWidth: '6rem', padding: '.5rem 1rem' }}
+                    >
+                      {cta.text}
+                    </Button>
+                    <Button
+                      primary
+                      href="https://dashboard.apical.org/login"
+                      icon="arrow"
+                      style={{
+                        minWidth: '6rem',
+                        padding: '.5rem 1rem',
+                        marginLeft: '1rem',
+                      }}
+                    >
+                      Login
+                    </Button>
+                  </>
                 )}
               </div>
-              <a href="#" onClick={e => onMenuClick(e)}>
-                <i className="icon-menu" />
-              </a>
-              <LanguageSelection />
+              <div>
+                <a href="#" onClick={e => onMenuClick(e)}>
+                  <i className="icon-menu" />
+                </a>
+                <LanguageSelection />
+              </div>
             </div>
           </Container>
         </NavContainer>
