@@ -384,6 +384,7 @@ sections:
           available soon. Fill out the form, you will be contacted when we
           re-open the process of acquiring new accounts
         formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
+        redirectTo: /grazie
         title: Book Apical now
       it:
         body: >-
@@ -393,8 +394,9 @@ sections:
           ad Apical. Compila il form, verrai ricontattato quando riapriremo i
           processi di acquisizione di nuovi account
         formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
+        redirectTo: /grazie
         title: Prenota Apical
-    type: FormSection
     scrollTo: true
+    type: FormSection
 ---
 
