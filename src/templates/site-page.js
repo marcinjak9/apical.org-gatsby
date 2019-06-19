@@ -246,7 +246,7 @@ export const pageQuery = graphql`
               formId
               central
               smallText
-              # redirectTo
+              redirectTo
               cards {
                 body
                 image
