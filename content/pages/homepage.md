@@ -395,5 +395,6 @@ sections:
         formId: ce3ffd9a-9c2c-4c4d-93a9-e97e0adaaf3c
         title: Prenota Apical
     type: FormSection
+    scrollTo: true
 ---
 
