@@ -18,8 +18,6 @@ it:
       url: /features
     - text: About
       url: /about
-    - text: Discover
-      url: /discover
     - text: Blog
       url: 'https://journal.apical.org'
   menuItemsRight:
@@ -43,8 +41,6 @@ en:
       url: /features
     - text: About
       url: /about
-    - text: Discover
-      url: /discover
     - text: Blog
       url: 'https://journal.apical.org'
   menuItemsRight:
