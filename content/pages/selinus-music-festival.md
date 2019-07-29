@@ -78,8 +78,8 @@ sections:
         smallText: true
         title: >-
           Ti serve un posto per dormire? Unisciti alla community del festival
-          nel camping ufficiale Unlocked Village! (Possibilità di noleggio
-          tenda) 
+          nel camping ufficiale Unlocked Village! Se ti manca la tenda ne
+          abbiamo per te! 
     type: SimpleHero
   - props:
       it:
