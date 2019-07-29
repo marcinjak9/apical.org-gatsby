@@ -79,5 +79,21 @@ sections:
           Se prenoti nel camping Unlocked Village il biglietto lo paghi 23 euro.
           Prezzo bloccato! 
     type: SimpleHero
+  - props:
+      en:
+        cta:
+          link: >-
+            https://store.apical.org/unlocked_festival/selinus-music-festival-ticket.html 
+          text: Book only tickets
+        title: Do you need only the ticket? Book here
+      it:
+        bgImage: 'https://ucarecdn.com/71edae48-763b-4ae4-bb54-7af952fcbbf8/'
+        cta:
+          link: >-
+            https://store.apical.org/unlocked_festival/selinus-music-festival-ticket.html
+          text: 'Prenota solo il biglietto '
+        greyBg: true
+        title: 'Ti serve solo il biglietto? Prenota qui '
+    type: Cta
 ---
 
