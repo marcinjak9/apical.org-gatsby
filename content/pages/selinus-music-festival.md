@@ -47,9 +47,21 @@ sections:
         cards:
           - body: >-
               Acquista ora un biglietto: ti assicuri l'ingresso e lo paghi di
-              meno! 
+              meno! Lo riceverai via Sms o lo potrai ritirare direttamente alle
+              casse! 
             image: "\U0001F680"
             title: 'Assicurati l''ingresso con la prevendita! '
+          - body: >-
+              Prenota una tenda nel camping ufficiale e unisciti alla Community
+              di Unlocked per un'esperienza ancora più emozionante! 
+            image: "\U0001F332"
+            title: 'Pernotta all''Unlocked Village! '
+          - body: >-
+              Assicurati i gadget di Silenus Music Festival 2019. Pagali in
+              anticipo e ritira durante il festival la tua maglietta o il tuo
+              gadget! 
+            image: "\U0001F381"
+            title: 'Accedi in anteprima al merchandising store! '
         greyBg: true
         subtitle: 'Scegli tra biglietto, camping e merchandising'
         title: 'Prenota la tua esperienza in pochi minuti! '
