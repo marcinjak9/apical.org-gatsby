@@ -65,6 +65,7 @@ sections:
         greyBg: true
         subtitle: 'Scegli tra biglietto, camping e merchandising'
         title: 'Prenota la tua esperienza in pochi minuti! '
+        titleCenter: true
     type: HowItWorks
 ---
 
