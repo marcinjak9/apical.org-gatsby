@@ -3,9 +3,19 @@ templateKey: site-page
 title: Selinus Music Festival
 slug: selinus-music-festival
 type: page
-hideNav: false
-hideFooter: false
+hideNav: true
+hideFooter: true
 meta:
+  en:
+    pageDescription: >-
+      The 2019 edition of Unlocked Music Festival is back. Music meets legality
+      and does so in one of the symbolic places of Sicily.
+
+      On 17 August, at the Archaeological Park of Selinunte, Music and Legality
+      lands, the project devised eight years ago by Valeria Grasso, the witness
+      of justice who after her complaints and her fight against the mafia, today
+      lives under guard.
+    pageTitle: 'Unlocked Music Festival '
   it:
     pageDescription: >-
       Torna l'edizione 2019 di Unlocked Music Festival. La musica incontra la
@@ -23,6 +33,10 @@ sections:
         grado di aprire la mente di chiunque la viva. Per questo in Apical
         promuoviamo iniziative ad impatto sociale e ambientale: fare del bene fa
         bene, aprire i propri orizzonti è un'occasione preziosissima
+      it:
+        heroBody: cvbnv
+        image: 'https://ucarecdn.com/0f52b186-db4e-4a48-ab01-af5030d25221/'
+        title: tre
       title: '#traveldifferently '
     type: HomeHero
 ---
