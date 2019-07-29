@@ -39,5 +39,10 @@ sections:
         title: tre
       title: '#traveldifferently '
     type: HomeHero
+  - props:
+      it:
+        image: 'https://ucarecdn.com/5d4d372a-199f-444d-9496-a8c3c5d099e2/'
+        title: 'vbnm,mn'
+    type: SimpleHero
 ---
 
