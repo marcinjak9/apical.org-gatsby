@@ -74,6 +74,7 @@ sections:
           link: >-
             https://store.apical.org/unlocked_festival/selinus-music-festival.html
           text: Scopri Unlocked Village
+        image: 'https://ucarecdn.com/37bbdcf4-c03b-43ca-bf41-9259b8d00c7b/'
         smallText: true
         title: >-
           Se prenoti nel camping Unlocked Village il biglietto lo paghi 23 euro.
