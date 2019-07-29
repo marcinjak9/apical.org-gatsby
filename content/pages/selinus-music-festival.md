@@ -113,5 +113,21 @@ sections:
         greyBg: true
         title: 'Ti serve solo il biglietto? Prenota qui '
     type: Cta
+  - props:
+      en:
+        bgImage: 'https://ucarecdn.com/59c07d48-df46-41d7-b33e-40ce7f7a9a3b/'
+        cta:
+          link: >-
+            https://store.apical.org/unlocked_festival/selinus-music-festival.html
+          text: Tickets & Unlocked Village
+        title: Do you want the Tickets and the accomodation in the Unlocked Village?
+      it:
+        bgImage: 'https://ucarecdn.com/77fbabcf-a7ed-464a-9046-9e40974b4a65/'
+        cta:
+          link: >-
+            https://store.apical.org/unlocked_festival/selinus-music-festival.html
+          text: 'Pacchetto Tickets & Unlocked Village '
+        title: 'Vuoi prenotare biglietto Festival + Unlocked Village? '
+    type: Cta
 ---
 
