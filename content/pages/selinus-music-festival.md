@@ -39,7 +39,7 @@ sections:
           text: 'Prenota il tuo biglietto '
         heroBody: "La musica incontra la legalità e lo fa in uno dei luoghi simbolo della Sicilia.\r\nIl 17 agosto, al Parco Archeologico di Selinunte, sbarca Musica e Legalità: special guest CARL COX "
         image: 'https://ucarecdn.com/0f52b186-db4e-4a48-ab01-af5030d25221/'
-        title: 'Unlocked Music Festival '
+        title: Unlocked Music Festival - Official Store
       title: '#traveldifferently '
     type: HomeHero
   - props:
