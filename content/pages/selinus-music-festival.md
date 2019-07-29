@@ -5,7 +5,17 @@ slug: selinus-music-festival
 type: page
 hideNav: false
 hideFooter: false
-meta: {}
+meta:
+  it:
+    pageDescription: >-
+      Torna l'edizione 2019 di Unlocked Music Festival. La musica incontra la
+      legalità e lo fa in uno dei luoghi simbolo della Sicilia.
+
+      Il prossimo 17 agosto, al Parco Archeologico di Selinunte, sbarca Musica e
+      Legalità, il progetto ideato otto anni fa da Valeria Grasso, la testimone
+      di giustizia che dopo le sue denunce e la sua lotta alla mafia, ad oggi
+      vive sotto scorta. 
+    pageTitle: Unlocked Music Festival
 sections:
   - props:
       heroBody: >-
