@@ -77,8 +77,9 @@ sections:
         image: 'https://ucarecdn.com/37bbdcf4-c03b-43ca-bf41-9259b8d00c7b/'
         smallText: true
         title: >-
-          Se prenoti nel camping Unlocked Village il biglietto lo paghi 23 euro.
-          Prezzo bloccato! 
+          Ti serve un posto per dormire? Unisciti alla community del festival
+          nel camping ufficiale Unlocked Village! (Possibilità di noleggio
+          tenda) 
     type: SimpleHero
   - props:
       it:
@@ -129,5 +130,10 @@ sections:
           text: 'Pacchetto Tickets & Unlocked Village '
         title: 'Vuoi prenotare biglietto Festival + Unlocked Village? '
     type: Cta
+  - props:
+      it:
+        heroBody: "La musica incontra la legalità e lo fa in uno dei luoghi simbolo della Sicilia.\r\nIl prossimo 17 agosto, al Parco Archeologico di Selinunte, sbarca Musica e Legalità, il progetto ideato otto anni fa da Valeria Grasso, la testimone di giustizia che dopo le sue denunce e la sua lotta alla mafia, ad oggi vive sotto scorta. Dopo l’edizione palermitana che ha visto 15.000 giovani affollare il Velodromo dedicato al giudice Paolo Borsellino, il nuovo appuntamento sarà ospitato all’interno del parco archeologico più grande d’Europa, nel Comune di Castelvetrano.\r\n\r\nUna scelta non casuale perché quel lembo di terra è storicamente considerato roccaforte del boss latitante Matteo Messina Denaro. Così proprio dal palco di #SELINUSMUSICFESTIVAL, che vede la palermitana Unlocked alla direzione artistica, la tematica vede ancora una volta i giovani al centro di tutto. Giovani che lottano contro le dipendenze, ragazzi contro ogni tipo di mafia, in attesa di lanciare la proposta per la riqualificazione sociale dei beni confiscati promossa dal Ministero della Salute. In collaborazione con ReCord Eventi e con il supporto di ADP Management.\r\n\r\nSul palco si alterneranno band italiane, performance di artisti siciliani e internazionali e la star CARL COX, il primo dj al mondo ad aver suonato nella cornice del celebre sito neolitico di Stonehenge (UK). L’artista numero uno della musica elettronica è stato anche il protagonista di un party che ha fatto il giro dei cinque continenti, compreso lo Château de Chambord, il castello più grande della Loira e patrimonio dell’Unesco.\r\n\r\nUn’occasione per riscoprire il sito di origini greche più ampio e imponente d’Europa. L’idea di portare Musica & Legalità nel luogo simbolo della Grecia “siciliana” nasce con l’ex direttore del parco archeologico di Selinunte Enrico Caruso - oggi direttore del parco archeologico di Lilibeo - e prosegue grazie all’impegno del neo-nominato Bernardo Agrò. Vi aspetta un evento che farà felici i siciliani e i tantissimi turisti che affolleranno l'Isola, ma soprattutto sarà un'occasione per riscoprire il parco archeologico di Selinunte, il sito di origini greche più ampio e imponente d'Europa. Un luogo unico, dove il tempo è sospeso, immerso in un’altra dimensione: la Grecia “siciliana\" trova qui uno dei più alti e grandiosi esempi di integrazione tra urbanistica, architettura e paesaggio dell’intero Mediterraneo. Un presente giunto da lontano, dove ogni elemento che compone questo intricato sistema di strade, case, templi, mura, porto e mare, lascerà il ricordo di un’infinita emozione.\r\n\r\n• ARTIST •\r\n\r\n• Carl Cox\r\n• Nic Fanciulli\r\n• Junge Junge\r\n• Fabrizio De Santis\r\n\r\nand many more...\r\n\r\n\U0001F354 FOOD, DRINK & RELAX ZONE \U0001F379\r\nPowered by:\r\nTBD\r\n\r\nUna vasta area food, drink & relax zone, insieme a marchi prestigiosi che renderanno la vostra giornata indimenticabile. Una vera e propria cittadella del divertimento dove, attraverso il nuovo e fantastico sistema di Change/Token, potrete godervi sole e musica nel pomeriggio, cenare aspettando i vostri artisti preferiti e godere delle rinfrescanti bevande durante tutta la durata del concerto.\r\n\r\n♫ SHOW\r\nSUPER SOUND SYSTEM, SPECTACULAR VIDEO, LIGHTS, EFFECTS SHOW"
+        title: 'Unlocked Music Festival '
+    type: HomeHero
 ---
 
