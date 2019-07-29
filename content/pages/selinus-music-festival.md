@@ -81,22 +81,6 @@ sections:
           Prezzo bloccato! 
     type: SimpleHero
   - props:
-      en:
-        cta:
-          link: >-
-            https://store.apical.org/unlocked_festival/selinus-music-festival-ticket.html 
-          text: Book only tickets
-        title: Do you need only the ticket? Book here
-      it:
-        bgImage: 'https://ucarecdn.com/71edae48-763b-4ae4-bb54-7af952fcbbf8/'
-        cta:
-          link: >-
-            https://store.apical.org/unlocked_festival/selinus-music-festival-ticket.html
-          text: 'Prenota solo il biglietto '
-        greyBg: true
-        title: 'Ti serve solo il biglietto? Prenota qui '
-    type: Cta
-  - props:
       it:
         columns:
           - body: >-
@@ -113,5 +97,21 @@ sections:
             title: "\U0001F3B5 Ritira in loco"
         title: 'Compra online sullo store ufficiale '
     type: WelcomeSteps
+  - props:
+      en:
+        cta:
+          link: >-
+            https://store.apical.org/unlocked_festival/selinus-music-festival-ticket.html 
+          text: Book only tickets
+        title: Do you need only the ticket? Book here
+      it:
+        bgImage: 'https://ucarecdn.com/71edae48-763b-4ae4-bb54-7af952fcbbf8/'
+        cta:
+          link: >-
+            https://store.apical.org/unlocked_festival/selinus-music-festival-ticket.html
+          text: 'Prenota solo il biglietto '
+        greyBg: true
+        title: 'Ti serve solo il biglietto? Prenota qui '
+    type: Cta
 ---
 
