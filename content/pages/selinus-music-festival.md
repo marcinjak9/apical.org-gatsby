@@ -44,8 +44,15 @@ sections:
     type: HomeHero
   - props:
       it:
-        image: 'https://ucarecdn.com/5d4d372a-199f-444d-9496-a8c3c5d099e2/'
-        title: 'vbnm,mn'
-    type: SimpleHero
+        cards:
+          - body: >-
+              Acquista ora un biglietto: ti assicuri l'ingresso e lo paghi di
+              meno! 
+            image: "\U0001F680"
+            title: 'Assicurati l''ingresso con la prevendita! '
+        greyBg: true
+        subtitle: 'Scegli tra biglietto, camping e merchandising'
+        title: 'Prenota la tua esperienza in pochi minuti! '
+    type: HowItWorks
 ---
 
