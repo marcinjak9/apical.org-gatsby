@@ -28,6 +28,13 @@ meta:
     pageTitle: Unlocked Music Festival
 sections:
   - props:
+      en:
+        cta:
+          link: /
+          text: Primary
+        secondaryCta:
+          link: /
+          text: Secondary
       heroBody: >-
         Siamo convinti che ogni esperienza abbia un potenziale trasformativo in
         grado di aprire la mente di chiunque la viva. Per questo in Apical
