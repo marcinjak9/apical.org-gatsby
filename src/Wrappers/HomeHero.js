@@ -79,7 +79,30 @@ const HeroColumn = styled(Column)`
 const renderCta = (cta) => {
   if (cta && cta.text && cta.link) {
     return (
-      <Button primary href={cta.link} icon="arrow" alignStart>
+      <Button
+        primary
+        href={cta.link}
+        icon="arrow"
+        alignStart
+        style={{ marginLeft: 10, marginTop: 10 }}
+      >
+        {cta.text}
+      </Button>
+    )
+  }
+  return null
+}
+const renderSecondaryCta = (cta) => {
+  if (cta && cta.text && cta.link) {
+    return (
+      <Button
+        primary
+        light
+        href={cta.link}
+        icon="arrow"
+        alignStart
+        style={{ marginLeft: 10, marginTop: 10 }}
+      >
         {cta.text}
       </Button>
     )
@@ -95,6 +118,7 @@ const HomeHero = ({
   colRight,
   bodyLight,
   typings,
+  secondaryCta,
 }) => (
   <Wrapper image={image}>
     <Container style={{ zIndex: 2 }}>
@@ -114,7 +138,10 @@ const HomeHero = ({
           </h1>
           {/* <p>{heroBody}</p> */}
           <Markdown source={heroBody} escapeHtml={false} />
-          {renderCta(cta)}
+          <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+            {renderCta(cta)}
+            {renderSecondaryCta(secondaryCta)}
+          </div>
         </HeroColumn>
         {colRight && (
           <Column

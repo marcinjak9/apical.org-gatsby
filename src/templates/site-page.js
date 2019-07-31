@@ -191,6 +191,10 @@ export const pageQuery = graphql`
                 text
                 title
               }
+              secondaryCta {
+                link
+                text
+              }
               items {
                 title
                 nav
@@ -277,6 +281,10 @@ export const pageQuery = graphql`
                 link
                 text
                 title
+              }
+              secondaryCta {
+                link
+                text
               }
               items {
                 title
