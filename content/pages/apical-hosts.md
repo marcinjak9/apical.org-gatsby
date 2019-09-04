@@ -21,5 +21,18 @@ meta:
       Iscriviti al nostro form per entrare a far parte delle strutture
       selezionate con le quali lavoriamo.
     pageTitle: Apical Hosts Program
+sections:
+  - props:
+      it:
+        heroBody: >-
+          Apical Hosts è il nostro progetto per selezionare strutture da
+          proporre alle aziende nostre clienti che offrono viaggi premio ai loro
+          collaboratori.
+        title: Applica per diventare un Host nel nostro Catalogo B2B.
+    type: HomeHero
+  - props:
+      it:
+        title: Come funziona
+    type: HowItWorks
 ---
 
