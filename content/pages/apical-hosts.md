@@ -34,7 +34,7 @@ sections:
         image: 'https://ucarecdn.com/20c6d177-d695-47a1-adab-12561dbeec82/'
         secondaryCta:
           text: Iscriviti subito
-        title: 'Vendi in bassa stagione alle grandi aziende. '
+        title: Vendi in bassa stagione alle grandi aziende
     type: HomeHero
   - props:
       it:
@@ -47,5 +47,17 @@ sections:
         greyBg: true
         title: 'Che cos''è Apical Host Program '
     type: WhatWeDo
+  - props:
+      it:
+        cards:
+          - body: >-
+              Hai un agriturismo? Un luogo magico in città? Una stazione
+              aerospaziale? In Apical Host Program selezioniamo le migliori
+              strutture per gruppi e aziende
+            image: "\U0001F3F0"
+            title: Gestisci una location esclusiva
+        title: 'Sei un potenziale partner se:'
+        titleCenter: false
+    type: HowItWorks
 ---
 
