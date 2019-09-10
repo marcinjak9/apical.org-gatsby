@@ -76,6 +76,8 @@ sections:
     type: HowItWorks
   - props:
       it:
+        central: false
+        smallText: true
         title: >-
           Con AHP le strutture possono ospitare retreat di community online che
           si incontrano, associazioni, aziende che fanno viaggi formazione o
