@@ -42,7 +42,7 @@ sections:
           Apical Host Program è la nostra lista di strutture selezionate per la
           vendita di retreat per gruppi, wellness aziendale e viaggi premio.
         cta:
-          link: ''
+          link: '#'
           text: Contatta il nostro team
         greyBg: true
         title: 'Che cos''è Apical Host Program '
