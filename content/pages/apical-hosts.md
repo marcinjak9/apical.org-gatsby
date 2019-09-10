@@ -83,5 +83,23 @@ sections:
           incontrarsi e a passare un'esperienza unica nei migliori luoghi
           esclusivi
     type: SimpleHero
+  - props:
+      it:
+        columns:
+          - body: >-
+              Inserisci tutti i dati richiesti per candidare la tua struttura ad
+              Apical Host Program
+            title: Compila il form
+          - body: >-
+              Chiedi ad un nostro esperto tutte le informazioni e verifica con
+              lui se puoi candidarti ad AHP
+            title: Primo contatto
+          - body: >-
+              Una volta firmato l'accordo di collaborazione possiamo iniziare a
+              riempire la tua struttura! 
+            title: Inizia!
+        greyBg: false
+        title: Come funziona
+    type: WelcomeSteps
 ---
 
