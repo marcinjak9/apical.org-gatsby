@@ -33,5 +33,16 @@ sections:
           Vendi in bassa stagione alle grandi aziende. Entra a far parte
           dell’Apical Host Program
     type: HomeHero
+  - props:
+      it:
+        body: >-
+          Apical Host Program è la nostra lista di strutture selezionate per la
+          vendita di retreat per gruppi, wellness aziendale e viaggi premio.
+        cta:
+          link: ''
+          text: Contatta il nostro team
+        greyBg: true
+        title: 'Che cos''è Apical Host Program '
+    type: WhatWeDo
 ---
 
