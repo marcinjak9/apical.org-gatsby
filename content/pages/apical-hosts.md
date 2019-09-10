@@ -23,6 +23,9 @@ meta:
 sections:
   - props:
       it:
+        cta:
+          link: '#'
+          text: 'Iscriviti subito '
         heroBody: >-
           Apical è la piattaforma digitale per tour operator e strutture di
           ricezione che permette di vendere online i propri prodotti. 
