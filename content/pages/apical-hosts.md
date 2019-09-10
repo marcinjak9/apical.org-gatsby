@@ -74,5 +74,14 @@ sections:
         title: 'Sei un potenziale partner se:'
         titleCenter: false
     type: HowItWorks
+  - props:
+      it:
+        title: >-
+          Con AHP le strutture possono ospitare retreat di community online che
+          si incontrano, associazioni, aziende che fanno viaggi formazione o
+          viaggi premio. Apical Host Program aiuta domanda ed offerta ad
+          incontrarsi e a passare un'esperienza unica nei migliori luoghi
+          esclusivi
+    type: SimpleHero
 ---
 
