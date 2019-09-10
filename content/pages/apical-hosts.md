@@ -68,6 +68,9 @@ sections:
               allora! 
             image: "\U0001F6CE"
             title: Puoi ospitare gruppi
+        cta:
+          link: '#'
+          text: Candida la tua struttura
         title: 'Sei un potenziale partner se:'
         titleCenter: false
     type: HowItWorks
