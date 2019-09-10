@@ -7,32 +7,31 @@ hideNav: false
 hideFooter: false
 meta:
   en:
-    pageDescription: |-
-      Apical Host is our project about B2B tourism. 
-      If you are a host, apply to become part of our selected hosts.
-    pageTitle: Apical Hosts Program
-  it:
     pageDescription: >-
-      Apical Hosts è il nostro progetto per selezionare strutture da proporre
-      alle aziende nostre clienti che offrono viaggi premio ai loro
-      collaboratori.
-
-
-      Iscriviti al nostro form per entrare a far parte delle strutture
-      selezionate con le quali lavoriamo.
-    pageTitle: Apical Hosts Program
+      Apical è la piattaforma digitale per tour operator e strutture di
+      ricezione che permette di vendere online i propri prodotti 
+    pageTitle: >-
+      Vendi in bassa stagione alle grandi aziende. Entra a far parte dell’Apical
+      Host Program
+  it:
+    pageDescription: >
+      Apical è la piattaforma digitale per tour operator e strutture di
+      ricezione che permette di vendere online i propri prodotti 
+    pageTitle: >-
+      Vendi in bassa stagione alle grandi aziende. Entra a far parte dell’Apical
+      Host Program
 sections:
   - props:
       it:
         heroBody: >-
-          Apical Hosts è il nostro progetto per selezionare strutture da
-          proporre alle aziende nostre clienti che offrono viaggi premio ai loro
-          collaboratori.
-        title: Applica per diventare un Host nel nostro Catalogo B2B.
+          Apical è la piattaforma digitale per tour operator e strutture di
+          ricezione che permette di vendere online i propri prodotti 
+        image: 'https://ucarecdn.com/20c6d177-d695-47a1-adab-12561dbeec82/'
+        secondaryCta:
+          text: Iscriviti subito
+        title: >-
+          Vendi in bassa stagione alle grandi aziende. Entra a far parte
+          dell’Apical Host Program
     type: HomeHero
-  - props:
-      it:
-        title: Come funziona
-    type: HowItWorks
 ---
 
