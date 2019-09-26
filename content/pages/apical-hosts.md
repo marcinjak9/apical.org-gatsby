@@ -71,8 +71,8 @@ sections:
             title: Hai periodi di bassa stagione
           - body: >-
               Aziende o retreat fanno prenotazioni che in genere superano i
-              dieci posti letto. Hai tutto questo spazio? Unisciti ad AHP
-              allora! 
+              dieci posti letto. Hai tutto questo spazio? Unisciti ad Apical
+              Retreat Program allora! 
             image: "\U0001F6CE"
             title: Puoi ospitare gruppi
         cta:
