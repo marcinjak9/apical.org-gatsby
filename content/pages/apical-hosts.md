@@ -59,16 +59,16 @@ sections:
         cards:
           - body: >-
               Hai un agriturismo? Un luogo magico in città? Una stazione
-              aerospaziale? In Apical Host Program selezioniamo le migliori
+              aerospaziale? In Apical Retreat Program selezioniamo le migliori
               strutture per gruppi e aziende
             image: "\U0001F3F0"
             title: Gestisci una location esclusiva
           - body: >-
               Retreat e viaggi aziendali sono l'occasione per compensare il calo
-              di flussi durante la bassa stagione. Apical Host Program può
+              di flussi durante la bassa stagione. Apical Retrat Program può
               aiutarti in questo
             image: ☝
-            title: Vuoi riempire in bassa stagione
+            title: Hai periodi di bassa stagione
           - body: >-
               Aziende o retreat fanno prenotazioni che in genere superano i
               dieci posti letto. Hai tutto questo spazio? Unisciti ad AHP
