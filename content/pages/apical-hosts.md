@@ -15,22 +15,28 @@ meta:
     pageDescription: >-
       La stagione dei retreat dura tutto l'anno. Inserisci la tua struttura nel
       nostro catalogo e vendi a gruppi ed aziende
-    pageTitle: Unisci ad Apical Retreat Program
+    pageTitle: Unisciti ad Apical Retreat Program
 sections:
   - props:
+      en:
+        cta:
+          link: ' #'
+          text: Subscribe
+        heroBody: >-
+          Retreat season is all-year round. List your venue and sell to groups
+          and companies
+        title: 'Join Apical Retreat Program '
       it:
         cta:
           link: '#'
-          text: 'Iscriviti subito '
+          text: Iscriviti
         heroBody: >-
-          Apical è la piattaforma digitale per tour operator e strutture di
-          ricezione che permette di vendere online i propri prodotti. 
-
-          Entra a far parte dell’Apical Host Program
+          La stagione dei retreat dura tutto l'anno. Inserisci la tua struttura
+          nel nostro catalogo e vendi a gruppi ed aziende
         image: 'https://ucarecdn.com/20c6d177-d695-47a1-adab-12561dbeec82/'
         secondaryCta:
-          text: Iscriviti subito
-        title: Vendi in bassa stagione alle grandi aziende
+          text: ''
+        title: Unisci ad Apical Retreat Program
     type: HomeHero
   - props:
       it:
