@@ -8,11 +8,9 @@ hideFooter: false
 meta:
   en:
     pageDescription: >-
-      Apical è la piattaforma digitale per tour operator e strutture di
-      ricezione che permette di vendere online i propri prodotti 
-    pageTitle: >-
-      Vendi in bassa stagione alle grandi aziende. Entra a far parte dell’Apical
-      Host Program
+      Retreat season is all-year round. List your venue and sell to groups and
+      companies
+    pageTitle: 'Join Apical Retreat Program '
   it:
     pageDescription: >-
       La stagione dei retreat dura tutto l'anno. Inserisci la tua struttura nel
