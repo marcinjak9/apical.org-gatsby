@@ -78,8 +78,8 @@ sections:
         cta:
           link: '#'
           text: Candida la tua struttura
-        title: 'Sei un potenziale partner se:'
-        titleCenter: false
+        title: Sei un potenziale partner se
+        titleCenter: true
     type: HowItWorks
   - props:
       it:
