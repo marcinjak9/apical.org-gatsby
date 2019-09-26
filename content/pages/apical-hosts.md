@@ -39,15 +39,20 @@ sections:
         title: Unisci ad Apical Retreat Program
     type: HomeHero
   - props:
+      en:
+        body: >
+          Apical Retreat Program is our listing of venues dedicated to groups,
+          communities and companies
+        title: What is Apical Retreat Program?
       it:
         body: >-
-          Apical Host Program è la nostra lista di strutture selezionate per la
-          vendita di retreat per gruppi, wellness aziendale e viaggi premio.
+          Apical Retreat Program è la nostra selezione di strutture dedicate a
+          gruppi, community e aziende
         cta:
           link: '#'
           text: Contatta il nostro team
         greyBg: true
-        title: 'Che cos''è Apical Host Program '
+        title: 'Che cos''è Apical Retreat Program '
     type: WhatWeDo
   - props:
       it:
