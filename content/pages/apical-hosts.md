@@ -121,6 +121,15 @@ sections:
           esclusivi
     type: SimpleHero
   - props:
+      en:
+        columns:
+          - body: >-
+              To join ARP, fill out the registration form with all the necessary
+              information regarding your venue 
+            title: Submit your listing
+          - title: Get in touch with Apical Tem
+          - {}
+        title: How does it work
       it:
         columns:
           - body: >-
@@ -128,9 +137,9 @@ sections:
               Apical Host Program
             title: Compila il form
           - body: >-
-              Chiedi ad un nostro esperto tutte le informazioni e verifica con
-              lui se puoi candidarti ad AHP
-            title: Primo contatto
+              Consultati con un esperto del nostro team per ottenere un feedback
+              riguardo la tua candidatura
+            title: Ricevi un feedback
           - body: >-
               Una volta firmato l'accordo di collaborazione possiamo iniziare a
               riempire la tua struttura! 
