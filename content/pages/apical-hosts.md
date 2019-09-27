@@ -127,7 +127,8 @@ sections:
               To join ARP, fill out the registration form with all the necessary
               information regarding your venue 
             title: Submit your listing
-          - title: Get in touch with Apical Tem
+          - body: Consult our team and receive a feedback regarding your listing
+            title: Get in touch with Apical Tem
           - {}
         title: How does it work
       it:
