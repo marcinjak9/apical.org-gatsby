@@ -103,6 +103,13 @@ sections:
         titleCenter: true
     type: HowItWorks
   - props:
+      en:
+        title: >-
+          With Apical Retreat Program properties can host retreats organized by
+          online communities , various association, corporate team building or
+          incentive trips. ARP connects hosts and retreat organisers while
+          assisting them in creating a unique experience in the most awesome
+          venues
       it:
         central: false
         smallText: true
