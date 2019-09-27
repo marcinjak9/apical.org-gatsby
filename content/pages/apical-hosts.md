@@ -64,16 +64,17 @@ sections:
             image: "\U0001F3F0"
             title: You manage an awesome venue
           - body: >-
-              Organized retreats are an interesting solution to low season
-              periods. Apical Retreat Program can assist you with it
+              Organized retreats could be an interesting solution to your low
+              season periods. Apical Retreat Program can assist you by
+              connecting you to retreat organisers & companies 
             image: ☝
-            title: You have low season
+            title: You have low season periods
           - body: >-
               Organized retreats are usually groups of more than 10 people. Do
               you have accommodation capacity to host them? If you do, join
               Apical Retreat Program 
             image: "\U0001F6CE"
-            title: You can host groups
+            title: Your venue can host groups
         title: ''
       it:
         cards:
