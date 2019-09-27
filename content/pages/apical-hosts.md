@@ -48,6 +48,7 @@ sections:
         cta:
           link: '#'
           text: Contact us
+        greyBg: true
         title: What is Apical Retreat Program?
       it:
         body: >-
