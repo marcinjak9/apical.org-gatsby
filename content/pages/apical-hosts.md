@@ -33,7 +33,8 @@ sections:
         heroBody: >-
           La stagione dei retreat dura tutto l'anno. Inserisci la tua struttura
           nel nostro catalogo e vendi a gruppi ed aziende
-        image: 'https://ucarecdn.com/07fa8978-aad6-48a5-90fb-64f2d3acee5d/'
+        image: >-
+          https://ucarecdn.com/5f8e5286-f6a6-4b69-9a52-68e3607f8bb6/-/preview/-/enhance/37/
         secondaryCta:
           text: ''
         title: Unisciti ad Apical Retreat Program
