@@ -136,7 +136,10 @@ sections:
             title: Submit your listing
           - body: Consult our team and receive a feedback regarding your listing
             title: Get in touch with Apical Tem
-          - {}
+          - body: >-
+              Once you have joined ARP, let's start bringing great retreats to
+              your venue! 
+            title: Let's start!
         title: How does it work
       it:
         columns:
