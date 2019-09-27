@@ -43,6 +43,9 @@ sections:
         body: >
           Apical Retreat Program is our listing of venues dedicated to groups,
           communities and companies
+        cta:
+          link: '#'
+          text: Contact us
         title: What is Apical Retreat Program?
       it:
         body: >-
