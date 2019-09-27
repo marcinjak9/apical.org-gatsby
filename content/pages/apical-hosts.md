@@ -1,6 +1,6 @@
 ---
 templateKey: site-page
-title: Apical Hosts
+title: Apical Retreat Program
 slug: hosts
 type: page
 hideNav: false
@@ -36,7 +36,7 @@ sections:
         image: 'https://ucarecdn.com/20c6d177-d695-47a1-adab-12561dbeec82/'
         secondaryCta:
           text: ''
-        title: Unisci ad Apical Retreat Program
+        title: Unisciti ad Apical Retreat Program
     type: HomeHero
   - props:
       en:
@@ -55,6 +55,8 @@ sections:
         title: 'Che cos''è Apical Retreat Program '
     type: WhatWeDo
   - props:
+      en:
+        title: ''
       it:
         cards:
           - body: >-
