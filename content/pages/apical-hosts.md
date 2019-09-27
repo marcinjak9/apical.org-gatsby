@@ -110,6 +110,7 @@ sections:
     type: HowItWorks
   - props:
       en:
+        smallText: true
         title: >-
           With Apical Retreat Program properties can host retreats organized by
           online communities , various association, corporate team building or
