@@ -56,6 +56,24 @@ sections:
     type: WhatWeDo
   - props:
       en:
+        cards:
+          - body: >-
+              Do you own a farmhouse? An amazing property in the city? A space
+              station? In Apical Retreat Program we choose only the best venues
+              suitable for groups & companies
+            image: "\U0001F3F0"
+            title: You manage an awesome venue
+          - body: >-
+              Organized retreats are an interesting solution to low season
+              periods. Apical Retreat Program can assist you with it
+            image: ☝
+            title: You have low season
+          - body: >-
+              Organized retreats are usually groups of more than 10 people. Do
+              you have accommodation capacity to host them? If you do, join
+              Apical Retreat Program 
+            image: "\U0001F6CE"
+            title: You can host groups
         title: ''
       it:
         cards:
