@@ -25,6 +25,7 @@ sections:
         heroBody: >-
           Retreat season is all-year round. List your venue and sell to groups
           and companies
+        image: 'https://ucarecdn.com/e9bc030b-5382-4a5d-be16-327fe0fd69f8/'
         title: 'Join Apical Retreat Program '
       it:
         cta:
