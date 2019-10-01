@@ -33,7 +33,7 @@ en:
     phone: +39 392 2606862
   cta:
     text: Join now
-    url: '#onboarding'
+    url: 'https://dashboard.apical.org/register'
   menuItemsLeft:
     - text: Home
       url: /
