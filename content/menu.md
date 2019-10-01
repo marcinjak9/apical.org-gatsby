@@ -10,7 +10,7 @@ it:
     phone: +39 392 2606862
   cta:
     text: Unisciti ora
-    url: '#onboarding'
+    url: 'https://dashboard.apical.org/register'
   menuItemsLeft:
     - text: Home
       url: /
