@@ -188,7 +188,9 @@ const FooterInner = (props) => {
         </PartnersRow>
       </Container>
       <div className="credits">
-        <p>© 2019 Apical s.r.l. All Rights Reserved</p>
+        <p>Apical s.r.l. è una Start Up innovativa ai sensi dell'art. 4 comma 10 bis</p>
+        <p>via Stretta 32, 25128 Brescia (BS) | P.IVA 03958620985 | REA BS-577256 | SCIA 0191363 del SUAP di Milano</p>
+        <p>© 2019 All Rights Reserved</p>
       </div>
     </StyledFooter>
   )
