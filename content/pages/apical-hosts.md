@@ -44,7 +44,17 @@ sections:
       en:
         body: >
           Apical Retreat Program is our listing of venues dedicated to groups,
-          communities and companies
+          communities and companies.
+
+
+          We offer numerous opportunities for your venue to stand out and gain
+          more visibility!
+
+
+          Our team continue working hard on creating a unique and easy-to-use
+          platform that will provide the retreat organizers with all the
+          necessary tools to find the right venue as well as help the retreat
+          venues exposure and maximize their bookings.
         cta:
           link: '#'
           text: Contact us
