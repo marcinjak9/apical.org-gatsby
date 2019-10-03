@@ -35,7 +35,7 @@ sections:
           La stagione dei retreat dura tutto l'anno. Inserisci la tua struttura
           nel nostro catalogo e vendi a gruppi ed aziende
         image: >-
-          https://ucarecdn.com/5f8e5286-f6a6-4b69-9a52-68e3607f8bb6/-/preview/-/enhance/37/
+          https://ucarecdn.com/5f8e5286-f6a6-4b69-9a52-68e3607f8bb6/-/preview/-/enhance/73/
         secondaryCta:
           text: ''
         title: Unisciti ad Apical Retreat Program
@@ -47,14 +47,10 @@ sections:
           communities and companies.
 
 
-          We offer numerous opportunities for your venue to stand out and gain
-          more visibility!
-
-
           Our team continue working hard on creating a unique and easy-to-use
           platform that will provide the retreat organizers with all the
           necessary tools to find the right venue as well as help the retreat
-          venues exposure and maximize their bookings.
+          venues expose and maximize their bookings.
         cta:
           link: '#'
           text: Contact us
@@ -64,6 +60,16 @@ sections:
         body: >-
           Apical Retreat Program è la nostra selezione di strutture dedicate a
           gruppi, community e aziende
+
+
+          Il nostro team è continuamente al lavoro per creare una esperienza
+          unica e 
+
+
+          Our team continue working hard on creating a unique and easy-to-use
+          platform that will provide the retreat organizers with all the
+          necessary tools to find the right venue as well as help the retreat
+          venues exposure and maximize their bookings.
         cta:
           link: '#'
           text: Contatta il nostro team
