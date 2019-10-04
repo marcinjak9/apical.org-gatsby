@@ -24,11 +24,13 @@ sections:
           link: 'retreat-companies#onboarding'
           text: Scopri Apical Retreat
         heroBody: >-
-          Investire nei tuoi collaboratori vuol dire investire nella tua
-          azienda. Con Apical Retreat entra nell’innovazione del benessere
-          organizzando esperienze uniche per il tuo team
+          Iscriviti a Apical Retreat Program per scoprire location e esperienze
+          straordinarie da far vivere ai tuoi collaboratori, clienti e partners.
+          Con Apical organizzare retreat, management meeting, incentive,
+          volontariato aziendale, formazione e molto altro diventa semplice e
+          creativo
         image: 'https://ucarecdn.com/a93c5e44-12f4-492c-be5d-fc48d887719f/'
-        title: Team is the word
+        title: Esperienze straordinarie per aziende innovative
       title: '#traveldifferently '
     type: HomeHero
   - props:
