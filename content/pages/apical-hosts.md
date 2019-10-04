@@ -14,7 +14,7 @@ meta:
   it:
     pageDescription: >-
       La stagione dei retreat dura tutto l'anno. Inserisci la tua struttura nel
-      nostro catalogo e vendi a gruppi ed aziende
+      nostro catalogo e vendi ai gruppi ed aziende
     pageTitle: Unisciti ad Apical Retreat Program
 sections:
   - props:
@@ -133,9 +133,9 @@ sections:
         central: false
         smallText: true
         title: >-
-          Con AHP le strutture possono ospitare retreat di community online che
+          Con ARP le strutture possono ospitare retreat di community online che
           si incontrano, associazioni, aziende che fanno viaggi formazione o
-          viaggi premio. Apical Host Program aiuta domanda ed offerta ad
+          viaggi premio. Apical Retreat Program aiuta domanda ed offerta ad
           incontrarsi e a passare un'esperienza unica nei migliori luoghi
           esclusivi
     type: SimpleHero
@@ -157,7 +157,7 @@ sections:
         columns:
           - body: >-
               Inserisci tutti i dati richiesti per candidare la tua struttura ad
-              Apical Host Program
+              Apical Retreat Program
             title: Compila il form
           - body: >-
               Consultati con un esperto del nostro team per ottenere un feedback
