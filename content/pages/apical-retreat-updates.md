@@ -124,6 +124,8 @@ sections:
               Un nostro consulente capirà con te il prodotto migliore che fa al
               caso tuo
             title: Parla con un nostro Apical Expert
+          - body: Il tuo retreat ideale in pochi passi grazie al nostro supporto
+            title: Inizia a creare facilmente
         title: Come funziona
     type: FeaturesSection
 ---
