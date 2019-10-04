@@ -102,7 +102,9 @@ sections:
             title: Parla con un nostro Apical Expert
           - body: Il tuo retreat ideale in pochi passi grazie al nostro supporto
             title: Inizia a creare facilmente
+        greyBg: true
         title: Come funziona
+        titleCenter: true
     type: FeaturesSection
   - props:
       it:
