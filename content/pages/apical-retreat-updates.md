@@ -70,6 +70,12 @@ sections:
               premiati: organizza retreat premio! 
             image: "\U0001F680"
             title: Viaggio incentive
+          - body: >-
+              La storia della tua azienda è un pezzo di storia dei tuoi
+              collaboratori. Che sia un anniversario o un cambio di rotta
+              eccezionale condividi la tua gioia
+            image: "\U0001F389"
+            title: Festeggia i risultati
         subtitle: >-
           Lasciaci un tuo contatto, riceverai maggiori informazioni sulle
           attività più innovative da proporre al tuo team 
