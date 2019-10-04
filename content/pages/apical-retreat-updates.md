@@ -64,6 +64,12 @@ sections:
               i tuoi collaboratori facendo del bene
             image: ❤
             title: Volontariato aziendale
+          - body: >
+              Se i tuoi obiettivi diventano gli obiettivi del tuo team non puoi
+              che trarne beneficio. I risultati dell’azienda devono essere
+              premiati: organizza retreat premio! 
+            image: "\U0001F680"
+            title: Viaggio incentive
         subtitle: >-
           Lasciaci un tuo contatto, riceverai maggiori informazioni sulle
           attività più innovative da proporre al tuo team 
