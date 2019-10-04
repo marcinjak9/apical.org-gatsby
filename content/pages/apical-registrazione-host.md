@@ -16,6 +16,8 @@ sections:
         heroBody: >-
           Start your listing and become visible to thousands of retreat
           organizers seeking unique venues
+        image: >-
+          https://ucarecdn.com/67ce2905-19a5-4f18-a12e-a9ec41296a78/-/preview/-/enhance/50/
         title: Register for Apical Retreat Program
       it:
         heroBody: >-
