@@ -33,7 +33,7 @@ sections:
           text: Iscriviti
         heroBody: >-
           La stagione dei retreat dura tutto l'anno. Inserisci la tua struttura
-          nel nostro catalogo e vendi a gruppi ed aziende
+          o la tua esperienza nel nostro catalogo e vendi a gruppi ed aziende
         image: >-
           https://ucarecdn.com/708600cd-376e-4ab2-b96e-6f5cc4deabd3/-/preview/-/enhance/55/
         secondaryCta:
