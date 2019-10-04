@@ -20,7 +20,7 @@ sections:
   - props:
       en:
         cta:
-          link: ' #'
+          link: ' #onboarding'
           text: Subscribe
         heroBody: >-
           Retreat season is all-year round. List your venue and sell to groups
@@ -29,7 +29,7 @@ sections:
         title: 'Join Apical Retreat Program '
       it:
         cta:
-          link: '#'
+          link: '#onboarding'
           text: Iscriviti
         heroBody: >-
           La stagione dei retreat dura tutto l'anno. Inserisci la tua struttura
@@ -52,7 +52,7 @@ sections:
           necessary tools to find the right venue as well as help the retreat
           venues expose and maximize their bookings.
         cta:
-          link: '#'
+          link: '#onboarding'
           text: Contact us
         greyBg: true
         title: What is Apical Retreat Program?
@@ -67,7 +67,7 @@ sections:
           strumenti necessari per trovare la struttura giusta per loro, ed anche
           le strutture a trovare nuovi clienti.
         cta:
-          link: '#'
+          link: '#onboarding'
           text: Contatta il nostro team
         greyBg: true
         title: 'Che cos''è Apical Retreat Program '
