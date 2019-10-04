@@ -6,22 +6,36 @@ type: page
 hideNav: false
 hideFooter: false
 meta:
-  en: {}
+  en:
+    pageTitle: Venue listing form
   it:
     pageTitle: ''
 sections:
   - props:
       en:
         heroBody: >-
-          Retreat season is all-year round. List your venue and sell to groups
-          and companies
-        title: Join Apical Retreat Program
+          Start your listing and become visible to thousands of retreat
+          organizers seeking unique venues
+        title: Register for Apical Retreat Program
       it:
         heroBody: >-
-          La stagione dei retreat dura tutto l'anno. Inserisci la tua struttura
-          nel nostro catalogo e vendi a gruppi ed aziende
-        image: 'https://ucarecdn.com/dab56918-a429-47eb-a759-89dded912233/'
-        title: Unisciti ad Apical Retreat Program
+          Candida la tua struttura e diventa visibile al maggior numero dei
+          organizatori dei retreats che cercano una location unica
+        image: >-
+          https://ucarecdn.com/dab56918-a429-47eb-a759-89dded912233/-/preview/-/enhance/60/
+        title: Registrati ad Apical Retreat Program
     type: HomeHero
+  - props:
+      en:
+        body: >-
+          Please fill out the following form. Fields with * are required, others
+          are optional
+        title: Submit your listing
+      it:
+        body: >-
+          Inserisci i dati della tua struttura. I campi contrassegnati con *
+          sono obbligatori
+        title: Candida la tua struttura
+    type: FormSection
 ---
 
