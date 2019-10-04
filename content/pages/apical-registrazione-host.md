@@ -15,14 +15,14 @@ sections:
       en:
         heroBody: >-
           Start your listing and become visible to thousands of retreat
-          organizers seeking unique venues
+          organizers seeking unique venues in Italy
         image: >-
           https://ucarecdn.com/67ce2905-19a5-4f18-a12e-a9ec41296a78/-/preview/-/enhance/50/
         title: Register for Apical Retreat Program
       it:
         heroBody: >-
           Candida la tua struttura e diventa visibile al maggior numero dei
-          organizatori dei retreats che cercano una location unica
+          organizatori dei retreats che cercano una location unica in Italia
         image: >-
           https://ucarecdn.com/dab56918-a429-47eb-a759-89dded912233/-/preview/-/enhance/60/
         title: Registrati ad Apical Retreat Program
