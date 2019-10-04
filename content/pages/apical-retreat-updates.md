@@ -82,6 +82,9 @@ sections:
               team
             image: "\U0001F486‍♀️"
             title: Wellness aziendale
+        cta:
+          link: 'retreat-companies#onboarding'
+          text: Maggiori informazioni
         subtitle: >-
           Lasciaci un tuo contatto, riceverai maggiori informazioni sulle
           attività più innovative da proporre al tuo team 
