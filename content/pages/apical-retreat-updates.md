@@ -11,7 +11,7 @@ meta:
       Investire nei tuoi collaboratori vuol dire investire nella tua azienda.
       Con Apical Retreat entra nell’innovazione del benessere organizzando
       esperienze uniche per il tuo team
-    pageTitle: Team is the word
+    pageTitle: Apical Retreat
 sections:
   - props:
       heroBody: >-
@@ -77,7 +77,8 @@ sections:
             title: Wellness aziendale
           - body: >-
               Assicurazioni, licenze, condizioni d'uso e fatturazioni: alla
-              parte noiosa ci pensa il nostro Apical Expert
+              parte noiosa ci pensa il nostro Apical Expert. Ti garantiamo
+              un'amministrazione semplice in tutti i passaggi
             image: ✏
             title: Amministrazione semplice
         cta:
