@@ -123,7 +123,7 @@ sections:
           - body: >-
               Un nostro consulente capirà con te il prodotto migliore che fa al
               caso tuo
-            title: Parla con un nostro expert
+            title: Parla con un nostro Apical Expert
         title: Come funziona
     type: FeaturesSection
 ---
