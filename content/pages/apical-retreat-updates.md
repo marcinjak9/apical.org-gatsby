@@ -113,5 +113,18 @@ sections:
           - title: Team is the word!
         title: 'Con Apical hai il miglior servizio e il supporto di cui hai bisogno '
     type: WelcomeSteps
+  - props:
+      it:
+        columns:
+          - body: >-
+              Lasciaci un tuo contatto per ricevere tutte le novità e le
+              informazioni di cui hai bisogno
+            title: Iscriviti
+          - body: >-
+              Un nostro consulente capirà con te il prodotto migliore che fa al
+              caso tuo
+            title: Parla con un nostro expert
+        title: Come funziona
+    type: FeaturesSection
 ---
 
