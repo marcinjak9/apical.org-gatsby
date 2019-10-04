@@ -114,11 +114,11 @@ sections:
         image: 'https://ucarecdn.com/bb699dde-a7c0-49ea-8f6e-6375724fd229/'
         smallText: true
         title: >-
-          I tuoi partner migliori meritano il meglio. Oggi l’industria del
-          travel  offre prodotti innovativi e unici. Con Apical Retreat sostieni
-          inoltre progetti ad impatto ambientale e sociale positivo. \
-
-          La tua azienda diventerà così parte di un cambiamento concreto.
+          I tuoi partner meritano il meglio. Oggi l’industria del travel offre
+          modelli innovativi, unici e positivi. Con Apical Retreat sostieni
+          direttamente progetti ad impatto ambientale e sociale, in questo modo
+          la tua azienda diventerà parte attiva di un cambiamento concreto per
+          rendere il mondo un posto migliore
     type: SimpleHero
   - props:
       it:
