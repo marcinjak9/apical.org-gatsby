@@ -120,14 +120,6 @@ sections:
     type: SimpleHero
   - props:
       it:
-        columns:
-          - title: Iscriviti ad Apical Retreat Updates
-          - title: Ricevi le novità e le offerte
-          - title: Team is the word!
-        title: 'Con Apical hai il miglior servizio e il supporto di cui hai bisogno '
-    type: WelcomeSteps
-  - props:
-      it:
         body: >-
           Compila il form e riceverai subito le migliori novità su Apical
           Retreat. Se vorrai un nostro Apical Expert può aiutarti ad organizzare
