@@ -172,9 +172,9 @@ sections:
     type: WelcomeSteps
   - props:
       it:
-        body: prova
+        body: ''
         formId: cbfe652b-5d01-4480-9a63-9d8ac122e698
-        title: test
+        title: ''
     type: FormSection
 ---
 
