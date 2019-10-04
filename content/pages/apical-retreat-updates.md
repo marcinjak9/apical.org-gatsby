@@ -81,38 +81,20 @@ sections:
               team
             image: "\U0001F486‍♀️"
             title: Wellness aziendale
+          - body: >-
+              Assicurazioni, licenze, condizioni d'uso e fatturazioni: alla
+              parte noiosa ci pensa il nostro Apical Expert
+            image: ✏
+            title: Amministrazione semplice
         cta:
           link: 'retreat-companies#onboarding'
           text: Maggiori informazioni
         subtitle: >-
-          Lasciaci un tuo contatto, riceverai maggiori informazioni sulle
-          attività più innovative da proporre al tuo team 
+          Lasciaci un tuo contatto, riceverai maggiori informazioni sui nostri
+          servizi
         title: Perché unirti ad Apical Retreat
         titleCenter: true
     type: HowItWorks
-  - props:
-      it:
-        cta:
-          link: 'retreat-companies#onboarding'
-          text: Unisciti
-        image: 'https://ucarecdn.com/bb699dde-a7c0-49ea-8f6e-6375724fd229/'
-        smallText: true
-        title: >-
-          I tuoi partner migliori meritano il meglio. Oggi l’industria del
-          Welfare Aziendale offre prodotti innovativi e unici. Con Apical
-          Retreat hai accesso alle migliori esperienze e agli aggiornamenti più
-          freschi di questo segmento in crescita. Registrati e tieniti
-          informato: mensilmente riceverai le novità e le offerte migliori da
-          proporre alla tua squadra
-    type: SimpleHero
-  - props:
-      it:
-        columns:
-          - title: Iscriviti ad Apical Retreat Updates
-          - title: Ricevi le novità e le offerte
-          - title: Team is the word!
-        title: 'Con Apical hai il miglior servizio e il supporto di cui hai bisogno '
-    type: WelcomeSteps
   - props:
       it:
         columns:
@@ -128,5 +110,27 @@ sections:
             title: Inizia a creare facilmente
         title: Come funziona
     type: FeaturesSection
+  - props:
+      it:
+        cta:
+          link: 'https://apical.org/social-impact'
+          text: Scopri l'impact check out
+        image: 'https://ucarecdn.com/bb699dde-a7c0-49ea-8f6e-6375724fd229/'
+        smallText: true
+        title: >-
+          I tuoi partner migliori meritano il meglio. Oggi l’industria del
+          travel  offre prodotti innovativi e unici. Con Apical Retreat sostieni
+          inoltre progetti ad impatto ambientale e sociale positivo. \
+
+          La tua azienda diventerà così parte di un cambiamento concreto.
+    type: SimpleHero
+  - props:
+      it:
+        columns:
+          - title: Iscriviti ad Apical Retreat Updates
+          - title: Ricevi le novità e le offerte
+          - title: Team is the word!
+        title: 'Con Apical hai il miglior servizio e il supporto di cui hai bisogno '
+    type: WelcomeSteps
 ---
 
