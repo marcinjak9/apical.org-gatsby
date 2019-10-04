@@ -62,7 +62,7 @@ sections:
               Un obiettivo più grande comune lega le persone le une con le
               altre. Esperienze di volontariato aziendale sono ideali per unire
               i tuoi collaboratori facendo del bene
-            image: ❤
+            image: "\U0001F495"
             title: Volontariato aziendale
           - body: >
               Se i tuoi obiettivi diventano gli obiettivi del tuo team non puoi
