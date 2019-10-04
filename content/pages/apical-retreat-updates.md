@@ -31,5 +31,23 @@ sections:
         title: Team is the word
       title: '#traveldifferently '
     type: HomeHero
+  - props:
+      it:
+        body: >-
+          Apical Retreat è l’ecosistema di prodotti travel dedicati alle aziende
+          che vogliono incrementare il benessere dei propri collaboratori. Le
+          migliori location e i migliori servizi scelti da un team di
+          professionisti: viaggi premio, eventi di formazione, celebrazioni e
+          team building. Con Apical Retreat organizzare non è mai stato così
+          facile, offriamo i prodotti più innovativi per costruire insieme alla
+          tua azienda le migliori esperienze
+
+          Registrati al nostro database, a tenerti informato ci pensiamo noi!
+        cta:
+          link: 'retreat-companies#onboarding'
+          text: Registrati
+        greyBg: true
+        title: Che cos’è Apical Retreat
+    type: WhatWeDo
 ---
 
