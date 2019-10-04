@@ -170,5 +170,11 @@ sections:
         greyBg: false
         title: Come funziona
     type: WelcomeSteps
+  - props:
+      it:
+        body: prova
+        formId: cbfe652b-5d01-4480-9a63-9d8ac122e698
+        title: test
+    type: FormSection
 ---
 
