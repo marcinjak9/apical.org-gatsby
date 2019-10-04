@@ -49,5 +49,26 @@ sections:
         greyBg: true
         title: Che cos’è Apical Retreat
     type: WhatWeDo
+  - props:
+      it:
+        cards:
+          - body: >-
+              Sempre più aziende organizzano soggiorni in location esclusive in
+              retreat organizzati con le migliori esperienze per migliorare i
+              legami fra i propri collaboratori
+            image: "\U0001F4AA"
+            title: Team building
+          - body: >
+              Un obiettivo più grande comune lega le persone le une con le
+              altre. Esperienze di volontariato aziendale sono ideali per unire
+              i tuoi collaboratori facendo del bene
+            image: ❤
+            title: Volontariato aziendale
+        subtitle: >-
+          Lasciaci un tuo contatto, riceverai maggiori informazioni sulle
+          attività più innovative da proporre al tuo team 
+        title: Perché unirti ad Apical Retreat
+        titleCenter: true
+    type: HowItWorks
 ---
 
