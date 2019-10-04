@@ -39,10 +39,9 @@ sections:
           Apical retreat è l’ecosistema in cui il network di host e tour
           operator di Apical propone offerte dedicate ad aziende, associazioni e
           gruppi. Le migliori location e i migliori servizi scelti da un team di
-          professionisti: viaggi premio, eventi di formazione, celebrazioni e
-          team building. Con Apical Retreat organizzare non è mai stato così
-          facile, offriamo i prodotti più innovativi per costruire insieme alla
-          tua azienda le migliori esperienze. 
+          professionisti. Organizzare non è mai stato così facile ed efficace:
+          offriamo i prodotti più innovativi per costruire insieme a te le
+          migliori esperienze
         cta:
           link: 'retreat-companies#onboarding'
           text: Registrati
