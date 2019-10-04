@@ -106,5 +106,13 @@ sections:
           informato: mensilmente riceverai le novità e le offerte migliori da
           proporre alla tua squadra
     type: SimpleHero
+  - props:
+      it:
+        columns:
+          - title: Iscriviti ad Apical Retreat Updates
+          - title: Ricevi le novità e le offerte
+          - title: Team is the word!
+        title: 'Con Apical hai il miglior servizio e il supporto di cui hai bisogno '
+    type: WelcomeSteps
 ---
 
