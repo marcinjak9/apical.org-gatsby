@@ -62,14 +62,10 @@ sections:
           gruppi, community e aziende
 
 
-          Il nostro team è continuamente al lavoro per creare una esperienza
-          unica e 
-
-
-          Our team continue working hard on creating a unique and easy-to-use
-          platform that will provide the retreat organizers with all the
-          necessary tools to find the right venue as well as help the retreat
-          venues exposure and maximize their bookings.
+          Il nostro team lavora continuamente per creare una piattaforma
+          semplice ed intuitiva che dia agli organizzatori di retreat gli
+          strumenti necessari per trovare la struttura giusta per loro, ed anche
+          le strutture a trovare nuovi clienti.
         cta:
           link: '#'
           text: Contatta il nostro team
