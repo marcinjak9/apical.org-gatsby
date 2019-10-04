@@ -76,6 +76,12 @@ sections:
               eccezionale condividi la tua gioia
             image: "\U0001F389"
             title: Festeggia i risultati
+          - body: >-
+              Il benessere psicofisico dei tuoi dipendenti si traduce in un
+              ambiente di lavoro più sereno e produttivo. Prenditi cura del tuo
+              team
+            image: "\U0001F486‍♀️"
+            title: Wellness aziendale
         subtitle: >-
           Lasciaci un tuo contatto, riceverai maggiori informazioni sulle
           attività più innovative da proporre al tuo team 
