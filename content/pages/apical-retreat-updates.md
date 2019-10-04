@@ -91,5 +91,20 @@ sections:
         title: Perché unirti ad Apical Retreat
         titleCenter: true
     type: HowItWorks
+  - props:
+      it:
+        cta:
+          link: 'retreat-companies#onboarding'
+          text: Unisciti
+        image: 'https://ucarecdn.com/bb699dde-a7c0-49ea-8f6e-6375724fd229/'
+        smallText: true
+        title: >-
+          I tuoi partner migliori meritano il meglio. Oggi l’industria del
+          Welfare Aziendale offre prodotti innovativi e unici. Con Apical
+          Retreat hai accesso alle migliori esperienze e agli aggiornamenti più
+          freschi di questo segmento in crescita. Registrati e tieniti
+          informato: mensilmente riceverai le novità e le offerte migliori da
+          proporre alla tua squadra
+    type: SimpleHero
 ---
 
