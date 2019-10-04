@@ -151,7 +151,7 @@ sections:
               information regarding your venue 
             title: Submit your listing
           - body: Consult our team and receive a feedback regarding your listing
-            title: Get in touch with Apical Tem
+            title: 'Get in touch with Apical '
           - body: >-
               Once you have joined ARP, let's start bringing great retreats to
               your venue! 
