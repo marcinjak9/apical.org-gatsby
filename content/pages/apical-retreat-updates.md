@@ -21,7 +21,7 @@ sections:
         bene, aprire i propri orizzonti è un'occasione preziosissima
       it:
         cta:
-          link: ''
+          link: 'retreat-companies#onboarding'
           text: Scopri Apical Retreat
         heroBody: >-
           Investire nei tuoi collaboratori vuol dire investire nella tua
