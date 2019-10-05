@@ -115,7 +115,7 @@ sections:
             image: "\U0001F6CE"
             title: Puoi ospitare gruppi
         cta:
-          link: '#'
+          link: '#onboarding'
           text: Candida la tua struttura
         title: Sei un potenziale partner se
         titleCenter: true
