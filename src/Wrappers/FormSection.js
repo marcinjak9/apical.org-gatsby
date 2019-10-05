@@ -31,10 +31,9 @@ export default class FormSection extends Component {
     const { title, body, redirectTo } = this.props
     const { form, error } = this.state
     return (
-      <div>
+      <div id="onboarding">
         {form && (
           <OnboardingForm
-            id="onboarding"
             form={form}
             title={title}
             body={body}
