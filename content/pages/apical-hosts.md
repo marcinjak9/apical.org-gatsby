@@ -14,13 +14,13 @@ meta:
   it:
     pageDescription: >-
       La stagione dei retreat dura tutto l'anno. Inserisci la tua struttura nel
-      nostro catalogo e vendi a gruppi ed aziende
+      nostro catalogo e vendi ai gruppi ed aziende
     pageTitle: Unisciti ad Apical Retreat Program
 sections:
   - props:
       en:
         cta:
-          link: ' #'
+          link: ' #d5ea7897-eee2-492e-ae15-5dadbb786253'
           text: Subscribe
         heroBody: >-
           Retreat season is all-year round. List your venue and sell to groups
@@ -29,13 +29,13 @@ sections:
         title: 'Join Apical Retreat Program '
       it:
         cta:
-          link: '#'
+          link: '#d5ea7897-eee2-492e-ae15-5dadbb786253'
           text: Iscriviti
         heroBody: >-
           La stagione dei retreat dura tutto l'anno. Inserisci la tua struttura
-          nel nostro catalogo e vendi a gruppi ed aziende
+          o la tua esperienza nel nostro catalogo e vendi a gruppi ed aziende
         image: >-
-          https://ucarecdn.com/5f8e5286-f6a6-4b69-9a52-68e3607f8bb6/-/preview/-/enhance/37/
+          https://ucarecdn.com/708600cd-376e-4ab2-b96e-6f5cc4deabd3/-/preview/-/enhance/55/
         secondaryCta:
           text: ''
         title: Unisciti ad Apical Retreat Program
@@ -44,9 +44,15 @@ sections:
       en:
         body: >
           Apical Retreat Program is our listing of venues dedicated to groups,
-          communities and companies
+          communities and companies.
+
+
+          Our team continue working hard on creating a unique and easy-to-use
+          platform that will provide the retreat organizers with all the
+          necessary tools to find the right venue as well as help the retreat
+          venues expose and maximize their bookings.
         cta:
-          link: '#'
+          link: '#onboarding'
           text: Contact us
         greyBg: true
         title: What is Apical Retreat Program?
@@ -54,8 +60,14 @@ sections:
         body: >-
           Apical Retreat Program è la nostra selezione di strutture dedicate a
           gruppi, community e aziende
+
+
+          Il nostro team lavora continuamente per creare una piattaforma
+          semplice ed intuitiva che dia agli organizzatori di retreat gli
+          strumenti necessari per trovare la struttura giusta per loro, ed anche
+          le strutture a trovare nuovi clienti.
         cta:
-          link: '#'
+          link: '#onboarding'
           text: Contatta il nostro team
         greyBg: true
         title: 'Che cos''è Apical Retreat Program '
@@ -121,9 +133,9 @@ sections:
         central: false
         smallText: true
         title: >-
-          Con AHP le strutture possono ospitare retreat di community online che
+          Con ARP le strutture possono ospitare retreat di community online che
           si incontrano, associazioni, aziende che fanno viaggi formazione o
-          viaggi premio. Apical Host Program aiuta domanda ed offerta ad
+          viaggi premio. Apical Retreat Program aiuta domanda ed offerta ad
           incontrarsi e a passare un'esperienza unica nei migliori luoghi
           esclusivi
     type: SimpleHero
@@ -135,7 +147,7 @@ sections:
               information regarding your venue 
             title: Submit your listing
           - body: Consult our team and receive a feedback regarding your listing
-            title: Get in touch with Apical Tem
+            title: 'Get in touch with Apical '
           - body: >-
               Once you have joined ARP, let's start bringing great retreats to
               your venue! 
@@ -145,7 +157,7 @@ sections:
         columns:
           - body: >-
               Inserisci tutti i dati richiesti per candidare la tua struttura ad
-              Apical Host Program
+              Apical Retreat Program
             title: Compila il form
           - body: >-
               Consultati con un esperto del nostro team per ottenere un feedback
@@ -158,5 +170,17 @@ sections:
         greyBg: false
         title: Come funziona
     type: WelcomeSteps
+  - props:
+      en:
+        body: >-
+          Provide us with the details and shortly one of our consultants will
+          contact you
+        formId: bb773efb-0928-44c8-b339-1e7e90df33c9
+        title: Submit the form
+      it:
+        body: Lasciaci i tuoi dati e un nostro consulente ti contatterà a breve
+        formId: bb773efb-0928-44c8-b339-1e7e90df33c9
+        title: 'Compila il form '
+    type: FormSection
 ---
 
