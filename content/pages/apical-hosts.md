@@ -175,11 +175,11 @@ sections:
         body: >-
           Provide us with the details and shortly one of our consultants will
           contact you
-        formId: d5ea7897-eee2-492e-ae15-5dadbb786253
+        formId: onboarding
         title: Submit the form
       it:
         body: Lasciaci i tuoi dati e un nostro consulente ti contatterà a breve
-        formId: d5ea7897-eee2-492e-ae15-5dadbb786253
+        formId: onboarding
         title: 'Compila il form '
     type: FormSection
 ---
