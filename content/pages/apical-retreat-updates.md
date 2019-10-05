@@ -122,6 +122,8 @@ sections:
           rendere il mondo un posto migliore
     type: SimpleHero
   - props:
+      en:
+        formId: 30fdc225-68dc-4742-ab43-339af4974b5d
       it:
         body: >-
           Compila il form e riceverai subito le migliori novità su Apical
