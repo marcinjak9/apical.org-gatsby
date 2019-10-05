@@ -21,7 +21,7 @@ sections:
         bene, aprire i propri orizzonti è un'occasione preziosissima
       it:
         cta:
-          link: 'retreat-companies#onboarding'
+          link: 'retreat-companies#30fdc225-68dc-4742-ab43-339af4974b5d'
           text: Scopri Apical Retreat
         heroBody: >-
           Iscriviti a Apical Retreat Program per scoprire location e esperienze
