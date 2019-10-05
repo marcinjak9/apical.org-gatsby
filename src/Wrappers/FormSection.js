@@ -34,6 +34,7 @@ export default class FormSection extends Component {
       <div>
         {form && (
           <OnboardingForm
+            id="onboarding"
             form={form}
             title={title}
             body={body}
