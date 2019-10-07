@@ -25,7 +25,7 @@ sections:
       it:
         cta:
           link: '#onboarding'
-          text: Iscriviti Gratuitamente
+          text: Iscriviti gratuitamente
         heroBody: "**Semplice e professionale, adatto a tutti**\r\n\nOttieni pieno controllo sui tuoi prodotti, aumenta le vendite, fidelizza il pubblico e risparmia l'80% del tempo"
         image: 'https://ucarecdn.com/9b238552-e3cc-4ccd-b8d2-51d36e226328/'
         title: Crea e lancia il tuo travel store online
