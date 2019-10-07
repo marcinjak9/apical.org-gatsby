@@ -28,18 +28,8 @@ sections:
         title: Registrati ad Apical Retreat Program
     type: HomeHero
   - props:
-      en:
-        body: >-
-          Please fill out the following form. Fields with * are required, others
-          are optional
-        formId: d5ea7897-eee2-492e-ae15-5dadbb786253
-        title: Submit your listing
       it:
-        body: >-
-          Inserisci i dati della tua struttura. I campi contrassegnati con *
-          sono obbligatori
-        formId: d5ea7897-eee2-492e-ae15-5dadbb786253
-        title: Candida la tua struttura
-    type: FormSection
+        title: "<!--\\[if lte IE 8]>\r\n\n<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\r\n\n<!\\[endif]-->\r\n\n<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\r\n\n<script>\r\n\n  hbspt.forms.create({\r\n\n\tportalId: \"5448232\",\r\n\n\tformId: \"d5ea7897-eee2-492e-ae15-5dadbb786253\"\r\n\n});\r\n\n</script>"
+    type: SimpleHero
 ---
 
