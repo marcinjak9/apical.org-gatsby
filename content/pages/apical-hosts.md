@@ -130,16 +130,14 @@ sections:
           assisting them in creating a unique experience in the most awesome
           venues
       it:
-        central: false
+        central: true
         image: >-
           https://ucarecdn.com/150bcee6-5186-4111-8bff-5faa362a1c10/-/preview/-/enhance/14/
         smallText: true
         title: >-
-          Con ARP le strutture possono ospitare retreat di community online che
-          si incontrano, associazioni, aziende che fanno viaggi formazione o
-          viaggi premio. Apical Retreat Program aiuta domanda ed offerta ad
-          incontrarsi e a passare un'esperienza unica nei migliori luoghi
-          esclusivi
+          Con Apical Retreat Program le strutture possono ospitare retreat di
+          community online, istruttori di yoga, associazioni, aziende che fanno
+          viaggi formazione o viaggi premio.
     type: SimpleHero
   - props:
       en:
