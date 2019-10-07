@@ -176,11 +176,11 @@ sections:
           Please fill out the form and shortly one of our consultants will
           contact you
         formId: bb773efb-0928-44c8-b339-1e7e90df33c9
-        title: Submit the form
+        title: Register here
       it:
         body: Lasciaci i tuoi dati ed un nostro consulente ti contatterà a breve
         formId: bb773efb-0928-44c8-b339-1e7e90df33c9
-        title: Compila il form
+        title: Registrati qui
     type: FormSection
 ---
 
