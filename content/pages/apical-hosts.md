@@ -167,7 +167,7 @@ sections:
               Una volta firmato l'accordo di collaborazione possiamo iniziare a
               riempire la tua struttura! 
             title: Inizia!
-        greyBg: false
+        greyBg: true
         title: Come funziona
     type: WelcomeSteps
   - props:
