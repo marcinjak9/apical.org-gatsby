@@ -131,6 +131,8 @@ sections:
           venues
       it:
         central: false
+        image: >-
+          https://ucarecdn.com/150bcee6-5186-4111-8bff-5faa362a1c10/-/preview/-/enhance/14/
         smallText: true
         title: >-
           Con ARP le strutture possono ospitare retreat di community online che
