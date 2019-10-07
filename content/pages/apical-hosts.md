@@ -25,7 +25,7 @@ sections:
         heroBody: >-
           Retreat season is all-year round. List your venue and sell to groups
           and companies
-        image: 'https://ucarecdn.com/e9bc030b-5382-4a5d-be16-327fe0fd69f8/'
+        image: 'https://ucarecdn.com/15db9afb-9c4b-4d1c-bfcb-ee7b78cebbec/'
         title: 'Join Apical Retreat Program '
       it:
         cta:
@@ -122,13 +122,13 @@ sections:
     type: HowItWorks
   - props:
       en:
+        central: true
+        image: 'https://ucarecdn.com/9d41e9ac-f5a4-4bf9-95dc-ff2e7fe0f8c4/'
         smallText: true
         title: >-
-          With Apical Retreat Program properties can host retreats organized by
-          online communities , various association, corporate team building or
-          incentive trips. ARP connects hosts and retreat organisers while
-          assisting them in creating a unique experience in the most awesome
-          venues
+          # With Apical Retreat Program properties can host retreats organized
+          by online communities, yoga or mindfulness retreats various
+          association, corporate team building or incentive trips.
       it:
         central: true
         image: >-
@@ -136,8 +136,8 @@ sections:
         smallText: true
         title: >-
           Con Apical Retreat Program le strutture possono ospitare retreat di
-          community online, istruttori di yoga, associazioni, aziende che fanno
-          viaggi formazione o viaggi premio.
+          community online, retreat di yoga o mindfulness, associazioni, aziende
+          che fanno viaggi formazione o viaggi premio.
     type: SimpleHero
   - props:
       en:
