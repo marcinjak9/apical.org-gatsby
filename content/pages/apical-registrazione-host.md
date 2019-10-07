@@ -32,11 +32,13 @@ sections:
         body: >-
           Please fill out the following form. Fields with * are required, others
           are optional
+        formId: d5ea7897-eee2-492e-ae15-5dadbb786253
         title: Submit your listing
       it:
         body: >-
           Inserisci i dati della tua struttura. I campi contrassegnati con *
           sono obbligatori
+        formId: d5ea7897-eee2-492e-ae15-5dadbb786253
         title: Candida la tua struttura
     type: FormSection
 ---
