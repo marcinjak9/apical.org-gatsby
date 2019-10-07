@@ -29,7 +29,7 @@ sections:
     type: HomeHero
   - props:
       it:
-        title: "<!--\\[if lte IE 8]>\r\n\n<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\r\n\n<!\\[endif]-->\r\n\n<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\r\n\n<script>\r\n\n  hbspt.forms.create({\r\n\n\tportalId: \"5448232\",\r\n\n\tformId: \"d5ea7897-eee2-492e-ae15-5dadbb786253\"\r\n\n});\r\n\n</script>"
+        title: "`<!--\\[if lte IE 8]>\n\n<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n\n<!\\[endif]-->`\n\n`<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>`\n\n`<script>\n\n  hbspt.forms.create({\n\n\tportalId: \"5448232\",\n\n\tformId: \"d5ea7897-eee2-492e-ae15-5dadbb786253\"\n\n});\n\n</script>`"
     type: SimpleHero
 ---
 
