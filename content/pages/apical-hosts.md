@@ -126,9 +126,9 @@ sections:
         image: 'https://ucarecdn.com/9d41e9ac-f5a4-4bf9-95dc-ff2e7fe0f8c4/'
         smallText: true
         title: >-
-          # With Apical Retreat Program properties can host retreats organized
-          by online communities, yoga or mindfulness retreats various
-          association, corporate team building or incentive trips.
+          With Apical Retreat Program properties can host retreats organized by
+          online communities, yoga or mindfulness retreats various association,
+          corporate team building or incentive trips.
       it:
         central: true
         image: >-
