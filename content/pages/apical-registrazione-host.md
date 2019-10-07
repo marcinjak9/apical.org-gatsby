@@ -63,5 +63,11 @@ sections:
 
           </script>
     type: SimpleHero
+  - props:
+      it:
+        body: ''
+        formId: d5ea7897-eee2-492e-ae15-5dadbb786253
+        title: Compila il form
+    type: FormSection
 ---
 
