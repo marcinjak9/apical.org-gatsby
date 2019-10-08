@@ -29,7 +29,7 @@ sections:
           Con Apical organizzare retreat, management meeting, incentive,
           volontariato aziendale, formazione e molto altro diventa semplice e
           creativo
-        image: 'https://ucarecdn.com/a93c5e44-12f4-492c-be5d-fc48d887719f/'
+        image: 'https://ucarecdn.com/6232095d-fa81-4277-9cc1-0034b9ca2f55/'
         title: Esperienze straordinarie per aziende innovative
       title: '#traveldifferently '
     type: HomeHero
