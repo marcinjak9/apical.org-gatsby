@@ -152,6 +152,7 @@ sections:
               Once you have joined ARP, let's start bringing great retreats to
               your venue! 
             title: Let's start!
+        greyBg: true
         title: How does it work
       it:
         columns:
