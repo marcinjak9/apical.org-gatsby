@@ -89,12 +89,6 @@ sections:
     type: HomeHero
   - props:
       it:
-        cta:
-          body: Happiness is a movement
-        greyBg: true
-    type: Quote
-  - props:
-      it:
         cards:
           - body: Entra nel nostro database per poter ricevere le migliori offerte
             image: "\U0001F389"
@@ -113,7 +107,7 @@ sections:
     type: HowItWorks
   - props:
       it:
-        central: true
+        central: false
         cta:
           text: Chiedi informazioni
         smallText: true
