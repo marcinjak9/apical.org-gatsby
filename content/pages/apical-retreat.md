@@ -16,6 +16,8 @@ meta:
 sections:
   - props:
       it:
+        cta:
+          text: Resta aggiornato
         heroBody: >-
           Pianificare retreat e viaggi di gruppo è facile se lo fai con un
           partner affidabile. Apical fornisce tutti gli strumenti di cui hai
@@ -41,5 +43,16 @@ sections:
         greyBg: true
         title: Che cos'è un retreat?
     type: WhatWeDo
+  - props:
+      it:
+        cards:
+          - body: >-
+              Viaggi premio, volontariato aziendale, benefit ai partner e altro.
+              L'universo dei retreat aziendali e ampio, scopri con noi tutte le
+              possibilità
+            image: "\U0001F454"
+            title: Aziende
+        title: 'Alcuni dei nostri organizzatori di retreat '
+    type: HowItWorks
 ---
 
