@@ -75,5 +75,15 @@ sections:
         smallText: true
         title: ''
     type: SimpleHero
+  - props:
+      en:
+        body: Register here and shortly one of our consultant will contact you
+        formId: 6679fa06-fadd-442a-acf0-293fb9bb7338
+        title: Register
+      it:
+        body: Lasciaci i tuoi dati ed un nostro consulente ti contatterà a breve
+        formId: d568a967-0f3b-4797-9db8-33994687dcc9
+        title: Iscriviti
+    type: FormSection
 ---
 
