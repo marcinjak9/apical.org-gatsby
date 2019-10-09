@@ -61,16 +61,17 @@ sections:
         central: true
         image: 'https://ucarecdn.com/a4e00f8f-fbea-4cfe-ac81-5f0fa905e95c/'
         smallText: true
-      it:
-        central: true
-        image: 'https://ucarecdn.com/3186359d-b08a-4952-80ec-6a202bb7021e/'
-        smallText: true
         title: >-
           Everything you would have to put together individually and book piece
           by piece, we will do for you. In addition, you will benefit from our
           network, experience, tour operator licence, reduced accounting
           complexity, insurance coverage and the fact that we know exactly
           what’s important when organising your retreat.
+      it:
+        central: true
+        image: 'https://ucarecdn.com/3186359d-b08a-4952-80ec-6a202bb7021e/'
+        smallText: true
+        title: ''
     type: SimpleHero
 ---
 
