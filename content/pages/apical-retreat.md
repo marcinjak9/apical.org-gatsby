@@ -93,5 +93,23 @@ sections:
           body: Happiness is a movement
         greyBg: true
     type: Quote
+  - props:
+      it:
+        cards:
+          - body: Entra nel nostro database per poter ricevere le migliori offerte
+            image: "\U0001F389"
+            title: Iscriviti
+          - body: Conosci le esperienze più innovative nel campo dei retreat
+            image: "\U0001F514"
+            title: Resta informato
+          - body: >-
+              Parla con un nostro Apica Expert per capire come organizzare un
+              retreat
+            image: "\U0001F4DE"
+            title: Ottieni una consulenza
+        cta:
+          text: Iscrivit
+        title: Come funziona Apical Retreat
+    type: HowItWorks
 ---
 
