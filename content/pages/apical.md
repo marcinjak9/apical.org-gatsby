@@ -71,7 +71,7 @@ sections:
           what’s important when organising your retreat.
       it:
         central: true
-        image: 'https://ucarecdn.com/9a7b6ff3-c948-4570-9839-f5d67e37b4a4/'
+        image: 'https://ucarecdn.com/a5954db3-bc75-4fa9-af3a-bcb758a87f71/'
         smallText: true
         title: ''
     type: SimpleHero
