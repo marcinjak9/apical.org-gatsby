@@ -87,5 +87,11 @@ sections:
           text: Scopri il nostro impact check out
         title: Do it green. It's better
     type: HomeHero
+  - props:
+      it:
+        cta:
+          body: Happiness is a movement
+        greyBg: true
+    type: Quote
 ---
 
