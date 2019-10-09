@@ -18,25 +18,15 @@ sections:
         cta:
           text: Register
         heroBody: We make it simple.
-        image: 'https://ucarecdn.com/9b246a5c-7e86-47ad-878b-7b9e19d5ab06/'
+        image: 'https://ucarecdn.com/cf45a8a0-b4fd-4aea-af97-070c0558b665/'
         title: Apical Retreat Program Community
       it:
         cta:
           text: Iscriviti
-        heroBody: ''
+        heroBody: Noi facciamo tutto
         image: 'https://ucarecdn.com/2d507ed3-dc0f-4d22-826a-d2de1a70c70c/'
         title: Apical Retreat Program Comunity
     type: HomeHero
-  - props:
-      it:
-        image: 'https://ucarecdn.com/c7cef11d-3dc8-410e-910d-3d28262180a3/'
-        title: >-
-          Everything you would have to put together individually and book piece
-          by piece, we will do for you. In addition, you will benefit from our
-          network, experience, tour operator licence, reduced accounting
-          complexity, insurance coverage and the fact that we know exactly
-          what’s important when organising your retreat.
-    type: SimpleHero
   - props:
       en:
         body: >-
@@ -53,7 +43,34 @@ sections:
         greyBg: true
         title: What is Apical Retreat Program?
       it:
-        title: ''
+        body: >-
+          Apical Retreat Program è la nostra selezione di strutture dedicate a
+          gruppi, community e aziende
+
+
+          Il nostro team lavora continuamente per creare una piattaforma
+          semplice ed intuitiva che dia agli organizzatori di retreat gli
+          strumenti necessari per trovare la struttura giusta per loro, ed anche
+          le strutture a trovare nuovi clienti.
+        cta:
+          text: Contatta il nostro team
+        title: Che cos'è Apical Retreat Program?
     type: WhatWeDo
+  - props:
+      en:
+        central: true
+        image: 'https://ucarecdn.com/a4e00f8f-fbea-4cfe-ac81-5f0fa905e95c/'
+        smallText: true
+      it:
+        central: true
+        image: 'https://ucarecdn.com/3186359d-b08a-4952-80ec-6a202bb7021e/'
+        smallText: true
+        title: >-
+          Everything you would have to put together individually and book piece
+          by piece, we will do for you. In addition, you will benefit from our
+          network, experience, tour operator licence, reduced accounting
+          complexity, insurance coverage and the fact that we know exactly
+          what’s important when organising your retreat.
+    type: SimpleHero
 ---
 
