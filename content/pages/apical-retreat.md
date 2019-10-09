@@ -57,6 +57,18 @@ sections:
               quali gravitano studenti a cui offrire un'opportunità in più
             image: "\U0001F9D8‍♂️"
             title: Formazione personale
+          - body: >-
+              Gruppi di persone accumunate da una passione o da un'ammirazione
+              verso qualcosa o qualcuno: ci sono diversi modi per coinvolgerle! 
+            image: "\U0001FA90"
+            title: Community
+          - body: >-
+              Organizzare uscite o retreat è ancora più facile: Apical pensa
+              alla parte noiosa della tua attività
+            image: "\U0001F93F"
+            title: Gruppi sportivi
+        cta:
+          text: Resta aggiornato
         title: 'Alcuni dei nostri organizzatori di retreat '
     type: HowItWorks
 ---
