@@ -8,7 +8,7 @@ hideFooter: false
 meta:
   en:
     pageDescription: ''
-    pageTitle: Apical Retreat Comminuty
+    pageTitle: Apical Retreat Community
   it:
     pageDescription: ''
     pageTitle: Apical Retreat Community
@@ -25,7 +25,7 @@ sections:
           text: Iscriviti
         heroBody: ''
         image: 'https://ucarecdn.com/2d507ed3-dc0f-4d22-826a-d2de1a70c70c/'
-        title: Apical Retreat Program Comminuty
+        title: Apical Retreat Program Comunity
     type: HomeHero
   - props:
       it:
@@ -37,5 +37,23 @@ sections:
           complexity, insurance coverage and the fact that we know exactly
           what’s important when organising your retreat.
     type: SimpleHero
+  - props:
+      en:
+        body: >-
+          Apical Retreat Program is our listing of venues dedicated to groups,
+          communities and companies.
+
+
+          Our team continue working hard on creating a unique and easy-to-use
+          platform that will provide the retreat organizers with all the
+          necessary tools to find the right venue as well as help the retreat
+          venues expose and maximize their bookings.
+        cta:
+          text: Contact us
+        greyBg: true
+        title: What is Apical Retreat Program?
+      it:
+        title: ''
+    type: WhatWeDo
 ---
 
