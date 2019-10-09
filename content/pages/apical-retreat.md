@@ -52,6 +52,11 @@ sections:
               possibilità
             image: "\U0001F454"
             title: Aziende
+          - body: >-
+              Maestri di yoga, di karate, di meditazione... Figure intorno alle
+              quali gravitano studenti a cui offrire un'opportunità in più
+            image: "\U0001F9D8‍♂️"
+            title: Formazione personale
         title: 'Alcuni dei nostri organizzatori di retreat '
     type: HowItWorks
 ---
