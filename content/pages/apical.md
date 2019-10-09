@@ -76,6 +76,11 @@ sections:
         title: ''
     type: SimpleHero
   - props:
+      it:
+        subtitle: non so
+        title: 'Perche farlo con Apical '
+    type: FeaturesTabs
+  - props:
       en:
         body: Register here and shortly one of our consultant will contact you
         formId: 6679fa06-fadd-442a-acf0-293fb9bb7338
@@ -83,7 +88,7 @@ sections:
       it:
         body: Lasciaci i tuoi dati ed un nostro consulente ti contatterà a breve
         formId: d568a967-0f3b-4797-9db8-33994687dcc9
-        title: Iscriviti
+        title: Iscriviti qui
     type: FormSection
 ---
 
