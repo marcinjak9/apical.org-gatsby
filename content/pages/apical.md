@@ -17,7 +17,9 @@ sections:
       en:
         cta:
           text: Register
-        heroBody: We make it simple.
+        heroBody: >-
+          Live your passion while growing your business. Leave the details to us
+          for retreats planned as you would like
         image: 'https://ucarecdn.com/cf45a8a0-b4fd-4aea-af97-070c0558b665/'
         title: Apical Retreat Program Community
       it:
@@ -59,7 +61,7 @@ sections:
   - props:
       en:
         central: true
-        image: 'https://ucarecdn.com/a4e00f8f-fbea-4cfe-ac81-5f0fa905e95c/'
+        image: 'https://ucarecdn.com/dafd0cbf-e2e4-42a3-858b-2be54f23271e/'
         smallText: true
         title: >-
           Everything you would have to put together individually and book piece
@@ -69,7 +71,7 @@ sections:
           what’s important when organising your retreat.
       it:
         central: true
-        image: 'https://ucarecdn.com/3186359d-b08a-4952-80ec-6a202bb7021e/'
+        image: 'https://ucarecdn.com/9a7b6ff3-c948-4570-9839-f5d67e37b4a4/'
         smallText: true
         title: ''
     type: SimpleHero
