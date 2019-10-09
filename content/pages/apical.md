@@ -61,7 +61,7 @@ sections:
   - props:
       en:
         central: true
-        image: 'https://ucarecdn.com/dafd0cbf-e2e4-42a3-858b-2be54f23271e/'
+        image: 'https://ucarecdn.com/533f1c38-8ab9-4bae-9b03-d623949da51c/'
         smallText: true
         title: >-
           Everything you would have to put together individually and book piece
