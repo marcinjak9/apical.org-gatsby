@@ -71,5 +71,16 @@ sections:
           text: Resta aggiornato
         title: 'Alcuni dei nostri organizzatori di retreat '
     type: HowItWorks
+  - props:
+      it:
+        bodyLight: true
+        heroBody: >-
+          Con Apical i tuoi retreat sostengono iniziative ad impatto sociale e
+          ambientale positivo. Per noi non è solo importante, è fondamentale.
+          Chiunque parteciperà ai tuoi retreat sarà dunque parte del nostro
+          percorso in questa direzione. Per questo Apical sceglie location ed
+          esperienze in linea con la nostra mission
+        title: Do it green. It's better
+    type: HomeHero
 ---
 
