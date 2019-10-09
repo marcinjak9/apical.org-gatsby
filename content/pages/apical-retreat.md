@@ -28,5 +28,18 @@ sections:
           - la tua community
           - i tuoi partner commerciali
     type: HomeHero
+  - props:
+      it:
+        body: >-
+          Coinvolgere è la chiave e un retreat è uno dei migliori modi per
+          farlo. Organizza viaggi per stimolare i gruppi su cui hai influenza
+          offrendo loro le migliori esperienze, scegli il mood e il tono di voce
+          del tuo retreat e crea la tua proposta. Apical sarà al tuo fianco per
+          l'intero processo
+        cta:
+          text: Scopri di più
+        greyBg: true
+        title: Che cos'è un retreat?
+    type: WhatWeDo
 ---
 
