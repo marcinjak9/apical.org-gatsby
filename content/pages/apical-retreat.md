@@ -22,6 +22,7 @@ sections:
           Pianificare retreat e viaggi di gruppo è facile se lo fai con un
           partner affidabile. Apical fornisce tutti gli strumenti di cui hai
           bisogno per coinvolgere il tuo pubblico
+        image: 'https://ucarecdn.com/e0d34a8c-8ce3-4406-858a-d1e2d6ada57c/'
         title: Organizza le esperienze più straordinarie per
         typings:
           - i tuoi dipendenti
@@ -82,6 +83,7 @@ sections:
           Chiunque parteciperà ai tuoi retreat sarà dunque parte del nostro
           percorso in questa direzione. Per questo Apical sceglie location ed
           esperienze in linea con la nostra mission
+        image: 'https://ucarecdn.com/c515061f-1ac9-4750-bbab-782506554c94/'
         secondaryCta:
           link: 'https://apical.org/social-impact/'
           text: Scopri il nostro impact check out
@@ -110,6 +112,7 @@ sections:
         central: false
         cta:
           text: Chiedi informazioni
+        image: 'https://ucarecdn.com/17703191-cd52-48a1-aead-a0231d62e9ef/'
         smallText: true
         title: >-
           La sicurezza dei tuoi partecipanti è un valore inderogabile. Per
