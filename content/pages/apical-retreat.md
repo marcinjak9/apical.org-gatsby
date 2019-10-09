@@ -108,8 +108,21 @@ sections:
             image: "\U0001F4DE"
             title: Ottieni una consulenza
         cta:
-          text: Iscrivit
+          text: Iscriviti
         title: Come funziona Apical Retreat
     type: HowItWorks
+  - props:
+      it:
+        central: true
+        cta:
+          text: Chiedi informazioni
+        smallText: true
+        title: >-
+          La sicurezza dei tuoi partecipanti è un valore inderogabile. Per
+          questo Apical ti sostiene nella pianificazione delle condizioni di
+          viaggio, nella stipula di assicurazione e nella copertura di licenze
+          travel. Tu organizzi la parte divertente, alla tutela tua e delle tue
+          cerchie ci pensiamo noi
+    type: SimpleHero
 ---
 
