@@ -52,6 +52,19 @@ sections:
       title: '#traveldifferently '
     type: HomeHero
   - props:
+      en:
+        body: >-
+          Apical retreat is an ecosystem in which hosts and tour operators of
+          Apical offer their service to companies, associations and groups. The
+          best locations and the best services chosen by a team of
+          professionals. Organizing has never been so easy and effective: we
+          offer the most innovative products to build together with you the best
+          experiences
+        cta:
+          link: 'retreat-companies#onboarding'
+          text: Join
+        greyBg: true
+        title: What is Apical Retreat?
       it:
         body: >
           Apical retreat è l’ecosistema in cui il network di host e tour
@@ -64,9 +77,54 @@ sections:
           link: 'retreat-companies#onboarding'
           text: Registrati
         greyBg: true
-        title: Che cos’è Apical Retreat
+        title: Che cos’è Apical Retreat?
     type: WhatWeDo
   - props:
+      en:
+        cards:
+          - body: >-
+              More and more companies organize their employees trip in locations
+              specialized in retreats in order to improve employees relationship
+            image: "\U0001F4AA"
+            title: Team Building
+          - body: >
+              Even a bigger goal for companies is for people to connect.
+              Organizing corporate volunteering is the best way to do while
+              contributing to the environment as well
+            image: "\U0001F332"
+            title: Corporate volunteering
+          - body: >-
+              If your goals become your team's goals, you can only benefit from
+              it. The company's results must be rewarded: organize incentive
+              trips!
+            image: "\U0001F680"
+            title: Incentive trips
+          - body: >-
+              The psycho physical well-being of your employees results in a more
+              calm and productive working environment. Take care of your team
+            image: "\U0001F486‍♀️"
+            title: Corporate wellness
+          - body: >-
+              Insurance, licenses, terms of use and billing: the boring part
+              will be taken care of by an Apical Team. We guarantee easy
+              administration in all steps
+            image: ✏
+            title: Easy administration
+          - body: >-
+
+              Create and increase well-being, contribute to the improvement of
+              the quality of your employees and their family members through a
+              package of benefits of various kinds
+            image: "\U0001F938‍♂️"
+            title: Corporate welfare
+        cta:
+          link: 'retreat-companies#onboarding'
+          text: More information
+        subtitle: >-
+          Leave us your contact details and you will receive all the information
+          regarding our service
+        title: Why join the Apical
+        titleCenter: true
       it:
         cards:
           - body: >-
@@ -79,7 +137,7 @@ sections:
               Un obiettivo più grande comune lega le persone le une con le
               altre. Esperienze di volontariato aziendale sono ideali per unire
               i tuoi collaboratori facendo del bene
-            image: "\U0001F495"
+            image: "\U0001F332"
             title: Volontariato aziendale
           - body: >
               Se i tuoi obiettivi diventano gli obiettivi del tuo team non puoi
@@ -99,6 +157,12 @@ sections:
               un'amministrazione semplice in tutti i passaggi
             image: ✏
             title: Amministrazione semplice
+          - body: >-
+              Crea e diffondi il benessere, contribuisci il miglioramento della
+              qualità della vita dei collaboratori e dei loro familiari
+              attraverso un pacchetto di benefit di varia natura
+            image: "\U0001F938‍♂️"
+            title: Welfare aziendale
         cta:
           link: 'retreat-companies#onboarding'
           text: Maggiori informazioni
