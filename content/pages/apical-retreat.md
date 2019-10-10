@@ -21,6 +21,8 @@ meta:
 sections:
   - props:
       en:
+        cta:
+          text: Stay updated
         heroBody: >-
           Planning retreats and group trips is easy if you do this with a
           partner you can trust. Apical provides all the tools you need to
