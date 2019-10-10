@@ -212,7 +212,7 @@ sections:
         central: true
         cta:
           text: Chiedi informazioni
-        image: 'https://ucarecdn.com/9a19157b-2c82-4b4b-b872-55e32a95e4b8/'
+        image: 'https://ucarecdn.com/bd6ec8ac-67eb-44a0-9a7b-9bee42e872e5/'
         smallText: true
         title: >-
           La sicurezza dei tuoi partecipanti è un valore inderogabile. Per
