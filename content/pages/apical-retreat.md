@@ -6,12 +6,17 @@ type: page
 hideNav: false
 hideFooter: false
 meta:
-  en: {}
+  en:
+    pageDescription: >-
+      A new horizon for community and brand. Organized trips and retreats -
+      people are looking for more extraordinary experiences that surpass the
+      classic trends of tourism
+    pageTitle: Apical Retreat - organizing awesome experiences is easy
   it:
     pageDescription: >-
-      Un nuovo orizzonte per community e brand. Viaggi organizzati e retreat, il
-      turista oggi cerca sempre di più esperienze straordinarie e i player
-      emergenti spesso non vengono dal settore travel
+      Un nuovo orizzonte per community e brand. Viaggi organizzati e retreat, le
+      persone cercano esperienze sempre piu straordinarie che superino le
+      tendenze classiche del turismo 
     pageTitle: Apical Retreat - Organizzare esperienze straordinarie è facile
 sections:
   - props:
