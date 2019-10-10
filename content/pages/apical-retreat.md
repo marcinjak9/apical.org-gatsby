@@ -194,10 +194,10 @@ sections:
           with the insurance and travel licenses. You organize the fun part and
           we will make your retreat a safe place
       it:
-        central: false
+        central: true
         cta:
           text: Chiedi informazioni
-        image: 'https://ucarecdn.com/17703191-cd52-48a1-aead-a0231d62e9ef/'
+        image: 'https://ucarecdn.com/9a19157b-2c82-4b4b-b872-55e32a95e4b8/'
         smallText: true
         title: >-
           La sicurezza dei tuoi partecipanti è un valore inderogabile. Per
