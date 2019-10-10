@@ -20,6 +20,19 @@ meta:
     pageTitle: Apical Retreat - Organizzare esperienze straordinarie è facile
 sections:
   - props:
+      en:
+        heroBody: >-
+          Planning retreats and group trips is easy if you do this with a
+          partner you can trust. Apical provides all the tools you need to
+          engage your audience
+        image: 'https://ucarecdn.com/276bf7d3-f55c-46e4-aa1e-a3fd11373b6a/'
+        title: Organize extraordinary experiences for
+        typings:
+          - Your employees
+          - Your students
+          - Your followers
+          - Your community
+          - Your partners
       it:
         cta:
           text: Resta aggiornato
