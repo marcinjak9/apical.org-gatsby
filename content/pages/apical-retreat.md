@@ -62,13 +62,10 @@ sections:
               with us all the advantages
             image: "\U0001F454"
             title: Companies
-          - body: >-
+          - body: >+
               Yoga instructors, tai-chi or meditation teachers.. Individuals
-              who____________________________________________________
+              who_____
 
-
-              Maestri di yoga, di karate, di meditazione... Figure intorno alle
-              quali gravitano studenti a cui offrire un'opportunità in più
             image: "\U0001F9D8‍♂️"
             title: Personal growth
           - body: >
