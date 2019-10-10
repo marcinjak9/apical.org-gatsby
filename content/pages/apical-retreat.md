@@ -152,7 +152,7 @@ sections:
               Discover the most innovative retreat experiences
             image: "\U0001F514"
             title: Stay updated
-          - body: Get advised on how to organize your retreat
+          - body: Receive an advice on how to organize your retreat
             image: "\U0001F4DE"
             title: Get feedback
         cta:
