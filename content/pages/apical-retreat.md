@@ -32,6 +32,15 @@ sections:
           - i tuoi partner commerciali
     type: HomeHero
   - props:
+      en:
+        body: >-
+          Being engaged in something meaningful is important and a retreat is
+          one of the best ways to do it. Organize trips to inspire groups,
+          influence them by offering the best experiences; choose the mood and
+          tone of voice of your retreat and create your proposal. Apical will be
+          by your side along the whole process
+        cta:
+          text: Discover more
       it:
         body: >-
           Coinvolgere è la chiave e un retreat è uno dei migliori modi per
@@ -45,6 +54,36 @@ sections:
         title: Che cos'è un retreat?
     type: WhatWeDo
   - props:
+      en:
+        cards:
+          - body: >-
+              Reward trips, corporate volunteering, rewards for the partners and
+              many others. The world of corporate retreats is wide, discover
+              with us all the advantages
+            image: "\U0001F454"
+            title: Companies
+          - body: >-
+              Yoga instructors, tai-chi or meditation teachers.. Individuals
+              who____________________________________________________
+
+
+              Maestri di yoga, di karate, di meditazione... Figure intorno alle
+              quali gravitano studenti a cui offrire un'opportunità in più
+            image: "\U0001F9D8‍♂️"
+            title: Personal growth
+          - body: >
+              Groups of people sharing the same passion towards something or
+              someone; there are many ways in engaging them together.
+            image: "\U0001F30D"
+            title: Communities
+          - body: >-
+              Organizing activities or retreats is simple: Apical Retreat
+              Program helps you plan every detail
+            image: ⛹️‍♀️
+            title: Sport groups
+        cta:
+          text: Stay updated
+        title: Our retreat organizers
       it:
         cards:
           - body: >-
