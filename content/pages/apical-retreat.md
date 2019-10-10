@@ -105,8 +105,7 @@ sections:
         cards:
           - body: >-
               Viaggi premio, volontariato aziendale, benefit ai partner e altro.
-              L'universo dei retreat aziendali e ampio, scopri con noi tutte le
-              possibilità
+              L'universo dei retreat aziendali e ampio
             image: "\U0001F454"
             title: Aziende
           - body: >-
