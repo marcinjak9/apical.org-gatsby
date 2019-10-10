@@ -69,17 +69,18 @@ sections:
             title: Personal growth
           - body: >
               Groups of people sharing the same passion towards something or
-              someone; there are many ways in engaging them together.
+              someone; there are many ways in engaging them 
             image: "\U0001F30D"
             title: Communities
           - body: >-
               Organizing activities or retreats is simple: Apical Retreat
-              Program helps you plan every detail
+              Program helps you plan your trip to the smallest detail
             image: ⛹️‍♀️
             title: Sport groups
         cta:
           text: Stay updated
         title: Our retreat organizers
+        titleCenter: true
       it:
         cards:
           - body: >-
@@ -106,6 +107,7 @@ sections:
         cta:
           text: Resta aggiornato
         title: 'I nostri organizzatori di retreat '
+        titleCenter: true
     type: HowItWorks
   - props:
       en:
