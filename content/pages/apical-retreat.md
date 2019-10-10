@@ -142,6 +142,22 @@ sections:
         title: Do it green. It's better
     type: HomeHero
   - props:
+      en:
+        cards:
+          - body: |
+              Join our data base to receive the best offers
+            image: "\U0001F389"
+            title: Register
+          - body: |
+              Discover the most innovative retreat experiences
+            image: "\U0001F514"
+            title: Stay updated
+          - body: Get advised on how to organize your retreat
+            image: "\U0001F4DE"
+            title: Get feedback
+        greyBg: true
+        title: How Apical works
+        titleCenter: true
       it:
         cards:
           - body: Entra nel nostro database per poter ricevere le migliori offerte
@@ -158,6 +174,7 @@ sections:
         cta:
           text: Iscriviti
         title: Come funziona Apical Retreat
+        titleCenter: true
     type: HowItWorks
   - props:
       it:
