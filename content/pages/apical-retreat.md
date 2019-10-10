@@ -61,6 +61,7 @@ sections:
           by your side along the whole process
         cta:
           text: Discover more
+        title: What is a retreat?
       it:
         body: >-
           Coinvolgere è la chiave e un retreat è uno dei migliori modi per
