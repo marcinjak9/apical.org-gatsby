@@ -104,10 +104,10 @@ sections:
         title: >-
           The great emergency of our times is the CO2. Apical has decided to
           invest in green thanks to the partnership with Treedom, the italian
-          company that  plants trees every day. All of this would not be
-          possible without the synergy within us, creators and  final customers.
-          Any company that works in partnership with us is welcome  in out
-          Forest!
+          company that plants trees every day all around the world. All of this
+          would not be possible without the synergy within us, creators and
+          final customers. Any company that works in partnership with us is
+          welcome in our forest!
       it:
         central: false
         cta:
@@ -125,17 +125,21 @@ sections:
     type: SimpleHero
   - props:
       en:
+        body: >-
+          Se crei esperienze con Apical puoi cercare un'associazione o una ONG
+          sul territorio da aiutare o contribuire direttamente ai progetti
+          attivi di Apical 
         cta:
           link: ''
           text: Join
-        body: >-
-          Se crei esperienze con Apical puoi cercare un'associazione o una ONG sul territorio da aiutare o contribuire direttamente ai progetti attivi di Apical 
       it:
+        body: >-
+          Se crei esperienze con Apical puoi cercare un'associazione o una ONG
+          sul territorio da aiutare o contribuire direttamente ai progetti
+          attivi di Apical 
         cta:
           link: ''
           text: Unisciti
-        body: >-
-          Se crei esperienze con Apical puoi cercare un'associazione o una ONG sul territorio da aiutare o contribuire direttamente ai progetti attivi di Apical 
     type: Quote
   - props:
       en:
@@ -213,20 +217,24 @@ sections:
         title: Come creare impatto sociale con Apical
     type: HowItWorks
   - props:
-      it:
-        body: Apri il tuo account gratuito in pochi secondi e scegli dopo quale piano attivare!
-        cta:
-          link: 'https://dashboard.apical.org/register'
-          text: Iscriviti
-          title: ''
       en:
-        body: Open your free account now and choose later the plan that suits your needs!
+        body: >-
+          Open your free account now and choose later the plan that suits your
+          needs!
         cta:
           link: 'https://dashboard.apical.org/register'
           text: Register now
           title: ''
-    type: Quote
+      it:
+        body: >-
+          Apri il tuo account gratuito in pochi secondi e scegli dopo quale
+          piano attivare!
+        cta:
+          link: 'https://dashboard.apical.org/register'
+          text: Iscriviti
+          title: ''
     scrollTo: true
+    type: Quote
   - type: BlogSection
   - props:
       en:
