@@ -165,7 +165,7 @@ sections:
       en:
         cards:
           - body: |
-              Join our data base to receive the best offers
+              Join our data base and receive the best offers
             image: "\U0001F389"
             title: Register
           - body: |
@@ -201,7 +201,7 @@ sections:
   - props:
       en:
         central: true
-        image: 'https://ucarecdn.com/a288eee2-cc99-47f7-b732-2452d47e525f/'
+        image: 'https://ucarecdn.com/e3494dfd-9c6f-440b-b889-c6334a8e47a0/'
         smallText: true
         title: >-
           The safety of your participants is an absolute priority. This is why
