@@ -155,6 +155,8 @@ sections:
           - body: Get advised on how to organize your retreat
             image: "\U0001F4DE"
             title: Get feedback
+        cta:
+          text: Register
         greyBg: true
         title: How Apical works
         titleCenter: true
