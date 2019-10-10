@@ -1,11 +1,17 @@
 ---
 templateKey: site-page
-title: Apical Retreat Updates
+title: Apical Retreat Companies
 slug: retreat-companies
 type: page
 hideNav: false
 hideFooter: false
 meta:
+  en:
+    pageDescription: >-
+      Investing in your employees means investing in your company. With Apical
+      Retreat, take part in wellness innovation by organizing unique experiences
+      for your team
+    pageTitle: Apical Retreat
   it:
     pageDescription: >
       Investire nei tuoi collaboratori vuol dire investire nella tua azienda.
@@ -14,6 +20,18 @@ meta:
     pageTitle: Apical Retreat
 sections:
   - props:
+      en:
+        cta:
+          link: '#onboarding'
+          text: Discover Apical Retreat
+        heroBody: >-
+          Join Apical Retreat Program to discover extraordinary locations and
+          experiences for your employees, customers and partners. With Apical on
+          your side organizing retreats, management meetings, incentives,
+          corporate volunteering, training and much more, becomes simple and
+          easy
+        image: 'https://ucarecdn.com/52e83641-408c-4b97-b853-ad6231ae1504/'
+        title: Extraordinary experiences for innovative companies
       heroBody: >-
         Siamo convinti che ogni esperienza abbia un potenziale trasformativo in
         grado di aprire la mente di chiunque la viva. Per questo in Apical
