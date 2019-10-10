@@ -176,7 +176,7 @@ sections:
             image: "\U0001F4DE"
             title: Get feedback
         cta:
-          text: Register
+          text: ''
         greyBg: true
         title: How Apical works
         titleCenter: true
@@ -194,7 +194,7 @@ sections:
             image: "\U0001F4DE"
             title: Ottieni una consulenza
         cta:
-          text: Iscriviti
+          text: ''
         title: Come funziona Apical Retreat
         titleCenter: true
     type: HowItWorks
