@@ -67,8 +67,8 @@ sections:
             image: "\U0001F454"
             title: Companies
           - body: >+
-              Yoga instructors, tai-chi or meditation teachers.. Individuals
-              who_____
+              Yoga instructors, tai-chi or meditation teachers.. Individuals who
+              bring groups, Apical offers more opportunity
 
             image: "\U0001F9D8‍♂️"
             title: Personal growth
