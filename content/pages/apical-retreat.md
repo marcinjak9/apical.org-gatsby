@@ -108,6 +108,16 @@ sections:
         title: 'I nostri organizzatori di retreat '
     type: HowItWorks
   - props:
+      en:
+        bodyLight: true
+        heroBody: >-
+          With Apical retreats you support positive initiatives of social and
+          environmental impact. It's not just important but crucial to us. Those
+          who participate in your retreats will therefore be part of our journey
+          in this direction. For this reason Apical chooses places and
+          experiences in line with our mission
+        image: 'https://ucarecdn.com/6c63847e-7e85-49f7-a9b1-8ac98e2aa7a1/'
+        title: Do it green. It's better
       it:
         bodyLight: true
         cta:
