@@ -180,10 +180,13 @@ sections:
     type: HowItWorks
   - props:
       en:
+        central: true
+        image: 'https://ucarecdn.com/a288eee2-cc99-47f7-b732-2452d47e525f/'
+        smallText: true
         title: >-
           The safety of your participants is an absolute priority. This is why
-          Apical supports you in planning your travel conditions as well, with
-          the insurance and with travel licenses. You organize the fun part and
+          Apical supports you in planning your travel conditions as well, along
+          with the insurance and travel licenses. You organize the fun part and
           we will make your retreat a safe place
       it:
         central: false
