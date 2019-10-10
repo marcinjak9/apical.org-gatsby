@@ -58,8 +58,7 @@ sections:
         cards:
           - body: >-
               Reward trips, corporate volunteering, rewards for the partners and
-              many others. The world of corporate retreats is wide, discover
-              with us all the advantages
+              many others. The world of corporate retreats is wide
             image: "\U0001F454"
             title: Companies
           - body: >+
