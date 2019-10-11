@@ -189,7 +189,7 @@ sections:
             image: "\U0001F514"
             title: Resta informato
           - body: >-
-              Parla con un nostro Apica Expert per capire come organizzare un
+              Parla con un nostro Apical Expert per capire come organizzare un
               retreat
             image: "\U0001F4DE"
             title: Ottieni una consulenza
