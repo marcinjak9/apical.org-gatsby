@@ -154,6 +154,7 @@ sections:
             title: Let's start!
         greyBg: true
         title: How does it work
+        titleCenter: true
       it:
         columns:
           - body: >-
@@ -170,6 +171,7 @@ sections:
             title: Inizia!
         greyBg: true
         title: Come funziona
+        titleCenter: true
     type: WelcomeSteps
   - props:
       en:
