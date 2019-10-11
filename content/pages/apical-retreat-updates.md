@@ -233,8 +233,8 @@ sections:
   - props:
       en:
         body: >-
-          Fill out the form and you will receive immediately the best news on
-          Apical Retreat. Our Apical Expert can help you organize your retreat
+          Fill out the form and receive news on Apical Retreat. Our expert can
+          help you organize your retreat
         formId: 30fdc225-68dc-4742-ab43-339af4974b5d
         title: Leave us your contact details
       it:
