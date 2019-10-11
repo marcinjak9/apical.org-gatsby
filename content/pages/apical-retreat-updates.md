@@ -190,6 +190,18 @@ sections:
         titleCenter: true
     type: FeaturesSection
   - props:
+      en:
+        cta:
+          link: 'https://apical.org/social-impact'
+          text: Check out our social impact
+        image: 'https://ucarecdn.com/3dfe11cb-f9d4-4c53-86f8-d5503e73faf6/'
+        smallText: true
+        title: >-
+          Your partners deserve the best. Today the travel industry offers
+          innovative, unique and positive models. With Apical Retreat you
+          directly support projects with environmental and social impact, this
+          way your company will be an active part of a concrete change to make
+          the world a better place
       it:
         cta:
           link: 'https://apical.org/social-impact'
@@ -206,11 +218,10 @@ sections:
   - props:
       en:
         body: >-
-          Compila il form e riceverai subito le migliori novità su Apical
-          Retreat. Se vorrai un nostro Apical Expert può aiutarti ad organizzare
-          la tua esperienza
+          Fill out the form and you will receive immediately the best news on
+          Apical Retreat. Our Apical Expert can help you organize your retreat
         formId: 30fdc225-68dc-4742-ab43-339af4974b5d
-        title: Lascia qui i tuoi dati
+        title: Leave us your contact details
       it:
         body: >-
           Compila il form e riceverai subito le migliori novità su Apical
