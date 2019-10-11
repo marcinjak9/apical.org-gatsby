@@ -25,7 +25,7 @@ const HowItWorks = (props) => {
       {/* <TablerCards items={FEATURES} /> */}
       <CustomRow>
         {cards.map((feature, i) => (
-          <Column key={i} size={cards.length % 2 === 0 ? 3 : 4}>
+          <Column key={i} size={cards.length === 2 || cards.length === 4 ? 6 : 4}>
             <Card
               // bodySmall
               index={i}
