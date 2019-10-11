@@ -1,6 +1,6 @@
 ---
 templateKey: site-page
-title: Apical
+title: Apical Retreal program community
 slug: retreat-community
 type: page
 hideNav: false
