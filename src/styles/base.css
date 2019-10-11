@@ -127,3 +127,7 @@ p {
 main {
   padding-top: 70px;
 }
+
+a[href="/null"] {
+    display: none;
+}
