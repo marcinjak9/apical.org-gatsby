@@ -18,7 +18,7 @@ sections:
       en:
         heroBody: >-
           Apical is a booking platform that enables the travel operators to
-          engige their public in social and enviromental positive impact
+          engage their public in social and environmental positive impact
         image: 'https://ucarecdn.com/cd8004a2-1390-494a-a82c-e6bae07ecbab/'
         title: '#traveldifferently '
       it:
