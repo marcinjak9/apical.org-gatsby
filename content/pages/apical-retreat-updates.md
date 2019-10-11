@@ -62,7 +62,7 @@ sections:
           experiences
         cta:
           link: 'retreat-companies#onboarding'
-          text: Join
+          text: Join Apical
         greyBg: true
         title: What is Apical Retreat?
       it:
