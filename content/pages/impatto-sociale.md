@@ -17,8 +17,8 @@ sections:
   - props:
       en:
         heroBody: >-
-          Apical is a booking platform that enables the travel operators to
-          engage their public in social and environmental positive impact
+          Apical is a booking platform that enables travel operators to engage
+          their public in social and environmental positive impact
         image: 'https://ucarecdn.com/cd8004a2-1390-494a-a82c-e6bae07ecbab/'
         title: '#traveldifferently '
       it:
@@ -34,13 +34,13 @@ sections:
         body: >-
           We belive that every experience has a transformative potential that
           could open the mind of anyone involved in it. This is why Apical
-          promotes social  and enviromental initiatives. Apical offers to each
-          of its partners the opportunity to involve their  community having a
+          promotes social and environmental initiatives. Apical offers to each
+          of its partners the opportunity to involve their community in having a
           positive footprint. Direct actions, volunteering and  economical
-          contributions: who choose Apical has different methods to be  a part
+          contributions: who choose Apical has different methods of being a part
           of our movement.
         greyBg: true
-        title: Why we do social impact
+        title: Why do we do social impact
       it:
         body: >-
           Siamo convinti che ogni esperienza abbia un potenziale trasformativo
@@ -59,7 +59,7 @@ sections:
       en:
         cards:
           - body: >-
-              Apical offers to anyone who work in Travel industry the
+              Apical offers to anyone who work in travel industry the
               opportunity to create, manage, and sell their products
             image: ✍️
             title: Experiences
@@ -131,7 +131,7 @@ sections:
           attivi di Apical 
         cta:
           link: ''
-          text: Join
+          text: Join Apical
       it:
         body: >-
           Se crei esperienze con Apical puoi cercare un'associazione o una ONG
@@ -145,7 +145,17 @@ sections:
       en:
         image: 'https://ucarecdn.com/6c333fa9-45ab-4b80-b85c-2033563f32c7/'
         smallText: true
-        title: "**Happiness is a movement**\r\n\nWe believe that when people share their energy into an intense experience they naturally become more open-minded, curious and able to understand one another. Experience Creators have the power to change people’s life. Apical is here to support them. Join our mission\r\n\n\rNicola Zanola, CEO"
+        title: >-
+          **Happiness is a movement**
+
+
+          We believe that when people share their energy throught an intense
+          experience they naturally become more open-minded, curious and able to
+          understand one another. Experience Creators have the power to change
+          people’s life. Apical is here to support them. Join our mission
+
+
+          Nicola Zanola, CEO
       it:
         image: 'https://ucarecdn.com/6c333fa9-45ab-4b80-b85c-2033563f32c7/'
         smallText: true
@@ -165,22 +175,22 @@ sections:
         cards:
           - body: >-
               Take down the CO2! With Apical you can give customers the
-              opportunity  to plant trees and reduce their ecological impact.
-              Just add a optional donation to the cart and the tree will be
+              opportunity to plant trees and reduce their ecological impact.
+              Just add an optional donation to the cart and the tree will be
               planted.
             image: "\U0001F332"
             title: Join our fores
           - body: >-
               With Apical you can add volunteering activities on site and
-              propose them to your customers. Partecipate to the community in
-              which you are a guest is a great experience that can make your
-              offer extraordinary!
+              propose them to your customers. Making participant of your retreat
+              be a part of the local community is an amazing additional
+              experience
             image: "\U0001F4AA"
             title: Organize volunteering activities
           - body: >-
               Choose your volunteering NGO and integrate it to Apical's
-              platform. Your company will support activly the project in which
-              you belive
+              platform. Your company will directly support the project in which
+              you believe
             image: "\U0001F4E2"
             title: Support your favourite NGO
         cta:
@@ -223,7 +233,7 @@ sections:
           needs!
         cta:
           link: 'https://dashboard.apical.org/register'
-          text: Register now
+          text: Join Apical
           title: ''
       it:
         body: >-
