@@ -179,7 +179,7 @@ sections:
               Just add an optional donation to the cart and the tree will be
               planted.
             image: "\U0001F332"
-            title: Join our fores
+            title: Join our forest
           - body: >-
               With Apical you can add volunteering activities on site and
               propose them to your customers. Making participant of your retreat
