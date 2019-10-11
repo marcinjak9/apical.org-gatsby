@@ -173,6 +173,21 @@ sections:
         titleCenter: true
     type: HowItWorks
   - props:
+      en:
+        columns:
+          - body: >-
+              Leave us your contact details and receive all the news and
+              information you need
+            title: Join Apical
+          - body: >-
+              Our consultant will help you understand what is the best possible
+              service for you
+            title: Consult our retreat expert
+          - body: Your ideal retreat in a few steps thanks to Apical Team support
+            title: Start creating your retreat
+        greyBg: true
+        title: How does it work
+        titleCenter: true
       it:
         columns:
           - body: >-
