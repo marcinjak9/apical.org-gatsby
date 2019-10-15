@@ -52,6 +52,15 @@ sections:
           - i tuoi partner commerciali
     type: HomeHero
   - props:
+      it:
+        central: true
+        cta:
+          link: 'https://meet.apical.org/register_form-1'
+          text: Richiedi il tuo retreat
+        smallText: true
+        title: ' Hai già le idee chiare?'
+    type: SimpleHero
+  - props:
       en:
         body: >-
           A retreat is a type of group getaway in which the members of that
