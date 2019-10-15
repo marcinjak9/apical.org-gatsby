@@ -58,7 +58,7 @@ sections:
           group take time to form bonds with each other, decide their purpose
           and motives, and work on one or more specific goals.
         cta:
-          text: Discover more
+          text: ''
         title: What is a retreat?
       it:
         body: >-
@@ -67,7 +67,7 @@ sections:
           legami, contemplare i propri scopi e i propri valori e cercare di
           raggiungere uno o più obiettivi condivisi
         cta:
-          text: Scopri di più
+          text: ''
         greyBg: true
         title: Che cos'è un retreat?
     type: WhatWeDo
