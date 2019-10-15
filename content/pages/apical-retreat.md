@@ -94,8 +94,19 @@ sections:
         title: Perché organizzare un retreat?
     type: WhatWeDo
   - props:
+      en:
+        image: 'https://ucarecdn.com/8f9d8767-7393-414f-9b4d-87e9a1789640/'
+        title: >-
+          Our retreats are designed to be experienced, effectively acting on
+          group dynamics with the intent to create confidence building, better
+          communication, developing leadership and strategic capabilities.
       it:
-        image: 'https://ucarecdn.com/8a14631e-af0c-44ff-a269-a9e2c3a02635/'
+        image: 'https://ucarecdn.com/156e87a9-2ff1-4ad2-9b1d-9010362b1d41/'
+        title: >-
+          I nostri ritiri sono progettati per essere esperienziali, agendo
+          efficacemente sulle dinamiche di gruppo con l'intento di favorire la
+          costruzione di fiducia, stabilire migliori linee di comunicazione,
+          sviluppare leadership e capacità strategiche.
     type: SimpleHero
   - props:
       en:
