@@ -53,21 +53,6 @@ sections:
     type: HomeHero
   - props:
       en:
-        body: ''
-        cta:
-          link: 'https://meet.apical.org/register_form-1'
-          text: Ask for the quotation here
-        title: You already know what you are looking for?
-      it:
-        body: ''
-        cta:
-          link: 'https://meet.apical.org/register_form-1'
-          text: Richiedi informazioni per il tuo retreat
-        greyBg: false
-        title: Hai già un'idea per il tuo retreat?
-    type: Cta
-  - props:
-      en:
         body: >-
           A retreat is a type of group getaway in which the members of that
           group take time to form bonds with each other, decide their purpose
@@ -206,6 +191,7 @@ sections:
             title: Ottieni una consulenza
         cta:
           text: ''
+        greyBg: false
         title: Come funziona Apical Retreat
         titleCenter: true
     type: HowItWorks
