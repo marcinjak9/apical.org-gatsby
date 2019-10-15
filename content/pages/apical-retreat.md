@@ -42,7 +42,7 @@ sections:
           Pianificare retreat e viaggi di gruppo è facile se lo fai con un
           partner affidabile. Apical fornisce tutti gli strumenti di cui hai
           bisogno per coinvolgere il tuo pubblico
-        image: 'https://ucarecdn.com/d39830bf-d5bd-46ac-bf57-0be587195ebb/'
+        image: 'https://ucarecdn.com/7839a803-ece1-4e5c-b439-9ea458d27ef2/'
         title: Organizza le esperienze più straordinarie per
         typings:
           - i tuoi dipendenti
@@ -105,7 +105,7 @@ sections:
   - props:
       en:
         central: true
-        image: 'https://ucarecdn.com/96c72482-6d80-4d08-9008-83b58cb60347/'
+        image: 'https://ucarecdn.com/dcc45f11-2ec3-4412-9d97-0320c6f86e66/'
         smallText: true
         title: >-
           Our retreats are designed to be experienced, effectively acting on
@@ -113,7 +113,7 @@ sections:
           communication, developing leadership and strategic capabilities.
       it:
         central: true
-        image: 'https://ucarecdn.com/55d3df45-deeb-45d8-88bc-888b36e7586e/'
+        image: 'https://ucarecdn.com/5a77cd65-e951-44d2-b02c-cb82a83366b1/'
         smallText: true
         title: >-
           I nostri ritiri sono progettati per essere esperienziali, agendo
