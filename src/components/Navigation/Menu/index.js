@@ -108,14 +108,14 @@ class Menu extends React.Component {
               <div className="nav-items cta-menu">
                 {cta && (
                   <>
-                    <Button
+                    <!--<Button
                       outline
                       href={cta.url}
                       icon="arrow"
                       style={{ minWidth: '6rem', padding: '.5rem 1rem' }}
                     >
                       {cta.text}
-                    </Button>
+                    </Button>-->
                     <Button
                       primary
                       href="https://dashboard.apical.org/login"

@@ -19,11 +19,11 @@ const Layout = ({
         name="description"
         content={(meta && meta.pageDescription) || "Happiness is a Movement"}
       />
-      <meta property="og:image" content="https://apical.org/images/dash.png" />
+      <meta property="og:image" content="https://apical.org/images/ecommerce-1.png" />
       <link
         rel="icon"
         type="image/png"
-        href="/images/favicon.png"
+        href="/images/favicon.ico"
         sizes="16x16"
       />
     </Helmet>
