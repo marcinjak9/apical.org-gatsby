@@ -96,12 +96,14 @@ sections:
   - props:
       en:
         image: 'https://ucarecdn.com/8f9d8767-7393-414f-9b4d-87e9a1789640/'
+        smallText: true
         title: >-
           Our retreats are designed to be experienced, effectively acting on
           group dynamics with the intent to create confidence building, better
           communication, developing leadership and strategic capabilities.
       it:
         image: 'https://ucarecdn.com/156e87a9-2ff1-4ad2-9b1d-9010362b1d41/'
+        smallText: true
         title: >-
           I nostri ritiri sono progettati per essere esperienziali, agendo
           efficacemente sulle dinamiche di gruppo con l'intento di favorire la
