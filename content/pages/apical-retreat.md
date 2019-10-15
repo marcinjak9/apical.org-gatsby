@@ -69,21 +69,17 @@ sections:
   - props:
       en:
         body: >-
-          Being engaged in something meaningful is important and a retreat is
-          one of the best ways to do it. Organize trips to inspire groups,
-          influence them by offering the best experiences; choose the mood and
-          tone of voice of your retreat and create your proposal. Apical will be
-          by your side along the whole process
+          A retreat is a type of group getaway in which the members of that
+          group take time to form bonds with each other, decide their purpose
+          and motives, and work on one or more specific goals.
         cta:
           text: Discover more
         title: What is a retreat?
       it:
         body: >-
-          Coinvolgere è la chiave e un retreat è uno dei migliori modi per
-          farlo. Organizza viaggi per stimolare i gruppi su cui hai influenza
-          offrendo loro le migliori esperienze, scegli il mood e il tono di voce
-          del tuo retreat e crea la tua proposta. Apical sarà al tuo fianco per
-          l'intero processo
+          Un retreat è un tipo di fuga di gruppo in cui i membri dello stesso
+          gruppo prendono tempo per formare legami tra di loro, contemplare il
+          loro scopi e motivi, e lavorare su uno o più obiettivi specifici.
         cta:
           text: Scopri di più
         greyBg: true
