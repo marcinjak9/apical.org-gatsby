@@ -12,7 +12,8 @@ const VideoSection = (props) => {
             title="Apical Video"
             width="100%"
             height="500"
-            src={videoUrl}
+            src=""
+            data-defer-src={videoUrl}
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

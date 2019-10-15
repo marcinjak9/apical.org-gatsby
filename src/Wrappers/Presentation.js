@@ -71,7 +71,7 @@ const Slide = ({ title, body, image }) => (
       </div>
     </Column>
     <Column size="6" style={{ textAlign: 'center' }}>
-      <Image src={image} alt="" resize="800" />
+      <Image src="" data-defer-src={image} alt="" resize="800" />
     </Column>
   </PresentationRow>
 )

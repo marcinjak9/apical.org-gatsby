@@ -23,9 +23,10 @@ const Layout = ({
       <link
         rel="icon"
         type="image/png"
-        href="/images/favicon.ico"
+        href="https://apical.org/images/favicon.png"
         sizes="16x16"
       />
+      <script type="text/javascript" src="https://apical.org/scripts/defer.js" />
     </Helmet>
     {!hideNav && <Navigation />}
     {children}
