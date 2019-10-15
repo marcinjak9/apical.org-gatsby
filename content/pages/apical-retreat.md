@@ -42,7 +42,7 @@ sections:
           Pianificare retreat e viaggi di gruppo è facile se lo fai con un
           partner affidabile. Apical fornisce tutti gli strumenti di cui hai
           bisogno per coinvolgere il tuo pubblico
-        image: 'https://ucarecdn.com/fb9da117-2205-425b-8726-39fc67b30d39/'
+        image: 'https://ucarecdn.com/affe21f9-af02-407b-ac44-c9ff501d2ea9/'
         title: Organizza le esperienze più straordinarie per
         typings:
           - i tuoi dipendenti
@@ -51,6 +51,15 @@ sections:
           - la tua community
           - i tuoi partner commerciali
     type: HomeHero
+  - props:
+      it:
+        central: true
+        cta:
+          link: 'https://meet.apical.org/register_form-1'
+          text: Richiedi il tuo retreat
+        smallText: true
+        title: ' Hai già le idee chiare?'
+    type: SimpleHero
   - props:
       en:
         body: >-
@@ -96,9 +105,6 @@ sections:
   - props:
       en:
         central: true
-        cta:
-          link: 'https://share.hsforms.com/12c7OjpyWT364IHZRvOIyhw38rvs'
-          text: Send your enquiry
         image: 'https://ucarecdn.com/96c72482-6d80-4d08-9008-83b58cb60347/'
         smallText: true
         title: >-
@@ -107,9 +113,6 @@ sections:
           communication, developing leadership and strategic capabilities.
       it:
         central: true
-        cta:
-          link: 'https://share.hsforms.com/12c7OjpyWT364IHZRvOIyhw38rvs'
-          text: Richiedi il tuo retreat
         image: 'https://ucarecdn.com/55d3df45-deeb-45d8-88bc-888b36e7586e/'
         smallText: true
         title: >-
