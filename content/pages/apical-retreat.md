@@ -27,7 +27,7 @@ sections:
           Planning retreats and group trips is easy if you do this with a
           partner you can trust. Apical provides all the tools you need to
           engage your audience
-        image: 'https://ucarecdn.com/276bf7d3-f55c-46e4-aa1e-a3fd11373b6a/'
+        image: 'https://ucarecdn.com/9422dfa3-f3aa-4005-b961-5719de644100/'
         title: Organize extraordinary experiences for
         typings:
           - Your employees
@@ -42,7 +42,7 @@ sections:
           Pianificare retreat e viaggi di gruppo è facile se lo fai con un
           partner affidabile. Apical fornisce tutti gli strumenti di cui hai
           bisogno per coinvolgere il tuo pubblico
-        image: 'https://ucarecdn.com/e0d34a8c-8ce3-4406-858a-d1e2d6ada57c/'
+        image: 'https://ucarecdn.com/fb9da117-2205-425b-8726-39fc67b30d39/'
         title: Organizza le esperienze più straordinarie per
         typings:
           - i tuoi dipendenti
