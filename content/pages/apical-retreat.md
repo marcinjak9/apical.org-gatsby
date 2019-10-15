@@ -95,6 +95,7 @@ sections:
     type: WhatWeDo
   - props:
       en:
+        central: true
         image: 'https://ucarecdn.com/8f9d8767-7393-414f-9b4d-87e9a1789640/'
         smallText: true
         title: >-
@@ -102,6 +103,7 @@ sections:
           group dynamics with the intent to create confidence building, better
           communication, developing leadership and strategic capabilities.
       it:
+        central: true
         image: 'https://ucarecdn.com/156e87a9-2ff1-4ad2-9b1d-9010362b1d41/'
         smallText: true
         title: >-
@@ -176,7 +178,7 @@ sections:
           who participate in your retreats will therefore be part of our journey
           in this direction. For this reason Apical chooses places and
           experiences in line with our mission
-        image: 'https://ucarecdn.com/6c63847e-7e85-49f7-a9b1-8ac98e2aa7a1/'
+        image: 'https://ucarecdn.com/157b11ba-b723-4cbd-8e36-8f1289da9f79/'
         secondaryCta:
           link: 'https://apical.org/social-impact/'
           text: Check out our social impact
@@ -191,7 +193,7 @@ sections:
           Chiunque parteciperà ai tuoi retreat sarà dunque parte del nostro
           percorso in questa direzione. Per questo Apical sceglie location ed
           esperienze in linea con la nostra mission
-        image: 'https://ucarecdn.com/c515061f-1ac9-4750-bbab-782506554c94/'
+        image: 'https://ucarecdn.com/9d30e0ce-071a-40fd-a058-dff7ca6920fc/'
         secondaryCta:
           link: 'https://apical.org/social-impact/'
           text: Scopri il nostro impact check out
@@ -238,7 +240,7 @@ sections:
   - props:
       en:
         central: true
-        image: 'https://ucarecdn.com/e3494dfd-9c6f-440b-b889-c6334a8e47a0/'
+        image: 'https://ucarecdn.com/bb2fb31d-19f0-4a71-89f3-fcdb1e594a1e/'
         smallText: true
         title: >-
           The safety of your participants is an absolute priority. This is why
@@ -249,7 +251,7 @@ sections:
         central: true
         cta:
           text: Chiedi informazioni
-        image: 'https://ucarecdn.com/bd6ec8ac-67eb-44a0-9a7b-9bee42e872e5/'
+        image: 'https://ucarecdn.com/b30a74e2-8dc0-4768-bd43-44573c50c692/'
         smallText: true
         title: >-
           La sicurezza dei tuoi partecipanti è un valore inderogabile. Per
