@@ -62,14 +62,31 @@ sections:
         title: What is a retreat?
       it:
         body: >-
-          Un retreat è un tipo di fuga di gruppo in cui i membri dello stesso
-          gruppo prendono tempo per formare legami tra di loro, contemplare il
-          loro scopi e motivi, e lavorare su uno o più obiettivi specifici.
+          Un retreat è un'esperienza in cui i membri dello stesso gruppo si
+          incontrano allo stesso tempo e nello stesso luogo per rinforzare
+          legami, contemplare i propri scopi e i propri valori e cercare di
+          raggiungere uno o più obiettivi condivisi
         cta:
           text: Scopri di più
         greyBg: true
         title: Che cos'è un retreat?
     type: WhatWeDo
+  - props:
+      en:
+        image: 'https://ucarecdn.com/7e286951-9b7f-4045-9ed4-a83d5d722232/'
+        title: >-
+          Corporate retreats are created to share visions and goals. A retreat
+          offers participants the opportunity to get away from everyday stress
+          and rediscover their own dimension and passions. In a retreat you
+          consolidate the knowledge, both professional and human, and you
+          acquire new tools necessary to face better everyday challenges. Those
+          who have experienced a retreat know well the feeling of renewed energy
+          and vigor, which transform within the participants once they are back
+          to their routine, in the most serene and productive overall.
+      it:
+        image: 'https://ucarecdn.com/aa4120f1-d444-477a-979e-bbe79da15635/'
+        title: "I ritiri aziendali vengono progettati per condividere visioni e obiettivi.\r Un retreat offre ai partecipanti l'opportunità di allontanarsi dallo stress quotidiano e ritrovare la propria dimensione e le proprie passioni. In un retreat si consolidano le conoscenze, professionali e umane, e si acquisiscono nuovi strumenti necessari per affrontare al meglio le sfide di tutti i giorni. Chi ha provato un retreat conosce bene la sensazione di rinnovata energia e vigore, che si traduce in un ritorno alla routine nel complessivo più sereno e produttivo."
+    type: SimpleHero
   - props:
       en:
         cards:
