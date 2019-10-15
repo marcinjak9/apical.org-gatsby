@@ -74,6 +74,7 @@ sections:
   - props:
       en:
         image: 'https://ucarecdn.com/7e286951-9b7f-4045-9ed4-a83d5d722232/'
+        smallText: true
         title: >-
           Corporate retreats are created to share visions and goals. A retreat
           offers participants the opportunity to get away from everyday stress
