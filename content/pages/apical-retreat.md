@@ -52,15 +52,6 @@ sections:
           - i tuoi partner commerciali
     type: HomeHero
   - props:
-      it:
-        central: true
-        cta:
-          link: 'https://meet.apical.org/register_form-1'
-          text: Richiedi il tuo retreat
-        smallText: true
-        title: ' Hai già le idee chiare?'
-    type: SimpleHero
-  - props:
       en:
         body: >-
           A retreat is a type of group getaway in which the members of that
@@ -105,6 +96,9 @@ sections:
   - props:
       en:
         central: true
+        cta:
+          link: 'https://share.hsforms.com/12c7OjpyWT364IHZRvOIyhw38rvs'
+          text: Send your enquiry
         image: 'https://ucarecdn.com/dcc45f11-2ec3-4412-9d97-0320c6f86e66/'
         smallText: true
         title: >-
@@ -113,6 +107,9 @@ sections:
           communication, developing leadership and strategic capabilities.
       it:
         central: true
+        cta:
+          link: 'https://share.hsforms.com/12c7OjpyWT364IHZRvOIyhw38rvs'
+          text: Richiedi il tuo retreat
         image: 'https://ucarecdn.com/5a77cd65-e951-44d2-b02c-cb82a83366b1/'
         smallText: true
         title: >-
