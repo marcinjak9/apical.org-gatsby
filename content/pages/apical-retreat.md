@@ -94,6 +94,10 @@ sections:
         title: Perché organizzare un retreat?
     type: WhatWeDo
   - props:
+      it:
+        image: 'https://ucarecdn.com/8a14631e-af0c-44ff-a269-a9e2c3a02635/'
+    type: SimpleHero
+  - props:
       en:
         cards:
           - body: >-
