@@ -21,5 +21,12 @@ sections:
         subtitle: gbfv
         title: btrv
     type: SpecialFeatures
+  - props:
+      it:
+        cta:
+          body: hngb hn ggv
+          text: gvg
+          title: hyhy
+    type: Quote
 ---
 
