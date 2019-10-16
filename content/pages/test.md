@@ -23,8 +23,7 @@ sections:
       it:
         cards:
           - body: fdsgrg
-            image: >-
-              https://images.unsplash.com/photo-1571198317078-76a4b545b2c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=773&q=80
+            image: 'https://source.unsplash.com/random/800x600'
             title: fdgr
     type: HowItWorks
 ---
