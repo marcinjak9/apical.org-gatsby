@@ -28,5 +28,12 @@ sections:
           text: gvg
           title: hyhy
     type: Quote
+  - props:
+      it:
+        columns:
+          - body: hehe
+            title: hehe
+        title: hehe
+    type: WelcomeSteps
 ---
 
