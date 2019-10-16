@@ -23,7 +23,7 @@ sections:
       it:
         cards:
           - body: fdsgrg
-            image: 'https://source.unsplash.com/random/800x600'
+            image: '<img src="https://source.unsplash.com/user/erondu/1600x900">'
             title: fdgr
     type: HowItWorks
 ---
