@@ -66,18 +66,19 @@ sections:
   - props:
       it:
         body: >
-          Step 1:  Crea il tuo account compilando il form che trovi in fondo
-          alla pagina. In caso hai dei dubbi sulla registrazione, puoi
+          <b>Step 1:  Crea il tuo account compilando il form che trovi in fondo
+          alla pagina.</b> In caso hai dei dubbi sulla registrazione, puoi
           tranquillamente scriverci il messagio chiedendo di essere contattato. 
 
 
-          Step 2: Siamo qua per aiutarti a crescere. Mettiti in contatto con il
-          nostro team e costruisci insieme a noi la scheda della tua struttura. 
+          <b>Step 2: Siamo qua per aiutarti a crescere.</b>  Mettiti in contatto
+          con il nostro team e costruisci insieme a noi la scheda della tua
+          struttura. 
 
 
-          Step 3: Inizia a crescere. Quello che noi e’ importante e’ avere i
-          partner contenti. Ti aiutiamo a rendere le prenotazioni e i pagamenti
-          facili attraverso la nostra piattaforma. 
+          <b>Step 3: Inizia a crescere.</b>  Quello che noi e’ importante e’
+          avere i partner contenti. Ti aiutiamo a rendere le prenotazioni e i
+          pagamenti facili attraverso la nostra piattaforma. 
         greyBg: true
         title: 'Come fai a candidare la tua struttura? '
     type: WhatWeDo
