@@ -66,18 +66,18 @@ sections:
   - props:
       it:
         body: >
-          1. Crea il tuo account compilando il form che trovi in fondo alla
-          pagina. In caso hai dei dubbi sulla registrazione, puoi
+          Step 1:  Crea il tuo account compilando il form che trovi in fondo
+          alla pagina. In caso hai dei dubbi sulla registrazione, puoi
           tranquillamente scriverci il messagio chiedendo di essere contattato. 
 
 
-          2. Siamo qua per aiutarti a crescere. Mettiti in contatto con il
+          Step 2: Siamo qua per aiutarti a crescere. Mettiti in contatto con il
           nostro team e costruisci insieme a noi la scheda della tua struttura. 
 
 
-          3. Inizia a crescere. Quello che noi e’ importante e’ avere i partner
-          contenti. Ti aiutiamo a rendere le prenotazioni e i pagamenti facili
-          attraverso la nostra piattaforma. 
+          Step 3: Inizia a crescere. Quello che noi e’ importante e’ avere i
+          partner contenti. Ti aiutiamo a rendere le prenotazioni e i pagamenti
+          facili attraverso la nostra piattaforma. 
         greyBg: true
         title: 'Come fai a candidare la tua struttura? '
     type: WhatWeDo
@@ -90,11 +90,11 @@ sections:
         image: 'https://ucarecdn.com/83032852-d3d5-4111-ab8f-a7169c2a0ebc/'
         smallText: true
         title: >-
-          Da oggi, Apical offre ai suoi partner anche la licenza di Tour
-          Operator, cosi facilitiamo l'organizzazione dei retreat di yoga,
-          mindfulness ecc. tra te e gli istruttori che hanno bisogno della
-          licenza. Registra la tua struttura ed iniziamo questa avventura
-          insieme
+          Apical è anche Tour Operator, con noi puoi offrire tutti i servizi
+          turistici che i tuoi clienti richiedono, in piena legalità. Non sai se
+          la licenza travel sia necessaria per i tuoi prodotti? Il nostro team è
+          pronto a studiare la tua situazione e offrirti un parere
+          specializzato. Get in touch!
     type: SimpleHero
   - props:
       it:
