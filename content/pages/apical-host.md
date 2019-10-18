@@ -81,5 +81,20 @@ sections:
         greyBg: true
         title: 'Come fai a candidare la tua struttura? '
     type: WhatWeDo
+  - props:
+      it:
+        central: true
+        cta:
+          link: 'https://share.hsforms.com/11ep4l-7iSS6uFV2tu3hiUw38rvs'
+          text: Candida la tua struttura
+        image: 'https://ucarecdn.com/83032852-d3d5-4111-ab8f-a7169c2a0ebc/'
+        smallText: true
+        title: >-
+          Da oggi, Apical offre ai suoi partner anche la licenza di Tour
+          Operator, cosi facilitiamo l'organizzazione dei retreat di yoga,
+          mindfulness ecc. tra te e gli istruttori che hanno bisogno della
+          licenza. Registra la tua struttura ed iniziamo questa avventura
+          insieme
+    type: SimpleHero
 ---
 
