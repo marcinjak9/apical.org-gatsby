@@ -220,7 +220,7 @@ sections:
             image: "\U0001F4DE"
             title: Get feedback
         cta:
-          text: ''
+          text: Test CTA
         greyBg: true
         title: How Apical works
         titleCenter: true
@@ -238,7 +238,7 @@ sections:
             image: "\U0001F4DE"
             title: Ottieni una consulenza
         cta:
-          text: ''
+          text: Test CTA
         greyBg: false
         title: Come funziona Apical Retreat
         titleCenter: true
