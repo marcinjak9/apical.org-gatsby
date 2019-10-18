@@ -63,5 +63,23 @@ sections:
         title: Cos'è importante per noi?
         titleCenter: true
     type: HowItWorks
+  - props:
+      it:
+        body: >
+          1. Crea il tuo account compilando il form che trovi in fondo alla
+          pagina. In caso hai dei dubbi sulla registrazione, puoi
+          tranquillamente scriverci il messagio chiedendo di essere contattato. 
+
+
+          2. Siamo qua per aiutarti a crescere. Mettiti in contatto con il
+          nostro team e costruisci insieme a noi la scheda della tua struttura. 
+
+
+          3. Inizia a crescere. Quello che noi e’ importante e’ avere i partner
+          contenti. Ti aiutiamo a rendere le prenotazioni e i pagamenti facili
+          attraverso la nostra piattaforma. 
+        greyBg: true
+        title: 'Come fai a candidare la tua struttura? '
+    type: WhatWeDo
 ---
 
