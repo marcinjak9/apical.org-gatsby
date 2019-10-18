@@ -96,5 +96,11 @@ sections:
           licenza. Registra la tua struttura ed iniziamo questa avventura
           insieme
     type: SimpleHero
+  - props:
+      it:
+        body: Hai ancora qualche domanda? Sentiti libero di scriverci
+        formId: d568a967-0f3b-4797-9db8-33994687dcc9
+        title: Scrivici
+    type: FormSection
 ---
 
