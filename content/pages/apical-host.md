@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
 title: 'Apical Host '
-slug: Apical Host Program
+slug: host
 type: page
 hideNav: false
 hideFooter: false
