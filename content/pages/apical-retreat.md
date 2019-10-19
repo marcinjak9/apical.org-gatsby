@@ -73,28 +73,6 @@ sections:
     type: WhatWeDo
   - props:
       en:
-        body: >-
-          A retreat offers participants the opportunity to get away from
-          everyday stress and rediscover their own dimension and passions.
-          During the retreat you consolidate the knowledge, both professional
-          and human and you acquire new tools necessary to manage better with
-          everyday challenges. Those who have experienced a retreat know well
-          the feeling of renewed energy and vigor, which transforms, once you
-          are back to your routine, in the most serene and productive feelings.
-        title: Why organize a retreat?
-      it:
-        body: >-
-          Un retreat offre ai partecipanti l'opportunità di allontanarsi dallo
-          stress quotidiano e ritrovare la propria dimensione e le proprie
-          passioni. In un retreat si consolidano le conoscenze, professionali e
-          umane, e si acquisiscono nuovi strumenti necessari per affrontare al
-          meglio le sfide di tutti i giorni. Chi ha provato un retreat conosce
-          bene la sensazione di rinnovata energia e vigore, che si traduce in un
-          ritorno alla routine nel complessivo più sereno e produttivo.
-        title: Perché organizzare un retreat?
-    type: WhatWeDo
-  - props:
-      en:
         central: true
         cta:
           link: 'https://share.hsforms.com/12c7OjpyWT364IHZRvOIyhw38rvs'
