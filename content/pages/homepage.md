@@ -184,18 +184,6 @@ sections:
     type: Presentation
   - props:
       en:
-        greyBg: true
-        title: Video Presentation
-        titleCenter: true
-        videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
-      it:
-        greyBg: true
-        title: Presentazione apical
-        titleCenter: true
-        videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
-    type: VideoSection
-  - props:
-      en:
         cta:
           link: /features
           text: Explore
@@ -227,6 +215,7 @@ sections:
               at check-in
             image: "\U0001F455"
             title: Services and merchandising
+        greyBg: false
         subtitle: >-
           With Apical you can manage all your products and offers on a single
           platform
