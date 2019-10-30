@@ -18,5 +18,13 @@ sections:
           legalization and 360 support. We embrace your goals with ours
         title: Partner and grow with Apical
     type: HomeHero
+  - props:
+      en:
+        slides:
+          - body: bla bla bla
+            image: 'https://ucarecdn.com/2c4e3b10-8071-468a-bf34-056f3cc78c11/'
+            title: Digitalize your workflow with booking engine technology
+        title: 'How Apical helps you '
+    type: Presentation
 ---
 
