@@ -68,5 +68,26 @@ sections:
             image: 'https://ucarecdn.com/5b976f87-058c-4eaf-9139-79bbcf14d0cb/'
             title: 3. Automatize your administrations
     type: Presentation
+  - props:
+      en:
+        central: true
+        cta:
+          link: social-impact
+          text: Discover more
+        title: >-
+          One more thing. \
+
+          \
+
+          Integrate your business into our positive social impact projects to
+          engage your audience in the happiness movement
+      it:
+        central: true
+        cta:
+          link: social-impact
+          text: ''
+        smallText: false
+        title: ''
+    type: SimpleHero
 ---
 
