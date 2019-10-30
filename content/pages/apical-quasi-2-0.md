@@ -12,9 +12,11 @@ sections:
   - props:
       en:
         heroBody: >-
-          We provide all tools and support to grow togheter. All you need from A
-          to Z
-        title: Partner with Apical and grow togheter
+          Apical enpowers partners to thrive in travel industry with technology
+          legalization and 360 support. \
+
+          We embrace your goals with ours
+        title: Partner and grow with apical
     type: HomeHero
 ---
 
