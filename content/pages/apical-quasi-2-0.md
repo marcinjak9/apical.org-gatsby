@@ -16,7 +16,7 @@ sections:
         heroBody: >-
           Apical enpowers partners to thrive in travel industry with technology
           legalization and 360 support. We embrace your goals with ours
-        title: 'Partner, improve and grow with Apical'
+        title: Partner and grow with Apical
     type: HomeHero
 ---
 
