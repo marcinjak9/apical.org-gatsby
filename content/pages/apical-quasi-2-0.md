@@ -21,9 +21,17 @@ sections:
   - props:
       en:
         slides:
-          - body: bla bla bla
-            image: 'https://ucarecdn.com/2c4e3b10-8071-468a-bf34-056f3cc78c11/'
-            title: Digitalize your workflow with booking engine technolog
+          - body: >-
+              With Apical Booking Engine you can improve your customer's
+              experience, save 80% of your time and boost your revenue by 30% 
+            image: 'https://ucarecdn.com/0712479b-6e55-4fd1-9401-0d596ca7d322/'
+            title: 'Digitalize your workflow '
+          - body: >-
+              With Apical Administration Tool your business runs legally all
+              over the world. We provide for our partner also travel licences
+              and insurances
+            image: 'https://ucarecdn.com/1102fb2d-021d-4ee6-ac9e-958d2dcc1104/'
+            title: 'PLUS! Legalization and travel licence '
         title: 'How Apical helps you '
         titleCenter: true
     type: Presentation
