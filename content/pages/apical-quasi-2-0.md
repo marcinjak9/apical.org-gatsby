@@ -11,6 +11,8 @@ meta:
 sections:
   - props:
       en:
+        cta:
+          text: Join Apical
         heroBody: >-
           Apical enpowers partners to thrive in travel industry with technology
           legalization and 360 support. \
