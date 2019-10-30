@@ -28,8 +28,8 @@ sections:
             title: 'Digitalize your workflow '
           - body: >-
               With Apical Administration Tool your business runs legally all
-              over the world. We provide for our partner also travel licences
-              and insurances
+              over the world. No need to worry about travel licence and
+              insurances
             image: 'https://ucarecdn.com/1102fb2d-021d-4ee6-ac9e-958d2dcc1104/'
             title: 'PLUS! Legalization and travel licence '
         title: 'How Apical helps you '
