@@ -43,8 +43,20 @@ sections:
               With Apical Dashboard you can easily organize and merchandise your
               supplies such as rooms, beds, activities, transportations and
               more! 
-            image: 'https://ucarecdn.com/119b43d1-730b-41a9-a75d-ff40d2ab2df0/'
+            image: 'https://ucarecdn.com/cd4dc145-2a24-4036-b74c-94b4d2c91d37/'
             title: 1. Manage and sell your travel products
+    type: Presentation
+  - props:
+      en:
+        slides:
+          - body: >-
+              With Apical Analytics and Performance tools you can monitor your
+              sales and your traffic with real-time metrics, complete reports
+              and more! 
+            image: 'https://ucarecdn.com/89b3486b-1dc0-427a-be47-a4e6b01f6124/'
+            title: '2. Measure and understand your business '
+      it:
+        slides: []
     type: Presentation
 ---
 
