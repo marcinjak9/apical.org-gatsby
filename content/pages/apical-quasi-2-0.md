@@ -58,5 +58,15 @@ sections:
       it:
         slides: []
     type: Presentation
+  - props:
+      en:
+        slides:
+          - body: >-
+              With Apical Back Office you can streamline your working process:
+              manage bookings and customers, invoices, payments and all the
+              rest! 
+            image: 'https://ucarecdn.com/5b976f87-058c-4eaf-9139-79bbcf14d0cb/'
+            title: 3. Automatize your administrations
+    type: Presentation
 ---
 
