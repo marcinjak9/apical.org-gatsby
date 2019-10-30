@@ -20,6 +20,7 @@ sections:
     type: HomeHero
   - props:
       en:
+        greyBg: true
         slides:
           - body: >-
               With Apical Booking Engine you can improve your customer's
@@ -34,6 +35,16 @@ sections:
             title: 'PLUS! Legalization and travel licence '
         title: 'How Apical helps you '
         titleCenter: true
+    type: Presentation
+  - props:
+      en:
+        slides:
+          - body: >-
+              With Apical Dashboard you can easily organize and merchandise your
+              supplies such as rooms, beds, activities, transportations and
+              more! 
+            image: 'https://ucarecdn.com/119b43d1-730b-41a9-a75d-ff40d2ab2df0/'
+            title: 1. Manage and sell your travel products
     type: Presentation
 ---
 
