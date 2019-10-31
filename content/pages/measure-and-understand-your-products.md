@@ -25,5 +25,16 @@ sections:
         title: Come Apical ti aiuta a comprendere il tuo business
         titleCenter: true
     type: Presentation
+  - props:
+      it:
+        slides:
+          - body: >-
+              Con la dashboard Metrics di Apical controlla le performance delle
+              tue campagne e attivi il remarketing per i clienti che hanno
+              abbandonato il tuo carrello
+            image: 'https://ucarecdn.com/5e062d41-d926-4fac-a1c9-e6a4bfbad4c0/'
+            title: Tieni sott'occhio le metriche marketing
+        title: ''
+    type: Presentation
 ---
 
