@@ -33,8 +33,18 @@ sections:
               tue campagne e attivi il remarketing per i clienti che hanno
               abbandonato il tuo carrello
             image: 'https://ucarecdn.com/5e062d41-d926-4fac-a1c9-e6a4bfbad4c0/'
-            title: Tieni sott'occhio le metriche marketing
+            title: 2. Tieni sott'occhio le metriche marketing
         title: ''
+    type: Presentation
+  - props:
+      it:
+        slides:
+          - body: >-
+              Monitora il numero di visitatori e la loro provenienza geografica,
+              le caratteristiche demografiche e come sono arrivati sul tuo sito
+              internet
+            image: 'https://ucarecdn.com/3935a451-eeef-49a6-9348-c135fda3c91b/'
+            title: 3. Conosci i visitatori del tuo sito
     type: Presentation
 ---
 
