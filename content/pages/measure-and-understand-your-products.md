@@ -50,6 +50,7 @@ sections:
       en:
         bgImage: 'https://ucarecdn.com/5cdc4e05-6d8f-4849-a1b0-0a1ce95fc6fb/'
         cta:
+          link: home-2
           text: Discover
         title: Streamline your administration and operations
       it:
