@@ -46,5 +46,17 @@ sections:
             image: 'https://ucarecdn.com/3935a451-eeef-49a6-9348-c135fda3c91b/'
             title: 3. Conosci i visitatori del tuo sito
     type: Presentation
+  - props:
+      en:
+        bgImage: 'https://ucarecdn.com/5cdc4e05-6d8f-4849-a1b0-0a1ce95fc6fb/'
+        cta:
+          text: Discover
+        title: Streamline your administration and operations
+      it:
+        bgImage: 'https://ucarecdn.com/7d5fc54a-5fdb-4d7d-8efa-200dfe377ab6/'
+        cta:
+          text: Scopri come
+        title: Snellisci i tuoi processi e le tue operazioni
+    type: Cta
 ---
 
