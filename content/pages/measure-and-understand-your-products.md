@@ -12,7 +12,7 @@ sections:
   - props:
       it:
         heroBody: ' Nel settore travel sapersi orientare è fondamentale: per questo Apical ti offre i migliori strumenti per comprendere l''andamento della tua attività facilmente'
-        title: 'Conosci ogni aspetto del tuo business '
+        title: Le tue performance sempre sotto controllo
     type: HomeHero
   - props:
       it:
@@ -23,6 +23,7 @@ sections:
             image: 'https://ucarecdn.com/c68d7b13-1065-4b52-851c-3b178bd84b6b/'
             title: 1. Misura le tue performance business
         title: Come Apical ti aiuta a comprendere il tuo business
+        titleCenter: true
     type: Presentation
 ---
 
