@@ -33,7 +33,24 @@ sections:
               insurances
             image: 'https://ucarecdn.com/1102fb2d-021d-4ee6-ac9e-958d2dcc1104/'
             title: 'PLUS! Legalization and travel licence '
-        title: 'How Apical helps you '
+        title: How Apical become your partner
+        titleCenter: true
+      it:
+        greyBg: true
+        slides:
+          - body: >-
+              Con Apical Administration Tool operi legalmente in tutto il mondo.
+              Apical ti aiuta in tutti i passaggi a portare sul mercato le tue
+              idee
+            image: 'https://ucarecdn.com/47dba20f-4df5-409a-b56b-04b0648f9143/'
+            title: Tutto ciò che ti serve per iniziare
+          - body: >-
+              Con Apical Booking Engine puoi migliorare l'esperienza dei tuoi
+              clienti, risparmiare fino l'80% del tuo tempo e incrementare i
+              tuoi guadagni mediamente del 30%
+            image: 'https://ucarecdn.com/acb2fd8c-89f2-4467-82a3-23f8ffc7195a/'
+            title: Digitalizza il tuo workflow
+        title: Come Apical diventa tuo partner
         titleCenter: true
     type: Presentation
   - props:
