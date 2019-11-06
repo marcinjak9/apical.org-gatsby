@@ -98,6 +98,14 @@ sections:
               in one place! 
             image: 'https://ucarecdn.com/5b976f87-058c-4eaf-9139-79bbcf14d0cb/'
             title: 3. Automatize your administrations
+      it:
+        slides:
+          - body: >-
+              Con Apical Back Office puoi semplificare il tuo processo di
+              lavoro: gestisci prenotazioni e clienti, fatture, pagamenti e
+              tutto il resto in un unico ambiente!
+            image: 'https://ucarecdn.com/8f28ce32-6a64-4907-8648-a65f32f8a817/'
+            title: 3. Automatizza le tue procedure amministrative
     type: Presentation
   - props:
       en:
