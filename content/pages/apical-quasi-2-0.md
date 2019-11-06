@@ -124,9 +124,9 @@ sections:
         central: true
         cta:
           link: social-impact
-          text: ''
+          text: Scopri di più
         smallText: false
-        title: ''
+        title: "Un'altra cosa.\r..\n\n\r\n\nIntegra la tua attività nei nostri progetti a impatto sociale positivo per coinvolgere il tuo pubblico in azioni che facciano davvero la differenza"
     type: SimpleHero
 ---
 
