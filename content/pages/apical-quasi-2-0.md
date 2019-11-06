@@ -43,7 +43,7 @@ sections:
               Apical ti aiuta in tutti i passaggi a portare sul mercato le tue
               idee
             image: 'https://ucarecdn.com/47dba20f-4df5-409a-b56b-04b0648f9143/'
-            title: Tutto ciò che ti serve per iniziare
+            title: Apical partnership
           - body: >-
               Con Apical Booking Engine puoi migliorare l'esperienza dei tuoi
               clienti, risparmiare fino l'80% del tuo tempo e incrementare i
