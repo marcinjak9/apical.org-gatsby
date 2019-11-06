@@ -62,6 +62,14 @@ sections:
               more! 
             image: 'https://ucarecdn.com/cd4dc145-2a24-4036-b74c-94b4d2c91d37/'
             title: 1. Manage and sell your travel products
+      it:
+        slides:
+          - body: >-
+              Con Apical Dashboard puoi organizzare e commercializzare
+              facilmente le tue forniture come stanze, letti, attività,
+              trasporti e altro ancora!
+            image: 'https://ucarecdn.com/03bcaba7-8d20-4eff-b818-10b6fd31e082/'
+            title: Gestisci e vendi i tuoi prodotti travel
     type: Presentation
   - props:
       en:
