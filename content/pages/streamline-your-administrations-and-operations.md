@@ -32,11 +32,21 @@ sections:
       it:
         slides:
           - body: >-
-              Assicurazioni e contratti sono una tutela per i tuoi clienti e per
-              te. Produci, gestisci e offri i documenti necessari per vivere
+              Le assicurazioni sono una tutela per i tuoi clienti e per te.
+              Produci, gestisci e offri i documenti necessari per vivere
               un'esperienza serena
             image: 'https://ucarecdn.com/3d4d5c93-4151-484f-90d0-c2e1350757a0/'
             title: 2. Proteggi il tuo pubblico
+    type: Presentation
+  - props:
+      it:
+        slides:
+          - body: >-
+              Con Apical tieni in ordine la contrattualistica. Dalla dashboard
+              puoi caricare, gestire e monitorare i tuoi documenti facilmente
+            image: 'https://ucarecdn.com/db89bbed-0b7a-4fbe-9093-906585786840/'
+            title: 3. Contratti e documentazione in ordine
+        title: ''
     type: Presentation
 ---
 
