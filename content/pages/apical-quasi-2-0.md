@@ -65,9 +65,9 @@ sections:
       it:
         slides:
           - body: >-
-              Con Apical Dashboard puoi organizzare e commercializzare
-              facilmente le tue forniture come stanze, letti, attività,
-              trasporti e altro ancora!
+              Con Apical Dashboard puoi organizzare e vendere facilmente i tuoi
+              prodotti come stanze, letti, attività, trasporti e altro ancora!
+              Dai spazio alla tua creatività
             image: 'https://ucarecdn.com/03bcaba7-8d20-4eff-b818-10b6fd31e082/'
             title: Gestisci e vendi i tuoi prodotti travel
     type: Presentation
