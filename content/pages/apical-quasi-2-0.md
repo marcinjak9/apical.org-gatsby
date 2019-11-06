@@ -81,7 +81,13 @@ sections:
             image: 'https://ucarecdn.com/89b3486b-1dc0-427a-be47-a4e6b01f6124/'
             title: '2. Measure and understand your business '
       it:
-        slides: []
+        slides:
+          - body: >-
+              Con gli strumenti di Apical Analytics &Performance puoi monitorare
+              le tue vendite e il tuo traffico con metriche in tempo reale e
+              report completi. 
+            image: 'https://ucarecdn.com/6f8deb43-664d-4cad-90d0-c6c14278151c/'
+            title: Misura e comprendi il tuo andamento
     type: Presentation
   - props:
       en:
