@@ -28,5 +28,14 @@ sections:
             title: 1. Gestisci la fatturazione
         title: Il tuo back office online
     type: Presentation
+  - props:
+      it:
+        slides:
+          - body: >-
+              Assicurazioni e contratti sono una tutela per i tuoi clienti e per
+              te. 
+            image: 'https://ucarecdn.com/3d4d5c93-4151-484f-90d0-c2e1350757a0/'
+            title: 2. Proteggi il tuo pubblico
+    type: Presentation
 ---
 
