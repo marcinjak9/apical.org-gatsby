@@ -23,16 +23,16 @@ sections:
         greyBg: true
         slides:
           - body: >-
+              With Apical Administration Tool your business runs legally all
+              over the world. No need to worry about travel licence and
+              insurances. We help you to make your creativity a product! 
+            image: 'https://ucarecdn.com/1102fb2d-021d-4ee6-ac9e-958d2dcc1104/'
+            title: Apical partnership
+          - body: >-
               With Apical Booking Engine you can improve your customer's
               experience, save 80% of your time and boost your revenue by 30% 
             image: 'https://ucarecdn.com/0712479b-6e55-4fd1-9401-0d596ca7d322/'
             title: 'Digitalize your workflow '
-          - body: >-
-              With Apical Administration Tool your business runs legally all
-              over the world. No need to worry about travel licence and
-              insurances
-            image: 'https://ucarecdn.com/1102fb2d-021d-4ee6-ac9e-958d2dcc1104/'
-            title: 'PLUS! Legalization and travel licence '
         title: How Apical become your partner
         titleCenter: true
       it:
