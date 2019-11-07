@@ -41,6 +41,20 @@ sections:
     type: ToolsCards
   - props:
       en:
+        cta:
+          link: '#form'
+          text: Join us
+        features:
+          - body: All types of bed
+            image: "\U0001F6CC"
+            title: Beds
+        subtitle: >-
+          Apical is the only platform that let you manage all type of services
+          with maximum flexibility and control for you and for your customers
+        title: Why Apical is different
+    type: SpecialFeatures
+  - props:
+      en:
         greyBg: true
         slides:
           - body: >-
