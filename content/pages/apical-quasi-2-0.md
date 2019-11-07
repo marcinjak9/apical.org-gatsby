@@ -32,6 +32,10 @@ sections:
               travel industry. We will support you trhough all phases in your
               growth
             title: Knowledge
+          - body: >-
+              Entering in Apical ecosystem means connecting with many other
+              potential partners. Upgrade your business to the next level
+            title: Network
         subtitle: ''
         title: How Apical become your partner
     type: ToolsCards
