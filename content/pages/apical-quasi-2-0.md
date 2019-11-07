@@ -45,9 +45,12 @@ sections:
           link: '#form'
           text: Join us
         features:
-          - body: All types of bed
+          - body: 'Dorm beds, private rooms, camps and whatever you offer '
             image: "\U0001F6CC"
             title: Beds
+          - body: 'Surf lessons, bike tours, wine tasting or whatever you offer'
+            image: ⛰
+            title: Activities
         subtitle: >-
           Apical is the only platform that let you manage all type of services
           with maximum flexibility and control for you and for your customers
