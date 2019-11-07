@@ -119,10 +119,12 @@ sections:
             company: ' '
             image: 'https://ucarecdn.com/de4be040-2adb-46a0-982c-a893bce07bca/'
             name: Tour operator
-          - body: ddddd
-            company: dddd
+          - body: >-
+              Organize activities, accomodations and sell tickets to your
+              audience 
+            company: ' '
             image: 'https://ucarecdn.com/1975f07b-5ff6-45b6-8e83-7da9c7a0b339/'
-            name: xxx
+            name: Festivals and events
         title: Who partners with us
     type: TestimonialsSection
   - props:
