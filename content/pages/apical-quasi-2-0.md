@@ -72,41 +72,7 @@ sections:
     type: SpecialFeatures
   - props:
       en:
-        greyBg: true
-        slides:
-          - body: >-
-              With Apical Administration Tool your business runs legally all
-              over the world. No need to worry about travel licence and
-              insurances. We help you to make your creativity a product! 
-            image: 'https://ucarecdn.com/1102fb2d-021d-4ee6-ac9e-958d2dcc1104/'
-            title: Apical partnership
-          - body: >-
-              With Apical Booking Engine you can improve your customer's
-              experience, save 80% of your time and boost your revenue by 30% 
-            image: 'https://ucarecdn.com/0712479b-6e55-4fd1-9401-0d596ca7d322/'
-            title: 'Digitalize your workflow '
-        title: How Apical become your partner
-        titleCenter: true
-      it:
-        greyBg: true
-        slides:
-          - body: >-
-              Con Apical Administration Tool operi legalmente in tutto il mondo.
-              Apical ti aiuta in tutti i passaggi a portare sul mercato le tue
-              idee
-            image: 'https://ucarecdn.com/47dba20f-4df5-409a-b56b-04b0648f9143/'
-            title: Apical partnership
-          - body: >-
-              Con Apical Booking Engine puoi migliorare l'esperienza dei tuoi
-              clienti, risparmiare fino l'80% del tuo tempo e incrementare i
-              tuoi guadagni mediamente del 30%
-            image: 'https://ucarecdn.com/acb2fd8c-89f2-4467-82a3-23f8ffc7195a/'
-            title: Digitalizza il tuo workflow
-        title: Come Apical ti può aiutare
-        titleCenter: true
-    type: Presentation
-  - props:
-      en:
+        greyBg: false
         slides:
           - body: >-
               With Apical Dashboard you can easily organize and merchandise your
@@ -137,42 +103,6 @@ sections:
             image: 'https://ucarecdn.com/03bcaba7-8d20-4eff-b818-10b6fd31e082/'
             title: Gestisci e vendi i tuoi prodotti travel
         title: ''
-    type: Presentation
-  - props:
-      en:
-        slides:
-          - body: >-
-              With Apical Analytics and Performance tools you can monitor your
-              sales and your traffic with real-time metrics, complete reports
-              and more! 
-            image: 'https://ucarecdn.com/89b3486b-1dc0-427a-be47-a4e6b01f6124/'
-            title: '2. Measure and understand your business '
-      it:
-        slides:
-          - body: >-
-              Con gli strumenti di Apical Analytics &Performance puoi monitorare
-              le tue vendite e il tuo traffico con metriche in tempo reale e
-              report completi. 
-            image: 'https://ucarecdn.com/6f8deb43-664d-4cad-90d0-c6c14278151c/'
-            title: Misura e comprendi il tuo andamento
-    type: Presentation
-  - props:
-      en:
-        slides:
-          - body: >-
-              With Apical Back Office you can streamline your working process:
-              manage bookings and customers, invoices, payments and all the rest
-              in one place! 
-            image: 'https://ucarecdn.com/5b976f87-058c-4eaf-9139-79bbcf14d0cb/'
-            title: 3. Automatize your administrations
-      it:
-        slides:
-          - body: >-
-              Con Apical Back Office puoi semplificare il tuo processo di
-              lavoro: gestisci prenotazioni e clienti, fatture, pagamenti e
-              tutto il resto in un unico ambiente!
-            image: 'https://ucarecdn.com/8f28ce32-6a64-4907-8648-a65f32f8a817/'
-            title: 3. Automatizza le tue procedure amministrative
     type: Presentation
   - props:
       en:
