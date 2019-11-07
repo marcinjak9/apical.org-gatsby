@@ -27,7 +27,11 @@ sections:
               experience, save 80% of your time and boost your revenues by 30%
             nav: fff
             title: Technology
-          - title: Knowledge
+          - body: >-
+              We can share with you more than 10 years of our experience in
+              travel industry. We will support you trhough all phases in your
+              growth
+            title: Knowledge
         subtitle: ''
         title: How Apical become your partner
     type: ToolsCards
