@@ -125,6 +125,12 @@ sections:
             company: ' '
             image: 'https://ucarecdn.com/1975f07b-5ff6-45b6-8e83-7da9c7a0b339/'
             name: Festivals and events
+          - body: >-
+              Manage your accommodation and activities and let your customers
+              compose their perfect trip
+            company: ' '
+            image: 'https://ucarecdn.com/fbd7227f-9dea-495c-9a00-062090e5556d/'
+            name: Destination managers
         title: Who partners with us
     type: TestimonialsSection
   - props:
