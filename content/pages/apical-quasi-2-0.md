@@ -106,6 +106,9 @@ sections:
     type: Presentation
   - props:
       en:
+        cta:
+          link: '#form'
+          text: Contact us
         testimonials:
           - body: >-
               Organized tour, excursions, travel in the space and more! Get all
