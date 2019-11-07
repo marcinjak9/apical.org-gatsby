@@ -102,7 +102,7 @@ sections:
               tuoi guadagni mediamente del 30%
             image: 'https://ucarecdn.com/acb2fd8c-89f2-4467-82a3-23f8ffc7195a/'
             title: Digitalizza il tuo workflow
-        title: Come Apical diventa tuo partner
+        title: Come Apical ti può aiutare
         titleCenter: true
     type: Presentation
   - props:
@@ -114,6 +114,20 @@ sections:
               more! 
             image: 'https://ucarecdn.com/cd4dc145-2a24-4036-b74c-94b4d2c91d37/'
             title: 1. Manage and sell your travel products
+          - body: >-
+              With Apical Analytics and Performance tools you can monitor your
+              sales and your traffic with real-time metrics, complete reports
+              and more!
+            image: 'https://ucarecdn.com/b6e193e8-c403-4aac-90a1-751f0b304cbb/'
+            title: 2. Measure and understand your business
+          - body: >-
+              With Apical Back Office you can streamline your working process:
+              manage bookings and customers, invoices, payments and all the rest
+              in one place!
+            image: 'https://ucarecdn.com/6ef2bfcc-ed77-4de9-b1f5-05459ead14a7/'
+            title: 3. Automize your administration
+        title: How Apical helps your workflow
+        titleCenter: true
       it:
         slides:
           - body: >-
@@ -122,6 +136,7 @@ sections:
               Dai spazio alla tua creatività
             image: 'https://ucarecdn.com/03bcaba7-8d20-4eff-b818-10b6fd31e082/'
             title: Gestisci e vendi i tuoi prodotti travel
+        title: ''
     type: Presentation
   - props:
       en:
