@@ -131,6 +131,13 @@ sections:
             company: ' '
             image: 'https://ucarecdn.com/fbd7227f-9dea-495c-9a00-062090e5556d/'
             name: Destination managers
+          - body: >-
+              Are you a community? An instructor? An association? A travel
+              blogger? A superhero? Anything else? Contact us, we are happy to
+              hear your story
+            company: ' '
+            image: 'https://ucarecdn.com/72fa4126-d132-4ad0-bd46-d94a19f0abbc/'
+            name: 'And more! '
         title: Who partners with us
     type: TestimonialsSection
   - props:
