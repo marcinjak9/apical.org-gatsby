@@ -106,6 +106,27 @@ sections:
     type: Presentation
   - props:
       en:
+        testimonials:
+          - body: >-
+              Organized tour, excursions, travel in the space and more! Get all
+              the support you need to create your experience
+            company: Who loves discover the world
+            image: 'https://ucarecdn.com/8faa9a72-cfce-4cb4-96a8-d6f55be87732/'
+            name: Experience creator
+          - body: >-
+              Digitalise your workflow and increase your revenues by 30%
+              offering a better user experience to your customers
+            company: ' '
+            image: 'https://ucarecdn.com/de4be040-2adb-46a0-982c-a893bce07bca/'
+            name: Tour operator
+          - body: ddddd
+            company: dddd
+            image: 'https://ucarecdn.com/1975f07b-5ff6-45b6-8e83-7da9c7a0b339/'
+            name: xxx
+        title: Who partners with us
+    type: TestimonialsSection
+  - props:
+      en:
         central: true
         cta:
           link: social-impact
