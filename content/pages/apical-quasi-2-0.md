@@ -54,6 +54,17 @@ sections:
           - body: 'Local bus, transit van, walking guide and whatever you offer'
             image: "\U0001F680"
             title: Transportation
+          - body: 'Festival tickets, ski passes and whatever you offer '
+            image: "\U0001F39F"
+            title: Tickets
+          - body: |
+              Travel insurance, booking insurance and whatever you offer
+            image: ⛑
+            title: Insurance
+          - body: |
+              Shirts, badges, lighters and whatever you sell
+            image: "\U0001F455"
+            title: Merchandise
         subtitle: >-
           Apical is the only platform that let you manage all type of services
           with maximum flexibility and control for you and for your customers
