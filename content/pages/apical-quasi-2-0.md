@@ -21,6 +21,19 @@ sections:
   - props:
       en:
         greyBg: true
+        items:
+          - body: >-
+              With Apical Booking Engine you can improve your customer's
+              experience, save 80% of your time and boost your revenues by 30%
+            nav: fff
+            title: Technology
+          - title: Knowledge
+        subtitle: ''
+        title: How Apical become your partner
+    type: ToolsCards
+  - props:
+      en:
+        greyBg: true
         slides:
           - body: >-
               With Apical Administration Tool your business runs legally all
