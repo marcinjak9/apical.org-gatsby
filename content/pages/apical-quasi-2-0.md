@@ -51,6 +51,9 @@ sections:
           - body: 'Surf lessons, bike tours, wine tasting or whatever you offer'
             image: ⛰
             title: Activities
+          - body: 'Local bus, transit van, walking guide and whatever you offer'
+            image: "\U0001F680"
+            title: Transportation
         subtitle: >-
           Apical is the only platform that let you manage all type of services
           with maximum flexibility and control for you and for your customers
