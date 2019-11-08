@@ -55,5 +55,24 @@ sections:
             title: Optimum and safe customer experience
         title: ''
     type: Presentation
+  - props:
+      en:
+        body: >-
+          Apical always strives to help partners stand out in the market.
+          Measure, analyze and understand your business is as important as
+          selling.
+        cta:
+          text: Discover how
+        title: 'Next step: analyze your business'
+      it:
+        body: >-
+          Apical always strives to help partners stand out in the market.
+          Measure, analyze and understand your business is as important as
+          selling.
+        cta:
+          text: Discover how
+        quote: ''
+        title: 'Next step: analyze your business'
+    type: Cta
 ---
 
