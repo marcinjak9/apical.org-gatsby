@@ -62,6 +62,7 @@ sections:
           Measure, analyze and understand your business is as important as
           selling.
         cta:
+          link: measure-understand
           text: Discover how
         title: 'Next step: analyze your business'
       it:
@@ -70,6 +71,7 @@ sections:
           Measure, analyze and understand your business is as important as
           selling.
         cta:
+          link: measure-understand
           text: Discover how
         quote: ''
         title: 'Next step: analyze your business'
