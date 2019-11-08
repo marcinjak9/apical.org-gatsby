@@ -16,9 +16,10 @@ sections:
         heroBody: ''
         title: Everything you need to sell online
         typings:
-          - events and festivals
+          - Events and festivals
           - Retreats
           - Surf trips
+          - Yoga lessons
           - Accommodations
     type: HomeHero
 ---
