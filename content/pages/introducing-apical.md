@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
-title: Introducing-Apical
-slug: Introducing Apical
+title: Introducing Apical
+slug: Introducing-Apical
 type: page
 hideNav: false
 hideFooter: false
