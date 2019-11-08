@@ -81,7 +81,7 @@ const Presentation = (props) => {
   return (
     <SectionContainer {...props}>
       <Carousel
-        slides={slides.map((slide, i) => (
+        slides={slides && slides.map((slide, i) => (
           <Slide
             key={i}
             title={slide.title}

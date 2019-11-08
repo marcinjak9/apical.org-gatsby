@@ -104,9 +104,8 @@ export default class Carousel extends Component {
     return (
       <div style={{ width: '100%', marginTop: '2rem' }}>
         <SlickSlider {...settings}>
-          {slides.map((slide, index) => (
-            <div key={index}>{slide}</div>
-          ))}
+          {slides
+            && slides.map((slide, index) => <div key={index}>{slide}</div>)}
         </SlickSlider>
       </div>
     )
