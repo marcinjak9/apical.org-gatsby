@@ -354,5 +354,19 @@ sections:
         title: Raccontaci la tua storia
         titleCenter: true
     type: WelcomeSteps
+  - props:
+      en:
+        body: >-
+          Leave your contact details in order to allow one of our experts to
+          offer you maximum assistance
+        formId: '5448232'
+        title: 'Contact one of us! '
+      it:
+        body: >-
+          Lascia i tuoi recapiti per poter permettere ad un nostro esperto di
+          offrirti il massimo dell'assistenza
+        formId: '5448232'
+        title: Entra in contatto con un nostro esperto
+    type: FormSection
 ---
 
