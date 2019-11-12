@@ -240,7 +240,7 @@ sections:
               Organize activities, accomodations and sell tickets to your
               audience 
             company: ' '
-            image: 'https://ucarecdn.com/1975f07b-5ff6-45b6-8e83-7da9c7a0b339/'
+            image: 'https://ucarecdn.com/9f5cdac7-deca-4185-970b-63f28d95791e/'
             name: Festivals and events
           - body: >-
               Manage your accommodation and activities and let your customers
@@ -272,6 +272,12 @@ sections:
             company: ' '
             image: 'https://ucarecdn.com/ddcae5be-5451-4b2d-9043-74cc1ece9c91/'
             name: Tour operator
+          - body: >-
+              Vendere biglietti e accomodation per il proprio pubblico non è mai
+              stato così semplice!
+            company: ' '
+            image: 'https://ucarecdn.com/41ab032a-a306-4dc1-8d2d-2a528fabd538/'
+            name: Festival ed eventi
         title: Chi già collabora con noi
     type: TestimonialsSection
   - props:
