@@ -293,7 +293,7 @@ sections:
               felici di ascoltare la tua storia
             company: ' '
             image: 'https://ucarecdn.com/bd614ca8-0502-44b2-876f-65ab156a1a48/'
-            name: '... e moto altro! '
+            name: '... e molto altro! '
         title: Chi già collabora con noi
     type: TestimonialsSection
   - props:
