@@ -234,7 +234,7 @@ sections:
               Digitalise your workflow and increase your revenues by 30%
               offering a better user experience to your customers
             company: ' '
-            image: 'https://ucarecdn.com/de4be040-2adb-46a0-982c-a893bce07bca/'
+            image: 'https://ucarecdn.com/265e4afb-ca3a-4604-874e-988ce46f6d46/'
             name: Tour operator
           - body: >-
               Organize activities, accomodations and sell tickets to your
@@ -266,6 +266,12 @@ sections:
             company: ' '
             image: 'https://ucarecdn.com/dc6c4473-6ca1-4156-b6ef-a1d09bbdcafd/'
             name: Creatori di esperienze
+          - body: >-
+              Digitalizza il tuo flusso di lavoro e aumenta i ricavi del 30%
+              offrendo una migliore User Experience ai tuoi clienti
+            company: ' '
+            image: 'https://ucarecdn.com/ddcae5be-5451-4b2d-9043-74cc1ece9c91/'
+            name: Tour operator
         title: Chi già collabora con noi
     type: TestimonialsSection
   - props:
