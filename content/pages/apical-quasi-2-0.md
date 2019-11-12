@@ -20,7 +20,7 @@ sections:
         title: Partner and grow with Apical
       it:
         cta:
-          text: Unisciti
+          text: Unisciti ad Apical
         heroBody: >-
           Apical aiuta i propri partner a svilupparsi nel settore travel. Dalla
           tecnologia, amministrazione e impatto sociale, i tuoi obiettivi
