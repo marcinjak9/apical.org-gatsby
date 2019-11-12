@@ -160,6 +160,9 @@ sections:
           - body: 'Assicurazioni viaggio, bagagli e prenotazione. #staisereno'
             image: ⛑
             title: Assicurazioni
+          - body: 'Spille, magliette, accendini e tutto ciò che vuoi! '
+            image: "\U0001F455"
+            title: Merchandising
         subtitle: >-
           Apical è l'unica piattaforma che ti consente di gestire tutti i tipi
           di servizi con la massima flessibilità e controllo per te e per i tuoi
