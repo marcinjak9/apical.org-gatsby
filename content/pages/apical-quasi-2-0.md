@@ -298,24 +298,29 @@ sections:
     type: TestimonialsSection
   - props:
       en:
-        central: true
+        central: false
         cta:
           link: social-impact
           text: Discover more
+        image: 'https://ucarecdn.com/05fe8554-53ba-4131-a135-0edde0687ea0/'
+        smallText: true
         title: >-
-          One more thing. \
-
-          \
-
-          Integrate your business into our positive social impact projects to
-          engage your audience in the happiness movement
+          One more thing. Integrate your business into our positive social
+          impact projects to engage your audience in the happiness movement
       it:
-        central: true
+        central: false
         cta:
           link: social-impact
           text: Scopri di più
-        smallText: false
-        title: "Un'altra cosa.\r..\n\n\r\n\nIntegra la tua attività nei nostri progetti a impatto sociale positivo per coinvolgere il tuo pubblico in azioni che facciano davvero la differenza"
+        image: 'https://ucarecdn.com/3e3a5411-89ad-43ac-91fd-fc5fe30bfee2/'
+        smallText: true
+        title: >-
+          Un'altra cosa. Integra la tua attività nei nostri progetti a impatto
+          sociale positivo per coinvolgere il tuo pubblico in azioni che
+          facciano davvero la differenza. Rendi il tuo pubblico parte di un
+          grande movimento. \
+
+          Happiness is a movement
     type: SimpleHero
 ---
 
