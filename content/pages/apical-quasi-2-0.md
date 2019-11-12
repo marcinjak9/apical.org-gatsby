@@ -29,8 +29,8 @@ sections:
         title: Cresci in partnership con Apical
     type: HomeHero
   - props:
-      it:
-        body: >
+      en:
+        body: >-
           We are a business partner. We offer technology, knowledge and network
           to support all experience creators.
 
@@ -43,7 +43,28 @@ sections:
 
           Our goal is to grow with customers, giving them the same tools as
           large platforms use to dominate the market. 
+        cta:
+          text: Discover more
         title: What we do
+      it:
+        body: >
+          Siamo un partner business. Offriamo tecnologia, conoscenza e rete per
+          supportare tutti i creatori di esperienze.
+
+
+          La nostra missione è consentire a tutti di creare, gestire e vendere
+          prodotti trave fornendo servizi a 360 gradi: legal, amministrazione e
+          strumenti digitali. Non hai bisogno di tutto questo perché hai già un
+          efficiente back office? Il nostro Booking Engine è a tua disposizione
+          per digitalizzare la tua azienda!
+
+
+          Il nostro obiettivo è quello di crescere con i clienti, offrendo loro
+          gli stessi strumenti utilizzati dalle grandi piattaforme per competere
+          sul mercato.
+        cta:
+          text: Scopri di più
+        title: Cosa facciamo
     type: WhatWeDo
   - props:
       en:
