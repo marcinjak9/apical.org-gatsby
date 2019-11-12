@@ -331,8 +331,12 @@ sections:
             title: 1. Lascia un tuo recapito
           - body: >-
               Raccontaci la tua storia, il tuo progetto e le tue esigenze. Un
-              nostro epserto cercherà di capire come possiamo esserti utili
+              nostro esperto cercherà di capire come possiamo esserti utili
             title: 2. Entra in contatto con Apical
+          - body: >-
+              Inizia la tua partnership con Apical dopo aver ricevuto la
+              consulenza di un nostro esperto
+            title: 3. Sali a bordo
         greyBg: true
         title: Raccontaci la tua storia
         titleCenter: true
