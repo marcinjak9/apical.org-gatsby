@@ -278,6 +278,12 @@ sections:
             company: ' '
             image: 'https://ucarecdn.com/41ab032a-a306-4dc1-8d2d-2a528fabd538/'
             name: Festival ed eventi
+          - body: >-
+              Gestisci il tuo alloggio e le tue attività e lascia che i tuoi
+              clienti compongano il viaggio perfetto!
+            company: ' '
+            image: 'https://ucarecdn.com/83db1eeb-8bdf-4a60-a606-0fefd7ab5402/'
+            name: Destination manager
         title: Chi già collabora con noi
     type: TestimonialsSection
   - props:
