@@ -139,6 +139,16 @@ sections:
           Apical is the only platform that let you manage all type of services
           with maximum flexibility and control for you and for your customers
         title: Why Apical is different
+      it:
+        features:
+          - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
+            image: "\U0001F6CC"
+            title: Letti
+        subtitle: >-
+          Apical è l'unica piattaforma che ti consente di gestire tutti i tipi
+          di servizi con la massima flessibilità e controllo per te e per i tuoi
+          clienti
+        title: Perché Apical è differente
     type: SpecialFeatures
   - props:
       en:
