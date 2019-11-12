@@ -29,6 +29,23 @@ sections:
         title: Cresci in partnership con Apical
     type: HomeHero
   - props:
+      it:
+        body: >
+          We are a business partner. We offer technology, knowledge and network
+          to support all experience creators.
+
+
+          Our mission is to enable everybody to create, manage and sell travel
+          products by providing full-pack services: legalization, administration
+          and digital tools. Don't need all these? A powerful booking engine is
+          at your disposal!
+
+
+          Our goal is to grow with customers, giving them the same tools as
+          large platforms use to dominate the market. 
+        title: What we do
+    type: WhatWeDo
+  - props:
       en:
         greyBg: true
         items:
@@ -96,6 +113,7 @@ sections:
               Shirts, badges, lighters and whatever you sell
             image: "\U0001F455"
             title: Merchandise
+        greyBg: false
         subtitle: >-
           Apical is the only platform that let you manage all type of services
           with maximum flexibility and control for you and for your customers
@@ -195,22 +213,5 @@ sections:
         smallText: false
         title: "Un'altra cosa.\r..\n\n\r\n\nIntegra la tua attività nei nostri progetti a impatto sociale positivo per coinvolgere il tuo pubblico in azioni che facciano davvero la differenza"
     type: SimpleHero
-  - props:
-      it:
-        body: >
-          We are a business partner. We offer technology, knowledge and network
-          to support all experience creators.
-
-
-          Our mission is to enable everybody to create, manage and sell travel
-          products by providing full-pack services: legalization, administration
-          and digital tools. Don't need all these? A powerful booking engine is
-          at your disposal!
-
-
-          Our goal is to grow with customers, giving them the same tools as
-          large platforms use to dominate the market. 
-        title: What we do
-    type: WhatWeDo
 ---
 
