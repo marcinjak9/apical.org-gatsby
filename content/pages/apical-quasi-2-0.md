@@ -154,6 +154,12 @@ sections:
           - body: 'Bus, van, barche o qualsiasi cosa trasporti persone'
             image: "\U0001F680"
             title: Trasporti
+          - body: 'Festival, ski pass, spettacoli e tutto ciò che vuoi! '
+            image: "\U0001F39F"
+            title: Ticket
+          - body: 'Assicurazioni viaggio, bagagli e prenotazione. #staisereno'
+            image: ⛑
+            title: Assicurazioni
         subtitle: >-
           Apical è l'unica piattaforma che ti consente di gestire tutti i tipi
           di servizi con la massima flessibilità e controllo per te e per i tuoi
