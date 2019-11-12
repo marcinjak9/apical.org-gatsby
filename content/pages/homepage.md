@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
 title: Homepage
-slug: home
+slug: home-222
 type: page
 hideNav: false
 hideFooter: false
