@@ -48,6 +48,27 @@ sections:
             title: Network
         subtitle: ''
         title: How Apical become your partner
+        titleCenter: true
+      it:
+        greyBg: true
+        items:
+          - body: >-
+              Con Apical Booking Engine puoi migliorare l'esperienza dei tuoi
+              clienti, risparmiare l'80% del tuo tempo e aumentare le tue
+              entrate del 30%
+            title: Tecnologia
+          - body: >-
+              Possiamo condividere con te oltre 10 anni di esperienza nel
+              settore travel. Ti supporteremo attraverso tutte le fasi della tua
+              crescita
+            title: Know how
+          - body: >-
+              Entrare nell'ecosistema Apical significa connettersi con molti
+              altri potenziali partner. Porta la tua attività ad un livello
+              superiore
+            title: Network
+        title: Come Apical diventa un tuo partner
+        titleCenter: true
     type: ToolsCards
   - props:
       en:
