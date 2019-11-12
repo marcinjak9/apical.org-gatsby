@@ -112,7 +112,7 @@ sections:
       en:
         cta:
           link: '#form'
-          text: Join us
+          text: Let's start
         features:
           - body: 'Dorm beds, private rooms, camps and whatever you offer '
             image: "\U0001F6CC"
@@ -141,7 +141,8 @@ sections:
         title: Why Apical is different
       it:
         cta:
-          text: ''
+          link: '#form'
+          text: Partiamo!
         features:
           - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
             image: "\U0001F6CC"
