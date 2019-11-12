@@ -139,6 +139,7 @@ sections:
           Apical is the only platform that let you manage all type of services
           with maximum flexibility and control for you and for your customers
         title: Why Apical is different
+        titleCenter: true
       it:
         cta:
           link: '#form'
@@ -169,6 +170,7 @@ sections:
           di servizi con la massima flessibilità e controllo per te e per i tuoi
           clienti
         title: Perché Apical è differente
+        titleCenter: true
     type: SpecialFeatures
   - props:
       en:
