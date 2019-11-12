@@ -323,6 +323,12 @@ sections:
           Happiness is a movement
     type: SimpleHero
   - props:
+      en:
+        columns:
+          - body: Fill out the form below to get in touch with our team
+            title: 1. Leave a contact
+          - title: '2. '
+        title: Tell us your story
       it:
         columns:
           - body: >-
