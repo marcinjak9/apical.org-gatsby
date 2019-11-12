@@ -368,5 +368,11 @@ sections:
         formId: '5448232'
         title: Entra in contatto con un nostro esperto
     type: FormSection
+  - props:
+      en:
+        title: Apical Journal
+      it:
+        title: Apical Journal
+    type: BlogSection
 ---
 
