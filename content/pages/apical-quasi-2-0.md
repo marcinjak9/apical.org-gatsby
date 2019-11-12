@@ -222,11 +222,12 @@ sections:
         cta:
           link: '#form'
           text: Contact us
+        greyBg: true
         testimonials:
           - body: >-
               Organized tour, excursions, travel in the space and more! Get all
               the support you need to create your experience
-            company: Who loves discover the world
+            company: ' '
             image: 'https://ucarecdn.com/8faa9a72-cfce-4cb4-96a8-d6f55be87732/'
             name: Experience creator
           - body: >-
@@ -255,6 +256,17 @@ sections:
             image: 'https://ucarecdn.com/72fa4126-d132-4ad0-bd46-d94a19f0abbc/'
             name: 'And more! '
         title: Who partners with us
+      it:
+        greyBg: true
+        testimonials:
+          - body: >-
+              Tour organizzati, escursioni, viaggi nello spazio e molto altro!
+              Se anche tu lo sei ottieni tutto il supporto di cui hai bisogno
+              per creare la tua esperienza
+            company: ' '
+            image: 'https://ucarecdn.com/dc6c4473-6ca1-4156-b6ef-a1d09bbdcafd/'
+            name: Creatori di esperienze
+        title: Chi già collabora con noi
     type: TestimonialsSection
   - props:
       en:
