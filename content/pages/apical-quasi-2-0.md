@@ -25,7 +25,7 @@ sections:
           - body: >-
               With Apical Booking Engine you can improve your customer's
               experience, save 80% of your time and boost your revenues by 30%
-            nav: fff
+            nav: ''
             title: Technology
           - body: >-
               We can share with you more than 10 years of our experience in
