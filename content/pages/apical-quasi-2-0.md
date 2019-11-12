@@ -140,10 +140,17 @@ sections:
           with maximum flexibility and control for you and for your customers
         title: Why Apical is different
       it:
+        cta:
+          text: ''
         features:
           - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
             image: "\U0001F6CC"
             title: Letti
+          - body: >-
+              Surf? Tour in bici? Viaggi nello spazio? Dai spazio alla tua
+              fantasia
+            image: ⛰
+            title: Attività
         subtitle: >-
           Apical è l'unica piattaforma che ti consente di gestire tutti i tipi
           di servizi con la massima flessibilità e controllo per te e per i tuoi
