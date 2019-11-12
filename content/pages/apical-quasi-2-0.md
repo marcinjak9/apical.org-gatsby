@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
 title: Apical quasi 2.0
-slug: home-21
+slug: home
 type: page
 hideNav: false
 hideFooter: false
