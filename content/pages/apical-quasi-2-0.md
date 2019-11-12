@@ -322,5 +322,20 @@ sections:
 
           Happiness is a movement
     type: SimpleHero
+  - props:
+      it:
+        columns:
+          - body: >-
+              Compila il form sottostante per poter entrare in contatto con il
+              nostro team 
+            title: 1. Lascia un tuo recapito
+          - body: >-
+              Raccontaci la tua storia, il tuo progetto e le tue esigenze. Un
+              nostro epserto cercherà di capire come possiamo esserti utili
+            title: 2. Entra in contatto con Apical
+        greyBg: true
+        title: Raccontaci la tua storia
+        titleCenter: true
+    type: WelcomeSteps
 ---
 
