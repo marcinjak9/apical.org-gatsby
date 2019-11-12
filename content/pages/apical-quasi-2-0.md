@@ -17,6 +17,12 @@ sections:
           Apical enpowers partners to thrive in travel industry with technology
           legalization and 360 support. We embrace your goals with ours
         title: Partner and grow with Apical
+      it:
+        heroBody: >-
+          Apical aiuta i propri partner a svilupparsi nel settore travel. Dalla
+          tecnologia, amministrazione e impatto sociale, i tuoi obiettivi
+          diventano i nostri
+        title: Cresci in partnership con Apical
     type: HomeHero
   - props:
       en:
