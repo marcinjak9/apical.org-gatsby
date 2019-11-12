@@ -6,8 +6,18 @@ type: page
 hideNav: false
 hideFooter: false
 meta:
-  en: {}
-  it: {}
+  en:
+    pageDescription: >-
+      Apical is the platform that allows anyone to organize trips and
+      experiences by becoming your partner. Technology, administrative
+      assistance and networks
+    pageTitle: 'Apical: your travel business partner'
+  it:
+    pageDescription: >-
+      Apical è la piattaforma che permette a chiunque di organizzzare viaggi ed
+      esperienze diventando tuo partner. Tecnologia, assistenza amministrativa e
+      network
+    pageTitle: Apical - Il tuo business partner travel
 sections:
   - props:
       en:
