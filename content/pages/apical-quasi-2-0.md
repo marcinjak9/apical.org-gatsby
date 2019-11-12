@@ -318,9 +318,7 @@ sections:
           Un'altra cosa. Integra la tua attività nei nostri progetti a impatto
           sociale positivo per coinvolgere il tuo pubblico in azioni che
           facciano davvero la differenza. Rendi il tuo pubblico parte di un
-          grande movimento. \
-
-          Happiness is a movement
+          grande movimento. Happiness is a movement
     type: SimpleHero
   - props:
       en:
@@ -331,7 +329,13 @@ sections:
               Tell us your story, your project and your needs. One of our
               experts will try to understand how we can help you
             title: 2. First contact
+          - body: >-
+              Start your partnership with Apical after receiving the advice of
+              one of our experts
+            title: 3. Onboarding
+        greyBg: true
         title: Tell us your story
+        titleCenter: true
       it:
         columns:
           - body: >-
@@ -341,7 +345,7 @@ sections:
           - body: >-
               Raccontaci la tua storia, il tuo progetto e le tue esigenze. Un
               nostro esperto cercherà di capire come possiamo esserti utili
-            title: 2. Entra in contatto con Apical
+            title: 2. Entra in contatto
           - body: >-
               Inizia la tua partnership con Apical dopo aver ricevuto la
               consulenza di un nostro esperto
