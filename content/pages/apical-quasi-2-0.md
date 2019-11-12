@@ -327,7 +327,10 @@ sections:
         columns:
           - body: Fill out the form below to get in touch with our team
             title: 1. Leave a contact
-          - title: '2. '
+          - body: >-
+              Tell us your story, your project and your needs. One of our
+              experts will try to understand how we can help you
+            title: 2. First contact
         title: Tell us your story
       it:
         columns:
