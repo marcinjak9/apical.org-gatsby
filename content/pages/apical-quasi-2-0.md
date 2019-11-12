@@ -216,19 +216,19 @@ sections:
               Con Apical Dashboard puoi organizzare e vendere facilmente i tuoi
               prodotti come stanze, letti, attività, trasporti e altro ancora!
               Dai spazio alla tua creatività
-            image: 'https://ucarecdn.com/03bcaba7-8d20-4eff-b818-10b6fd31e082/'
+            image: 'https://ucarecdn.com/8caa7a79-d952-4644-bc29-7d529a466ce0/'
             title: 1. Gestisci e vendi i tuoi prodotti travel
           - body: >-
               Con gli strumenti Apical Analytics e Performance puoi monitorare
               le tue vendite e il tuo traffico con metriche in tempo reale,
               report completi e altro!
-            image: 'https://ucarecdn.com/102dd115-d839-4742-9c87-f505f6b049e4/'
+            image: 'https://ucarecdn.com/152dbcbe-41c2-4f84-a8c5-a60aaaddd317/'
             title: 2. Misura e comprendi il tuo business
           - body: >-
               Con Apical Back Office puoi semplificare il tuo processo di
               lavoro: gestisci prenotazioni e clienti, fatture, pagamenti e
               tutto il resto in un unico posto!
-            image: 'https://ucarecdn.com/94b65196-0d26-4ea7-84b6-6166cebaac2d/'
+            image: 'https://ucarecdn.com/9a7d2643-a27a-4f22-b584-826167c3d194/'
             title: 3. Automatizza il tuo back office
         title: Come Apical ti aiuta nella tua routine
         titleCenter: true
