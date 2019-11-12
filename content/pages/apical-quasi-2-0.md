@@ -228,7 +228,7 @@ sections:
               Organized tour, excursions, travel in the space and more! Get all
               the support you need to create your experience
             company: ' '
-            image: 'https://ucarecdn.com/8faa9a72-cfce-4cb4-96a8-d6f55be87732/'
+            image: 'https://ucarecdn.com/40101856-bb77-4c66-b198-3c9b2a96e688/'
             name: Experience creator
           - body: >-
               Digitalise your workflow and increase your revenues by 30%
@@ -246,7 +246,7 @@ sections:
               Manage your accommodation and activities and let your customers
               compose their perfect trip
             company: ' '
-            image: 'https://ucarecdn.com/fbd7227f-9dea-495c-9a00-062090e5556d/'
+            image: 'https://ucarecdn.com/a7229c42-f2c4-4cd0-a16b-6393ff14a346/'
             name: Destination managers
           - body: >-
               Are you a community? An instructor? An association? A travel
@@ -257,6 +257,9 @@ sections:
             name: 'And more! '
         title: Who partners with us
       it:
+        cta:
+          link: '#form'
+          text: Contattaci
         greyBg: true
         testimonials:
           - body: >-
@@ -284,6 +287,13 @@ sections:
             company: ' '
             image: 'https://ucarecdn.com/83db1eeb-8bdf-4a60-a606-0fefd7ab5402/'
             name: Destination manager
+          - body: >-
+              Sei una comunità? Un istruttore? Un'associazione? Un blogger di
+              viaggio? Un supereroe? Qualunque altra cosa? Contattaci, siamo
+              felici di ascoltare la tua storia
+            company: ' '
+            image: 'https://ucarecdn.com/bd614ca8-0502-44b2-876f-65ab156a1a48/'
+            name: '... e moto altro! '
         title: Chi già collabora con noi
     type: TestimonialsSection
   - props:
