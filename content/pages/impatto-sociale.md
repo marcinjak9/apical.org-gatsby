@@ -177,6 +177,8 @@ sections:
     type: Quote
   - props:
       en:
+        bodyLight: true
+        image: 'https://ucarecdn.com/c8fe61d3-daba-45c2-b03d-453e8fafee72/'
         title: Happiness is a movement
       it:
         bodyLight: true
