@@ -250,5 +250,21 @@ sections:
         title: 'Entra in Apical, entra nel nostro movimento'
     type: FormSection
   - type: BlogSection
+  - props:
+      it:
+        columns:
+          - body: >-
+              Compila il form sottostante per poter entrare in contatto con il
+              nostro team
+            title: 1. Lascia un tuo recapito
+          - body: >-
+              Raccontaci la tua storia, il tuo progetto e le tue esigenze. Un
+              nostro esperto cercherà di capire come possiamo esserti utili
+            title: 2. Entra in contatto
+          - body: >-
+              Inizia la tua partnership con Apical dopo aver ricevuto la
+              consulenza di un nostro esperto
+            title: 3. Sali a bordo
+    type: WelcomeSteps
 ---
 
