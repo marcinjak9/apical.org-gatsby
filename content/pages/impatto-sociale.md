@@ -259,5 +259,13 @@ sections:
         image: 'https://ucarecdn.com/cbea8e68-1ee3-47a6-ac93-74213db4f34e/'
         title: Happiness is a movement
     type: HomeHero
+  - props:
+      en:
+        formId: d568a967-0f3b-4797-9db8-33994687dcc9
+        title: 'Join Apical, happiness is a movement! '
+      it:
+        formId: d568a967-0f3b-4797-9db8-33994687dcc9
+        title: 'Entra in Apical, entra nel nostro movimento'
+    type: FormSection
 ---
 
