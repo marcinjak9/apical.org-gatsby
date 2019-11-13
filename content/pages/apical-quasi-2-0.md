@@ -316,9 +316,15 @@ sections:
             image: 'https://ucarecdn.com/83db1eeb-8bdf-4a60-a606-0fefd7ab5402/'
             name: Destination manager
           - body: >-
-              Sei una comunità? Un istruttore? Un'associazione? Un blogger di
-              viaggio? Un supereroe? Qualunque altra cosa? Contattaci, siamo
-              felici di ascoltare la tua storia
+              Sei un istruttore o un formatore? Organizza il tuo retreat per i
+              tuoi studenti o i tuoi partner
+            company: ' '
+            image: 'https://ucarecdn.com/7709403d-5fd8-4deb-a4aa-bf4becca08e7/'
+            name: 'Retreat e convegni '
+          - body: >-
+              Sei una comunità? Un'associazione? Un blogger di viaggio? Un
+              supereroe? Qualunque altra cosa? Contattaci, siamo felici di
+              ascoltare la tua storia
             company: ' '
             image: 'https://ucarecdn.com/bd614ca8-0502-44b2-876f-65ab156a1a48/'
             name: '... e molto altro! '
