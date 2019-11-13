@@ -237,7 +237,7 @@ sections:
           Open your free account now and choose later the plan that suits your
           needs!
         cta:
-          link: 'https://dashboard.apical.org/register'
+          link: 'social-impact#onboarding'
           text: Join Apical
           title: ''
       it:
