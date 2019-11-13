@@ -136,16 +136,24 @@ sections:
           sul territorio da aiutare o contribuire direttamente ai progetti
           attivi di Apical 
         cta:
-          link: ''
+          link: '#onboarding'
           text: Join Apical
+          title: >-
+            If you create experiences with Apical you can look for an
+            association or an NGO in the area to help or contribute directly to
+            Apical's active projects
       it:
         body: >-
           Se crei esperienze con Apical puoi cercare un'associazione o una ONG
           sul territorio da aiutare o contribuire direttamente ai progetti
           attivi di Apical 
         cta:
-          link: ''
-          text: Unisciti
+          link: '#onboarding'
+          text: >-
+            Se crei esperienze con Apical puoi cercare un'associazione o una ONG
+            sul territorio da aiutare o contribuire direttamente ai progetti
+            attivi di Apical
+          title: Unisciti
     type: Quote
   - props:
       en:
