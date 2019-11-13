@@ -259,13 +259,13 @@ sections:
               prenderemo carico della direzione tecnica (contratti con i
               fornitori, assicurazioni di viaggio, creazione dello store, ecc.
               ecc.)
-            image: ✌
+            image: ' '
             title: Supporto dedicato
           - body: >-
               Si parte! Noi ci occuperemo della gestione del prodotto turistico
               mentre tu ti occuperai della direzione creativa, del marketing e
               della comunicazione
-            image: "\U0001F91F"
+            image: ' '
             title: Go live
         subtitle: Dedicato alle persone e alle aziende prive di licenza travel
         title: Scopri Apical Partnership
