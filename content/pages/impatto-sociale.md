@@ -169,15 +169,6 @@ sections:
     type: SimpleHero
   - props:
       en:
-        title: 'Apical: in three minutes!'
-        videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
-      it:
-        title: 'Apical: in tre minuti!'
-        titleCenter: true
-        videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
-    type: VideoSection
-  - props:
-      en:
         cards:
           - body: >-
               Take down the CO2! With Apical you can give customers the
@@ -246,16 +237,16 @@ sections:
           Apri il tuo account gratuito in pochi secondi e scegli dopo quale
           piano attivare!
         cta:
-          link: 'https://dashboard.apical.org/register'
+          link: '#onboarding'
           text: Iscriviti
           title: ''
     scrollTo: true
     type: Quote
-  - type: BlogSection
   - props:
       en:
         title: Happiness is a movement
       it:
+        bodyLight: true
         image: 'https://ucarecdn.com/cbea8e68-1ee3-47a6-ac93-74213db4f34e/'
         title: Happiness is a movement
     type: HomeHero
@@ -267,5 +258,6 @@ sections:
         formId: d568a967-0f3b-4797-9db8-33994687dcc9
         title: 'Entra in Apical, entra nel nostro movimento'
     type: FormSection
+  - type: BlogSection
 ---
 
