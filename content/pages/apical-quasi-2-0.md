@@ -246,6 +246,31 @@ sections:
         titleCenter: true
     type: Presentation
   - props:
+      it:
+        cards:
+          - body: >-
+              Presentaci il tuo progetto nel modo che preferisci, lo
+              analizzeremo insieme per capire se è pronto o se ti serve il
+              nostro aiuto per completarlo, definirlo e migliorarlo
+            image: ☝
+            title: Analisi del progetto
+          - body: >-
+              Quando tutto è pronto inizia la fase operativa in cui ci
+              prenderemo carico della direzione tecnica (contratti con i
+              fornitori, assicurazioni di viaggio, creazione dello store, ecc.
+              ecc.)
+            image: ✌
+            title: Supporto dedicato
+          - body: >-
+              Si parte! Noi ci occuperemo della gestione del prodotto turistico
+              mentre tu ti occuperai della direzione creativa, del marketing e
+              della comunicazione
+            image: "\U0001F91F"
+            title: Go live
+        subtitle: Dedicato alle persone e alle aziende prive di licenza travel
+        title: Scopri Apical Partnership
+    type: HowItWorks
+  - props:
       en:
         cta:
           link: '#form'
