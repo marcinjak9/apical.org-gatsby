@@ -169,11 +169,11 @@ sections:
           attivi di Apical 
         cta:
           link: '#onboarding'
-          text: >-
+          text: Unisciti
+          title: >-
             Se crei esperienze con Apical puoi cercare un'associazione o una ONG
             sul territorio da aiutare o contribuire direttamente ai progetti
             attivi di Apical
-          title: Unisciti
     type: Quote
   - props:
       en:
