@@ -490,9 +490,9 @@ sections:
         image: 'https://ucarecdn.com/0c0f6790-68a7-4d15-8050-678dcf8d1691/'
         smallText: true
         title: >-
-          Raccontaci delle tue prospettive, dei tuoi bisogni e degli ostacoli.
-          Apical metterà in campo tutta la sua esperienza per realizzare il tuo
-          progetto
+          Raccontaci dei tuoi obiettivi, dei tuoi bisogni e degli ostacoli che
+          hai incontrato. Apical metterà in campo tutta la sua esperienza per
+          realizzare il tuo progetto
     type: SimpleHero
 ---
 
