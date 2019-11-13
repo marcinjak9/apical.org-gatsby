@@ -199,6 +199,23 @@ sections:
         titleCenter: true
     type: SpecialFeatures
   - props:
+      en:
+        cards:
+          - body: >-
+              Present us your project in the way you prefer, we will analyze it
+              together to see if it's ready or if you need our help to complete
+              it, define it and improve it
+            image: ' '
+            title: Project analysis
+          - body: >-
+              When everything is ready the operational phase begins in which we
+              will take charge of the technical direction (contracts with
+              suppliers, travel insurance, creation of the store, etc. etc.)
+            image: ' '
+            title: Dedicated support
+        subtitle: Dedicated to people and companies without a travel license
+        title: Discover Apical Partnership
+        titleCenter: true
       it:
         cards:
           - body: >-
@@ -220,8 +237,11 @@ sections:
               della comunicazione
             image: ' '
             title: Go live
+        cta:
+          text: Raccontaci di te
         subtitle: Dedicato alle persone e alle aziende prive di licenza travel
         title: Scopri Apical Partnership
+        titleCenter: true
     type: HowItWorks
   - props:
       en:
