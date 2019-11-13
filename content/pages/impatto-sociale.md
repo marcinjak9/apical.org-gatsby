@@ -63,6 +63,36 @@ sections:
     type: WhatWeDo
   - props:
       en:
+        central: false
+        cta:
+          link: 'https://www.treedom.net/it/organization/apical'
+          text: Visit our forest
+        image: 'https://ucarecdn.com/f1abd4a8-2f3e-49be-9870-7eb78b5bd585/'
+        smallText: true
+        title: >-
+          The great emergency of our times is the CO2. Apical has decided to
+          invest in green thanks to the partnership with Treedom, the italian
+          company that plants trees every day all around the world. All of this
+          would not be possible without the synergy within us, creators and
+          final customers. Any company that works in partnership with us is
+          welcome in our forest!
+      it:
+        central: false
+        cta:
+          link: 'https://www.treedom.net/it/organization/apical'
+          text: Visita la foresta
+        image: 'https://ucarecdn.com/f1abd4a8-2f3e-49be-9870-7eb78b5bd585/'
+        smallText: true
+        title: >-
+          La Co2 è la grande emergenza dei nostri tempi. Apical ha deciso di
+          investire nel verde grazie alla partnership con Treedom, l'azienda
+          italiana che pianta ogni giorno alberi ad alto assorbimento di
+          anidride carbonica. Questo non sarebbe possibile senza la sinergia fra
+          di noi, creator e clienti finali. Qualsiasi azienda che collabora con
+          noi è benvenuta nella nostra foresta! 
+    type: SimpleHero
+  - props:
+      en:
         cards:
           - body: >-
               Apical offers to anyone who work in travel industry the
@@ -101,33 +131,23 @@ sections:
     type: HowItWorks
   - props:
       en:
-        central: false
-        cta:
-          link: 'https://www.treedom.net/it/organization/apical'
-          text: Visit our forest
-        image: 'https://ucarecdn.com/f1abd4a8-2f3e-49be-9870-7eb78b5bd585/'
+        image: 'https://ucarecdn.com/6c333fa9-45ab-4b80-b85c-2033563f32c7/'
         smallText: true
         title: >-
-          The great emergency of our times is the CO2. Apical has decided to
-          invest in green thanks to the partnership with Treedom, the italian
-          company that plants trees every day all around the world. All of this
-          would not be possible without the synergy within us, creators and
-          final customers. Any company that works in partnership with us is
-          welcome in our forest!
+          **Happiness is a movement**
+
+
+          We believe that when people share their energy throught an intense
+          experience they naturally become more open-minded, curious and able to
+          understand one another. Experience Creators have the power to change
+          people’s life. Apical is here to support them. Join our mission
+
+
+          Nicola Zanola, CEO
       it:
-        central: false
-        cta:
-          link: 'https://www.treedom.net/it/organization/apical'
-          text: Visita la foresta
-        image: 'https://ucarecdn.com/f1abd4a8-2f3e-49be-9870-7eb78b5bd585/'
+        image: 'https://ucarecdn.com/6c333fa9-45ab-4b80-b85c-2033563f32c7/'
         smallText: true
-        title: >-
-          La Co2 è la grande emergenza dei nostri tempi. Apical ha deciso di
-          investire nel verde grazie alla partnership con Treedom, l'azienda
-          italiana che pianta ogni giorno alberi ad alto assorbimento di
-          anidride carbonica. Questo non sarebbe possibile senza la sinergia fra
-          di noi, creator e clienti finali. Qualsiasi azienda che collabora con
-          noi è benvenuta nella nostra foresta! 
+        title: "**Happiness is a movement**\r\n\nWe believe that when people share their energy into an intense experience they naturally become more open-minded, curious and able to understand one another. Experience Creators have the power to change people’s life. Apical is here to support them. Join our mission\r\n\n\rNicola Zanola, CEO"
     type: SimpleHero
   - props:
       en:
@@ -157,24 +177,12 @@ sections:
     type: Quote
   - props:
       en:
-        image: 'https://ucarecdn.com/6c333fa9-45ab-4b80-b85c-2033563f32c7/'
-        smallText: true
-        title: >-
-          **Happiness is a movement**
-
-
-          We believe that when people share their energy throught an intense
-          experience they naturally become more open-minded, curious and able to
-          understand one another. Experience Creators have the power to change
-          people’s life. Apical is here to support them. Join our mission
-
-
-          Nicola Zanola, CEO
+        title: Happiness is a movement
       it:
-        image: 'https://ucarecdn.com/6c333fa9-45ab-4b80-b85c-2033563f32c7/'
-        smallText: true
-        title: "**Happiness is a movement**\r\n\nWe believe that when people share their energy into an intense experience they naturally become more open-minded, curious and able to understand one another. Experience Creators have the power to change people’s life. Apical is here to support them. Join our mission\r\n\n\rNicola Zanola, CEO"
-    type: SimpleHero
+        bodyLight: true
+        image: 'https://ucarecdn.com/cbea8e68-1ee3-47a6-ac93-74213db4f34e/'
+        title: Happiness is a movement
+    type: HomeHero
   - props:
       en:
         cards:
@@ -231,33 +239,6 @@ sections:
         greyBg: true
         title: Come creare impatto sociale con Apical
     type: HowItWorks
-  - props:
-      en:
-        body: >-
-          Open your free account now and choose later the plan that suits your
-          needs!
-        cta:
-          link: 'social-impact#onboarding'
-          text: Join Apical
-          title: ''
-      it:
-        body: >-
-          Apri il tuo account gratuito in pochi secondi e scegli dopo quale
-          piano attivare!
-        cta:
-          link: '#onboarding'
-          text: Iscriviti
-          title: ''
-    scrollTo: true
-    type: Quote
-  - props:
-      en:
-        title: Happiness is a movement
-      it:
-        bodyLight: true
-        image: 'https://ucarecdn.com/cbea8e68-1ee3-47a6-ac93-74213db4f34e/'
-        title: Happiness is a movement
-    type: HomeHero
   - props:
       en:
         formId: d568a967-0f3b-4797-9db8-33994687dcc9
