@@ -151,6 +151,9 @@ sections:
           - body: 'Yoga retreat, mindfullness, paint courses'
             image: "\U0001F9D8‍♂️"
             title: Courses
+          - body: 'Everything you need to compose your magic pack! '
+            image: "\U0001F996"
+            title: 'And more! '
         greyBg: false
         subtitle: >-
           Apical is the only platform that let you manage all type of services
