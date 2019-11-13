@@ -179,6 +179,9 @@ sections:
           - body: 'Spille, magliette, accendini e tutto ciò che vuoi! '
             image: "\U0001F455"
             title: Merchandising
+          - body: 'Corso di yoga, mindfullness, pittura e altro! '
+            image: "\U0001F9D8‍♂️"
+            title: Corsi
         subtitle: >-
           Apical è l'unica piattaforma che ti consente di gestire tutti i tipi
           di servizi con la massima flessibilità e controllo per te e per i tuoi
