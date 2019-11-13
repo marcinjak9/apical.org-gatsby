@@ -257,6 +257,27 @@ sections:
     type: HowItWorks
   - props:
       en:
+        cta:
+          link: '#form'
+          text: Book a call
+        image: 'https://ucarecdn.com/1c6d2122-fecd-4ef2-bee7-742712c351d0/'
+        smallText: true
+        title: >-
+          Tell us about your goals, your needs and obstacles. Apical will field
+          all its experience to carry out your project
+      it:
+        cta:
+          link: '#form'
+          text: Prenota una chiamata
+        image: 'https://ucarecdn.com/0c0f6790-68a7-4d15-8050-678dcf8d1691/'
+        smallText: true
+        title: >-
+          Raccontaci dei tuoi obiettivi, dei tuoi bisogni e degli ostacoli che
+          hai incontrato. Apical metterà in campo tutta la sua esperienza per
+          realizzare il tuo progetto
+    type: SimpleHero
+  - props:
+      en:
         greyBg: false
         slides:
           - body: >-
@@ -473,26 +494,5 @@ sections:
       it:
         title: Apical Journal
     type: BlogSection
-  - props:
-      en:
-        cta:
-          link: '#form'
-          text: Book a call
-        image: 'https://ucarecdn.com/1c6d2122-fecd-4ef2-bee7-742712c351d0/'
-        smallText: true
-        title: >-
-          Tell us about your goals, your needs and obstacles. Apical will field
-          all its experience to carry out your project
-      it:
-        cta:
-          link: '#form'
-          text: Prenota una chiamata
-        image: 'https://ucarecdn.com/0c0f6790-68a7-4d15-8050-678dcf8d1691/'
-        smallText: true
-        title: >-
-          Raccontaci dei tuoi obiettivi, dei tuoi bisogni e degli ostacoli che
-          hai incontrato. Apical metterà in campo tutta la sua esperienza per
-          realizzare il tuo progetto
-    type: SimpleHero
 ---
 
