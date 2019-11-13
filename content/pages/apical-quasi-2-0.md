@@ -213,6 +213,12 @@ sections:
               suppliers, travel insurance, creation of the store, etc. etc.)
             image: ' '
             title: Dedicated support
+          - body: >-
+              Let's go! We will take care of the management of the tourism
+              product while you will be in charge of creative direction,
+              marketing and communication
+            image: ' '
+            title: Go live with Apical
         subtitle: Dedicated to people and companies without a travel license
         title: Discover Apical Partnership
         titleCenter: true
@@ -236,7 +242,7 @@ sections:
               mentre tu ti occuperai della direzione creativa, del marketing e
               della comunicazione
             image: ' '
-            title: Go live
+            title: Go live insieme ad Apical
         cta:
           text: Raccontaci di te
         subtitle: Dedicato alle persone e alle aziende prive di licenza travel
