@@ -25,7 +25,7 @@ sections:
           link: '#form'
           text: Join Apical
         heroBody: >-
-          Apical enpowers partners to thrive in travel industry with technology
+          Apical empowers partners to thrive in travel industry with technology
           legalization and 360 support. We embrace your goals with ours
         image: 'https://ucarecdn.com/0341321f-676f-4b03-9178-545f06944ff6/'
         title: Partner and grow with Apical
@@ -276,6 +276,12 @@ sections:
             company: ' '
             image: 'https://ucarecdn.com/a7229c42-f2c4-4cd0-a16b-6393ff14a346/'
             name: Destination managers
+          - body: >-
+              Are you an instructor or a trainer? Organize your retreat for your
+              students or your partners
+            company: ' '
+            image: 'https://ucarecdn.com/5b86156d-e971-4b57-9583-0e97bebbda6f/'
+            name: Retreat and conferences
           - body: >-
               Are you a community? An instructor? An association? A travel
               blogger? A superhero? Anything else? Contact us, we are happy to
