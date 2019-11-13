@@ -26,6 +26,7 @@ const SlickSlider = styled(Slider)`
   .slick-next:before,
   .slick-prev:before {
     color: var(--darkblue) !important;
+    font-size: 35px;
   }
 `
 
@@ -95,7 +96,8 @@ export default class Carousel extends Component {
     const settings = {
       dots: true,
       infinite: false,
-      // speed: 500,
+      autoplay: true,
+      autoplaySpeed: 3000,
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: true,

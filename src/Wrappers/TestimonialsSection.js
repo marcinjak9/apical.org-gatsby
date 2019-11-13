@@ -1,9 +1,24 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
+import styled from '@emotion/styled'
 import TestimonialItem from '../components/TestimonialItem'
 import SectionContainer from '../components/SectionContainer'
 import { Row, Column } from '../components/Global'
 import Button from '../components/Button'
+
+const TestimonialCustomRow = styled(Row)`
+   .testimonial-section .col[data-items-count="8"]:nth-child(4) {
+    grid-column: 3 / span 4;
+}
+
+.testimonial-section .col[data-items-count="7"]:nth-child(7) {
+    grid-column: 5 / span 4;
+}
+
+.testimonial-section .col[data-items-count="5"]:nth-child(4) {
+    grid-column: 3 / span 4;
+}
+`
 
 const TestimonialsSection = ({
   title, greyBg, cta, testimonials,
@@ -14,7 +29,7 @@ const TestimonialsSection = ({
     titleCenter
     className="testimonial-section"
   >
-    <Row scrolling>
+    <TestimonialCustomRow scrolling>
       {testimonials.map((testimonial, i) => (
         <Column key={i} size="4" slide className="col" data-items-count={testimonials.length}>
           <TestimonialItem
@@ -25,7 +40,7 @@ const TestimonialsSection = ({
           />
         </Column>
       ))}
-    </Row>
+    </TestimonialCustomRow>
     {cta && (
       <Row>
         <Column style={{ textAlign: 'center', marginTop: '5px' }} size="12">

@@ -6,9 +6,17 @@ import SimpleCard from '../components/SimpleCard'
 import Button from '../components/Button'
 
 const CustomRow = styled(Row)`
-  .col:nth-child(4) {
-    grid-column: 3 / span 4;
-  }
+   .special-section .col[data-items-count="8"]:nth-child(4) {
+      grid-column: 3 / span 4;
+   }
+
+   .special-section .col[data-items-count="7"]:nth-child(7) {
+      grid-column: 5 / span 4;
+   }
+
+   .special-section .col[data-items-count="5"]:nth-child(4) {
+       grid-column: 3 / span 4;
+   }
 `
 
 const SpecialFeatures = (props) => {
