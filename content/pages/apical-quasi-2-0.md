@@ -220,7 +220,7 @@ sections:
             image: ' '
             title: Go live with Apical
         cta:
-          link: '#d'
+          link: '#onboarding'
           text: Tell us your story
         greyBg: true
         subtitle: Dedicated to people and companies without a travel license
@@ -248,7 +248,7 @@ sections:
             image: ' '
             title: Go live insieme ad Apical
         cta:
-          link: d
+          link: '#onboarding'
           text: Raccontaci di te
         greyBg: true
         subtitle: Dedicato alle persone e alle aziende prive di licenza travel
@@ -258,7 +258,7 @@ sections:
   - props:
       en:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Book a call
         image: 'https://ucarecdn.com/1c6d2122-fecd-4ef2-bee7-742712c351d0/'
         smallText: true
@@ -267,7 +267,7 @@ sections:
           all its experience to carry out your project
       it:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Prenota una chiamata
         image: 'https://ucarecdn.com/0c0f6790-68a7-4d15-8050-678dcf8d1691/'
         smallText: true
@@ -326,7 +326,7 @@ sections:
   - props:
       en:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Contact us
         greyBg: true
         testimonials:
@@ -370,7 +370,7 @@ sections:
         title: Who partners with us
       it:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Contattaci
         greyBg: true
         testimonials:
