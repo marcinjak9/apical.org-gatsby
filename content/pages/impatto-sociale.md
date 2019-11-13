@@ -7,7 +7,7 @@ hideNav: false
 hideFooter: false
 meta:
   en:
-    pageTitle: Impatto sociale
+    pageTitle: Social Impact Apical
   it:
     pageDescription: >-
       Apical è la piattaforma dedicata a chiunque lavori nel settore travel. Con
@@ -16,12 +16,18 @@ meta:
 sections:
   - props:
       en:
+        cta:
+          link: '#onboarding'
+          text: Join Apical
         heroBody: >-
           Apical is a booking platform that enables travel operators to engage
           their public in social and environmental positive impact
         image: 'https://ucarecdn.com/cd8004a2-1390-494a-a82c-e6bae07ecbab/'
         title: '#traveldifferently '
       it:
+        cta:
+          link: '#onboarding'
+          text: Entra in Apical
         heroBody: >-
           Apical è la booking platform che permette agli operatori del settore
           travel di coinvolgere il proprio pubblico in azioni ad impatto sociale
