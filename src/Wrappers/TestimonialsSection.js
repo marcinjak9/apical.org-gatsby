@@ -15,7 +15,7 @@ const TestimonialsSection = ({
   >
     <Row scrolling>
       {testimonials.map((testimonial, i) => (
-        <Column key={i} size="4" slide>
+        <Column key={i} size="4" slide className="col" data-items-count={testimonials.length}>
           <TestimonialItem
             name={testimonial.name}
             body={testimonial.body}
@@ -28,7 +28,7 @@ const TestimonialsSection = ({
     {cta && (
       <Row>
         <Column size="12">
-          <Button href={cta.url || cta.link} primary>
+          <Button style={{ textAlign: 'center', marginTop: '5px' }} href={cta.url || cta.link} primary>
             {cta.text}
           </Button>
         </Column>

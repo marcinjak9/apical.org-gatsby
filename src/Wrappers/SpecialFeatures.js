@@ -18,7 +18,7 @@ const SpecialFeatures = (props) => {
       <CustomRow scrolling>
         {features
           && features.map((f, i) => (
-            <Column key={i} className="col" slide size="4">
+            <Column key={i} className="col" slide size="4" data-items-count={features.length}>
               <SimpleCard
                 image={f.image}
                 title={f.title}
