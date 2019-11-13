@@ -252,7 +252,7 @@ sections:
               Presentaci il tuo progetto nel modo che preferisci, lo
               analizzeremo insieme per capire se è pronto o se ti serve il
               nostro aiuto per completarlo, definirlo e migliorarlo
-            image: ☝
+            image: ' '
             title: Analisi del progetto
           - body: >-
               Quando tutto è pronto inizia la fase operativa in cui ci
