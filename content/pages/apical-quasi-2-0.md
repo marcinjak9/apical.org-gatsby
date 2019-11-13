@@ -219,6 +219,8 @@ sections:
               marketing and communication
             image: ' '
             title: Go live with Apical
+        cta:
+          text: Tell us your story
         subtitle: Dedicated to people and companies without a travel license
         title: Discover Apical Partnership
         titleCenter: true
