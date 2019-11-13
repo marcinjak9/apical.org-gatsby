@@ -191,6 +191,9 @@ sections:
           - body: 'Tutto quello di cui hai bisogno per creare i tuoi pacchetti '
             image: "\U0001F996"
             title: E molto altro
+          - body: Servizio fotografico? Noleggio attrezzature? Quello che vuoi tu!
+            image: "\U0001F4F8"
+            title: Servizi
         subtitle: >-
           Apical è l'unica piattaforma che ti consente di gestire tutti i tipi
           di servizi con la massima flessibilità e controllo per te e per i tuoi
