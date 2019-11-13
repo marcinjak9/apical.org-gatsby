@@ -148,6 +148,9 @@ sections:
               Shirts, badges, lighters and whatever you sell
             image: "\U0001F455"
             title: Merchandise
+          - body: 'Yoga retreat, mindfullness, paint courses'
+            image: "\U0001F9D8‍♂️"
+            title: Courses
         greyBg: false
         subtitle: >-
           Apical is the only platform that let you manage all type of services
