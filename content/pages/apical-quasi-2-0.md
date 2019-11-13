@@ -220,8 +220,9 @@ sections:
             image: ' '
             title: Go live with Apical
         cta:
-          link: '#'
+          link: '#d'
           text: Tell us your story
+        greyBg: true
         subtitle: Dedicated to people and companies without a travel license
         title: Discover Apical Partnership
         titleCenter: true
@@ -247,7 +248,9 @@ sections:
             image: ' '
             title: Go live insieme ad Apical
         cta:
+          link: d
           text: Raccontaci di te
+        greyBg: true
         subtitle: Dedicato alle persone e alle aziende prive di licenza travel
         title: Scopri Apical Partnership
         titleCenter: true
@@ -470,5 +473,26 @@ sections:
       it:
         title: Apical Journal
     type: BlogSection
+  - props:
+      en:
+        cta:
+          link: '#form'
+          text: Book a call
+        image: 'https://ucarecdn.com/1c6d2122-fecd-4ef2-bee7-742712c351d0/'
+        smallText: true
+        title: >-
+          Tell us about your goals, your needs and obstacles. Apical will field
+          all its experience to carry out your project
+      it:
+        cta:
+          link: '#form'
+          text: Prenota una chiamata
+        image: 'https://ucarecdn.com/0c0f6790-68a7-4d15-8050-678dcf8d1691/'
+        smallText: true
+        title: >-
+          Raccontaci delle tue prospettive, dei tuoi bisogni e degli ostacoli.
+          Apical metterà in campo tutta la sua esperienza per realizzare il tuo
+          progetto
+    type: SimpleHero
 ---
 
