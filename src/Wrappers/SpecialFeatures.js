@@ -14,7 +14,7 @@ const CustomRow = styled(Row)`
 const SpecialFeatures = (props) => {
   const { features, cta } = props
   return (
-    <SectionContainer {...props}>
+    <SectionContainer {...props} className="special-section">
       <CustomRow scrolling>
         {features
           && features.map((f, i) => (

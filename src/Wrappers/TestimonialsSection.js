@@ -12,6 +12,7 @@ const TestimonialsSection = ({
     title={title || 'Cosa dicono di noi'}
     greyBg={greyBg}
     titleCenter
+    className="testimonial-section"
   >
     <Row scrolling>
       {testimonials.map((testimonial, i) => (
@@ -27,8 +28,8 @@ const TestimonialsSection = ({
     </Row>
     {cta && (
       <Row>
-        <Column size="12">
-          <Button style={{ textAlign: 'center', marginTop: '5px' }} href={cta.url || cta.link} primary>
+        <Column style={{ textAlign: 'center', marginTop: '5px' }} size="12">
+          <Button href={cta.url || cta.link} primary>
             {cta.text}
           </Button>
         </Column>
