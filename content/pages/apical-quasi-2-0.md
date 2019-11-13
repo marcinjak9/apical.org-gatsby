@@ -22,7 +22,7 @@ sections:
   - props:
       en:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Join Apical
         heroBody: >-
           Apical empowers partners to thrive in travel industry with technology
@@ -31,7 +31,7 @@ sections:
         title: Partner and grow with Apical
       it:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Unisciti ad Apical
         heroBody: >-
           Apical aiuta i propri partner a svilupparsi nel settore travel. Dalla
@@ -56,7 +56,7 @@ sections:
           Our goal is to grow with customers, giving them the same tools as
           large platforms use to dominate the market. 
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Discover more
         title: What we do
       it:
@@ -76,7 +76,7 @@ sections:
           gli stessi strumenti utilizzati dalle grandi piattaforme per competere
           sul mercato.
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Scopri di più
         title: Cosa facciamo
     type: WhatWeDo
@@ -125,7 +125,7 @@ sections:
   - props:
       en:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Let's start
         features:
           - body: 'Dorm beds, private rooms, camps and whatever you offer '
@@ -162,7 +162,7 @@ sections:
         titleCenter: true
       it:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Partiamo!
         features:
           - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
