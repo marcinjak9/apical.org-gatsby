@@ -22,7 +22,7 @@ sections:
   - props:
       en:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Join Apical
         heroBody: >-
           Apical empowers partners to thrive in travel industry with technology
@@ -31,7 +31,7 @@ sections:
         title: Partner and grow with Apical
       it:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Unisciti ad Apical
         heroBody: >-
           Apical aiuta i propri partner a svilupparsi nel settore travel. Dalla
@@ -56,7 +56,7 @@ sections:
           Our goal is to grow with customers, giving them the same tools as
           large platforms use to dominate the market. 
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Discover more
         title: What we do
       it:
@@ -76,7 +76,7 @@ sections:
           gli stessi strumenti utilizzati dalle grandi piattaforme per competere
           sul mercato.
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Scopri di più
         title: Cosa facciamo
     type: WhatWeDo
@@ -125,7 +125,7 @@ sections:
   - props:
       en:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Let's start
         features:
           - body: 'Dorm beds, private rooms, camps and whatever you offer '
@@ -162,7 +162,7 @@ sections:
         titleCenter: true
       it:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Partiamo!
         features:
           - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
@@ -220,8 +220,9 @@ sections:
             image: ' '
             title: Go live with Apical
         cta:
-          link: '#'
+          link: '#onboarding'
           text: Tell us your story
+        greyBg: true
         subtitle: Dedicated to people and companies without a travel license
         title: Discover Apical Partnership
         titleCenter: true
@@ -247,11 +248,34 @@ sections:
             image: ' '
             title: Go live insieme ad Apical
         cta:
+          link: '#onboarding'
           text: Raccontaci di te
+        greyBg: true
         subtitle: Dedicato alle persone e alle aziende prive di licenza travel
         title: Scopri Apical Partnership
         titleCenter: true
     type: HowItWorks
+  - props:
+      en:
+        cta:
+          link: '#onboarding'
+          text: Book a call
+        image: 'https://ucarecdn.com/1c6d2122-fecd-4ef2-bee7-742712c351d0/'
+        smallText: true
+        title: >-
+          Tell us about your goals, your needs and obstacles. Apical will field
+          all its experience to carry out your project
+      it:
+        cta:
+          link: '#onboarding'
+          text: Prenota una chiamata
+        image: 'https://ucarecdn.com/0c0f6790-68a7-4d15-8050-678dcf8d1691/'
+        smallText: true
+        title: >-
+          Raccontaci dei tuoi obiettivi, dei tuoi bisogni e degli ostacoli che
+          hai incontrato. Apical metterà in campo tutta la sua esperienza per
+          realizzare il tuo progetto
+    type: SimpleHero
   - props:
       en:
         greyBg: false
@@ -302,7 +326,7 @@ sections:
   - props:
       en:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Contact us
         greyBg: true
         testimonials:
@@ -346,7 +370,7 @@ sections:
         title: Who partners with us
       it:
         cta:
-          link: '#form'
+          link: '#onboarding'
           text: Contattaci
         greyBg: true
         testimonials:
