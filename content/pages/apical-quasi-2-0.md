@@ -151,6 +151,9 @@ sections:
           - body: 'Yoga retreat, mindfullness, paint courses'
             image: "\U0001F9D8‍♂️"
             title: Courses
+          - body: Photographer? Rental equipment? What you prefer!
+            image: "\U0001F4F8"
+            title: Services
           - body: 'Everything you need to compose your magic pack! '
             image: "\U0001F996"
             title: 'And more! '
@@ -188,12 +191,12 @@ sections:
           - body: 'Corso di yoga, mindfullness, pittura e altro! '
             image: "\U0001F9D8‍♂️"
             title: Corsi
-          - body: 'Tutto quello di cui hai bisogno per creare i tuoi pacchetti '
-            image: "\U0001F996"
-            title: E molto altro
           - body: Servizio fotografico? Noleggio attrezzature? Quello che vuoi tu!
             image: "\U0001F4F8"
             title: Servizi
+          - body: 'Tutto quello di cui hai bisogno per creare i tuoi pacchetti '
+            image: "\U0001F996"
+            title: E molto altro
         subtitle: >-
           Apical è l'unica piattaforma che ti consente di gestire tutti i tipi
           di servizi con la massima flessibilità e controllo per te e per i tuoi
