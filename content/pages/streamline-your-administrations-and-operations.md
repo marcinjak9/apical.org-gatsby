@@ -145,5 +145,7 @@ sections:
         redirectTo: grazie
         title: Entra in contatto con un nostro esperto
     type: FormSection
+  - type: HomeHero
+  - type: BlogSection
 ---
 
