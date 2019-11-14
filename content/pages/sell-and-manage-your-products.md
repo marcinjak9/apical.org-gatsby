@@ -17,16 +17,17 @@ sections:
         heroBody: '> with maximum flexibility for you to be creative'
         title: Everything you need to sell online
         typings:
+          - Trips
+          - Accommodations
           - Events and festivals
           - Retreats
-          - Surf trips
           - Yoga lessons
-          - Accommodations
       it:
         cta:
           link: '#onboarding'
           text: Join us
         heroBody: con la massima personalizzazione per te e per i tuoi clienti
+        image: 'https://ucarecdn.com/aa83db12-2900-4733-8f5e-8435142b6303/'
         title: Tutto quello di cui hai bisogno per vendere online
         typings:
           - viaggi ed esperienze
