@@ -32,6 +32,15 @@ sections:
         title: Le tue performance sempre sotto controllo
     type: HomeHero
   - props:
+      en:
+        slides:
+          - body: >-
+              Monitor the progress of your sales, compare them over time, get
+              the best information to improve
+            image: 'https://ucarecdn.com/4dd3d663-0cca-40c5-9469-a435426a3464/'
+            title: 1. Measure your business performance
+        title: How Apical helps you understand your metrics
+        titleCenter: true
       it:
         slides:
           - body: >-
