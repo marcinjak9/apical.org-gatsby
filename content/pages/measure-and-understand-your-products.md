@@ -6,8 +6,17 @@ type: page
 hideNav: false
 hideFooter: false
 meta:
-  en: {}
-  it: {}
+  en:
+    pageDescription: >-
+      With Apical Analytics and Performance tools you can monitor your sales and
+      your traffic with real-time metrics, complete reports and more!
+    pageTitle: Apical - Measure and understand your metrics
+  it:
+    pageDescription: >-
+      Con gli strumenti Apical Analytics e Performance puoi monitorare le tue
+      vendite e il tuo traffico con metriche in tempo reale, report completi e
+      altro!
+    pageTitle: Apical - Misura e capisci le tue metriche
 sections:
   - props:
       en:
