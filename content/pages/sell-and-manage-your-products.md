@@ -6,8 +6,10 @@ type: page
 hideNav: false
 hideFooter: false
 meta:
-  en: {}
-  it: {}
+  en:
+    pageTitle: Apical - Sell and manage
+  it:
+    pageTitle: Apical - Vendi e gestisci
 sections:
   - props:
       en:
