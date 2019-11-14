@@ -24,9 +24,9 @@ sections:
           link: '#onboarding'
           text: Discover
         heroBody: >-
-          Con Apical le operazioni amministrative vengono gestite
-          automaticamente dal tuo Back Office online. Il tempo risparmiato lo
-          puoi dedicare a migliorare i tuoi prodotti
+          With Apical the administrative operations are managed automatically by
+          your online Back Office. You can dedicate the time saved to improve
+          your products
         image: 'https://ucarecdn.com/aa5f2612-1c8a-459e-aace-a6b18369f457/'
         title: Save 80% of your time
       it:
