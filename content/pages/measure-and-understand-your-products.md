@@ -80,6 +80,13 @@ sections:
         title: ''
     type: Presentation
   - props:
+      en:
+        slides:
+          - body: >-
+              Monitor the number of visitors and their geographical origin, the
+              demographic characteristics and how they arrived on your website
+            image: 'https://ucarecdn.com/8fc56f7e-9c58-4959-8d60-68cee21395c1/'
+            title: 3. Know your site visitors
       it:
         slides:
           - body: >-
