@@ -110,5 +110,32 @@ sections:
           text: Scopri come
         title: Snellisci i tuoi processi e le tue operazioni
     type: Cta
+  - props:
+      en:
+        columns:
+          - body: Fill out the form below to get in touch with our team
+            title: 1. Leave a contact
+          - {}
+        greyBg: true
+        title: Tell us your story
+        titleCenter: true
+      it:
+        columns:
+          - body: >-
+              Compila il form sottostante per poter entrare in contatto con il
+              nostro team 
+            title: 1. Lascia un tuo recapito
+          - body: >-
+              Raccontaci la tua storia, il tuo progetto e le tue esigenze. Un
+              nostro esperto cercherà di capire come possiamo esserti utili
+            title: 2. Entra in contatto
+          - body: >-
+              Inizia la tua partnership con Apical dopo aver ricevuto la
+              consulenza di un nostro esperto
+            title: 3. Sali a bordo
+        greyBg: true
+        title: Raccontaci la tua storia
+        titleCenter: true
+    type: WelcomeSteps
 ---
 
