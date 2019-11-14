@@ -22,6 +22,18 @@ sections:
           - Surf trips
           - Yoga lessons
           - Accommodations
+      it:
+        cta:
+          link: '#onboarding'
+          text: Join us
+        heroBody: con la massima personalizzazione per te e per i tuoi clienti
+        title: Tutto quello di cui hai bisogno per vendere online
+        typings:
+          - viaggi ed esperienze
+          - 'eventi '
+          - retreat e convegni
+          - accomodation
+          - tutto ciò che vuoi
     type: HomeHero
   - props:
       en:
