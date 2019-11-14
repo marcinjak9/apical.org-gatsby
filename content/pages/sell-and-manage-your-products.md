@@ -47,6 +47,14 @@ sections:
               can be managed!
             image: 'https://ucarecdn.com/8db9b02c-5760-4337-87a9-953a2594ebc2/'
             title: Everything you offer manged in one place
+      it:
+        slides:
+          - body: >-
+              Attività, biglietti, alloggi, trasporti, assicurazioni, merci,
+              ecc.. Con il back office Apical, tutti i tipi di servizi possono
+              essere gestiti!
+            image: 'https://ucarecdn.com/fc3d13f2-fe6e-4d9d-805c-1be4cb3d7e32/'
+            title: Gestisci tutti i tuoi prodotti nello stesso ambiente
     type: Presentation
   - props:
       en:
