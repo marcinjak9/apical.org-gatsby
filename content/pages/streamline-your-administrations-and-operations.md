@@ -6,8 +6,17 @@ type: page
 hideNav: false
 hideFooter: false
 meta:
-  en: {}
-  it: {}
+  en:
+    pageDescription: >-
+      With Apical Back Office you can streamline your working process: manage
+      bookings and customers, invoices, payments and all the rest in one place!
+    pageTitle: Apical - Automize your administration
+  it:
+    pageDescription: >-
+      Con Apical Back Office puoi semplificare il tuo processo di lavoro:
+      gestisci prenotazioni e clienti, fatture, pagamenti e tutto il resto in un
+      unico posto!
+    pageTitle: Apical - Automatizza il tuo back office
 sections:
   - props:
       it:
