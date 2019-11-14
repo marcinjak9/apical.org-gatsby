@@ -85,6 +85,14 @@ sections:
             image: 'https://ucarecdn.com/b05bb4b4-0a6e-49e4-bfa9-8276a372e6a0/'
             title: Optimum and safe customer experience
         title: ''
+      it:
+        slides:
+          - body: >-
+              Il motore di prenotazione offre ai tuoi clienti un processo di
+              prenotazione configurabile e divertente e un processo di pagamento
+              sicuro
+            image: 'https://ucarecdn.com/38e9850b-a514-4e1e-ae73-644483a6d142/'
+            title: Un'esperienza utente sicura e piacevole
     type: Presentation
   - props:
       en:
@@ -98,14 +106,14 @@ sections:
         title: 'Next step: analyze your business'
       it:
         body: >-
-          Apical always strives to help partners stand out in the market.
-          Measure, analyze and understand your business is as important as
-          selling.
+          Apical si impegna sempre per aiutare i partner a distinguersi nel
+          mercato. Misurare, analizzare e comprendere la tua attività è
+          importante quanto vendere
         cta:
           link: measure-understand
-          text: Discover how
+          text: Scopri di più sul Booking Engine
         quote: ''
-        title: 'Next step: analyze your business'
+        title: 'Prossimo step: analizza il tuo business! '
     type: Cta
 ---
 
