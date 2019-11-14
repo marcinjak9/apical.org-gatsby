@@ -61,6 +61,14 @@ sections:
         titleCenter: true
     type: Presentation
   - props:
+      en:
+        slides:
+          - body: >-
+              With Apical's Metrics dashboard, you monitor the performance of
+              your campaigns and activate remarketing for customers who have
+              left your cart
+            image: 'https://ucarecdn.com/fcb3c156-ec71-432f-8076-680dc22ff368/'
+            title: 2. Keep watching marketing metrics
       it:
         slides:
           - body: >-
