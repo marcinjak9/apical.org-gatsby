@@ -40,6 +40,15 @@ sections:
         title: Risparmia l'80% del tempo
     type: HomeHero
   - props:
+      en:
+        slides:
+          - body: >-
+              With Apical the management of invoices and orders is easy:
+              everything in a unique and digital environment. From today with
+              integration with Fatture in Cloud
+            image: 'https://ucarecdn.com/797a779c-ba86-4ae8-9e7a-7e0f606bd345/'
+            title: 1. Manage billing
+        title: Your online back office
       it:
         slides:
           - body: >-
@@ -51,6 +60,14 @@ sections:
         title: Il tuo back office online
     type: Presentation
   - props:
+      en:
+        slides:
+          - body: >-
+              Insurance is a protection for your customers and for you. Produce,
+              manage and offer the documents you need to have a peaceful
+              experience
+            image: 'https://ucarecdn.com/cc50d38f-45e7-4b12-b792-0ee092f185ce/'
+            title: 2. Protect your audience
       it:
         slides:
           - body: >-
