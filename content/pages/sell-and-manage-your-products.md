@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
 title: Sell and manage your products
-slug: Sell-and-manage-your-products
+slug: sell-manage
 type: page
 hideNav: false
 hideFooter: false
