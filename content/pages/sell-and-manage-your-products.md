@@ -115,5 +115,21 @@ sections:
         quote: ''
         title: 'Prossimo step: analizza il tuo business! '
     type: Cta
+  - props:
+      en:
+        body: >-
+          Leave your contact details in order to allow one of our experts to
+          offer you maximum assistance
+        formId: d568a967-0f3b-4797-9db8-33994687dcc9
+        redirectTo: grazie
+        title: 'Contact one of us! '
+      it:
+        body: >-
+          Lascia i tuoi recapiti per poter permettere ad un nostro esperto di
+          offrirti il massimo dell'assistenza
+        formId: d568a967-0f3b-4797-9db8-33994687dcc9
+        redirectTo: grazie
+        title: Entra in contatto con un nostro esperto
+    type: FormSection
 ---
 
