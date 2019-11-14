@@ -100,6 +100,14 @@ sections:
         columns:
           - body: Fill out the form below to get in touch with our team
             title: 1. Leave a contact
+          - body: >-
+              Tell us your story, your project and your needs. One of our
+              experts will try to understand how we can help you
+            title: 2. First contact
+          - body: >-
+              Start your partnership with Apical after receiving the advice of
+              one of our experts
+            title: 3. Onboarding
         greyBg: true
         title: Tell us your story
         titleCenter: true
