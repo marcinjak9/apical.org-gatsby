@@ -66,6 +66,14 @@ sections:
             title: Dynamic packaging made easy
       it:
         greyBg: true
+        slides:
+          - body: >-
+              Con la massima flessibilità del back office Apical, la
+              composizione di pacchetti non è mai stata così facile
+            image: 'https://ucarecdn.com/447718eb-45a6-4983-9f37-4b5a519a8989/'
+            title: >-
+              Un Dynamic Packaging per rendere più facile la creazione di
+              pacchetti
     type: Presentation
   - props:
       en:
