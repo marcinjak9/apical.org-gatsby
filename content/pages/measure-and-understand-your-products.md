@@ -106,6 +106,7 @@ sections:
       it:
         bgImage: 'https://ucarecdn.com/7d5fc54a-5fdb-4d7d-8efa-200dfe377ab6/'
         cta:
+          link: home
           text: Scopri come
         title: Snellisci i tuoi processi e le tue operazioni
     type: Cta
