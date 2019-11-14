@@ -78,6 +78,14 @@ sections:
             title: 2. Proteggi il tuo pubblico
     type: Presentation
   - props:
+      en:
+        slides:
+          - body: >-
+              With Apical, keep the contracts in order. From the dashboard you
+              can upload, manage and monitor your documents easily
+            image: 'https://ucarecdn.com/c587e1f8-89b2-4464-bd0a-f115d5c312a1/'
+            title: 3. Contracts and documentation in order
+        title: ''
       it:
         slides:
           - body: >-
