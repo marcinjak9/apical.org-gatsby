@@ -10,8 +10,25 @@ meta:
   it: {}
 sections:
   - props:
+      en:
+        cta:
+          link: '#onboarding'
+          text: Join us
+        heroBody: >-
+          In the travel, knowing how to orient yourself is fundamental: for this
+          reason Apical offers you the best tools to understand the progress of
+          your business easily
+        image: 'https://ucarecdn.com/eb81aa0e-5c15-4dac-80ca-25fe3d0fce78/'
+        title: Your performances always under control
       it:
-        heroBody: ' Nel settore travel sapersi orientare è fondamentale: per questo Apical ti offre i migliori strumenti per comprendere l''andamento della tua attività facilmente'
+        cta:
+          link: '#onboarding'
+          text: Unisciti
+        heroBody: >-
+          Nel settore travel sapersi orientare è fondamentale: per questo Apical
+          ti offre i migliori strumenti per comprendere l'andamento della tua
+          attività facilmente
+        image: 'https://ucarecdn.com/ab35a156-7b24-4481-8b33-ab0e5f31ba11/'
         title: Le tue performance sempre sotto controllo
     type: HomeHero
   - props:
