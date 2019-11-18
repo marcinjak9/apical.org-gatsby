@@ -24,9 +24,15 @@ sections:
           link: '#onboarding'
           text: Join us
         heroBody: >-
+          <br>
+
+
           In the travel industry, knowing how to orient yourself is fundamental:
           for this reason Apical offers you the best tools to understand the
           progress of your business easily
+
+
+          <br>
         image: 'https://ucarecdn.com/eb81aa0e-5c15-4dac-80ca-25fe3d0fce78/'
         title: Your performances always under control
       it:
@@ -34,9 +40,15 @@ sections:
           link: '#onboarding'
           text: Unisciti
         heroBody: >-
+          <br>
+
+
           Nel settore travel sapersi orientare è fondamentale: per questo Apical
           ti offre i migliori strumenti per comprendere l'andamento della tua
           attività facilmente
+
+
+          <br>
         image: 'https://ucarecdn.com/ab35a156-7b24-4481-8b33-ab0e5f31ba11/'
         title: Le tue performance sempre sotto controllo
     type: HomeHero
