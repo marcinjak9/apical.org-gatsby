@@ -23,8 +23,11 @@ sections:
           <br>
 
 
-          > with maximum flexibility for you to be creative and for your
-          customers to personalize!
+          with maximum flexibility for you to be creative and for your customers
+          to personalize!
+
+
+          <br>
         title: Everything you need to sell online
         typings:
           - Trips
@@ -39,7 +42,9 @@ sections:
         heroBody: |-
           <br>
 
-          > con la massima personalizzazione per te e per i tuoi clienti!
+          con la massima personalizzazione per te e per i tuoi clienti!
+
+          <br>
         image: 'https://ucarecdn.com/aa83db12-2900-4733-8f5e-8435142b6303/'
         title: Tutto quello di cui hai bisogno per vendere online
         typings:
