@@ -28,6 +28,7 @@ sections:
 
 
           <br>
+        image: 'https://ucarecdn.com/28887fd3-88b1-4375-960b-93ede6ac36cd/'
         title: Everything you need to sell online
         typings:
           - Trips
