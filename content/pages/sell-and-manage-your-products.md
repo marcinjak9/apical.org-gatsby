@@ -36,7 +36,10 @@ sections:
         cta:
           link: '#onboarding'
           text: Join us
-        heroBody: con la massima personalizzazione per te e per i tuoi clienti!
+        heroBody: |-
+          <br>
+
+          > con la massima personalizzazione per te e per i tuoi clienti!
         image: 'https://ucarecdn.com/aa83db12-2900-4733-8f5e-8435142b6303/'
         title: Tutto quello di cui hai bisogno per vendere online
         typings:
