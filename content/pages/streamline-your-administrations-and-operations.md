@@ -44,10 +44,10 @@ sections:
         slides:
           - body: >-
               With Apical the management of invoices and orders is easy:
-              everything in a unique and digital environment. From today with
-              integration with Fatture in Cloud
+              everything in a unique and digital environment, from today on with
+              the integration of Fatture in Cloud
             image: 'https://ucarecdn.com/797a779c-ba86-4ae8-9e7a-7e0f606bd345/'
-            title: 1. Manage billing
+            title: 1. Manage invoices
         title: Your online back office
       it:
         slides:
