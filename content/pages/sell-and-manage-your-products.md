@@ -7,6 +7,9 @@ hideNav: false
 hideFooter: false
 meta:
   en:
+    pageDescription: >-
+      Partner with Apical and get everything you need to sell and manage your
+      travel products online.
     pageTitle: Apical - Sell and manage
   it:
     pageTitle: Apical - Vendi e gestisci
@@ -16,7 +19,12 @@ sections:
         cta:
           link: '#form'
           text: Join us
-        heroBody: '> with maximum flexibility for you to be creative'
+        heroBody: >-
+          <br>
+
+
+          > with maximum flexibility for you to be creative and for your
+          customers to personalize!
         title: Everything you need to sell online
         typings:
           - Trips
@@ -28,7 +36,7 @@ sections:
         cta:
           link: '#onboarding'
           text: Join us
-        heroBody: con la massima personalizzazione per te e per i tuoi clienti
+        heroBody: con la massima personalizzazione per te e per i tuoi clienti!
         image: 'https://ucarecdn.com/aa83db12-2900-4733-8f5e-8435142b6303/'
         title: Tutto quello di cui hai bisogno per vendere online
         typings:
