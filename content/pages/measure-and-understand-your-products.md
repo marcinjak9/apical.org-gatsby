@@ -10,7 +10,7 @@ meta:
     pageDescription: >-
       With Apical Analytics and Performance tools you can monitor your sales and
       your traffic with real-time metrics, complete reports and more!
-    pageTitle: Apical - Measure and understand your metrics
+    pageTitle: Apical - Measure and understand your business
   it:
     pageDescription: >-
       Con gli strumenti Apical Analytics e Performance puoi monitorare le tue
@@ -24,9 +24,9 @@ sections:
           link: '#onboarding'
           text: Join us
         heroBody: >-
-          In the travel, knowing how to orient yourself is fundamental: for this
-          reason Apical offers you the best tools to understand the progress of
-          your business easily
+          In the travel industry, knowing how to orient yourself is fundamental:
+          for this reason Apical offers you the best tools to understand the
+          progress of your business easily
         image: 'https://ucarecdn.com/eb81aa0e-5c15-4dac-80ca-25fe3d0fce78/'
         title: Your performances always under control
       it:
@@ -48,7 +48,7 @@ sections:
               the best information to improve
             image: 'https://ucarecdn.com/4dd3d663-0cca-40c5-9469-a435426a3464/'
             title: 1. Measure your business performance
-        title: How Apical helps you understand your metrics
+        title: How Apical helps you understand your business
         titleCenter: true
       it:
         slides:
@@ -66,7 +66,7 @@ sections:
           - body: >-
               With Apical's Metrics dashboard, you monitor the performance of
               your campaigns and activate remarketing for customers who have
-              left your cart
+              left their carts
             image: 'https://ucarecdn.com/fcb3c156-ec71-432f-8076-680dc22ff368/'
             title: 2. Keep watching marketing metrics
       it:
