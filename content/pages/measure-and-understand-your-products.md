@@ -58,7 +58,7 @@ sections:
           - body: >-
               Monitor the progress of your sales, compare them over time, get
               the best information to improve
-            image: 'https://ucarecdn.com/4dd3d663-0cca-40c5-9469-a435426a3464/'
+            image: 'https://ucarecdn.com/fd06e793-abb7-4801-8e0a-d230422c0914/'
             title: 1. Measure your business performance
         title: How Apical helps you understand your business
         titleCenter: true
@@ -67,7 +67,7 @@ sections:
           - body: >-
               Monitora l'andamento delle tue vendite, confrontale nel tempo,
               ottieni le migliori informazioni per migliorarti
-            image: 'https://ucarecdn.com/c68d7b13-1065-4b52-851c-3b178bd84b6b/'
+            image: 'https://ucarecdn.com/c842115d-cdef-4bc1-9581-251cb85c5383/'
             title: 1. Misura le tue performance business
         title: Come Apical ti aiuta a comprendere il tuo business
         titleCenter: true
@@ -79,7 +79,7 @@ sections:
               With Apical's Metrics dashboard, you monitor the performance of
               your campaigns and activate remarketing for customers who have
               left their carts
-            image: 'https://ucarecdn.com/fcb3c156-ec71-432f-8076-680dc22ff368/'
+            image: 'https://ucarecdn.com/a8fc3ec3-bb36-4885-a66f-cdcbf5f1a413/'
             title: 2. Keep watching marketing metrics
       it:
         slides:
@@ -87,7 +87,7 @@ sections:
               Con la dashboard Metrics di Apical controlla le performance delle
               tue campagne e attivi il remarketing per i clienti che hanno
               abbandonato il tuo carrello
-            image: 'https://ucarecdn.com/5e062d41-d926-4fac-a1c9-e6a4bfbad4c0/'
+            image: 'https://ucarecdn.com/8d471ebf-d3e2-47d0-bff3-eb391781ac52/'
             title: 2. Tieni sott'occhio le metriche marketing
         title: ''
     type: Presentation
@@ -97,7 +97,7 @@ sections:
           - body: >-
               Monitor the number of visitors and their geographical origin, the
               demographic characteristics and how they arrived on your website
-            image: 'https://ucarecdn.com/8fc56f7e-9c58-4959-8d60-68cee21395c1/'
+            image: 'https://ucarecdn.com/b35592df-0ce9-4f23-8cef-05ede813fa37/'
             title: 3. Know your site visitors
       it:
         slides:
@@ -105,7 +105,7 @@ sections:
               Monitora il numero di visitatori e la loro provenienza geografica,
               le caratteristiche demografiche e come sono arrivati sul tuo sito
               internet
-            image: 'https://ucarecdn.com/3935a451-eeef-49a6-9348-c135fda3c91b/'
+            image: 'https://ucarecdn.com/5ec58ed3-7df9-4c66-bfaf-872444b8be0f/'
             title: 3. Conosci i visitatori del tuo sito
     type: Presentation
   - props:
