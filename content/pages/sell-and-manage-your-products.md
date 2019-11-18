@@ -62,7 +62,7 @@ sections:
               Activities, tickets, accommodations, transportation, insurances,
               merchandises, etc., with Apical back office, all types of services
               can be managed!
-            image: 'https://ucarecdn.com/8db9b02c-5760-4337-87a9-953a2594ebc2/'
+            image: 'https://ucarecdn.com/6212dd46-49fd-4694-a129-f045930ffd7d/'
             title: Everything you offer manged in one place
       it:
         slides:
@@ -70,7 +70,7 @@ sections:
               Attività, biglietti, alloggi, trasporti, assicurazioni, merci,
               ecc.. Con il back office Apical, tutti i tipi di servizi possono
               essere gestiti!
-            image: 'https://ucarecdn.com/fc3d13f2-fe6e-4d9d-805c-1be4cb3d7e32/'
+            image: 'https://ucarecdn.com/be1ebafc-3683-45e4-92f5-2e89b900fc76/'
             title: Gestisci tutti i tuoi prodotti nello stesso ambiente
     type: Presentation
   - props:
@@ -79,7 +79,7 @@ sections:
           - body: >-
               With the maximum flexibility of Apical back office, composing
               packages has never been easier!
-            image: 'https://ucarecdn.com/781983a2-5795-4091-96e4-acdc26de0eb8/'
+            image: 'https://ucarecdn.com/3bf9787e-bef9-44bf-8f83-d7afaafc6ea0/'
             title: Dynamic packaging made easy
       it:
         greyBg: true
@@ -87,7 +87,7 @@ sections:
           - body: >-
               Con la massima flessibilità del back office Apical, la
               composizione di pacchetti non è mai stata così facile
-            image: 'https://ucarecdn.com/447718eb-45a6-4983-9f37-4b5a519a8989/'
+            image: 'https://ucarecdn.com/41b1b547-2fca-4433-91af-6d0ee32322d3/'
             title: >-
               Un Dynamic Packaging per rendere più facile la creazione di
               pacchetti
@@ -99,7 +99,7 @@ sections:
           - body: >-
               The booking engine provides your customers with a configurable and
               fun booking process and a safe payment process.
-            image: 'https://ucarecdn.com/b05bb4b4-0a6e-49e4-bfa9-8276a372e6a0/'
+            image: 'https://ucarecdn.com/c1f8b40c-47df-462e-a50e-c61e7b7acbc4/'
             title: Optimum and safe customer experience
         title: ''
       it:
@@ -108,7 +108,7 @@ sections:
               Il motore di prenotazione offre ai tuoi clienti un processo di
               prenotazione configurabile e divertente e un processo di pagamento
               sicuro
-            image: 'https://ucarecdn.com/38e9850b-a514-4e1e-ae73-644483a6d142/'
+            image: 'https://ucarecdn.com/0d580738-86ec-465c-97a2-be20d2f316c7/'
             title: Un'esperienza utente sicura e piacevole
     type: Presentation
   - props:
