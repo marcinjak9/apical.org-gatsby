@@ -28,7 +28,7 @@ sections:
           Apical empowers partners to thrive in travel industry with technology
           legalization and 360 support. We embrace your goals with ours
         image: 'https://ucarecdn.com/0341321f-676f-4b03-9178-545f06944ff6/'
-        title: Partner and grow with Apical
+        title: Grow with Apical
       it:
         cta:
           link: '#onboarding'
