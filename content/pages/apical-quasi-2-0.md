@@ -34,11 +34,11 @@ sections:
           link: '#onboarding'
           text: Unisciti ad Apical
         heroBody: >-
-          Apical aiuta i propri partner a svilupparsi nel settore travel. Dalla
-          tecnologia, amministrazione e impatto sociale, i tuoi obiettivi
-          diventano i nostri
+          Apical aiuta i propri partner a svilupparsi nel settore travel.
+          Vendere online, semplificare la contabilità ed essere coinvolto in
+          azioni ad impatto ambientale: i tuoi obiettivi diventano i nostri!
         image: 'https://ucarecdn.com/58b6320f-6a40-45b7-986b-0ba52987cb96/'
-        title: Cresci in partnership con Apical
+        title: Cresci con Apical
     type: HomeHero
   - props:
       en:
