@@ -61,20 +61,27 @@ sections:
         title: What we do
       it:
         body: >
-          Siamo un partner business. Offriamo tecnologia, conoscenza e rete per
-          supportare tutti i creatori di esperienze.
+          Siamo un partner del tuo business. La nostra missione è consentire a
+          tutti di creare, gestire e vendere prodotti trave fornendo servizi a
+          360 gradi.
+
+          Offriamo strumenti digitali, servizi legali e amministrativi,
+          conoscenza del mercato e nuove opportunità per supportare tutti i
+          creatori di esperienze travel.
 
 
-          La nostra missione è consentire a tutti di creare, gestire e vendere
-          prodotti trave fornendo servizi a 360 gradi: legal, amministrazione e
-          strumenti digitali. Non hai bisogno di tutto questo perché hai già un
-          efficiente back office? Il nostro Booking Engine è a tua disposizione
-          per digitalizzare la tua azienda!
+          Sei un tour operator con un buon Back Office ma spendi troppo del tuo
+          tempo in amministrazione? Il servizio Booking Engine è pronto per
+          digitalizzare la tua azienda!
 
 
-          Il nostro obiettivo è quello di crescere con i clienti, offrendo loro
-          gli stessi strumenti utilizzati dalle grandi piattaforme per competere
-          sul mercato.
+          Sei un organizzatore di esperienze e vorresti fare un salto di
+          qualità? Il servizio Partnership ti offre supporto atutto campo!
+
+
+          Il nostro obiettivo è quello di crescere con i nostri clienti,
+          offrendo loro gli stessi strumenti utilizzati dalle grandi piattaforme
+          per competere sul mercato.
         cta:
           link: '#onboarding'
           text: Scopri di più
