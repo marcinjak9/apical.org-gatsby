@@ -98,6 +98,53 @@ sections:
     type: WhatWeDo
   - props:
       en:
+        greyBg: false
+        slides:
+          - body: >-
+              With Apical Dashboard you can easily organize and merchandise your
+              supplies such as rooms, beds, activities, transportations and
+              more! 
+            image: 'https://ucarecdn.com/cd4dc145-2a24-4036-b74c-94b4d2c91d37/'
+            title: 1. Manage and sell your travel products
+          - body: >-
+              With Apical Analytics and Performance tools you can monitor your
+              sales and your traffic with real-time metrics, complete reports
+              and more!
+            image: 'https://ucarecdn.com/b6e193e8-c403-4aac-90a1-751f0b304cbb/'
+            title: 2. Measure and understand your business
+          - body: >-
+              With Apical Back Office you can streamline your working process:
+              manage bookings and customers, invoices, payments and all the rest
+              in one place!
+            image: 'https://ucarecdn.com/6ef2bfcc-ed77-4de9-b1f5-05459ead14a7/'
+            title: 3. Automize your administration
+        title: 'Discover our technology: Apical Booking Engine'
+        titleCenter: true
+      it:
+        slides:
+          - body: >-
+              Con Apical Dashboard puoi organizzare e vendere facilmente i tuoi
+              prodotti come stanze, letti, attività, trasporti e altro ancora!
+              Dai spazio alla tua creatività
+            image: 'https://ucarecdn.com/8caa7a79-d952-4644-bc29-7d529a466ce0/'
+            title: 1. Gestisci e vendi i tuoi prodotti travel
+          - body: >-
+              Con gli strumenti Apical Analytics e Performance puoi monitorare
+              le tue vendite e il tuo traffico con metriche in tempo reale,
+              report completi e altro!
+            image: 'https://ucarecdn.com/152dbcbe-41c2-4f84-a8c5-a60aaaddd317/'
+            title: 2. Misura e comprendi il tuo business
+          - body: >-
+              Con Apical Back Office puoi semplificare il tuo processo di
+              lavoro: gestisci prenotazioni e clienti, fatture, pagamenti e
+              tutto il resto in un unico posto!
+            image: 'https://ucarecdn.com/9a7d2643-a27a-4f22-b584-826167c3d194/'
+            title: 3. Automatizza il tuo back office
+        title: 'Scopri la nostra tecnologia: il Booking Engine'
+        titleCenter: true
+    type: Presentation
+  - props:
+      en:
         greyBg: true
         items:
           - body: >-
@@ -298,53 +345,6 @@ sections:
           hai incontrato. Apical metterà in campo tutta la sua esperienza per
           realizzare il tuo progetto
     type: SimpleHero
-  - props:
-      en:
-        greyBg: false
-        slides:
-          - body: >-
-              With Apical Dashboard you can easily organize and merchandise your
-              supplies such as rooms, beds, activities, transportations and
-              more! 
-            image: 'https://ucarecdn.com/cd4dc145-2a24-4036-b74c-94b4d2c91d37/'
-            title: 1. Manage and sell your travel products
-          - body: >-
-              With Apical Analytics and Performance tools you can monitor your
-              sales and your traffic with real-time metrics, complete reports
-              and more!
-            image: 'https://ucarecdn.com/b6e193e8-c403-4aac-90a1-751f0b304cbb/'
-            title: 2. Measure and understand your business
-          - body: >-
-              With Apical Back Office you can streamline your working process:
-              manage bookings and customers, invoices, payments and all the rest
-              in one place!
-            image: 'https://ucarecdn.com/6ef2bfcc-ed77-4de9-b1f5-05459ead14a7/'
-            title: 3. Automize your administration
-        title: 'Discover our technology: Apical Booking Engine'
-        titleCenter: true
-      it:
-        slides:
-          - body: >-
-              Con Apical Dashboard puoi organizzare e vendere facilmente i tuoi
-              prodotti come stanze, letti, attività, trasporti e altro ancora!
-              Dai spazio alla tua creatività
-            image: 'https://ucarecdn.com/8caa7a79-d952-4644-bc29-7d529a466ce0/'
-            title: 1. Gestisci e vendi i tuoi prodotti travel
-          - body: >-
-              Con gli strumenti Apical Analytics e Performance puoi monitorare
-              le tue vendite e il tuo traffico con metriche in tempo reale,
-              report completi e altro!
-            image: 'https://ucarecdn.com/152dbcbe-41c2-4f84-a8c5-a60aaaddd317/'
-            title: 2. Misura e comprendi il tuo business
-          - body: >-
-              Con Apical Back Office puoi semplificare il tuo processo di
-              lavoro: gestisci prenotazioni e clienti, fatture, pagamenti e
-              tutto il resto in un unico posto!
-            image: 'https://ucarecdn.com/9a7d2643-a27a-4f22-b584-826167c3d194/'
-            title: 3. Automatizza il tuo back office
-        title: 'Scopri la nostra tecnologia: il Booking Engine'
-        titleCenter: true
-    type: Presentation
   - props:
       en:
         cta:
