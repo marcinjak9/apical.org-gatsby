@@ -42,16 +42,7 @@ sections:
     type: HomeHero
   - props:
       en:
-        body: >-
-          We are a partner of your business. Our mission is to allow everyone to
-          create, manage and sell beam products by providing 360 degree
-          services.
-
-          We offer digital tools, legal and administrative services, market
-          knowledge and new opportunities to support all travel experience
-          creators.
-
-
+        body: >
           Are you a tour operator with a good back office but spend too much of
           your time in administration? The Booking Engine service is ready to
           digitize your company!
@@ -60,10 +51,6 @@ sections:
           Are you an experience organizer and would you like to make a
           qualitative leap? The Partnership service offers you support
           throughout the field!
-
-
-          Our goal is to grow with our customers, offering them the same tools
-          used by large platforms to compete in the market.
         cta:
           link: '#onboarding'
           text: Discover more
