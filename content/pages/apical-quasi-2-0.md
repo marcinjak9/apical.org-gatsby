@@ -459,6 +459,9 @@ sections:
     type: BlogSection
   - props:
       it:
+        cta:
+          link: '#onboarding'
+          text: Sali a bordo
         features:
           - body: >-
               Abbiamo registrato che una migliore esperienza utente significa un
