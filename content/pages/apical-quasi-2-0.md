@@ -490,6 +490,28 @@ sections:
         title: Apical Journal
     type: BlogSection
   - props:
+      en:
+        items:
+          - body: 'Dorm beds, private rooms, camps and whatever you offer'
+            title: "\U0001F6CC Beds"
+          - body: 'Surf lessons, bike tours, wine tasting or whatever you offer'
+            title: ⛰ Activities
+          - body: 'Local bus, transit van, walking guide and whatever you offer'
+            title: "\U0001F680 Transportation"
+          - body: 'Festival tickets, ski passes and whatever you offer'
+            title: "\U0001F39F Tickets"
+          - body: 'Travel insurance, booking insurance and whatever you offer'
+            title: ⛑ Insurance
+          - body: 'Shirts, badges, lighters and whatever you sell'
+            title: "\U0001F455 Merchandise"
+          - body: 'Yoga retreat, mindfullness, paint courses'
+            title: "\U0001F9D8‍♂️ Courses"
+          - body: Photographer? Rental equipment? What you prefer!
+            title: "\U0001F4F8 Services"
+          - body: Everything you need to compose your magic pack!
+            title: "\U0001F996 And more!"
+        subtitle: You can freely combine your products
+        title: With Apical you give space to your creativity
       it:
         items:
           - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
