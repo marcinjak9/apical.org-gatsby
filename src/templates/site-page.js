@@ -1,22 +1,22 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import ScrollableAnchor from 'react-scrollable-anchor'
-import Layout from '../components/Layout'
-import ErrorBoundary from '../components/ErrorBuondary'
-import components from '../componentsMap'
-import { language } from '../LanguageProvider'
+import React from "react"
+import { graphql } from "gatsby"
+import ScrollableAnchor from "react-scrollable-anchor"
+import Layout from "../components/Layout"
+import ErrorBoundary from "../components/ErrorBuondary"
+import components from "../componentsMap"
+import { language } from "../LanguageProvider"
 
-const renderChild = (children) => {
+const renderChild = children => {
   if (!children) {
     return null
   }
-  if (typeof children === 'string') {
+  if (typeof children === "string") {
     return children
   }
   return React.createElement(components[children.id], children.props || {})
 }
 
-const selectLanguage = (props) => {
+const selectLanguage = props => {
   const lang = language()
   if (!props) {
     return props
@@ -34,13 +34,13 @@ const selectLanguage = (props) => {
   return props.it
 }
 
-const renderProps = (oldProps) => {
+const renderProps = oldProps => {
   const props = selectLanguage(oldProps)
   if (!props) {
     return {}
   }
   const keys = Object.keys(props)
-  keys.map((key) => {
+  keys.map(key => {
     if (props[key] && props[key].id) {
       props[key] = components[props[key].id]
     }
@@ -48,7 +48,8 @@ const renderProps = (oldProps) => {
   return props
 }
 
-const withErrorBoundary = element => React.createElement(ErrorBoundary, {}, element)
+const withErrorBoundary = element =>
+  React.createElement(ErrorBoundary, {}, element)
 
 const renderElements = (sections, preview) => {
   if (sections) {
@@ -57,14 +58,14 @@ const renderElements = (sections, preview) => {
         if (element.scrollTo) {
           return withErrorBoundary(
             React.createElement(
-              'div',
-              { id: 'onboarding' },
+              "div",
+              { id: "onboarding" },
               React.createElement(
                 components[element.type],
                 { ...renderProps(element.props), key: index, preview },
-                renderChild(element.children),
-              ),
-            ),
+                renderChild(element.children)
+              )
+            )
           )
         }
         return withErrorBoundary(
@@ -72,8 +73,8 @@ const renderElements = (sections, preview) => {
             components[element.type],
             // LANGUAGE SELECTION
             { ...renderProps(element.props), key: index, preview },
-            renderChild(element.children),
-          ),
+            renderChild(element.children)
+          )
         )
       }
       return null
@@ -82,7 +83,7 @@ const renderElements = (sections, preview) => {
   return null
 }
 
-const selectMeta = (meta) => {
+const selectMeta = meta => {
   if (!meta) {
     return null
   }
@@ -93,9 +94,7 @@ const SitePage = ({
   preview,
   data: {
     markdownRemark: {
-      frontmatter: {
-        sections, hideNav, hideFooter, meta,
-      },
+      frontmatter: { sections, hideNav, hideFooter, meta },
     },
   },
 }) => {

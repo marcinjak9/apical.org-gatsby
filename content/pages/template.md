@@ -191,31 +191,22 @@ sections:
         greyBg: false
         items:
           - body: 'Dorm beds, private rooms, camps and whatever you offer'
-            nav: •
             title: "\U0001F6CC Beds"
           - body: 'Surf lessons, bike tours, wine tasting or whatever you offer'
-            nav: •
             title: ⛰ Activities
           - body: 'Local bus, transit van, walking guide and whatever you offer'
-            nav: •
             title: "\U0001F680 Transportation"
           - body: 'Festival tickets, ski passes and whatever you offer'
-            nav: •
             title: "\U0001F39F Tickets"
           - body: 'Travel insurance, booking insurance and whatever you offer'
-            nav: •
             title: ⛑ Insurance
           - body: 'Shirts, badges, lighters and whatever you sell'
-            nav: •
             title: "\U0001F455 Merchandise"
           - body: 'Yoga retreat, mindfullness, paint courses'
-            nav: •
             title: "\U0001F9D8‍♂️ Courses"
           - body: Photographer? Rental equipment? What you prefer!
-            nav: •
             title: "\U0001F4F8 Services"
           - body: Everything you need to compose your magic pack!
-            nav: •
             title: "\U0001F996 And more!"
         subtitle: You can freely combine your products
         title: With Apical you give space to your creativity
@@ -499,5 +490,35 @@ sections:
         title: Apical Journal
         titleCenter: false
     type: BlogSection
+  - props:
+      en:
+        title: Example
+        subtitle: Example
+        greyBg: false
+        titleCenter: true
+        features:
+          - title: Features Title
+            body:  Hello world
+            items:
+              - icon: 'icon'
+                title: Title
+                body: >-
+                  Lorem ipsum dolor set
+                pro: false
+      it:
+        title: Example
+        subtitle: Example
+        greyBg: false
+        titleCenter: true
+        features:
+          - title: Features Title
+            body:  Hello world
+            items:
+              - icon: 'icon'
+                title: Title
+                body: >-
+                  Lorem ipsum dolor set
+                pro: false
+    type: FeaturesTabs
 ---
 
