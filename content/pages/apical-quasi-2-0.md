@@ -167,105 +167,6 @@ sections:
     type: ToolsCards
   - props:
       en:
-        cards:
-          - body: >-
-              Present us your project in the way you prefer, we will analyze it
-              together to see if it's ready or if you need our help to complete
-              it, define it and improve it
-            image: ' '
-            title: Project analysis
-          - body: >-
-              When everything is ready the operational phase begins in which we
-              will take charge of the technical direction (contracts with
-              suppliers, travel insurance, creation of the store, etc. etc.)
-            image: ' '
-            title: Dedicated support
-          - body: >-
-              Let's go! We will take care of the management of the tourism
-              product while you will be in charge of creative direction,
-              marketing and communication
-            image: ' '
-            title: Go live with Apical
-        cta:
-          link: '#onboarding'
-          text: Tell us your story
-        greyBg: true
-        subtitle: Dedicated to people and companies without a travel license
-        title: Discover Apical Partnership
-        titleCenter: true
-      it:
-        cards:
-          - body: >-
-              Presentaci il tuo progetto nel modo che preferisci, lo
-              analizzeremo insieme per capire se è pronto o se ti serve il
-              nostro aiuto per completarlo, definirlo e migliorarlo
-            image: ' '
-            title: Analisi del progetto
-          - body: >-
-              Quando tutto è pronto inizia la fase operativa in cui ci
-              prenderemo carico della direzione tecnica (contratti con i
-              fornitori, assicurazioni di viaggio, creazione dello store, ecc.
-              ecc.)
-            image: ' '
-            title: Supporto dedicato
-          - body: >-
-              Si parte! Noi ci occuperemo della gestione del prodotto turistico
-              mentre tu ti occuperai della direzione creativa, del marketing e
-              della comunicazione
-            image: ' '
-            title: Go live insieme ad Apical
-        cta:
-          link: '#onboarding'
-          text: Raccontaci di te
-        greyBg: true
-        subtitle: Dedicato alle persone e alle aziende prive di licenza travel
-        title: Scopri Apical Partnership
-        titleCenter: true
-    type: HowItWorks
-  - props:
-      en:
-        greyBg: true
-        items:
-          - body: >-
-              With Apical Booking Engine you can improve your customer's
-              experience, save 80% of your time and boost your revenues by 30%
-            nav: ''
-            title: Technology
-          - body: >-
-              We can share with you more than 10 years of our experience in
-              travel industry. We will support you trhough all phases in your
-              growth
-            title: Knowledge
-          - body: >-
-              Entering in Apical ecosystem means connecting with many other
-              potential partners. Upgrade your business to the next level
-            title: Network
-        subtitle: ''
-        title: How Apical become your partner
-        titleCenter: true
-      it:
-        greyBg: true
-        items:
-          - body: >-
-              Con Apical Booking Engine puoi migliorare l'esperienza dei tuoi
-              clienti, risparmiare l'80% del tuo tempo e aumentare le tue
-              entrate del 30%
-            title: Tecnologia
-          - body: >-
-              Possiamo condividere con te oltre 10 anni di esperienza nel
-              settore travel. Ti supporteremo attraverso tutte le fasi della tua
-              crescita
-            title: Know how
-          - body: >-
-              Entrare nell'ecosistema Apical significa connettersi con molti
-              altri potenziali partner. Porta la tua attività ad un livello
-              superiore
-            title: Network
-        title: Come Apical diventa un tuo partner
-        titleCenter: true
-    type: ToolsCards
-  - props:
-      en:
         central: false
         cta:
           link: '#onboarding'
@@ -286,6 +187,41 @@ sections:
           hai incontrato. Apical metterà in campo tutta la sua esperienza per
           realizzare il tuo progetto
     type: SimpleHero
+  - props:
+      it:
+        cta:
+          link: '#onboarding'
+          text: Sali a bordo
+        features:
+          - body: >-
+              Abbiamo registrato che una migliore esperienza utente significa un
+              incremento di vendite. Una piattaforma sicura e professionale e
+              ciò che i tuoi clienti si meritano
+            image: "\U0001F525"
+            title: Vendi di più
+          - body: >-
+              Fino all'80% del tuo tempo in meno dedicato ad amministrazione,
+              gestione e vendita dei tuoi prodotti. Dedicati di più a ciò che
+              ami fare davvero
+            image: "\U0001F388"
+            title: Risparmia tempo
+          - body: >-
+              Apical sostiene e promuove progetti ad impatto sociale e
+              ambientale positivo e lo fa coinvolgendo i propri partner: porta
+              la tua attività ad un livello superiore
+            image: "\U0001F333 "
+            title: 'Crea impatto '
+          - body: >-
+              Entrare nell'ecosistema Apical significa connettersi con molti
+              altri potenziali partner. L'opportunità di crescere passa anche
+              dai canali indiretti
+            image: "\U0001F91D"
+            title: Network
+        greyBg: true
+        subtitle: Chi lavora con noi ha molto di più di un software
+        title: Perché Apical è differente
+        titleCenter: true
+    type: SpecialFeatures
   - props:
       en:
         cta:
@@ -379,6 +315,87 @@ sections:
     type: TestimonialsSection
   - props:
       en:
+        cards:
+          - body: >-
+              Present us your project in the way you prefer, we will analyze it
+              together to see if it's ready or if you need our help to complete
+              it, define it and improve it
+            image: ' '
+            title: Project analysis
+          - body: >-
+              When everything is ready the operational phase begins in which we
+              will take charge of the technical direction (contracts with
+              suppliers, travel insurance, creation of the store, etc. etc.)
+            image: ' '
+            title: Dedicated support
+          - body: >-
+              Let's go! We will take care of the management of the tourism
+              product while you will be in charge of creative direction,
+              marketing and communication
+            image: ' '
+            title: Go live with Apical
+        cta:
+          link: '#onboarding'
+          text: Tell us your story
+        greyBg: true
+        subtitle: Dedicated to people and companies without a travel license
+        title: Discover Apical Partnership
+        titleCenter: true
+      it:
+        cards:
+          - body: >-
+              Presentaci il tuo progetto nel modo che preferisci, lo
+              analizzeremo insieme per capire se è pronto o se ti serve il
+              nostro aiuto per completarlo, definirlo e migliorarlo
+            image: ' '
+            title: Analisi del progetto
+          - body: >-
+              Quando tutto è pronto inizia la fase operativa in cui ci
+              prenderemo carico della direzione tecnica (contratti con i
+              fornitori, assicurazioni di viaggio, creazione dello store, ecc.
+              ecc.)
+            image: ' '
+            title: Supporto dedicato
+          - body: >-
+              Si parte! Noi ci occuperemo della gestione del prodotto turistico
+              mentre tu ti occuperai della direzione creativa, del marketing e
+              della comunicazione
+            image: ' '
+            title: Go live insieme ad Apical
+        cta:
+          link: '#onboarding'
+          text: Raccontaci di te
+        greyBg: true
+        subtitle: Dedicato alle persone e alle aziende prive di licenza travel
+        title: Scopri Apical Partnership
+        titleCenter: true
+    type: HowItWorks
+  - props:
+      en:
+        central: false
+        cta:
+          link: social-impact
+          text: Discover more
+        image: 'https://ucarecdn.com/05fe8554-53ba-4131-a135-0edde0687ea0/'
+        smallText: true
+        title: >-
+          One more thing. Integrate your business into our positive social
+          impact projects to engage your audience in the happiness movement
+      it:
+        central: false
+        cta:
+          link: social-impact
+          text: Scopri di più
+        image: 'https://ucarecdn.com/3e3a5411-89ad-43ac-91fd-fc5fe30bfee2/'
+        smallText: true
+        title: >-
+          Un'altra cosa. Integra la tua attività nei nostri progetti a impatto
+          sociale positivo per coinvolgere il tuo pubblico in azioni che
+          facciano davvero la differenza. Rendi il tuo pubblico parte di un
+          grande movimento. Happiness is a movement
+    type: SimpleHero
+  - props:
+      en:
         columns:
           - body: Fill out the form below to get in touch with our team
             title: 1. Leave a contact
@@ -413,30 +430,6 @@ sections:
     type: WelcomeSteps
   - props:
       en:
-        central: false
-        cta:
-          link: social-impact
-          text: Discover more
-        image: 'https://ucarecdn.com/05fe8554-53ba-4131-a135-0edde0687ea0/'
-        smallText: true
-        title: >-
-          One more thing. Integrate your business into our positive social
-          impact projects to engage your audience in the happiness movement
-      it:
-        central: false
-        cta:
-          link: social-impact
-          text: Scopri di più
-        image: 'https://ucarecdn.com/3e3a5411-89ad-43ac-91fd-fc5fe30bfee2/'
-        smallText: true
-        title: >-
-          Un'altra cosa. Integra la tua attività nei nostri progetti a impatto
-          sociale positivo per coinvolgere il tuo pubblico in azioni che
-          facciano davvero la differenza. Rendi il tuo pubblico parte di un
-          grande movimento. Happiness is a movement
-    type: SimpleHero
-  - props:
-      en:
         body: >-
           Leave your contact details in order to allow one of our experts to
           offer you maximum assistance
@@ -456,41 +449,7 @@ sections:
         title: Apical Journal
       it:
         title: Apical Journal
+        titleCenter: false
     type: BlogSection
-  - props:
-      it:
-        cta:
-          link: '#onboarding'
-          text: Sali a bordo
-        features:
-          - body: >-
-              Abbiamo registrato che una migliore esperienza utente significa un
-              incremento di vendite. Una piattaforma sicura e professionale e
-              ciò che i tuoi clienti si meritano
-            image: "\U0001F525"
-            title: Vendi di più
-          - body: >-
-              Fino all'80% del tuo tempo in meno dedicato ad amministrazione,
-              gestione e vendita dei tuoi prodotti. Dedicati di più a ciò che
-              ami fare davvero
-            image: "\U0001F388"
-            title: Risparmia tempo
-          - body: >-
-              Apical sostiene e promuove progetti ad impatto sociale e
-              ambientale positivo e lo fa coinvolgendo i propri partner: porta
-              la tua attività ad un livello superiore
-            image: "\U0001F333 "
-            title: 'Crea impatto '
-          - body: >-
-              Entrare nell'ecosistema Apical significa connettersi con molti
-              altri potenziali partner. L'opportunità di crescere passa anche
-              dai canali indiretti
-            image: "\U0001F91D"
-            title: Network
-        greyBg: true
-        subtitle: Chi lavora con noi ha molto di più di un software
-        title: Perché Apical è differente
-        titleCenter: true
-    type: SpecialFeatures
 ---
 
