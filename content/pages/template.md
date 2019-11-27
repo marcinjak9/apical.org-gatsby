@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
 title: Apical 2.0
-slug: home
+slug: template
 type: page
 hideNav: false
 hideFooter: false
