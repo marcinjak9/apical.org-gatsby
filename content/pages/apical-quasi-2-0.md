@@ -494,6 +494,10 @@ sections:
         items:
           - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
             title: "\U0001F6CC Letti"
+          - body: >-
+              Surf? Tour in bici? Viaggi nello spazio? Dai spazio alla tua
+              fantasia
+            title: ⛰ Attività
         subtitle: 'Puoi combinare in piena libertà i tuoi prodotti '
         title: Con Apical dai spazio alla tua creatività
     type: ToolsCards
