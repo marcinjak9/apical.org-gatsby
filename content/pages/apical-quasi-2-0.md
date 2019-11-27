@@ -478,6 +478,12 @@ sections:
               la tua attività ad un livello superiore
             image: "\U0001F333 "
             title: 'Crea impatto '
+          - body: >-
+              Entrare nell'ecosistema Apical significa connettersi con molti
+              altri potenziali partner. L'opportunità di crescere passa anche
+              dai canali indiretti
+            image: "\U0001F91D"
+            title: Network
         greyBg: true
         subtitle: Chi lavora con noi ha molto di più di un software
         title: Perché Apical è differente
