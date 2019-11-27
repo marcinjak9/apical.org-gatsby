@@ -489,5 +489,13 @@ sections:
       it:
         title: Apical Journal
     type: BlogSection
+  - props:
+      it:
+        items:
+          - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
+            title: "\U0001F6CC Letti"
+        subtitle: 'Puoi combinare in piena libertà i tuoi prodotti '
+        title: Con Apical dai spazio alla tua creatività
+    type: ToolsCards
 ---
 
