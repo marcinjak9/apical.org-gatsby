@@ -119,6 +119,11 @@ sections:
         titleCenter: true
     type: Presentation
   - props:
+      en:
+        features:
+          - body: d
+            image: a
+            title: as
       it:
         cta:
           link: '#onboarding'
