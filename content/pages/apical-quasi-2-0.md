@@ -386,13 +386,16 @@ sections:
         cta:
           link: social-impact
           text: Scopri di più
-        image: 'https://ucarecdn.com/3e3a5411-89ad-43ac-91fd-fc5fe30bfee2/'
+        image: 'https://ucarecdn.com/dcd61b91-d4e6-4d2f-bd2c-e1cea2acb8df/'
         smallText: true
         title: >-
-          Un'altra cosa. Integra la tua attività nei nostri progetti a impatto
-          sociale positivo per coinvolgere il tuo pubblico in azioni che
-          facciano davvero la differenza. Rendi il tuo pubblico parte di un
-          grande movimento. Happiness is a movement
+          L'emergenza climatica è una cosa seria. E serie devono essere le
+          misure da adottare: Apical sostiene attivamente progetti di
+          rigenerazione ecosistemica in collaborazione con la no profit Bee Your
+          Hero. \
+
+          Rigenerare terreni è molto più che piantare alberi, è ciò che oggi
+          serve davvero.
     type: SimpleHero
   - props:
       en:
