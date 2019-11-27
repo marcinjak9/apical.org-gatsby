@@ -498,6 +498,10 @@ sections:
               Surf? Tour in bici? Viaggi nello spazio? Dai spazio alla tua
               fantasia
             title: ⛰ Attività
+          - body: 'Bus, van, barche o qualsiasi cosa trasporti persone'
+            title: "\U0001F680 Trasporti"
+          - body: 'Festival, ski pass, spettacoli e tutto ciò che vuoi!'
+            title: "\U0001F39F Ticket"
         subtitle: 'Puoi combinare in piena libertà i tuoi prodotti '
         title: Con Apical dai spazio alla tua creatività
     type: ToolsCards
