@@ -30,6 +30,7 @@ sections:
         image: 'https://ucarecdn.com/0341321f-676f-4b03-9178-545f06944ff6/'
         title: Grow with Apical
       it:
+        bodyLight: true
         cta:
           link: '#onboarding'
           text: Unisciti ad Apical
@@ -179,27 +180,37 @@ sections:
       it:
         items:
           - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
+            nav: •
             title: "\U0001F6CC Letti"
           - body: >-
               Surf? Tour in bici? Viaggi nello spazio? Dai spazio alla tua
               fantasia
+            nav: •
             title: ⛰ Attività
           - body: 'Bus, van, barche o qualsiasi cosa trasporti persone'
+            nav: •
             title: "\U0001F680 Trasporti"
           - body: 'Festival, ski pass, spettacoli e tutto ciò che vuoi!'
-            title: "\U0001F39F Ticket"
+            nav: •
+            title: "\U0001F39F Tickets"
           - body: 'Assicurazioni viaggio, bagagli e prenotazione. #staisereno'
+            nav: •
             title: ⛑ Assicurazioni
           - body: 'Spille, magliette, accendini e tutto ciò che vuoi!'
+            nav: •
             title: "\U0001F455 Merchandising"
           - body: 'Corso di yoga, mindfullness, pittura e altro!'
-            title: "\U0001F9D8‍♂️ Corsi"
+            nav: •
+            title: "\U0001F938‍♂️ Corsi"
           - body: Servizio fotografico? Noleggio attrezzature? Quello che vuoi tu!
+            nav: •
             title: "\U0001F4F8 Servizi"
           - body: Tutto quello di cui hai bisogno per creare i tuoi pacchetti
-            title: "\U0001F996 E molto altro"
+            nav: •
+            title: "\U0001F308 e molto altro"
         subtitle: 'Puoi combinare in piena libertà i tuoi prodotti '
         title: Con Apical dai spazio alla tua creatività
+        titleCenter: true
     type: ToolsCards
   - props:
       en:
@@ -294,27 +305,19 @@ sections:
     type: TestimonialsSection
   - props:
       en:
-        central: false
-        cta:
-          link: '#onboarding'
-          text: Book a call
-        image: 'https://ucarecdn.com/1c6d2122-fecd-4ef2-bee7-742712c351d0/'
-        smallText: true
-        title: >-
-          Tell us about your goals, your needs and obstacles. Apical will field
-          all its experience to carry out your project
+        bodyLight: false
       it:
-        central: false
+        bodyLight: true
         cta:
           link: '#onboarding'
-          text: Prenota una chiamata
-        image: 'https://ucarecdn.com/0c0f6790-68a7-4d15-8050-678dcf8d1691/'
-        smallText: true
-        title: >-
+          text: Entra in Apical
+        heroBody: >-
           Raccontaci dei tuoi obiettivi, dei tuoi bisogni e degli ostacoli che
           hai incontrato. Apical metterà in campo tutta la sua esperienza per
           realizzare il tuo progetto
-    type: SimpleHero
+        image: 'https://ucarecdn.com/5a6b5bc4-39a9-47bb-b570-7863ddd72b82/'
+        title: Partnership Program
+    type: HomeHero
   - props:
       en:
         cards:
@@ -389,15 +392,13 @@ sections:
           link: social-impact
           text: Scopri di più
         image: 'https://ucarecdn.com/dcd61b91-d4e6-4d2f-bd2c-e1cea2acb8df/'
-        smallText: true
+        smallText: false
         title: >-
-          L'emergenza climatica è una cosa seria. E serie devono essere le
-          misure da adottare: Apical sostiene attivamente progetti di
-          rigenerazione ecosistemica in collaborazione con la no profit Bee Your
-          Hero. \
-
           Rigenerare terreni è molto più che piantare alberi, è ciò che oggi
           serve davvero.
+
+
+          Combatti con noi
     type: SimpleHero
   - props:
       en:
