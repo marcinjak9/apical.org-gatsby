@@ -167,88 +167,6 @@ sections:
     type: ToolsCards
   - props:
       en:
-        cta:
-          link: '#onboarding'
-          text: Let's start
-        features:
-          - body: 'Dorm beds, private rooms, camps and whatever you offer '
-            image: "\U0001F6CC"
-            title: Beds
-          - body: 'Surf lessons, bike tours, wine tasting or whatever you offer'
-            image: ⛰
-            title: Activities
-          - body: 'Local bus, transit van, walking guide and whatever you offer'
-            image: "\U0001F680"
-            title: Transportation
-          - body: 'Festival tickets, ski passes and whatever you offer '
-            image: "\U0001F39F"
-            title: Tickets
-          - body: |
-              Travel insurance, booking insurance and whatever you offer
-            image: ⛑
-            title: Insurance
-          - body: |
-              Shirts, badges, lighters and whatever you sell
-            image: "\U0001F455"
-            title: Merchandise
-          - body: 'Yoga retreat, mindfullness, paint courses'
-            image: "\U0001F9D8‍♂️"
-            title: Courses
-          - body: Photographer? Rental equipment? What you prefer!
-            image: "\U0001F4F8"
-            title: Services
-          - body: 'Everything you need to compose your magic pack! '
-            image: "\U0001F996"
-            title: 'And more! '
-        greyBg: false
-        subtitle: >-
-          Apical is the only platform that let you manage all type of services
-          with maximum flexibility and control for you and for your customers
-        title: Why Apical is different
-        titleCenter: true
-      it:
-        cta:
-          link: '#onboarding'
-          text: Partiamo!
-        features:
-          - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
-            image: "\U0001F6CC"
-            title: Letti
-          - body: >-
-              Surf? Tour in bici? Viaggi nello spazio? Dai spazio alla tua
-              fantasia
-            image: ⛰
-            title: Attività
-          - body: 'Bus, van, barche o qualsiasi cosa trasporti persone'
-            image: "\U0001F680"
-            title: Trasporti
-          - body: 'Festival, ski pass, spettacoli e tutto ciò che vuoi! '
-            image: "\U0001F39F"
-            title: Ticket
-          - body: 'Assicurazioni viaggio, bagagli e prenotazione. #staisereno'
-            image: ⛑
-            title: Assicurazioni
-          - body: 'Spille, magliette, accendini e tutto ciò che vuoi! '
-            image: "\U0001F455"
-            title: Merchandising
-          - body: 'Corso di yoga, mindfullness, pittura e altro! '
-            image: "\U0001F9D8‍♂️"
-            title: Corsi
-          - body: Servizio fotografico? Noleggio attrezzature? Quello che vuoi tu!
-            image: "\U0001F4F8"
-            title: Servizi
-          - body: 'Tutto quello di cui hai bisogno per creare i tuoi pacchetti '
-            image: "\U0001F996"
-            title: E molto altro
-        subtitle: >-
-          Apical è l'unica piattaforma che ti consente di gestire tutti i tipi
-          di servizi con la massima flessibilità e controllo per te e per i tuoi
-          clienti
-        title: Perché Apical è differente
-        titleCenter: true
-    type: SpecialFeatures
-  - props:
-      en:
         cards:
           - body: >-
               Present us your project in the way you prefer, we will analyze it
@@ -348,6 +266,7 @@ sections:
     type: ToolsCards
   - props:
       en:
+        central: false
         cta:
           link: '#onboarding'
           text: Book a call
@@ -538,5 +457,25 @@ sections:
       it:
         title: Apical Journal
     type: BlogSection
+  - props:
+      it:
+        features:
+          - body: >-
+              Abbiamo registrato che una migliore esperienza utente significa un
+              incremento di vendite. Una piattaforma sicura e professionale e
+              ciò che i tuoi clienti si meritano
+            image: "\U0001F525"
+            title: Vendi di più
+          - body: >-
+              Fino all'80% del tuo tempo in meno dedicato ad amministrazione,
+              gestione e vendita dei tuoi prodotti. Dedicati di più a ciò che
+              ami fare davvero
+            image: "\U0001F388"
+            title: Risparmia tempo
+        greyBg: true
+        subtitle: Chi lavora con noi ha molto di più di un software
+        title: Perché Apical è differente
+        titleCenter: true
+    type: SpecialFeatures
 ---
 
