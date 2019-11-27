@@ -118,45 +118,52 @@ sections:
     type: Presentation
   - props:
       en:
-        greyBg: true
+        greyBg: false
         items:
-          - body: >-
-              With Apical Booking Engine you can improve your customer's
-              experience, save 80% of your time and boost your revenues by 30%
-            nav: ''
-            title: Technology
-          - body: >-
-              We can share with you more than 10 years of our experience in
-              travel industry. We will support you trhough all phases in your
-              growth
-            title: Knowledge
-          - body: >-
-              Entering in Apical ecosystem means connecting with many other
-              potential partners. Upgrade your business to the next level
-            title: Network
-        subtitle: ''
-        title: How Apical become your partner
-        titleCenter: true
+          - body: 'Dorm beds, private rooms, camps and whatever you offer'
+            title: "\U0001F6CC Beds"
+          - body: 'Surf lessons, bike tours, wine tasting or whatever you offer'
+            title: ⛰ Activities
+          - body: 'Local bus, transit van, walking guide and whatever you offer'
+            title: "\U0001F680 Transportation"
+          - body: 'Festival tickets, ski passes and whatever you offer'
+            title: "\U0001F39F Tickets"
+          - body: 'Travel insurance, booking insurance and whatever you offer'
+            title: ⛑ Insurance
+          - body: 'Shirts, badges, lighters and whatever you sell'
+            title: "\U0001F455 Merchandise"
+          - body: 'Yoga retreat, mindfullness, paint courses'
+            title: "\U0001F9D8‍♂️ Courses"
+          - body: Photographer? Rental equipment? What you prefer!
+            title: "\U0001F4F8 Services"
+          - body: Everything you need to compose your magic pack!
+            title: "\U0001F996 And more!"
+        subtitle: You can freely combine your products
+        title: With Apical you give space to your creativity
       it:
-        greyBg: true
         items:
+          - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
+            title: "\U0001F6CC Letti"
           - body: >-
-              Con Apical Booking Engine puoi migliorare l'esperienza dei tuoi
-              clienti, risparmiare l'80% del tuo tempo e aumentare le tue
-              entrate del 30%
-            title: Tecnologia
-          - body: >-
-              Possiamo condividere con te oltre 10 anni di esperienza nel
-              settore travel. Ti supporteremo attraverso tutte le fasi della tua
-              crescita
-            title: Know how
-          - body: >-
-              Entrare nell'ecosistema Apical significa connettersi con molti
-              altri potenziali partner. Porta la tua attività ad un livello
-              superiore
-            title: Network
-        title: Come Apical diventa un tuo partner
-        titleCenter: true
+              Surf? Tour in bici? Viaggi nello spazio? Dai spazio alla tua
+              fantasia
+            title: ⛰ Attività
+          - body: 'Bus, van, barche o qualsiasi cosa trasporti persone'
+            title: "\U0001F680 Trasporti"
+          - body: 'Festival, ski pass, spettacoli e tutto ciò che vuoi!'
+            title: "\U0001F39F Ticket"
+          - body: 'Assicurazioni viaggio, bagagli e prenotazione. #staisereno'
+            title: ⛑ Assicurazioni
+          - body: 'Spille, magliette, accendini e tutto ciò che vuoi!'
+            title: "\U0001F455 Merchandising"
+          - body: 'Corso di yoga, mindfullness, pittura e altro!'
+            title: "\U0001F9D8‍♂️ Corsi"
+          - body: Servizio fotografico? Noleggio attrezzature? Quello che vuoi tu!
+            title: "\U0001F4F8 Servizi"
+          - body: Tutto quello di cui hai bisogno per creare i tuoi pacchetti
+            title: "\U0001F996 E molto altro"
+        subtitle: 'Puoi combinare in piena libertà i tuoi prodotti '
+        title: Con Apical dai spazio alla tua creatività
     type: ToolsCards
   - props:
       en:
@@ -297,6 +304,48 @@ sections:
         title: Scopri Apical Partnership
         titleCenter: true
     type: HowItWorks
+  - props:
+      en:
+        greyBg: true
+        items:
+          - body: >-
+              With Apical Booking Engine you can improve your customer's
+              experience, save 80% of your time and boost your revenues by 30%
+            nav: ''
+            title: Technology
+          - body: >-
+              We can share with you more than 10 years of our experience in
+              travel industry. We will support you trhough all phases in your
+              growth
+            title: Knowledge
+          - body: >-
+              Entering in Apical ecosystem means connecting with many other
+              potential partners. Upgrade your business to the next level
+            title: Network
+        subtitle: ''
+        title: How Apical become your partner
+        titleCenter: true
+      it:
+        greyBg: true
+        items:
+          - body: >-
+              Con Apical Booking Engine puoi migliorare l'esperienza dei tuoi
+              clienti, risparmiare l'80% del tuo tempo e aumentare le tue
+              entrate del 30%
+            title: Tecnologia
+          - body: >-
+              Possiamo condividere con te oltre 10 anni di esperienza nel
+              settore travel. Ti supporteremo attraverso tutte le fasi della tua
+              crescita
+            title: Know how
+          - body: >-
+              Entrare nell'ecosistema Apical significa connettersi con molti
+              altri potenziali partner. Porta la tua attività ad un livello
+              superiore
+            title: Network
+        title: Come Apical diventa un tuo partner
+        titleCenter: true
+    type: ToolsCards
   - props:
       en:
         cta:
@@ -489,53 +538,5 @@ sections:
       it:
         title: Apical Journal
     type: BlogSection
-  - props:
-      en:
-        items:
-          - body: 'Dorm beds, private rooms, camps and whatever you offer'
-            title: "\U0001F6CC Beds"
-          - body: 'Surf lessons, bike tours, wine tasting or whatever you offer'
-            title: ⛰ Activities
-          - body: 'Local bus, transit van, walking guide and whatever you offer'
-            title: "\U0001F680 Transportation"
-          - body: 'Festival tickets, ski passes and whatever you offer'
-            title: "\U0001F39F Tickets"
-          - body: 'Travel insurance, booking insurance and whatever you offer'
-            title: ⛑ Insurance
-          - body: 'Shirts, badges, lighters and whatever you sell'
-            title: "\U0001F455 Merchandise"
-          - body: 'Yoga retreat, mindfullness, paint courses'
-            title: "\U0001F9D8‍♂️ Courses"
-          - body: Photographer? Rental equipment? What you prefer!
-            title: "\U0001F4F8 Services"
-          - body: Everything you need to compose your magic pack!
-            title: "\U0001F996 And more!"
-        subtitle: You can freely combine your products
-        title: With Apical you give space to your creativity
-      it:
-        items:
-          - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
-            title: "\U0001F6CC Letti"
-          - body: >-
-              Surf? Tour in bici? Viaggi nello spazio? Dai spazio alla tua
-              fantasia
-            title: ⛰ Attività
-          - body: 'Bus, van, barche o qualsiasi cosa trasporti persone'
-            title: "\U0001F680 Trasporti"
-          - body: 'Festival, ski pass, spettacoli e tutto ciò che vuoi!'
-            title: "\U0001F39F Ticket"
-          - body: 'Assicurazioni viaggio, bagagli e prenotazione. #staisereno'
-            title: ⛑ Assicurazioni
-          - body: 'Spille, magliette, accendini e tutto ciò che vuoi!'
-            title: "\U0001F455 Merchandising"
-          - body: 'Corso di yoga, mindfullness, pittura e altro!'
-            title: "\U0001F9D8‍♂️ Corsi"
-          - body: Servizio fotografico? Noleggio attrezzature? Quello che vuoi tu!
-            title: "\U0001F4F8 Servizi"
-          - body: Tutto quello di cui hai bisogno per creare i tuoi pacchetti
-            title: "\U0001F996 E molto altro"
-        subtitle: 'Puoi combinare in piena libertà i tuoi prodotti '
-        title: Con Apical dai spazio alla tua creatività
-    type: ToolsCards
 ---
 
