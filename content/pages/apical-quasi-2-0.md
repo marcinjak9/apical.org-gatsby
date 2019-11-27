@@ -472,6 +472,12 @@ sections:
               ami fare davvero
             image: "\U0001F388"
             title: Risparmia tempo
+          - body: >-
+              Apical sostiene e promuove progetti ad impatto sociale e
+              ambientale positivo e lo fa coinvolgendo i propri partner: porta
+              la tua attività ad un livello superiore
+            image: "\U0001F333 "
+            title: 'Crea impatto '
         greyBg: true
         subtitle: Chi lavora con noi ha molto di più di un software
         title: Perché Apical è differente
