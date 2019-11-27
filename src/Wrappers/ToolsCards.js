@@ -41,9 +41,10 @@ const ITEMS = [
   },
 ];
 
-const ToolsCards = ({ title, titleCenter, items }) => (
+const ToolsCards = ({ title, subtitle, titleCenter, items }) => (
   <SectionContainer
     title={title || 'Tools'}
+    subtitle={subtitle || ''}
     className="tools-cards no-padd-mobile"
     greyBg
     titleCenter={titleCenter}
