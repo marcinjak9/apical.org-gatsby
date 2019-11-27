@@ -67,6 +67,7 @@ sections:
         cta:
           link: '#onboarding'
           text: Scopri di più
+        greyBg: true
         title: Cosa facciamo
     type: WhatWeDo
   - props:
@@ -117,6 +118,41 @@ sections:
         titleCenter: true
     type: Presentation
   - props:
+      it:
+        cta:
+          link: '#onboarding'
+          text: Sali a bordo
+        features:
+          - body: >-
+              Abbiamo registrato che una migliore esperienza utente significa un
+              incremento di vendite. Una piattaforma sicura e professionale e
+              ciò che i tuoi clienti si meritano
+            image: "\U0001F525"
+            title: Vendi di più
+          - body: >-
+              Fino all'80% del tuo tempo in meno dedicato ad amministrazione,
+              gestione e vendita dei tuoi prodotti. Dedicati di più a ciò che
+              ami fare davvero
+            image: "\U0001F388"
+            title: Risparmia tempo
+          - body: >-
+              Apical sostiene e promuove progetti ad impatto sociale e
+              ambientale positivo e lo fa coinvolgendo i propri partner: porta
+              la tua attività ad un livello superiore
+            image: "\U0001F333 "
+            title: 'Crea impatto '
+          - body: >-
+              Entrare nell'ecosistema Apical significa connettersi con molti
+              altri potenziali partner. L'opportunità di crescere passa anche
+              dai canali indiretti
+            image: "\U0001F91D"
+            title: Network
+        greyBg: true
+        subtitle: Chi lavora con noi ha molto di più di un software
+        title: Cosa ottieni con Apical
+        titleCenter: true
+    type: SpecialFeatures
+  - props:
       en:
         greyBg: false
         items:
@@ -165,63 +201,6 @@ sections:
         subtitle: 'Puoi combinare in piena libertà i tuoi prodotti '
         title: Con Apical dai spazio alla tua creatività
     type: ToolsCards
-  - props:
-      en:
-        central: false
-        cta:
-          link: '#onboarding'
-          text: Book a call
-        image: 'https://ucarecdn.com/1c6d2122-fecd-4ef2-bee7-742712c351d0/'
-        smallText: true
-        title: >-
-          Tell us about your goals, your needs and obstacles. Apical will field
-          all its experience to carry out your project
-      it:
-        cta:
-          link: '#onboarding'
-          text: Prenota una chiamata
-        image: 'https://ucarecdn.com/0c0f6790-68a7-4d15-8050-678dcf8d1691/'
-        smallText: true
-        title: >-
-          Raccontaci dei tuoi obiettivi, dei tuoi bisogni e degli ostacoli che
-          hai incontrato. Apical metterà in campo tutta la sua esperienza per
-          realizzare il tuo progetto
-    type: SimpleHero
-  - props:
-      it:
-        cta:
-          link: '#onboarding'
-          text: Sali a bordo
-        features:
-          - body: >-
-              Abbiamo registrato che una migliore esperienza utente significa un
-              incremento di vendite. Una piattaforma sicura e professionale e
-              ciò che i tuoi clienti si meritano
-            image: "\U0001F525"
-            title: Vendi di più
-          - body: >-
-              Fino all'80% del tuo tempo in meno dedicato ad amministrazione,
-              gestione e vendita dei tuoi prodotti. Dedicati di più a ciò che
-              ami fare davvero
-            image: "\U0001F388"
-            title: Risparmia tempo
-          - body: >-
-              Apical sostiene e promuove progetti ad impatto sociale e
-              ambientale positivo e lo fa coinvolgendo i propri partner: porta
-              la tua attività ad un livello superiore
-            image: "\U0001F333 "
-            title: 'Crea impatto '
-          - body: >-
-              Entrare nell'ecosistema Apical significa connettersi con molti
-              altri potenziali partner. L'opportunità di crescere passa anche
-              dai canali indiretti
-            image: "\U0001F91D"
-            title: Network
-        greyBg: true
-        subtitle: Chi lavora con noi ha molto di più di un software
-        title: Perché Apical è differente
-        titleCenter: true
-    type: SpecialFeatures
   - props:
       en:
         cta:
@@ -313,6 +292,29 @@ sections:
             name: '... e molto altro! '
         title: Chi già collabora con noi
     type: TestimonialsSection
+  - props:
+      en:
+        central: false
+        cta:
+          link: '#onboarding'
+          text: Book a call
+        image: 'https://ucarecdn.com/1c6d2122-fecd-4ef2-bee7-742712c351d0/'
+        smallText: true
+        title: >-
+          Tell us about your goals, your needs and obstacles. Apical will field
+          all its experience to carry out your project
+      it:
+        central: false
+        cta:
+          link: '#onboarding'
+          text: Prenota una chiamata
+        image: 'https://ucarecdn.com/0c0f6790-68a7-4d15-8050-678dcf8d1691/'
+        smallText: true
+        title: >-
+          Raccontaci dei tuoi obiettivi, dei tuoi bisogni e degli ostacoli che
+          hai incontrato. Apical metterà in campo tutta la sua esperienza per
+          realizzare il tuo progetto
+    type: SimpleHero
   - props:
       en:
         cards:
