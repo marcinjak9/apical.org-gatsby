@@ -502,6 +502,16 @@ sections:
             title: "\U0001F680 Trasporti"
           - body: 'Festival, ski pass, spettacoli e tutto ciò che vuoi!'
             title: "\U0001F39F Ticket"
+          - body: 'Assicurazioni viaggio, bagagli e prenotazione. #staisereno'
+            title: ⛑ Assicurazioni
+          - body: 'Spille, magliette, accendini e tutto ciò che vuoi!'
+            title: "\U0001F455 Merchandising"
+          - body: 'Corso di yoga, mindfullness, pittura e altro!'
+            title: "\U0001F9D8‍♂️ Corsi"
+          - body: Servizio fotografico? Noleggio attrezzature? Quello che vuoi tu!
+            title: "\U0001F4F8 Servizi"
+          - body: Tutto quello di cui hai bisogno per creare i tuoi pacchetti
+            title: "\U0001F996 E molto altro"
         subtitle: 'Puoi combinare in piena libertà i tuoi prodotti '
         title: Con Apical dai spazio alla tua creatività
     type: ToolsCards
