@@ -120,10 +120,7 @@ sections:
     type: Presentation
   - props:
       en:
-        features:
-          - body: d
-            image: a
-            title: as
+        features: []
       it:
         cta:
           link: '#onboarding'
