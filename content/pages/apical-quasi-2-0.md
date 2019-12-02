@@ -136,9 +136,9 @@ sections:
             image: "\U0001F333 "
             title: Make impact!
           - body: >-
-              Entrare nell'ecosistema Apical significa connettersi con molti
-              altri potenziali partner. L'opportunità di crescere passa anche
-              dai canali indiretti
+              Network is the first engine of growth, so we put you in touch with
+              all Apical partners and customers and help you find the right
+              contact
             image: "\U0001F91D"
             title: Network
         greyBg: true
@@ -159,19 +159,19 @@ sections:
               Risparmia fino all'80% del tempo che dedichi a amministrazione,
               gestione e vendita per concentrarti su ciò che ami fare veramente
             image: ✂️
-            title: Risparmia tempo
+            title: Risparmi tempo
           - body: >-
               Nei prossimi 5 anni solo chi avrà un impatto ambientale positivo
               riuscirà a crescere. Apical ti offre una soluzione semplice per
               riuscirci, insieme al tuo pubblico.
             image: "\U0001F333 "
-            title: 'Crea impatto '
+            title: 'Crei impatto '
           - body: >-
-              Entrare nell'ecosistema Apical significa connettersi con molti
-              altri potenziali partner. L'opportunità di crescere passa anche
-              dai canali indiretti
+              Il network è il primo motore di crescita, per questo ti mettiamo
+              in contatto con tutti i partner e clienti Apical e ti aiutiamo a
+              trovare il contatto giusto per te
             image: "\U0001F91D"
-            title: Network
+            title: Acquisisci Network
         greyBg: true
         subtitle: 'Cresci più velocemente, in modo sicuro e innovativo'
         title: Cosa ottieni con Apical
@@ -208,8 +208,11 @@ sections:
           - body: Everything you need to compose your magic pack!
             nav: •
             title: "\U0001F996 And more!"
-        subtitle: You can freely combine your products
-        title: With Apical you give space to your creativity
+        subtitle: >-
+          Traditional software only manage Tours & Activities, Apical allows you
+          to combine all the services you want, to give your customer the chance
+          to compose and book their perfect experience in real-time
+        title: 'Apical Dynamic Packaging: free your creativity'
       it:
         items:
           - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
@@ -242,10 +245,11 @@ sections:
             nav: •
             title: "\U0001F308 e molto altro"
         subtitle: >-
-          Gestisci e combina tutti i servizi che vuoi per dare al tuo cliente la
-          possibilità di comporre e prenotare in tempo reale la propria
-          esperienza perfetta
-        title: Crea senza limiti con Apical Dynamic Packaging
+          I software normali gestiscono solo Tours & Activities, Apical  ti
+          permette di combinare tutti i servizi che vuoi, per dare al tuo
+          cliente la possibilità di comporre e prenotare in tempo reale la
+          propria esperienza perfetta
+        title: 'Apical Dynamic Packaging: crea senza limiti!'
         titleCenter: true
     type: ToolsCards
   - props:
