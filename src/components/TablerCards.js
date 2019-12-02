@@ -79,7 +79,7 @@ const Content = styled.div`
 
 class TablerCards extends React.Component {
   state = {
-    selectedFeature: this.props.items[Math.round(this.props.items.length/2)].title,
+    selectedFeature: this.props.items[Math.ceil(this.props.items.length/2)].title,
   };
 
   onFeatureClick = (e, feature) => {
