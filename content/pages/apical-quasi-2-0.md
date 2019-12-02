@@ -53,7 +53,7 @@ sections:
         title: Why Apical
       it:
         body: >-
-          Apical supporta ogni Travel Creators con una tecnologia semplice,
+          Apical supporta ogni Travel Creator con una tecnologia semplice,
           veloce e innovativa, disegnata per accelerare la crescita, aumentare
           la soddisfazione dei viaggiatori e migliorare il loro impatto
           sull’ambiente.
@@ -89,10 +89,7 @@ sections:
         titleCenter: true
       it:
         slides:
-          - body: >-
-              Con Apical Dashboard puoi organizzare e vendere facilmente i tuoi
-              prodotti come stanze, letti, attività, trasporti e altro ancora!
-              Dai spazio alla tua creatività
+          - body: 'Non importa quanto complesso '
             image: 'https://ucarecdn.com/8caa7a79-d952-4644-bc29-7d529a466ce0/'
             title: 1. Crea e vendi i tuoi prodotti online
           - body: >-
