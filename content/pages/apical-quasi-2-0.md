@@ -57,7 +57,7 @@ sections:
           text: Discover more
         title: What we do
       it:
-        body: 'L''industria dei viaggi '
+        body: 'L''industria dei viaggi sta cambiando, Semplice. Veloce. Online'
         cta:
           link: '#onboarding'
           text: Scopri di più
@@ -142,8 +142,8 @@ sections:
             image: "\U0001F91D"
             title: Network
         greyBg: true
-        subtitle: Chi lavora con noi ha molto di più di un software
-        title: Cosa ottieni con Apical
+        subtitle: 'Grow faster, stay safe and push innovation'
+        title: What you get with Apical
         titleCenter: true
       it:
         cta:
@@ -175,7 +175,7 @@ sections:
             image: "\U0001F91D"
             title: Network
         greyBg: true
-        subtitle: Chi lavora con noi ha molto di più di un software
+        subtitle: 'Cresci più velocemente, in modo sicuro e innovativo'
         title: Cosa ottieni con Apical
         titleCenter: true
     type: SpecialFeatures
@@ -243,8 +243,11 @@ sections:
           - body: Tutto quello di cui hai bisogno per creare i tuoi pacchetti
             nav: •
             title: "\U0001F308 e molto altro"
-        subtitle: 'Puoi combinare in piena libertà i tuoi prodotti '
-        title: Con Apical dai spazio alla tua creatività
+        subtitle: >-
+          Gestisci e combina tutti i servizi che vuoi per dare al tuo cliente la
+          possibilità di comporre e prenotare in tempo reale la propria
+          esperienza perfetta
+        title: Crea senza limiti con Apical Dynamic Packaging
         titleCenter: true
     type: ToolsCards
   - props:
@@ -291,7 +294,7 @@ sections:
             company: ' '
             image: 'https://ucarecdn.com/72fa4126-d132-4ad0-bd46-d94a19f0abbc/'
             name: 'And more! '
-        title: Who partners with us
+        title: Apical accelerates the growth of any travel company
       it:
         cta:
           link: '#onboarding'
@@ -336,7 +339,7 @@ sections:
             company: ' '
             image: 'https://ucarecdn.com/bd614ca8-0502-44b2-876f-65ab156a1a48/'
             name: '... e molto altro! '
-        title: Chi già collabora con noi
+        title: Apical accelera la crescita di qualsiasi travel company
     type: TestimonialsSection
   - props:
       en:
