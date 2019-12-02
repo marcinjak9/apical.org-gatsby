@@ -7,19 +7,19 @@ import Button from '../components/Button'
 
 const CustomRow = styled(Row)`
    .special-section .col[data-items-count="8"]:nth-child(4) {
-      grid-column: 3 / span 4;
+      grid-column: 3 / span 4 !important;
    }
 
    .special-section .col[data-items-count="7"]:nth-child(7) {
-      grid-column: 5 / span 4;
+      grid-column: 5 / span 4 !important;
    }
 
    .special-section .col[data-items-count="5"]:nth-child(4) {
-       grid-column: 3 / span 4;
+       grid-column: 3 / span 4 !important;
    }
    
    .special-section .col[data-items-count="4"] {
-       grid-column: span 6 / auto;
+       grid-column: span 6 / auto !important;
    }
 `
 
