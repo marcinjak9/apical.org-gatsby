@@ -28,7 +28,7 @@ sections:
           Apical is the end-to-end platform designed for travel creators. Start,
           run and grow your travel business online
         image: 'https://ucarecdn.com/1dbc1be1-fdaa-42f8-89c4-2e1d77450f5a/'
-        title: GROW WITH APICAL
+        title: 'GROW WITH APICAL '
       it:
         bodyLight: true
         cta:
@@ -36,10 +36,10 @@ sections:
           text: Unisciti ad Apical
         heroBody: >-
           Apical è la piattaforma self-service dedicata ai creatori di viaggi e
-          esperienze. Crea, gestisci e fai crescere il tuo business travel
-          online in modo semplice e innovativo
+          esperienze. Crea, gestisci e fai crescere il tuo progetto travel
+          online, in modo semplice e innovativo
         image: 'https://ucarecdn.com/7f12961b-1b94-4add-b3cd-2bfaf749bc71/'
-        title: cresci con apical
+        title: CRESCI CON APICAL
     type: HomeHero
   - props:
       en:
@@ -57,19 +57,12 @@ sections:
           text: Discover more
         title: What we do
       it:
-        body: >-
-          Sei un tour operator con un buon Back Office ma spendi troppo del tuo
-          tempo in amministrazione? Il servizio Booking Engine è pronto per
-          digitalizzare la tua azienda!
-
-
-          Sei un organizzatore di esperienze e vorresti fare un salto di
-          qualità? Il servizio Partnership ti offre supporto a tutto campo!
+        body: 'L''industria dei viaggi '
         cta:
           link: '#onboarding'
           text: Scopri di più
         greyBg: true
-        title: Cosa facciamo
+        title: Perché Apical
     type: WhatWeDo
   - props:
       en:
@@ -102,7 +95,7 @@ sections:
               prodotti come stanze, letti, attività, trasporti e altro ancora!
               Dai spazio alla tua creatività
             image: 'https://ucarecdn.com/8caa7a79-d952-4644-bc29-7d529a466ce0/'
-            title: 1. Gestisci e vendi i tuoi prodotti travel
+            title: 1. Gestisci e vendi i tuoi prodotti online
           - body: >-
               Con gli strumenti Apical Analytics e Performance puoi monitorare
               le tue vendite e il tuo traffico con metriche in tempo reale,
@@ -115,7 +108,7 @@ sections:
               tutto il resto in un unico posto!
             image: 'https://ucarecdn.com/9a7d2643-a27a-4f22-b584-826167c3d194/'
             title: 3. Automatizza il tuo back office
-        title: 'Scopri la nostra tecnologia: il Booking Engine'
+        title: Cosa puoi fare con Apical!
         titleCenter: true
     type: Presentation
   - props:
