@@ -114,71 +114,6 @@ sections:
     type: Presentation
   - props:
       en:
-        cta:
-          link: '#onboarding'
-          text: Sali a bordo
-        features:
-          - body: >-
-              Apical provides you with the tools to increase sales from the
-              audience you already own from 20% to 50%
-            image: "\U0001F4C8"
-            title: Increase sales
-          - body: >-
-              Save up to 80% of the time you spend on administration,
-              management, and sales to focus on what you really love doing
-            image: ✂️
-            title: Save time
-          - body: >-
-
-              In the next 5 years, only those with a positive environmental
-              impact will be able to grow. Apical offers you a simple solution
-              to succeed, together with your audience.
-            image: "\U0001F333 "
-            title: Make impact!
-          - body: >-
-              Network is the first engine of growth, so we put you in touch with
-              all Apical partners and customers and help you find the right
-              contact
-            image: "\U0001F91D"
-            title: Network
-        greyBg: true
-        subtitle: 'Grow faster, stay safe and push innovation'
-        title: What you get with Apical
-        titleCenter: true
-      it:
-        cta:
-          link: '#onboarding'
-          text: Sali a bordo
-        features:
-          - body: >-
-              Apical ti fornisce gli strumenti per aumentare dal 20% al 50% le
-              vendite a partire dal pubblico che già possiedi
-            image: "\U0001F4C8"
-            title: Vendi di più
-          - body: >-
-              Risparmia fino all'80% del tempo che dedichi a amministrazione,
-              gestione e vendita per concentrarti su ciò che ami fare veramente
-            image: ✂️
-            title: Risparmi tempo
-          - body: >-
-              Nei prossimi 5 anni solo chi avrà un impatto ambientale positivo
-              riuscirà a crescere. Apical ti offre una soluzione semplice per
-              riuscirci, insieme al tuo pubblico.
-            image: "\U0001F333 "
-            title: 'Crei impatto '
-          - body: >-
-              Il network è il primo motore di crescita, per questo ti mettiamo
-              in contatto con tutti i partner e clienti Apical e ti aiutiamo a
-              trovare il contatto giusto per te
-            image: "\U0001F91D"
-            title: Acquisisci Network
-        greyBg: true
-        subtitle: 'Cresci più velocemente, in modo sicuro e innovativo'
-        title: Cosa ottieni con Apical
-        titleCenter: true
-    type: SpecialFeatures
-  - props:
-      en:
         greyBg: false
         items:
           - body: 'Dorm beds, private rooms, camps and whatever you offer'
@@ -252,6 +187,71 @@ sections:
         title: 'Apical Dynamic Packaging: crea senza limiti!'
         titleCenter: true
     type: ToolsCards
+  - props:
+      en:
+        cta:
+          link: '#onboarding'
+          text: Sali a bordo
+        features:
+          - body: >-
+              Apical provides you with the tools to increase sales from the
+              audience you already own from 20% to 50%
+            image: "\U0001F4C8"
+            title: Increase sales
+          - body: >-
+              Save up to 80% of the time you spend on administration,
+              management, and sales to focus on what you really love doing
+            image: ✂️
+            title: Save time
+          - body: >-
+
+              In the next 5 years, only those with a positive environmental
+              impact will be able to grow. Apical offers you a simple solution
+              to succeed, together with your audience.
+            image: "\U0001F333 "
+            title: Make impact!
+          - body: >-
+              Network is the first engine of growth, so we put you in touch with
+              all Apical partners and customers and help you find the right
+              contact
+            image: "\U0001F91D"
+            title: Network
+        greyBg: true
+        subtitle: 'Grow faster, stay safe and push innovation'
+        title: What you get with Apical
+        titleCenter: true
+      it:
+        cta:
+          link: '#onboarding'
+          text: Sali a bordo
+        features:
+          - body: >-
+              Apical ti fornisce gli strumenti per aumentare dal 20% al 50% le
+              vendite a partire dal pubblico che già possiedi
+            image: "\U0001F4C8"
+            title: Vendi di più
+          - body: >-
+              Risparmia fino all'80% del tempo che dedichi a amministrazione,
+              gestione e vendita per concentrarti su ciò che ami fare veramente
+            image: ✂️
+            title: Risparmi tempo
+          - body: >-
+              Nei prossimi 5 anni solo chi avrà un impatto ambientale positivo
+              riuscirà a crescere. Apical ti offre una soluzione semplice per
+              riuscirci, insieme al tuo pubblico.
+            image: "\U0001F333 "
+            title: 'Crei impatto '
+          - body: >-
+              Il network è il primo motore di crescita, per questo ti mettiamo
+              in contatto con tutti i partner e clienti Apical e ti aiutiamo a
+              trovare il contatto giusto per te
+            image: "\U0001F91D"
+            title: Acquisisci Network
+        greyBg: true
+        subtitle: 'Cresci più velocemente, in modo sicuro e innovativo'
+        title: Cosa ottieni con Apical
+        titleCenter: true
+    type: SpecialFeatures
   - props:
       en:
         cta:
