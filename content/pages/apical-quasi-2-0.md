@@ -357,7 +357,7 @@ sections:
           Raccontaci dei tuoi obiettivi, dei tuoi bisogni e degli ostacoli che
           hai incontrato. Apical metterà in campo tutta la sua esperienza per
           realizzare il tuo progetto
-        image: 'https://ucarecdn.com/5a6b5bc4-39a9-47bb-b570-7863ddd72b82/'
+        image: 'https://ucarecdn.com/74d822d5-8fef-4e6b-b643-d3be360ca846/'
         title: Partnership Program
     type: HomeHero
   - props:
