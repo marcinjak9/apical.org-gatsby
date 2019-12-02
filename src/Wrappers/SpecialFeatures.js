@@ -17,6 +17,10 @@ const CustomRow = styled(Row)`
    .special-section .col[data-items-count="5"]:nth-child(4) {
        grid-column: 3 / span 4;
    }
+   
+   .special-section .col[data-items-count="4"] {
+       grid-column: span 6 / auto;
+   }
 `
 
 const SpecialFeatures = (props) => {
