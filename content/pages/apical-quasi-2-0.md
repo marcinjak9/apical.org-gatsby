@@ -38,7 +38,7 @@ sections:
           Apical è la piattaforma self-service dedicata ai creatori di viaggi e
           esperienze. Crea, gestisci e fai crescere il tuo progetto travel
           online, in modo semplice e innovativo
-        image: 'https://ucarecdn.com/7f12961b-1b94-4add-b3cd-2bfaf749bc71/'
+        image: 'https://ucarecdn.com/ef479934-162b-4c72-8812-14172cd95a94/'
         title: CRESCI CON APICAL
     type: HomeHero
   - props:
@@ -55,9 +55,14 @@ sections:
         cta:
           link: '#onboarding'
           text: Discover more
-        title: What we do
+        title: Why Apical
       it:
-        body: 'L''industria dei viaggi sta cambiando, Semplice. Veloce. Online'
+        body: >-
+          In Apical pensiamo che i Travel Creators abbiamo il potere di cambiare
+          la vita delle persone, per questo li sopportiamo con una tecnologia
+          semplice, veloce e innovativa, disegnata per accelerare la loro
+          crescita, aumentare la soddisfazione dei viaggiatori e migliorare il
+          loro impatto sull’ambiente.
         cta:
           link: '#onboarding'
           text: Scopri di più
