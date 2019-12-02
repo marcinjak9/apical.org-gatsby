@@ -68,34 +68,39 @@ sections:
         greyBg: false
         slides:
           - body: >-
-              With Apical Dashboard you can easily organize and merchandise your
-              supplies such as rooms, beds, activities, transportations and
-              more! 
-            image: 'https://ucarecdn.com/cd4dc145-2a24-4036-b74c-94b4d2c91d37/'
+
+              No matter how complex your products are, with Apical you can
+              easily create and manage any travel offer and provide the public
+              with a clear, professional and simple online shopping experience
+            image: 'https://ucarecdn.com/f2b6e76b-20d2-4c62-aa72-7451f2d43557/'
             title: 1. Manage and sell your travel products
           - body: >-
               With Apical Analytics and Performance tools you can monitor your
               sales and your traffic with real-time metrics, complete reports
               and more!
-            image: 'https://ucarecdn.com/b6e193e8-c403-4aac-90a1-751f0b304cbb/'
+            image: 'https://ucarecdn.com/fde3863f-a594-4ff7-8e9b-b0351b69e443/'
             title: 2. Measure and understand your business
           - body: >-
               With Apical Back Office you can streamline your working process:
               manage bookings and customers, invoices, payments and all the rest
               in one place!
-            image: 'https://ucarecdn.com/6ef2bfcc-ed77-4de9-b1f5-05459ead14a7/'
+            image: 'https://ucarecdn.com/0f216db0-151d-4f7a-a7c6-bea99558b4bf/'
             title: 3. Automize your administration
-        title: 'Discover our technology: Apical Booking Engine'
+        title: What you can do with Apical
         titleCenter: true
       it:
         slides:
-          - body: 'Non importa quanto complesso '
+          - body: >-
+              Non importa quanto complessi siano i tuoi prodotti, con Apical
+              puoi creare e gestire in modo semplice qualsiasi offerta travel e
+              garantire sempre al pubblico un’esperienza d’acquisto online
+              chiara, professionale e semplice
             image: 'https://ucarecdn.com/8caa7a79-d952-4644-bc29-7d529a466ce0/'
             title: 1. Crea e vendi i tuoi prodotti online
           - body: >-
               Con gli strumenti Apical Analytics e Performance puoi monitorare
               le tue vendite e il tuo traffico con metriche in tempo reale,
-              report completi e altro!
+              report completi e molto altro!
             image: 'https://ucarecdn.com/152dbcbe-41c2-4f84-a8c5-a60aaaddd317/'
             title: 2. Misura e comprendi il tuo business
           - body: >-
@@ -114,23 +119,22 @@ sections:
           text: Sali a bordo
         features:
           - body: >-
-              Abbiamo registrato che una migliore esperienza utente significa un
-              incremento di vendite. Una piattaforma sicura e professionale e
-              ciò che i tuoi clienti si meritano
-            image: "\U0001F525"
-            title: Vendi di più
+              Apical provides you with the tools to increase sales from the
+              audience you already own from 20% to 50%
+            image: "\U0001F4C8"
+            title: Increase sales
           - body: >-
-              Fino all'80% del tuo tempo in meno dedicato ad amministrazione,
-              gestione e vendita dei tuoi prodotti. Dedicati di più a ciò che
-              ami fare davvero
-            image: "\U0001F388"
-            title: Risparmia tempo
+              Save up to 80% of the time you spend on administration,
+              management, and sales to focus on what you really love doing
+            image: ✂️
+            title: Save time
           - body: >-
-              Apical sostiene e promuove progetti ad impatto sociale e
-              ambientale positivo e lo fa coinvolgendo i propri partner: porta
-              la tua attività ad un livello superiore
+
+              In the next 5 years, only those with a positive environmental
+              impact will be able to grow. Apical offers you a simple solution
+              to succeed, together with your audience.
             image: "\U0001F333 "
-            title: 'Crea impatto '
+            title: Make impact!
           - body: >-
               Entrare nell'ecosistema Apical significa connettersi con molti
               altri potenziali partner. L'opportunità di crescere passa anche
@@ -147,21 +151,19 @@ sections:
           text: Sali a bordo
         features:
           - body: >-
-              Abbiamo registrato che una migliore esperienza utente significa un
-              incremento di vendite. Una piattaforma sicura e professionale e
-              ciò che i tuoi clienti si meritano
-            image: "\U0001F525"
+              Apical ti fornisce gli strumenti per aumentare dal 20% al 50% le
+              vendite a partire dal pubblico che già possiedi
+            image: "\U0001F4C8"
             title: Vendi di più
           - body: >-
-              Fino all'80% del tuo tempo in meno dedicato ad amministrazione,
-              gestione e vendita dei tuoi prodotti. Dedicati di più a ciò che
-              ami fare davvero
-            image: "\U0001F388"
+              Risparmia fino all'80% del tempo che dedichi a amministrazione,
+              gestione e vendita per concentrarti su ciò che ami fare veramente
+            image: ✂️
             title: Risparmia tempo
           - body: >-
-              Apical sostiene e promuove progetti ad impatto sociale e
-              ambientale positivo e lo fa coinvolgendo i propri partner: porta
-              la tua attività ad un livello superiore
+              Nei prossimi 5 anni solo chi avrà un impatto ambientale positivo
+              riuscirà a crescere. Apical ti offre una soluzione semplice per
+              riuscirci, insieme al tuo pubblico.
             image: "\U0001F333 "
             title: 'Crea impatto '
           - body: >-
