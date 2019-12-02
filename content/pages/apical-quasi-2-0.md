@@ -25,21 +25,21 @@ sections:
           link: '#onboarding'
           text: Join Apical
         heroBody: >-
-          Apical empowers partners to thrive in travel industry with technology
-          legalization and 360 support. We embrace your goals with ours
-        image: 'https://ucarecdn.com/0341321f-676f-4b03-9178-545f06944ff6/'
-        title: Grow with Apical
+          Apical is the end-to-end platform designed for travel creators. Start,
+          run and grow your travel business online
+        image: 'https://ucarecdn.com/1dbc1be1-fdaa-42f8-89c4-2e1d77450f5a/'
+        title: GROW WITH APICAL
       it:
         bodyLight: true
         cta:
           link: '#onboarding'
           text: Unisciti ad Apical
         heroBody: >-
-          Apical aiuta i propri partner a svilupparsi nel settore travel.
-          Vendere online, semplificare la contabilità ed essere coinvolto in
-          azioni ad impatto ambientale: i tuoi obiettivi diventano i nostri!
-        image: 'https://ucarecdn.com/58b6320f-6a40-45b7-986b-0ba52987cb96/'
-        title: Cresci con Apical
+          Apical è la piattaforma self-service dedicata ai creatori di viaggi e
+          esperienze. Crea, gestisci e fai crescere il tuo business travel
+          online in modo semplice e innovativo
+        image: 'https://ucarecdn.com/7f12961b-1b94-4add-b3cd-2bfaf749bc71/'
+        title: cresci con apical
     type: HomeHero
   - props:
       en:
