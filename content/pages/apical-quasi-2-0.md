@@ -44,25 +44,19 @@ sections:
   - props:
       en:
         body: >
-          Are you a tour operator with a good back office but spend too much of
-          your time in administration? The Booking Engine service is ready to
-          digitize your company!
-
-
-          Are you an experience organizer and would you like to make a
-          qualitative leap? The Partnership service offers you support
-          throughout the field!
+          Apical supports every Travel Creator with a simple, fast and
+          innovative technology, designed to accelerate growth, increase
+          traveler satisfaction and improve their impact on the environment.
         cta:
           link: '#onboarding'
           text: Discover more
         title: Why Apical
       it:
         body: >-
-          In Apical pensiamo che i Travel Creators abbiamo il potere di cambiare
-          la vita delle persone, per questo li sopportiamo con una tecnologia
-          semplice, veloce e innovativa, disegnata per accelerare la loro
-          crescita, aumentare la soddisfazione dei viaggiatori e migliorare il
-          loro impatto sull’ambiente.
+          Apical supporta ogni Travel Creators con una tecnologia semplice,
+          veloce e innovativa, disegnata per accelerare la crescita, aumentare
+          la soddisfazione dei viaggiatori e migliorare il loro impatto
+          sull’ambiente.
         cta:
           link: '#onboarding'
           text: Scopri di più
@@ -100,7 +94,7 @@ sections:
               prodotti come stanze, letti, attività, trasporti e altro ancora!
               Dai spazio alla tua creatività
             image: 'https://ucarecdn.com/8caa7a79-d952-4644-bc29-7d529a466ce0/'
-            title: 1. Gestisci e vendi i tuoi prodotti online
+            title: 1. Crea e vendi i tuoi prodotti online
           - body: >-
               Con gli strumenti Apical Analytics e Performance puoi monitorare
               le tue vendite e il tuo traffico con metriche in tempo reale,
