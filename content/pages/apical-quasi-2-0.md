@@ -447,8 +447,8 @@ sections:
         image: 'https://ucarecdn.com/05fe8554-53ba-4131-a135-0edde0687ea0/'
         smallText: true
         title: >-
-          One more thing. Integrate your business into our positive social
-          impact projects to engage your audience in the happiness movement
+          Apical believes in the travel industry as a force for good, and you
+          can be part of it
       it:
         central: false
         cta:
@@ -457,11 +457,8 @@ sections:
         image: 'https://ucarecdn.com/dcd61b91-d4e6-4d2f-bd2c-e1cea2acb8df/'
         smallText: false
         title: >-
-          Rigenerare terreni è molto più che piantare alberi, è ciò che oggi
-          serve davvero.
-
-
-          Combatti con noi
+          Apical crede che l'industria travel possa essere un'insostituibile
+          forma di innovazione sociale. Tu puoi farne parte
     type: SimpleHero
   - props:
       en:
