@@ -460,8 +460,8 @@ sections:
           https://ucarecdn.com/cdc06c9f-f0b0-4f84-9a39-b665636b1f15/-/crop/4000x1540/0,0/-/preview/
         smallText: false
         title: >-
-          Apical crede che l'industria travel possa essere un'insostituibile
-          forma di innovazione sociale. Tu puoi farne parte
+          Apical crede che l'industria travel sia un'insostituibile forma di
+          innovazione sociale e tu puoi farne parte
     type: SimpleHero
   - props:
       en:
