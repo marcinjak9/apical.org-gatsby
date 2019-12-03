@@ -10,7 +10,7 @@ it:
     phone: +39 392 2606862
   cta:
     text: Unisciti ora
-    url: 'https://dashboard.apical.org/register'
+    url: 'https://apical.org'
   menuItemsLeft:
     - text: Home
       url: /
@@ -21,24 +21,18 @@ it:
       url: 'https://www.esperienze.com'
     - text: Impatto Sociale
       url: /social-impact
-    - text: Hai bisogno di supporto?
-      url: 'https://help.apical.org'
 en:
   contacts:
     email: get@apical.org
     phone: +39 392 2606862
   cta:
     text: Join now
-    url: 'https://dashboard.apical.org/register'
+    url: 'https://apical.org'
   menuItemsLeft:
     - text: Home
       url: /
-    - text: Features
-      url: /features
     - text: About
       url: /about
-    - text: Blog
-      url: 'https://journal.apical.org'
   menuItemsRight:
     - text: Esperienze.com
       url: 'https://www.esperienze.com'
