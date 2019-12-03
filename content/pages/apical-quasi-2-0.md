@@ -374,25 +374,25 @@ sections:
               Present us your project in the way you prefer, we will analyze it
               together to see if it's ready or if you need our help to complete
               it, define it and improve it
-            image: ' _'
+            image: ' 1'
             title: Project analysis
           - body: >-
               When everything is ready the operational phase begins in which we
               will take charge of the technical direction (contracts with
               suppliers, travel insurance, creation of the store, etc. etc.)
-            image: ' _'
+            image: ' 2'
             title: Dedicated support
           - body: >-
               Let's go! We will take care of the management of the tourism
               product while you will be in charge of creative direction,
               marketing and communication
-            image: ' _'
+            image: ' 3'
             title: Go live with Apical
           - body: >-
               The concept, the brand, and the data are yours, Apical is the
               technical partner and the accelerator that respects your work and
               your experience
-            image: _
+            image: +
             title: Keep control
         cta:
           link: '#onboarding'
@@ -407,26 +407,26 @@ sections:
               Presentaci il tuo progetto nel modo che preferisci, lo
               analizzeremo insieme per capire se è pronto o se ti serve il
               nostro aiuto per completarlo, definirlo e migliorarlo
-            image: ' '
+            image: ' 1'
             title: Analisi del progetto
           - body: >-
               Quando tutto è pronto inizia la fase operativa in cui ci
               prenderemo carico della direzione tecnica (contratti con i
               fornitori, assicurazioni di viaggio, creazione dello store, ecc.
               ecc.)
-            image: ' '
+            image: ' 2'
             title: Supporto dedicato
           - body: >-
               Si parte! Noi ci occuperemo della gestione del prodotto turistico
               mentre tu ti occuperai della direzione creativa, del marketing e
               della comunicazione
-            image: ' _'
+            image: ' 3'
             title: Go live insieme ad Apical
           - body: >-
               Il concept, il brand e i dati rimangono a te, Apical è un partner
               tecnico e un acceleratore che rispetta il tuo lavoro e la tua
               esperienza
-            image: _
+            image: +
             title: Mantieni il controllo
         cta:
           link: '#onboarding'
