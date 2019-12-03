@@ -194,6 +194,11 @@ sections:
           text: Sali a bordo
         features:
           - body: >-
+              All-in-one: create, sell, run and easily manage all the products
+              you want
+            image: "\U0001F511"
+            title: Manage everything
+          - body: >-
               Apical provides you with the tools to increase sales from the
               audience you already own from 20% to 50%
             image: "\U0001F4C8"
@@ -204,18 +209,11 @@ sections:
             image: ✂️
             title: Save time
           - body: >-
-
-              In the next 5 years, only those with a positive environmental
-              impact will be able to grow. Apical offers you a simple solution
-              to succeed, together with your audience.
-            image: "\U0001F333 "
-            title: Make impact!
-          - body: >-
               Network is the first engine of growth, so we put you in touch with
               all Apical partners and customers and help you find the right
               contact
             image: "\U0001F91D"
-            title: Network
+            title: Get a network
         greyBg: true
         subtitle: 'Grow faster, stay safe and push innovation'
         title: What you get with Apical
@@ -226,6 +224,11 @@ sections:
           text: Sali a bordo
         features:
           - body: >-
+              Tutto in uno: crea, vendi, gestisci e amministra con facilità
+              tutti i prodotti che vuoi
+            image: "\U0001F511"
+            title: Gestisci tutto
+          - body: >-
               Apical ti fornisce gli strumenti per aumentare dal 20% al 50% le
               vendite a partire dal pubblico che già possiedi
             image: "\U0001F4C8"
@@ -235,12 +238,6 @@ sections:
               gestione e vendita per concentrarti su ciò che ami fare veramente
             image: ✂️
             title: Risparmi tempo
-          - body: >-
-              Nei prossimi 5 anni solo chi avrà un impatto ambientale positivo
-              riuscirà a crescere. Apical ti offre una soluzione semplice per
-              riuscirci, insieme al tuo pubblico.
-            image: "\U0001F333 "
-            title: 'Crei impatto '
           - body: >-
               Il network è il primo motore di crescita, per questo ti mettiamo
               in contatto con tutti i partner e clienti Apical e ti aiutiamo a
