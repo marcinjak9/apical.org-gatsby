@@ -14,12 +14,8 @@ it:
   menuItemsLeft:
     - text: Home
       url: /
-    - text: La Piattaforma
-      url: /features
     - text: About
       url: /about
-    - text: Blog
-      url: 'https://journal.apical.org'
   menuItemsRight:
     - text: Esperienze.com
       url: 'https://www.esperienze.com'
