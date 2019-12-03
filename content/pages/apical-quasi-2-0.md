@@ -44,9 +44,9 @@ sections:
   - props:
       en:
         body: >
-          Apical supports every Travel Creator with a simple, fast and
+          Apical supports every Travel Creator with a simple, quick and
           innovative technology, designed to accelerate growth, increase
-          traveler satisfaction and improve their impact on the environment.
+          traveler satisfaction and improve the impact on the environment.
         cta:
           link: '#onboarding'
           text: Discover more
@@ -144,9 +144,9 @@ sections:
             nav: •
             title: "\U0001F996 And more!"
         subtitle: >-
-          Traditional software only manage Tours & Activities, Apical allows you
-          to combine all the services you want, to give your customer the chance
-          to compose and book their perfect experience in real-time
+          Traditional software only manage tours & activities, Apical allows you
+          to combine all the services you want, giving your customers the
+          ability to compose and book their full experience in real-time
         title: 'Apical Dynamic Packaging: free your creativity'
       it:
         items:
@@ -180,10 +180,10 @@ sections:
             nav: •
             title: "\U0001F308 e molto altro"
         subtitle: >-
-          I software normali gestiscono solo Tours & Activities, Apical  ti
-          permette di combinare tutti i servizi che vuoi, per dare al tuo
-          cliente la possibilità di comporre e prenotare in tempo reale la
-          propria esperienza perfetta
+          I software normali gestiscono solo tours & activities, Apical ti
+          permette di combinare tutti i servizi che vuoi, lasciando al cliente
+          la possibilità di comporre e prenotare in tempo reale la propria
+          esperienza completa
         title: 'Apical Dynamic Packaging: crea senza limiti!'
         titleCenter: true
     type: ToolsCards
@@ -346,16 +346,25 @@ sections:
   - props:
       en:
         bodyLight: false
+        heroBody: >-
+          **Apical is looking for partners to invest in. If you have an idea for
+          an experience, of any kind, but you lack the knowledge and the legal
+          structure to carry it out, here you are welcome, please apply to our 
+          Partnership Program**
+        image: 'https://ucarecdn.com/cab8dd3d-9d05-4b50-b01c-d5af1c877f28/'
+        title: Partnership Program
       it:
         bodyLight: true
         cta:
           link: '#onboarding'
           text: Entra in Apical
         heroBody: >-
-          Raccontaci dei tuoi obiettivi, dei tuoi bisogni e degli ostacoli che
-          hai incontrato. Apical metterà in campo tutta la sua esperienza per
-          realizzare il tuo progetto
-        image: 'https://ucarecdn.com/74d822d5-8fef-4e6b-b643-d3be360ca846/'
+          Apical ha un'idea precisa del futuro dell'industria travel e cerca
+          partner su cui investire per costruirlo. Se hai un'idea per
+          un'esperienza, di qualunque tipo, ma ti manca la conoscenza e la
+          struttura legale per realizzarla, puoi candidarti per il Partnership
+          Program di Apical
+        image: 'https://ucarecdn.com/e498b448-3353-42b4-8480-c8d709a310c7/'
         title: Partnership Program
     type: HomeHero
   - props:
@@ -365,26 +374,32 @@ sections:
               Present us your project in the way you prefer, we will analyze it
               together to see if it's ready or if you need our help to complete
               it, define it and improve it
-            image: ' '
+            image: ' _'
             title: Project analysis
           - body: >-
               When everything is ready the operational phase begins in which we
               will take charge of the technical direction (contracts with
               suppliers, travel insurance, creation of the store, etc. etc.)
-            image: ' '
+            image: ' _'
             title: Dedicated support
           - body: >-
               Let's go! We will take care of the management of the tourism
               product while you will be in charge of creative direction,
               marketing and communication
-            image: ' '
+            image: ' _'
             title: Go live with Apical
+          - body: >-
+              The concept, the brand, and the data are yours, Apical is the
+              technical partner and the accelerator that respects your work and
+              your experience
+            image: _
+            title: Keep control
         cta:
           link: '#onboarding'
           text: Tell us your story
         greyBg: true
-        subtitle: Dedicated to people and companies without a travel license
-        title: Discover Apical Partnership
+        subtitle: ' Partnership Program is dedicated to anyone and any company that wants and knows how to create extraordinary experiences'
+        title: Apply now
         titleCenter: true
       it:
         cards:
@@ -405,14 +420,22 @@ sections:
               Si parte! Noi ci occuperemo della gestione del prodotto turistico
               mentre tu ti occuperai della direzione creativa, del marketing e
               della comunicazione
-            image: ' '
+            image: ' _'
             title: Go live insieme ad Apical
+          - body: >-
+              Il concept, il brand e i dati rimangono a te, Apical è un partner
+              tecnico e un acceleratore che rispetta il tuo lavoro e la tua
+              esperienza
+            image: _
+            title: Mantieni il controllo
         cta:
           link: '#onboarding'
           text: Raccontaci di te
         greyBg: true
-        subtitle: Dedicato alle persone e alle aziende prive di licenza travel
-        title: Scopri Apical Partnership
+        subtitle: >-
+          Partnership Program è dedicato a chiunque e a qualunque azienda che
+          voglia e sappia creare esperienze straordinarie
+        title: Candidati ora
         titleCenter: true
     type: HowItWorks
   - props:
