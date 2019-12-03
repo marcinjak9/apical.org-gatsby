@@ -438,7 +438,22 @@ sections:
         title: Candidati ora
         titleCenter: true
     type: HowItWorks
-  - type: TestimonialsSection
+  - props:
+      en:
+        testimonials:
+          - body: Test
+            company: Test
+            image: 'https://ucarecdn.com/bc749b3b-368a-46a2-a882-410b4a989b62/'
+            name: Test
+        title: Test
+      it:
+        testimonials:
+          - body: Test
+            company: Test
+            image: 'https://ucarecdn.com/b3d09a88-ca12-4678-9b21-7d71d75ca5e3/'
+            name: Test
+        title: Test
+    type: TestimonialsSection
   - props:
       en:
         central: false
