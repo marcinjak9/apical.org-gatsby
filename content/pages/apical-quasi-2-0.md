@@ -440,6 +440,29 @@ sections:
     type: HowItWorks
   - props:
       en:
+        cta:
+          link: kjkj
+          text: jhj
+        testimonials:
+          - body: fhfhf
+            company: gjgjg
+            image: 'https://ucarecdn.com/924ba146-3cf7-4c61-a100-19fe3b2727eb/'
+            name: dgdgd
+        title: jhjh
+      it:
+        cta:
+          link: mnknkn
+          text: jhjh
+        greyBg: false
+        testimonials:
+          - body: asdasd
+            company: asdad
+            image: 'https://ucarecdn.com/629b3067-47d2-4931-824d-9d6b2560fee5/'
+            name: asdasd
+        title: asdad
+    type: TestimonialsSection
+  - props:
+      en:
         central: false
         cta:
           link: social-impact
