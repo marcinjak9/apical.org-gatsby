@@ -60,7 +60,7 @@ sections:
         cta:
           link: '#onboarding'
           text: Scopri di più
-        greyBg: true
+        greyBg: false
         title: Perché Apical
     type: WhatWeDo
   - props:
@@ -214,7 +214,7 @@ sections:
               contact
             image: "\U0001F91D"
             title: Get a network
-        greyBg: true
+        greyBg: false
         subtitle: 'Grow faster, stay safe and push innovation'
         title: What you get with Apical
         titleCenter: true
@@ -244,7 +244,7 @@ sections:
               trovare il contatto giusto per te
             image: "\U0001F91D"
             title: Acquisisci Network
-        greyBg: true
+        greyBg: false
         subtitle: 'Cresci più velocemente, in modo sicuro e innovativo'
         title: Cosa ottieni con Apical
         titleCenter: true
