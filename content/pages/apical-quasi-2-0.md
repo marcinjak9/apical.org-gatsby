@@ -438,13 +438,15 @@ sections:
         title: Candidati ora
         titleCenter: true
     type: HowItWorks
+  - type: TestimonialsSection
   - props:
       en:
         central: false
         cta:
           link: social-impact
           text: Discover more
-        image: 'https://ucarecdn.com/05fe8554-53ba-4131-a135-0edde0687ea0/'
+        image: >-
+          https://ucarecdn.com/9717fad6-3ce6-426a-8d87-c7d9df819237/-/crop/4000x1429/0,0/-/preview/
         smallText: true
         title: >-
           Apical believes in the travel industry as a force for good, and you
@@ -454,7 +456,8 @@ sections:
         cta:
           link: social-impact
           text: Scopri di più
-        image: 'https://ucarecdn.com/dcd61b91-d4e6-4d2f-bd2c-e1cea2acb8df/'
+        image: >-
+          https://ucarecdn.com/cdc06c9f-f0b0-4f84-9a39-b665636b1f15/-/crop/4000x1540/0,0/-/preview/
         smallText: false
         title: >-
           Apical crede che l'industria travel possa essere un'insostituibile
@@ -491,7 +494,7 @@ sections:
               consulenza di un nostro esperto
             title: 3. Sali a bordo
         greyBg: true
-        title: Raccontaci la tua storia
+        title: 'Raccontaci la tua storia '
         titleCenter: true
     type: WelcomeSteps
   - props:
