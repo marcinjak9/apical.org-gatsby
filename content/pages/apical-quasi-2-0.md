@@ -451,15 +451,15 @@ sections:
         title: jhjh
       it:
         cta:
-          link: mnknkn
-          text: jhjh
+          link: ''
+          text: ''
         greyBg: false
         testimonials:
-          - body: asdasd
-            company: asdad
+          - body: 'Offri retreats '
+            company: Yoga
             image: 'https://ucarecdn.com/629b3067-47d2-4931-824d-9d6b2560fee5/'
-            name: asdasd
-        title: asdad
+            name: Istruttori
+        title: Apical Partnership Program è pensato per tutti
     type: TestimonialsSection
   - props:
       en:
