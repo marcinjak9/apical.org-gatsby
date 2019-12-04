@@ -269,23 +269,17 @@ sections:
             image: 'https://ucarecdn.com/265e4afb-ca3a-4604-874e-988ce46f6d46/'
             name: Tour operator
           - body: >-
-              Organize activities, accomodations and sell tickets to your
-              audience 
-            company: ' '
-            image: 'https://ucarecdn.com/9f5cdac7-deca-4185-970b-63f28d95791e/'
-            name: Festivals and events
-          - body: >-
               Manage your accommodation and activities and let your customers
               compose their perfect trip
             company: ' '
             image: 'https://ucarecdn.com/a7229c42-f2c4-4cd0-a16b-6393ff14a346/'
             name: Destination managers
           - body: >-
-              Are you an instructor or a trainer? Organize your retreat for your
-              students or your partners
-            company: ' '
-            image: 'https://ucarecdn.com/5b86156d-e971-4b57-9583-0e97bebbda6f/'
-            name: Retreat and conferences
+              Sell unlimited properties along with activities and services.
+              Increase your margin and add value to your offer
+            company: _
+            image: 'https://ucarecdn.com/1046daf6-494e-44fb-acb0-6736c06f2c74/'
+            name: Property managers
           - body: >-
               Are you a community? An instructor? An association? A travel
               blogger? A superhero? Anything else? Contact us, we are happy to
@@ -314,23 +308,17 @@ sections:
             image: 'https://ucarecdn.com/ddcae5be-5451-4b2d-9043-74cc1ece9c91/'
             name: Tour operator
           - body: >-
-              Vendere biglietti e accomodation per il proprio pubblico non è mai
-              stato così semplice!
-            company: ' '
-            image: 'https://ucarecdn.com/41ab032a-a306-4dc1-8d2d-2a528fabd538/'
-            name: Festival ed eventi
-          - body: >-
               Gestisci il tuo alloggio e le tue attività e lascia che i tuoi
               clienti compongano il viaggio perfetto!
             company: ' '
             image: 'https://ucarecdn.com/83db1eeb-8bdf-4a60-a606-0fefd7ab5402/'
             name: Destination manager
           - body: >-
-              Sei un istruttore o un formatore? Organizza il tuo retreat per i
-              tuoi studenti o i tuoi partner
-            company: ' '
-            image: 'https://ucarecdn.com/7709403d-5fd8-4deb-a4aa-bf4becca08e7/'
-            name: 'Retreat e convegni '
+              Proponi activities e servizi agli utenti che affittano le tue
+              proprietà, aumenta gli incassi e dai più valore al pubblico
+            company: _
+            image: 'https://ucarecdn.com/975018a0-6e0a-4642-8571-dfc30cd3f6db/'
+            name: Property manager
           - body: >-
               Sei una comunità? Un'associazione? Un blogger di viaggio? Un
               supereroe? Qualunque altra cosa? Contattaci, siamo felici di
@@ -344,10 +332,10 @@ sections:
       en:
         bodyLight: false
         heroBody: >-
-          **Apical is looking for partners to invest in. If you have an idea for
+          Apical is looking for partners to invest in. If you have an idea for
           an experience, of any kind, but you lack the knowledge and the legal
           structure to carry it out, here you are welcome, please apply to our 
-          Partnership Program**
+          Partnership Program
         image: 'https://ucarecdn.com/cab8dd3d-9d05-4b50-b01c-d5af1c877f28/'
         title: <b> Partnership Program </b>
       it:
@@ -440,18 +428,70 @@ sections:
           - body: >-
               Create experiences for your students in a simple, safe and
               effective way
-            company: 'Yoga, mindfulness, ...'
+            company: _
             image: 'https://ucarecdn.com/628ebdf0-fcd1-480a-a10f-d677849f7534/'
             name: Instructors
-        title: _
+          - body: >-
+              Offer travel services around your tickets, create more value for
+              your audience and push revenue
+            company: _
+            image: 'https://ucarecdn.com/286934c0-7db1-4b74-9f4e-49fe37b1561c/'
+            name: Events & festivals
+          - body: >-
+              Involve your members in endless experiences and trips, put safety
+              and quality at the center of your next adventure
+            company: _
+            image: 'https://ucarecdn.com/65391d39-4057-4d65-8afd-69893884318c/'
+            name: Associations
+          - body: >-
+              Involve your members in unique experiences, create value, engage
+              your audience better and activate a new source of income
+            company: _
+            image: 'https://ucarecdn.com/8c7c6cb4-f56e-4593-b71b-79d4d0597182/'
+            name: Communities
+          - body: >-
+              Magazine, blogs, publishing houses, lifestyle brands and many
+              others are increasingly learning that organizing experiences is an
+              indispensable tool to engage and grow their community
+            company: _
+            image: 'https://ucarecdn.com/6c2127dc-9d63-4c93-9067-5277a1023160/'
+            name: Brands
+        title: Partnership Program is designed for
       it:
         testimonials:
           - body: >-
               Crea esperienze per i tuoi studenti in modo semplice, efficace e
               sicuro.
-            company: 'Yoga, mindfulness, ...'
+            company: _
             image: 'https://ucarecdn.com/2d20e6f3-381e-4320-8d41-2449fa88ac24/'
             name: Istruttori e coach
+          - body: >-
+              Offri servizi travel intorno ai tuoi tickets, crea valore per il
+              tuo pubblico e aumenta i tuoi ricavi
+            company: _
+            image: 'https://ucarecdn.com/9ed1dfdc-71f0-41b9-b471-0e812a6d8b9a/'
+            name: Eventi e festival
+          - body: >-
+              Coinvolgi i tuoi iscritti in infinite esperienze e viaggi, metti
+              sicurezza e qualità al centro della tua prossima proposta
+            company: _
+            image: 'https://ucarecdn.com/3fdf29d0-e849-41f1-af66-4d864eb2fc5f/'
+            name: Associazioni
+          - body: >-
+              Coinvolgi i tuoi membri in esperienze uniche, crea valore,
+              coinvolgi meglio il tuo pubblico e attiva una nuova fonte di
+              guadagno
+            company: _
+            image: 'https://ucarecdn.com/03ec9ed4-d390-4213-9b02-6146895be458/'
+            name: Communities
+          - body: >-
+              Magazine, blog, case editrici, lifestyle brands e tantissimi altri
+              stanno sempre più imparando che organizzare esperienze è uno
+              strumento indispensabile per coinvolgere e far crescere la propria
+              community
+            company: _
+            image: 'https://ucarecdn.com/71126d90-49e2-4566-b64c-4c2ef31799e7/'
+            name: Brands
         title: Partnership Program è pensato per servire
     type: TestimonialsSection
   - props:
