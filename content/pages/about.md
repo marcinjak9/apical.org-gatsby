@@ -41,6 +41,13 @@ sections:
           - _
     type: HomeHero
   - props:
+      en:
+        body: >-
+          Apical supporta ogni Travel Creator con una tecnologia semplice,
+          veloce e innovativa, disegnata per accelerare la crescita, aumentare
+          la soddisfazione dei viaggiatori e migliorare il loro impatto
+          sull’ambiente.
+        title: Supportiamo i Travel Creators
       it:
         body: >-
           Apical supporta ogni Travel Creator con una tecnologia semplice,
