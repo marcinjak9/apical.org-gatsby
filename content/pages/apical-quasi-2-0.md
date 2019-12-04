@@ -116,21 +116,21 @@ sections:
       en:
         greyBg: false
         items:
-          - body: 'Dorm beds, private rooms, camps and whatever you offer'
-            nav: •
-            title: "\U0001F6CC Beds"
-          - body: 'Surf lessons, bike tours, wine tasting or whatever you offer'
-            nav: •
-            title: ⛰ Activities
-          - body: 'Local bus, transit van, walking guide and whatever you offer'
-            nav: •
-            title: "\U0001F680 Transportation"
-          - body: 'Festival tickets, ski passes and whatever you offer'
-            nav: •
-            title: "\U0001F39F Tickets"
           - body: 'Travel insurance, booking insurance and whatever you offer'
             nav: •
             title: ⛑ Insurance
+          - body: 'Surf lessons, bike tours, wine tasting or whatever you offer'
+            nav: •
+            title: ⛰ Activities
+          - body: 'Festival tickets, ski passes and whatever you offer'
+            nav: •
+            title: "\U0001F39F Tickets"
+          - body: 'Dorm beds, private rooms, camps and whatever you offer'
+            nav: •
+            title: "\U0001F6CC Beds"
+          - body: 'Local bus, transit van, walking guide and whatever you offer'
+            nav: •
+            title: "\U0001F680 Transportation"
           - body: 'Shirts, badges, lighters and whatever you sell'
             nav: •
             title: "\U0001F455 Merchandise"
@@ -150,6 +150,12 @@ sections:
         title: 'Apical Dynamic Packaging: free your creativity'
       it:
         items:
+          - body: 'Assicurazioni viaggio, bagagli e prenotazione. #staisereno'
+            nav: •
+            title: ⛑ Assicurazioni
+          - body: 'Bus, van, barche o qualsiasi cosa trasporti persone'
+            nav: •
+            title: "\U0001F680 Trasporti"
           - body: 'Posti letto, stanze, tende e tutto ciò che ti viene in mente'
             nav: •
             title: "\U0001F6CC Letti"
@@ -158,15 +164,9 @@ sections:
               fantasia
             nav: •
             title: ⛰ Attività
-          - body: 'Bus, van, barche o qualsiasi cosa trasporti persone'
-            nav: •
-            title: "\U0001F680 Trasporti"
           - body: 'Festival, ski pass, spettacoli e tutto ciò che vuoi!'
             nav: •
             title: "\U0001F39F Tickets"
-          - body: 'Assicurazioni viaggio, bagagli e prenotazione. #staisereno'
-            nav: •
-            title: ⛑ Assicurazioni
           - body: 'Spille, magliette, accendini e tutto ciò che vuoi!'
             nav: •
             title: "\U0001F455 Merchandising"
@@ -443,6 +443,7 @@ sections:
             company: 'Yoga, mindfulness, ...'
             image: 'https://ucarecdn.com/628ebdf0-fcd1-480a-a10f-d677849f7534/'
             name: Instructors
+        title: _
       it:
         testimonials:
           - body: >-
@@ -451,6 +452,7 @@ sections:
             company: 'Yoga, mindfulness, ...'
             image: 'https://ucarecdn.com/2d20e6f3-381e-4320-8d41-2449fa88ac24/'
             name: Istruttori e coach
+        title: _
     type: TestimonialsSection
   - props:
       en:
