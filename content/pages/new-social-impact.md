@@ -53,6 +53,32 @@ sections:
         title: Impatto sociale
     type: WhatWeDo
   - props:
+      en:
+        cards:
+          - body: >-
+              Planting trees is no longer enough. Apical is a partner of Bee
+              Your Hero, a non-profit organization specializing in regenerating
+              parts of degraded land according to ecosystem logic
+            image: "\U0001F41D"
+            title: Environmental impact
+          - body: >-
+              We support volunteering experiences in the territories and support
+              associations and communication projects whose purpose is to
+              rebuild the foundations of a strong community. Happiness is a
+              movement
+            image: "\U0001F932\U0001F3FB"
+            title: Social impact
+          - body: >-
+              Best practices can change the face of your company. Small gestures
+              are often enough to change and Apical is by your side to advise
+              you, help you and accompany you to be better
+            image: "\U0001F331"
+            title: Growth
+        cta:
+          link: 'https://beeyourhero.org'
+          text: 'Discover Bee Your Hero '
+        title: How Apical involves its partners
+        titleCenter: true
       it:
         cards:
           - body: >-
@@ -74,8 +100,10 @@ sections:
             image: "\U0001F331"
             title: 'Crescita '
         cta:
+          link: 'https://beeyourhero.org'
           text: Scopri i nostri progetti
         title: Come Apical coinvolge i propri partner
+        titleCenter: true
     type: HowItWorks
 ---
 
