@@ -28,7 +28,7 @@ sections:
           Apical is the end-to-end platform designed for travel creators. Start,
           run and grow your travel business online
         image: 'https://ucarecdn.com/1dbc1be1-fdaa-42f8-89c4-2e1d77450f5a/'
-        title: <b> GROW WITH APICAL </b>
+        title: 'GROW WITH APICAL '
       it:
         bodyLight: true
         cta:
@@ -39,7 +39,7 @@ sections:
           esperienze. Crea, gestisci e fai crescere il tuo progetto travel
           online, in modo semplice e innovativo
         image: 'https://ucarecdn.com/ef479934-162b-4c72-8812-14172cd95a94/'
-        title: <b> CRESCI CON APICAL </b>
+        title: CRESCI CON APICAL
     type: HomeHero
   - props:
       en:
@@ -181,9 +181,9 @@ sections:
             title: "\U0001F308 e molto altro"
         subtitle: >-
           I software normali gestiscono solo tours & activities, Apical ti
-          permette di combinare tutti i servizi che vuoi, lasciando al cliente
-          la possibilità di comporre e prenotare in tempo reale la propria
-          esperienza completa
+          permette di combinare tutti i servizi che vuoi, dando all'utente la
+          possibilità di comporre e prenotare in tempo reale la propria
+          esperienza ideale
         title: 'Apical Dynamic Packaging: crea senza limiti!'
         titleCenter: true
     type: ToolsCards
@@ -356,8 +356,7 @@ sections:
           link: '#onboarding'
           text: Entra in Apical
         heroBody: >-
-          Apical ha un'idea precisa del futuro dell'industria travel e cerca
-          partner su cui investire per costruirlo. Se hai un'idea per
+          Apical cerca partner su cui investire. Se hai un'idea per
           un'esperienza, di qualunque tipo, ma ti manca la conoscenza e la
           struttura legale per realizzarla, puoi candidarti per il Partnership
           Program di Apical
@@ -435,6 +434,24 @@ sections:
         title: Candidati ora
         titleCenter: true
     type: HowItWorks
+  - props:
+      en:
+        testimonials:
+          - body: >-
+              Create experiences for your students in a simple, safe and
+              effective way
+            company: 'Yoga, mindfulness, ...'
+            image: 'https://ucarecdn.com/628ebdf0-fcd1-480a-a10f-d677849f7534/'
+            name: Instructors
+      it:
+        testimonials:
+          - body: >-
+              Crea esperienze per i tuoi studenti in modo semplice, efficace e
+              sicuro.
+            company: 'Yoga, mindfulness, ...'
+            image: 'https://ucarecdn.com/2d20e6f3-381e-4320-8d41-2449fa88ac24/'
+            name: Istruttori e coach
+    type: TestimonialsSection
   - props:
       en:
         central: false
