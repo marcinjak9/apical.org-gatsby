@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
 title: About
-slug: about
+slug: about-apical
 type: page
 hideNav: false
 hideFooter: false
