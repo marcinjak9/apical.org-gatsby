@@ -282,8 +282,9 @@ sections:
             name: Property managers
           - body: >-
               Are you a community? An instructor? An association? A travel
-              blogger? A superhero? Anything else? Contact us, we are happy to
-              hear your story
+              blogger? A superhero? Anything else? 
+
+              Scroll down the page and apply to the Partnership Program
             company: ' '
             image: 'https://ucarecdn.com/72fa4126-d132-4ad0-bd46-d94a19f0abbc/'
             name: 'And more! '
@@ -321,8 +322,8 @@ sections:
             name: Property manager
           - body: >-
               Sei una comunità? Un'associazione? Un blogger di viaggio? Un
-              supereroe? Qualunque altra cosa? Contattaci, siamo felici di
-              ascoltare la tua storia
+              supereroe? Qualunque altra cosa? Scorri la pagina e applica al
+              Partnership Program
             company: ' '
             image: 'https://ucarecdn.com/bd614ca8-0502-44b2-876f-65ab156a1a48/'
             name: '... e molto altro! '
