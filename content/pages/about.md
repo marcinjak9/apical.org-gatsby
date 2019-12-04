@@ -1,6 +1,6 @@
 ---
 templateKey: site-page
-title: About
+title: About Apical
 slug: about-apical
 type: page
 hideNav: false
