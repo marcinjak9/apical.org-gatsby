@@ -349,7 +349,7 @@ sections:
           structure to carry it out, here you are welcome, please apply to our 
           Partnership Program**
         image: 'https://ucarecdn.com/cab8dd3d-9d05-4b50-b01c-d5af1c877f28/'
-        title: Partnership Program
+        title: <b> Partnership Program </b>
       it:
         bodyLight: true
         cta:
@@ -361,7 +361,7 @@ sections:
           struttura legale per realizzarla, puoi candidarti per il Partnership
           Program di Apical
         image: 'https://ucarecdn.com/e498b448-3353-42b4-8480-c8d709a310c7/'
-        title: Partnership Program
+        title: <b> Partnership Program </b>
     type: HomeHero
   - props:
       en:
@@ -452,7 +452,7 @@ sections:
             company: 'Yoga, mindfulness, ...'
             image: 'https://ucarecdn.com/2d20e6f3-381e-4320-8d41-2449fa88ac24/'
             name: Istruttori e coach
-        title: _
+        title: Partnership Program è pensato per servire
     type: TestimonialsSection
   - props:
       en:
