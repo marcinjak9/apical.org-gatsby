@@ -73,27 +73,44 @@ sections:
   - props:
       en:
         body: >-
-          What we know is that when people share their energy into an experience
-          they naturally become more open-minded, curious and able to understand
-          one another. This is the transformative power of the travel industry
-          and the reason why Apical is playing this game.
-
-          Apical is about leveraging the travel industry mechanics to enable a
-          generation of global citizens to emerge, as fast as possible.
+          Apical is a travel startup that offers technology along with a strong
+          experience in the industry and a consistent track record. Apical does
+          not just offer services, it teams up with its Travel Creators and
+          supports their growth. If they grow, Apical grows. The two missions
+          are aligned and this allows the flowering of a proper ecosystem, able
+          to grow exponentially
         greyBg: true
-        title: >-
-          We believe that travelling is an extraordinary form of social
-          innovation
+        title: Why Travel Creators are entering Apical
       it:
         body: >-
-          Sappiamo che quando più persone condividono la loro energia in
-          un'esperienza, queste diventano naturalmente più aperte, curiose e
-          capaci di capirsi. Questo è il potere trasformativo dell'industria dei
-          viaggi e la ragione per cui Apical ne fa parte.
+          Apical è una startup travel che offre tecnologia insieme a una forte
+          esperienza nell’industria e un consistente track-record. Apical non si
+          limita a offrire servizi, fa squadra con i propri Travel Creators e
+          supporta la loro crescita. Se loro crescono, Apical cresce. Le due
+          mission sono allineate e questo permette la fioritura di un vero
+          ecosistema in grado di crescere esponenzialmente
         greyBg: true
-        title: >-
+        title: Perché i Travel Creator entrano in Apical
+    type: WhatWeDo
+  - props:
+      en:
+        body: >-
+          We believe that travelling is an extraordinary form of social
+          innovation because, for what we know, when people share their energy
+          into an experience they naturally become more open-minded, curious and
+          able to understand one another. This is the transformative power of
+          the travel industry and the reason why Apical is playing this game
+        greyBg: false
+        title: Why Apical is doing this
+      it:
+        body: >-
           Crediamo che il viaggio sia un'incredibile forma di innovazione
-          sociale
+          sociale perché sappiamo che quando più persone condividono la loro
+          energia in un'esperienza, diventano naturalmente più aperte, curiose e
+          capaci di capirsi. Questo è il potere trasformativo dell'industria dei
+          viaggi e la ragione per cui Apical ne fa parte
+        greyBg: false
+        title: Perché Apical fa queste cose
     type: WhatWeDo
   - props:
       en:
@@ -139,19 +156,33 @@ sections:
           Apical è creare le giuste condizioni.
 
 
-          Quello che sappiamo è che quando più persone condividono la loro
-          energia in un'esperienza, queste diventano naturalmente più aperte,
-          curiose e capaci di capirsi. Questo è il potere trasformativo
-          dell'industria dei viaggi e d è il motivo per cui Apical fa parte di
-          questa industria
-
-
           Apical - moving people
         cta:
           link: features
           text: Entra in Apical
         greyBg: true
-        title: Vision
+        title: Perché si chiama Apical
+    type: WhatWeDo
+  - props:
+      en:
+        body: >-
+          Please click on "I am interested" and then fill out the form, the team
+          will send you a presentation and a proposal for a 15-minute call that
+          will help to understand your needs, so then we will decide together if
+          Apical can accelerate your growth, regardless of your current size
+        cta:
+          text: I am interested
+        title: How to find out more
+      it:
+        body: >-
+          Clicca per favore su “mi interessa” e poi compila il form, il team ti
+          invierà una presentazione e ti proporrà una chiamata di 15 minuti che
+          servirà a capire i tuoi bisogni e a decidere insieme se Apical può
+          accelerare la tua crescita, indipendentemente dalla tua dimensione
+          attuale
+        cta:
+          text: Voglio saperne di più
+        title: Come si entra in Apical
     type: WhatWeDo
   - props:
       en:
@@ -168,83 +199,17 @@ sections:
       it:
         bgImage: 'https://ucarecdn.com/1da972a8-a4be-406e-8427-b7f28345439c/'
         body: >+
-          We believe that when people share their energy into an intense
-          experience they naturally become more open-minded, curious and able to
-          understand one another Experience Creators have the power to change
-          people’s life.  Apical is here to support them. Join our mission
+          We believe that when people share their energy into an experience they
+          naturally become more open-minded, curious and able to understand one
+          another. Experience Creators have the power to change people’s life. 
+          Apical is here to support them. 
+
+          Join our mission
 
         fullHeigh: true
         quote: 'Nicola Zanola, CEO'
         title: Happiness is a movement
     type: Cta
-  - props:
-      en:
-        body: >-
-          Open your free account now and choose later the plan that suits your
-          needs!
-        cta:
-          link: 'https://dashboard.apical.org/register'
-          text: Register now
-          title: ''
-      it:
-        body: >-
-          Apri il tuo account gratuito in pochi secondi e scegli dopo quale
-          piano attivare!
-        cta:
-          link: 'https://dashboard.apical.org/register'
-          text: Iscriviti
-          title: ''
-    scrollTo: true
-    type: Quote
-  - props:
-      en:
-        columns:
-          - body: >-
-              "What you need to create, manage and sell your experiences or
-              travels: all in one tool"
-            emoji: ✈️
-            title: Save 80% of the time
-          - body: >-
-              The professional interface, payment system and customization
-              options make your product better
-            emoji: "\U0001F4BB"
-            title: Increase receipts by 30%
-          - body: >-
-              If we join together, we can generate positive impact on the
-              planet. Apical plants trees at every experience, making it even
-              more extraordinary
-            emoji: "\U0001F332"
-            title: Generate positive social impact
-        cta:
-          link: '#onboarding'
-          text: Sign up for free
-        greyBg: true
-        title: Only with apical
-        titleCenter: true
-      it:
-        columns:
-          - body: >-
-              Quello che ti serve per creare, gestire e vendere le tue
-              esperienze o i tuoi viaggi: tutto in uno strumento
-            emoji: ✈️
-            title: ''
-          - body: >-
-              La professionalità delle interfacce, del sistema di pagamenti e
-              delle opzioni di personalizzazione rende il tuo prodotto migliore
-            emoji: "\U0001F4BB"
-            title: Aumenta del 30% gli incassi
-          - body: >-
-              Se ci uniamo possiamo generare impatto positivo sul Pianeta.
-              Apical pianta alberi ad ogni esperienza, rendendola ancora più
-              straordinaria
-            emoji: "\U0001F332"
-            title: Genera impatto sociale positivo
-        cta:
-          link: '#onboarding'
-          text: Iscriviti gratuitamente
-        greyBg: true
-        title: Solo con Apical
-        titleCenter: true
-    type: FeaturesSection
+  - type: FormSection
 ---
 
