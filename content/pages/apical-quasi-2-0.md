@@ -33,13 +33,13 @@ sections:
         bodyLight: true
         cta:
           link: '#onboarding'
-          text: Unisciti ad Apical
+          text: <b> Unisciti ad Apical </b>
         heroBody: >-
           Apical è la piattaforma self-service dedicata ai creatori di viaggi e
           esperienze. Crea, gestisci e fai crescere il tuo progetto travel
           online, in modo semplice e innovativo
         image: 'https://ucarecdn.com/ef479934-162b-4c72-8812-14172cd95a94/'
-        title: CRESCI CON APICAL
+        title: <b> CRESCI CON APICAL </b>
     type: HomeHero
   - props:
       en:
