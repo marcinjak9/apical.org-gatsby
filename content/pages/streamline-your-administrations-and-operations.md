@@ -157,7 +157,25 @@ sections:
         redirectTo: grazie
         title: Entra in contatto con un nostro esperto
     type: FormSection
-  - type: HomeHero
+  - props:
+      en:
+        cta:
+          link: social-impact
+          text: Discover
+        heroBody: >-
+          Planting trees is not enough, the world deserves more. Discover our
+          environmental and social regeneration projects
+        title: <b> One more thing </b>
+      it:
+        cta:
+          link: social-impact
+          text: Impatto sociale
+        heroBody: >-
+          Piantare alberi non basta, il mondo si merita di più. Scopri i nostir
+          progetti di rigenerazione ambientale e sociale
+        image: 'https://ucarecdn.com/033a1155-ec14-42ca-8495-3519f1bfa751/'
+        title: <b> Un'ultima cosa </b>
+    type: HomeHero
   - type: BlogSection
 ---
 
