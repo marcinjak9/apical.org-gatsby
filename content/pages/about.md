@@ -210,6 +210,5 @@ sections:
         quote: 'Nicola Zanola, CEO'
         title: Happiness is a movement
     type: Cta
-  - type: FormSection
 ---
 
