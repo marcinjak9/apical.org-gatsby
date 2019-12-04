@@ -140,17 +140,14 @@ sections:
           to become many different things: flower, leaf, stem, and so on… they
           didn't choose yet, they still don't know, they are free.
 
-
           Apical means that every person if in the right conditions can cross
           the world and make an impact. Our job at Apical is to create the right
           conditions.
-
 
           What we know is that when people share their energy into an experience
           they naturally become more open-minded, curious and able to understand
           one another. This is the transformative power of the travel industry
           and the reason why Apical is playing this game.
-
 
           Apical - moving people
         cta:
@@ -168,11 +165,9 @@ sections:
           stelo e così via ... non hanno ancora scelto, ancora non sanno, sono
           libere.
 
-
           Apicale significa che ogni persona, se nelle giuste condizioni, può
           attraversare il mondo e avere un impatto positivo. Il nostro lavoro in
           Apical è creare le giuste condizioni.
-
 
           Apical - moving people
         cta:
