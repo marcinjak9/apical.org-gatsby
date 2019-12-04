@@ -52,5 +52,30 @@ sections:
         greyBg: true
         title: Impatto sociale
     type: WhatWeDo
+  - props:
+      it:
+        cards:
+          - body: >-
+              Piantare alberi non basta più. Apical è partner di Bee Your Hero,
+              no profit specializzata nel rigenerare porzioni di suolo degradato
+              secondo logiche ecosistemiche
+            image: "\U0001F41D"
+            title: Impatto ambientale
+          - body: >-
+              Sosteniamo esperienze di volontariato sui territori e supportiamo
+              associazioni e progetti di comunicazione il cui scopo è
+              ricostruire le basi di una comunità forte. Happiness is a movement
+            image: "\U0001F932\U0001F3FB"
+            title: Impatto sociale
+          - body: >-
+              Le best practice possono cambiare il volto della tua azienda.
+              Spesso bastano piccoli gesti per cambiare e Apical è al tuo fianco
+              per consigliarti, aiutarti e accompagnarti ad essere migliore
+            image: "\U0001F331"
+            title: 'Crescita '
+        cta:
+          text: Scopri i nostri progetti
+        title: Come Apical coinvolge i propri partner
+    type: HowItWorks
 ---
 
