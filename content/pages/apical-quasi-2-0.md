@@ -8,16 +8,17 @@ hideFooter: false
 meta:
   en:
     pageDescription: >-
-      Apical is the platform that allows anyone to organize trips and
-      experiences by becoming your partner. Technology, administrative
-      assistance and networks
-    pageTitle: 'Apical: your travel business partner'
+      Apical is the end-to-end platform designed for travel creators. A simple,
+      quick and innovative technology, designed to accelerate growth, increase
+      traveler satisfaction and improve the impact on the environment.
+    pageTitle: 'Apical - start, run and grow your online travel business'
   it:
     pageDescription: >-
-      Apical è la piattaforma che permette a chiunque di organizzzare viaggi ed
-      esperienze diventando tuo partner. Tecnologia, assistenza amministrativa e
-      network
-    pageTitle: Apical - Il tuo business partner travel
+      Apical è la piattaforma self-service dedicata ai creatori di viaggi e
+      esperienze. Una tecnologia semplice, veloce e innovativa, disegnata per
+      accelerare la crescita, aumentare la soddisfazione dei viaggiatori e
+      migliorare il loro impatto sull’ambiente.
+    pageTitle: 'Apical - Crea, gestisci e fai crescere il tuo progetto travel online'
 sections:
   - props:
       en:
@@ -28,12 +29,12 @@ sections:
           Apical is the end-to-end platform designed for travel creators. Start,
           run and grow your travel business online
         image: 'https://ucarecdn.com/1dbc1be1-fdaa-42f8-89c4-2e1d77450f5a/'
-        title: 'GROW WITH APICAL '
+        title: '<b> GROW WITH APICAL </b> '
       it:
         bodyLight: true
         cta:
           link: '#onboarding'
-          text: <b> Unisciti ad Apical </b>
+          text: 'Unisciti ad Apical '
         heroBody: >-
           Apical è la piattaforma self-service dedicata ai creatori di viaggi e
           esperienze. Crea, gestisci e fai crescere il tuo progetto travel
