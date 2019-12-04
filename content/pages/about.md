@@ -23,8 +23,7 @@ sections:
         heroBody: >-
           Apical's mission is to enable any person, company or association to
           create and sell travel products online, simply and safely
-        image: >-
-          https://ucarecdn.com/204e7750-66bf-497c-a7e0-3a8c538885af/-/crop/3648x2933/0,0/-/preview/
+        image: 'https://ucarecdn.com/204e7750-66bf-497c-a7e0-3a8c538885af/-/crop/3648x2933/0,0/-/preview/'
         title: <b> Apical - moving people </b>
         typings: []
       it:
@@ -33,8 +32,7 @@ sections:
           La missione di Apical è permettere a qualunque persona, azienda o
           associazione di creare e vendere prodotti travel online, in modo
           semplice e sicuro
-        image: >-
-          https://ucarecdn.com/fbcd8266-bd8d-4058-91f0-224d81319f32/-/crop/3648x2990/0,0/-/preview/
+        image: 'https://ucarecdn.com/fbcd8266-bd8d-4058-91f0-224d81319f32/-/crop/3648x2990/0,0/-/preview/'
         title: <b> Apical - moving people </b>
         typings: []
     type: HomeHero
