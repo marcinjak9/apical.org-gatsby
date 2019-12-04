@@ -1,7 +1,7 @@
 ---
 templateKey: site-page
-title: About
-slug: about
+title: About Us
+slug: about-us
 type: page
 hideNav: false
 hideFooter: false

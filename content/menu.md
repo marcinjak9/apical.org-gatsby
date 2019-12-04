@@ -15,7 +15,7 @@ it:
     - text: Home
       url: /
     - text: About
-      url: /about
+      url: /about-us
   menuItemsRight:
     - text: Esperienze.com
       url: 'https://www.esperienze.com'
@@ -32,7 +32,7 @@ en:
     - text: Home
       url: /
     - text: About
-      url: /about
+      url: /about-us
   menuItemsRight:
     - text: Esperienze.com
       url: 'https://www.esperienze.com'

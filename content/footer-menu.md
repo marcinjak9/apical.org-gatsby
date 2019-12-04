@@ -18,7 +18,7 @@ it:
     phone: +39 392 2606862
   menuItems:
     - text: About
-      url: /about
+      url: /about-us
     - text: La Piattaforma
       url: /features
     - text: Blog
@@ -33,7 +33,7 @@ en:
     phone: +39 392 2606862
   menuItems:
     - text: About
-      url: /about
+      url: /about-us
     - text: Features
       url: /features
     - text: Blog
