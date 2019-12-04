@@ -28,7 +28,7 @@ sections:
           Apical is the end-to-end platform designed for travel creators. Start,
           run and grow your travel business online
         image: 'https://ucarecdn.com/1dbc1be1-fdaa-42f8-89c4-2e1d77450f5a/'
-        title: 'GROW WITH APICAL '
+        title: <b> GROW WITH APICAL </b>
       it:
         bodyLight: true
         cta:
