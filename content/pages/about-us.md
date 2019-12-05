@@ -107,9 +107,9 @@ sections:
         body: >-
           Clicca per favore su “Voglio saperne di più” e poi compila il form, il
           team ti invierà una presentazione e ti proporrà una chiamata di 15
-          minuti che servirà a capire i tuoi bisogni e a decidere insieme se
-          Apical può accelerare la tua crescita, qualsiasi sia la tua dimensione
-          attuale
+          minuti che servirà per ascoltare il tuo progetto e a decidere insieme
+          se Apical può accelerare la tua crescita, qualsiasi sia la tua
+          dimensione attuale
         cta:
           link: '#'
           text: Voglio saperne di più
