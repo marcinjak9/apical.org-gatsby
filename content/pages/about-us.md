@@ -41,20 +41,29 @@ sections:
   - props:
       en:
         body: >-
-          Apical supporta ogni Travel Creator con una tecnologia semplice,
-          veloce e innovativa, disegnata per accelerare la crescita, aumentare
-          la soddisfazione dei viaggiatori e migliorare il loro impatto
-          sull’ambiente.
+          Apical supports every Travel Creator with a simple, quick and
+          innovative technology, designed to accelerate growth, increase
+          traveler satisfaction and improve the impact on the environment
+
+
+          Apical is a travel startup that offers technology along with a strong
+          experience in the industry. Apical does not just offer services, it
+          teams up with its Travel Creators and supports their growth
         greyBg: true
-        title: Supportiamo i Travel Creators
+        title: 'Apical: a place to Grow'
       it:
         body: >-
           Apical supporta ogni Travel Creator con una tecnologia semplice,
           veloce e innovativa, disegnata per accelerare la crescita, aumentare
           la soddisfazione dei viaggiatori e migliorare il loro impatto
           sull’ambiente.
+
+
+          Alla tecnologia Apical unisce una forte esperienza nell’industria, non
+          si limita a offrire servizi, fa squadra con i propri Travel Creators e
+          supporta la loro crescita
         greyBg: true
-        title: Supportiamo i Travel Creators
+        title: 'Apical: un luogo in cui crescere'
     type: WhatWeDo
   - props:
       en:
@@ -73,24 +82,6 @@ sections:
           esperienze create da event companies, tour operators, property
           managers, associazioni sportive e culturali, singoli individui
         title: Chi sono i Travel Creators
-    type: WhatWeDo
-  - props:
-      en:
-        body: >-
-          Apical is a travel startup that offers technology along with a strong
-          experience in the industry and a consistent track record. Apical does
-          not just offer services, it teams up with its Travel Creators and
-          supports their growth. If you grow, Apical grows, our missions are
-          aligned and this allows everyone to flourish 
-        greyBg: true
-        title: Why Travel Creators are entering Apical
-      it:
-        body: >-
-          Apical offre tecnologia insieme a una forte esperienza nell’industria,
-          non si limita a offrire servizi, fa squadra con i propri Travel
-          Creators e supporta la loro crescita
-        greyBg: true
-        title: 'Apical: un luogo in cui crescere'
     type: WhatWeDo
   - props:
       en:
