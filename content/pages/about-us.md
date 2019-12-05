@@ -35,7 +35,7 @@ sections:
           semplice e sicuro
         image: >-
           https://ucarecdn.com/fbcd8266-bd8d-4058-91f0-224d81319f32/-/crop/3648x2990/0,0/-/preview/
-        title: <b> Apical - moving people </b>
+        title: <b> Apical </b>
         typings: []
     type: HomeHero
   - props:
@@ -45,6 +45,7 @@ sections:
           veloce e innovativa, disegnata per accelerare la crescita, aumentare
           la soddisfazione dei viaggiatori e migliorare il loro impatto
           sull’ambiente.
+        greyBg: true
         title: Supportiamo i Travel Creators
       it:
         body: >-
@@ -52,21 +53,8 @@ sections:
           veloce e innovativa, disegnata per accelerare la crescita, aumentare
           la soddisfazione dei viaggiatori e migliorare il loro impatto
           sull’ambiente.
+        greyBg: true
         title: Supportiamo i Travel Creators
-    type: WhatWeDo
-  - props:
-      en:
-        body: >-
-          Anyone who design experiences, of any kind, is offering the
-          opportunity to the people to learn something new. The rest is tourism
-        greyBg: true
-        title: Who are the Travel Creators
-      it:
-        body: >-
-          Chi disegna un'esperienza, di qualunque tipo, offre l'occasione al
-          proprio pubblico di imparare qualcosa di nuovo. Il resto è turismo
-        greyBg: true
-        title: Chi sono i Travel Creators
     type: WhatWeDo
   - props:
       en:
@@ -75,8 +63,7 @@ sections:
           retreats, snow events, climbing, mountain bivouacs, sailing boats,
           surf trips and much more. Hundreds of experiences created by event
           companies, tour operators, property managers, sports and cultural
-          associations, individuals. We are always excited about new ideas, so
-          If you haven't found yourself in the list, no worries
+          associations, individuals. 
         title: What Travel Creators do
       it:
         body: >-
@@ -84,9 +71,8 @@ sections:
           viaggiavventura, retreat, eventi sulla neve, arrampicate, bivacchi in
           montagna, barche a vela, surf trips e molto di più. Centinaia di
           esperienze create da event companies, tour operators, property
-          managers, associazioni sportive e culturali, singoli individui. Se non
-          ti sei trovato, stupiscici
-        title: Cosa fanno i Travel Creators
+          managers, associazioni sportive e culturali, singoli individui
+        title: Chi sono i Travel Creators
     type: WhatWeDo
   - props:
       en:
@@ -100,33 +86,34 @@ sections:
         title: Why Travel Creators are entering Apical
       it:
         body: >-
-          Apical offre tecnologia insieme a una forte esperienza nell’industria
-          e un consistente track-record. Apical non si limita a offrire servizi,
-          fa squadra con i propri Travel Creators e supporta la loro crescita.
-          Se voi crescete, Apical cresce. Le nostre mission sono allineate e
-          questo permette a tutti di lavorare al meglio
+          Apical offre tecnologia insieme a una forte esperienza nell’industria,
+          non si limita a offrire servizi, fa squadra con i propri Travel
+          Creators e supporta la loro crescita
         greyBg: true
-        title: Perché i Travel Creator entrano in Apical
+        title: 'Apical: un luogo in cui crescere'
     type: WhatWeDo
   - props:
       en:
         body: >-
-          We believe that travelling is an extraordinary form of social
-          innovation because, for what we know, when people share their energy
-          into an experience they naturally become more open-minded, curious and
-          able to understand one another. This is the transformative power of
-          the travel industry and the reason why Apical is playing this game
-        greyBg: false
-        title: Why Apical is doing this
+          Please click on "I am interested" and then fill out the form, the team
+          will send you a presentation and a proposal for a 15-minute call that
+          will help to understand your needs, so then we will decide together if
+          Apical can accelerate your growth, regardless of your current size
+        cta:
+          link: '#'
+          text: I am interested
+        title: How to find out more
       it:
         body: >-
-          Crediamo che il viaggio sia un'incredibile forma di innovazione
-          sociale perché sappiamo che quando più persone condividono la loro
-          energia in un'esperienza, diventano naturalmente più aperte, curiose e
-          capaci di capirsi. Questo è il potere trasformativo dell'industria dei
-          viaggi e la ragione per cui Apical ne fa parte
-        greyBg: false
-        title: Perché Apical fa questo
+          Clicca per favore su “Voglio saperne di più” e poi compila il form, il
+          team ti invierà una presentazione e ti proporrà una chiamata di 15
+          minuti che servirà a capire i tuoi bisogni e a decidere insieme se
+          Apical può accelerare la tua crescita, qualsiasi sia la tua dimensione
+          attuale
+        cta:
+          link: '#'
+          text: Voglio saperne di più
+        title: Come si entra in Apical
     type: WhatWeDo
   - props:
       en:
@@ -157,50 +144,23 @@ sections:
         greyBg: true
         title: Vision
       it:
-        body: >
+        body: >-
           Quando tagliamo una pianta perché possa ricrescere, scendiamo con le
           forbici fino al punto in cui lo stelo è ancora di un verde vivido.
           Quel punto si chiama Meristema Apicale ed è un tessuto composto da
           cellule polipotenti, ognuna di queste cellule possiede infatti le
           istruzioni biologiche per diventare molte cose diverse: fiore, foglia,
-          stelo e così via ... non hanno ancora scelto, ancora non sanno, sono
-          libere.
+          stelo e così via.
 
 
           Apicale significa che ogni persona, se nelle giuste condizioni, può
           attraversare il mondo e avere un impatto positivo. Il nostro lavoro in
           Apical è creare le giuste condizioni.
-
-
-          Apical - moving people
         cta:
           link: features
           text: Entra in Apical
         greyBg: true
-        title: Perché si chiama Apical
-    type: WhatWeDo
-  - props:
-      en:
-        body: >-
-          Please click on "I am interested" and then fill out the form, the team
-          will send you a presentation and a proposal for a 15-minute call that
-          will help to understand your needs, so then we will decide together if
-          Apical can accelerate your growth, regardless of your current size
-        cta:
-          link: '#'
-          text: I am interested
-        title: How to find out more
-      it:
-        body: >-
-          Clicca per favore su “Voglio saperne di più” e poi compila il form, il
-          team ti invierà una presentazione e ti proporrà una chiamata di 15
-          minuti che servirà a capire i tuoi bisogni e a decidere insieme se
-          Apical può accelerare la tua crescita, qualsiasi sia la tua dimensione
-          attuale
-        cta:
-          link: '#'
-          text: Voglio saperne di più
-        title: Come si entra in Apical
+        title: La nostra vision
     type: WhatWeDo
   - props:
       en:
@@ -226,7 +186,7 @@ sections:
 
         fullHeigh: true
         quote: 'Nicola Zanola, CEO'
-        title: Happiness is a movement
+        title: Apical - moving people
     type: Cta
   - props:
       en:
