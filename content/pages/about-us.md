@@ -146,8 +146,8 @@ sections:
 
           Apical - moving people
         cta:
-          link: features
-          text: Join our mission
+          link: ''
+          text: ''
         greyBg: true
         title: Apical
       it:
@@ -159,8 +159,8 @@ sections:
           istruzioni biologiche per diventare molte cose diverse: fiore, foglia,
           stelo e così via
         cta:
-          link: features
-          text: Entra in Apical
+          link: ''
+          text: ''
         greyBg: true
         title: Apical
     type: WhatWeDo
