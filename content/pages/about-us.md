@@ -42,40 +42,31 @@ sections:
       en:
         body: >-
           Apical is a fast-growing startup, with a team that combines 30+ years
-          of experience in travel and in technological and social innovation and
+          of experience in travel and in technological and social innovation,
           with the support of some of the main Italian investors
         title: Who we are
       it:
         body: >-
           Apical è una startup in rapida crescita, con un team che combina 30+
-          anni di esperienza nel travel e nell'innovazione tecnologica e sociale
-          e con il sostegno di alcuni tra i principali investitori italiani
+          anni di esperienza nel travel e nell'innovazione tecnologica e
+          sociale, insieme al sostegno di alcuni tra i principali investitori
+          italiani
         title: Chi siamo
     type: WhatWeDo
   - props:
       en:
-        body: >-
+        body: >
           Apical supports every Travel Creator with a simple, quick and
           innovative technology, designed to accelerate growth, increase
           traveler satisfaction and improve the impact on the environment
-
-
-          Apical is a travel startup that offers technology along with a strong
-          experience in the industry. Apical does not just offer services, it
-          teams up with its Travel Creators and supports their growth
         greyBg: true
         title: 'Apical: a place to Grow'
       it:
         body: >-
           Apical supporta ogni Travel Creator con una tecnologia semplice,
-          veloce e innovativa, disegnata per accelerare la crescita, aumentare
+          veloce e innovativa, disegnata per supportare la crescita, aumentare
           la soddisfazione dei viaggiatori e migliorare il loro impatto
           sull’ambiente.
-
-
-          Alla tecnologia Apical unisce una forte esperienza nell’industria, non
-          si limita a offrire servizi, fa squadra con i propri Travel Creators e
-          supporta la loro crescita
         greyBg: true
         title: 'Apical: un luogo in cui crescere'
     type: WhatWeDo
