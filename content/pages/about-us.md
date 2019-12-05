@@ -108,53 +108,6 @@ sections:
     type: WhatWeDo
   - props:
       en:
-        body: >
-          When we are cutting a plant so that it can grow back, we go down with
-          the scissors to the point where the stem is still a vivid green. That
-          point is called Apical meristem and it's a tissue composed of
-          polypotent cells, each of these cells owns the biological instructions
-          to become many different things: flower, leaf, stem, and so on… they
-          didn't choose yet, they still don't know, they are free.
-
-
-          Apical means that every person if in the right conditions can cross
-          the world and make an impact. Our job at Apical is to create the right
-          conditions.
-
-
-          What we know is that when people share their energy into an experience
-          they naturally become more open-minded, curious and able to understand
-          one another. This is the transformative power of the travel industry
-          and the reason why Apical is playing this game.
-
-
-          Apical - moving people
-        cta:
-          link: features
-          text: Join our mission
-        greyBg: true
-        title: Vision
-      it:
-        body: >-
-          Quando tagliamo una pianta perché possa ricrescere, scendiamo con le
-          forbici fino al punto in cui lo stelo è ancora di un verde vivido.
-          Quel punto si chiama Meristema Apicale ed è un tessuto composto da
-          cellule polipotenti, ognuna di queste cellule possiede infatti le
-          istruzioni biologiche per diventare molte cose diverse: fiore, foglia,
-          stelo e così via.
-
-
-          Apicale significa che ogni persona, se nelle giuste condizioni, può
-          attraversare il mondo e avere un impatto positivo. Il nostro lavoro in
-          Apical è creare le giuste condizioni.
-        cta:
-          link: features
-          text: Entra in Apical
-        greyBg: true
-        title: La nostra vision
-    type: WhatWeDo
-  - props:
-      en:
         bgImage: 'https://ucarecdn.com/1da972a8-a4be-406e-8427-b7f28345439c/'
         body: >+
           We believe that when people share their energy into an intense
@@ -180,6 +133,53 @@ sections:
         quote: 'Nicola Zanola, CEO'
         title: Apical - moving people
     type: Cta
+  - props:
+      en:
+        body: >
+          When we are cutting a plant so that it can grow back, we go down with
+          the scissors to the point where the stem is still a vivid green. That
+          point is called Apical meristem and it's a tissue composed of
+          polypotent cells, each of these cells owns the biological instructions
+          to become many different things: flower, leaf, stem, and so on… they
+          didn't choose yet, they still don't know, they are free.
+
+
+          Apical means that every person if in the right conditions can cross
+          the world and make an impact. Our job at Apical is to create the right
+          conditions.
+
+
+          What we know is that when people share their energy into an experience
+          they naturally become more open-minded, curious and able to understand
+          one another. This is the transformative power of the travel industry
+          and the reason why Apical is playing this game.
+
+
+          Apical - moving people
+        cta:
+          link: features
+          text: Join our mission
+        greyBg: true
+        title: Apical
+      it:
+        body: >-
+          Quando tagliamo una pianta perché possa ricrescere, scendiamo con le
+          forbici fino al punto in cui lo stelo è ancora di un verde vivido.
+          Quel punto si chiama Meristema Apicale ed è un tessuto composto da
+          cellule polipotenti, ognuna di queste cellule possiede infatti le
+          istruzioni biologiche per diventare molte cose diverse: fiore, foglia,
+          stelo e così via.
+
+
+          Apical significa che ogni persona, se nelle giuste condizioni, può
+          attraversare il mondo e avere un impatto positivo. Il nostro lavoro in
+          Apical è creare le giuste condizioni.
+        cta:
+          link: features
+          text: Entra in Apical
+        greyBg: true
+        title: Apical
+    type: WhatWeDo
   - props:
       en:
         body: >-
