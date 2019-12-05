@@ -94,19 +94,17 @@ sections:
           Apical is a travel startup that offers technology along with a strong
           experience in the industry and a consistent track record. Apical does
           not just offer services, it teams up with its Travel Creators and
-          supports their growth. If they grow, Apical grows. The two missions
-          are aligned and this allows the flowering of a proper ecosystem, able
-          to grow exponentially
+          supports their growth. If you grow, Apical grows, our missions are
+          aligned and this allows everyone to flourish 
         greyBg: true
         title: Why Travel Creators are entering Apical
       it:
         body: >-
-          Apical è una startup travel che offre tecnologia insieme a una forte
-          esperienza nell’industria e un consistente track-record. Apical non si
-          limita a offrire servizi, fa squadra con i propri Travel Creators e
-          supporta la loro crescita. Se loro crescono, Apical cresce. Le due
-          mission sono allineate e questo permette la fioritura di un vero
-          ecosistema in grado di crescere esponenzialmente
+          Apical offre tecnologia insieme a una forte esperienza nell’industria
+          e un consistente track-record. Apical non si limita a offrire servizi,
+          fa squadra con i propri Travel Creators e supporta la loro crescita.
+          Se voi crescete, Apical cresce. Le nostre mission sono allineate e
+          questo permette a tutti di lavorare al meglio
         greyBg: true
         title: Perché i Travel Creator entrano in Apical
     type: WhatWeDo
@@ -128,7 +126,7 @@ sections:
           capaci di capirsi. Questo è il potere trasformativo dell'industria dei
           viaggi e la ragione per cui Apical ne fa parte
         greyBg: false
-        title: Perché Apical fa queste cose
+        title: Perché Apical fa questo
     type: WhatWeDo
   - props:
       en:
@@ -194,10 +192,10 @@ sections:
         title: How to find out more
       it:
         body: >-
-          Clicca per favore su “mi interessa” e poi compila il form, il team ti
-          invierà una presentazione e ti proporrà una chiamata di 15 minuti che
-          servirà a capire i tuoi bisogni e a decidere insieme se Apical può
-          accelerare la tua crescita, indipendentemente dalla tua dimensione
+          Clicca per favore su “Voglio saperne di più” e poi compila il form, il
+          team ti invierà una presentazione e ti proporrà una chiamata di 15
+          minuti che servirà a capire i tuoi bisogni e a decidere insieme se
+          Apical può accelerare la tua crescita, qualsiasi sia la tua dimensione
           attuale
         cta:
           link: '#'
@@ -230,5 +228,13 @@ sections:
         quote: 'Nicola Zanola, CEO'
         title: Happiness is a movement
     type: Cta
+  - props:
+      en:
+        body: >-
+          Inserendo i tuoi dati riceverai una presentazione completa di Apical e
+          entrerai in contatto con il team
+        formId: d568a967-0f3b-4797-9db8-33994687dcc9
+        title: Benvenuti in Apical
+    type: FormSection
 ---
 
