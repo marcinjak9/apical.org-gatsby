@@ -166,7 +166,8 @@ sections:
         quote: 'Nicola Zanola, CEO'
         title: Happiness is a movement
       it:
-        bgImage: 'https://ucarecdn.com/1da972a8-a4be-406e-8427-b7f28345439c/'
+        bgImage: >-
+          https://ucarecdn.com/79805ab5-a3c3-42ed-960c-272e0ad3e6dd/-/crop/3648x3278/0,2194/-/preview/
         body: >+
           We believe that when people share their energy into an experience they
           naturally become more open-minded, curious and able to understand one
