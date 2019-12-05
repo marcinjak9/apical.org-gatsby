@@ -98,7 +98,7 @@ sections:
         cta:
           link: '#'
           text: I am interested
-        greyBg: false
+        greyBg: true
         title: How to find out more
       it:
         body: >-
@@ -110,6 +110,7 @@ sections:
         cta:
           link: '#'
           text: Voglio saperne di più
+        greyBg: true
         title: Come si entra in Apical
     type: WhatWeDo
   - props:
