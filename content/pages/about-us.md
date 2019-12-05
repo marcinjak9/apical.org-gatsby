@@ -41,6 +41,20 @@ sections:
   - props:
       en:
         body: >-
+          Apical is a fast-growing startup, with a team that combines 30+ years
+          of experience in travel and in technological and social innovation and
+          with the support of some of the main Italian investors
+        title: Who we are
+      it:
+        body: >-
+          Apical è una startup in rapida crescita, con un team che combina 30+
+          anni di esperienza nel travel e nell'innovazione tecnologica e sociale
+          e con il sostegno di alcuni tra i principali investitori italiani
+        title: Chi siamo
+    type: WhatWeDo
+  - props:
+      en:
+        body: >-
           Apical supports every Travel Creator with a simple, quick and
           innovative technology, designed to accelerate growth, increase
           traveler satisfaction and improve the impact on the environment
@@ -93,6 +107,7 @@ sections:
         cta:
           link: '#'
           text: I am interested
+        greyBg: false
         title: How to find out more
       it:
         body: >-
