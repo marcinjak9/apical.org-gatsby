@@ -31,15 +31,14 @@ sections:
       it:
         bodyLight: true
         cta:
-          text: Grow with Apical
+          text: <b> Grow with Apical </b>
         heroBody: >-
           **Apical** è una startup in rapida crescita, con un team che combina
           30+ anni di esperienza nel travel e nell'innovazione tecnologica e
-          sociale, insieme al sostegno di alcuni tra i principali investitori
-          italiani
+          sociale, al sostegno di alcuni tra i principali investitori italiani
         image: >-
           https://ucarecdn.com/fbcd8266-bd8d-4058-91f0-224d81319f32/-/crop/3648x2990/0,0/-/preview/
-        title: Cresci con Apical
+        title: <b> Cresci con Apical </b>
         typings: []
     type: HomeHero
   - props:
