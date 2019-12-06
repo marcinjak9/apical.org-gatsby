@@ -14,7 +14,7 @@ meta:
   it:
     pageDescription: >-
       Apical è in prima linea per rendere il mondo un posto migliore. Crediamo
-      che il settore travel possa avere un impatto sociale positivo
+      che il  travel possa avere un impatto sociale positivo
     pageTitle: Happiness is a movement
 sections:
   - props:
@@ -28,9 +28,9 @@ sections:
       it:
         bodyLight: true
         heroBody: >-
-          Ciò che facciamo tutti i giorni conta. Il settore travel contamina
-          miliardi di persone in tutto il mondo, per questo crediamo possa avere
-          un impatto positivo
+          Ciò che facciamo tutti i giorni conta. Viaggio vuol dire
+          contaminazione di azioni e idee, per questo crediamo possa avere un
+          potenziale straordinariamente positivo
         image: 'https://ucarecdn.com/59343629-0b2b-4be2-91d1-bed5d54ecadf/'
         title: <b>Basta poco per essere un eroe </b>
     type: HomeHero
@@ -105,5 +105,30 @@ sections:
         title: Come Apical coinvolge i propri partner
         titleCenter: true
     type: HowItWorks
+  - props:
+      en:
+        greyBg: true
+        slides:
+          - body: >-
+              This small italian community is at great risk to social and
+              environmental desertification. Ambitious regeneration
+              interventions serve to give the inhabitants of this village a
+              future
+            image: 'https://ucarecdn.com/db6c2236-4740-4b0f-b712-37a8f91e8933/'
+            title: Aidone (Sicily)
+        title: Projects supported by Apical
+        titleCenter: true
+      it:
+        greyBg: true
+        slides:
+          - body: >-
+              Questa piccola comunità dell'entroterra è a forte rischio
+              desertificazione sociale e ambientale. Interventi di rigenerazione
+              ambiziosi servono per dare futuro agli abitanti di questo borgo
+            image: 'https://ucarecdn.com/32c1a48d-942a-4fdc-b4fa-f5ae384f5af2/'
+            title: Aidone (Sicilia)
+        title: I progetti sostenuti da Apical
+        titleCenter: true
+    type: Presentation
 ---
 
