@@ -120,7 +120,7 @@ sections:
               Aicha with her women's cooperative tries to save the Oasis where
               she grew up from the advance of the desert. To do this it is
               adopting practices of regenerative agriculture
-            image: 'https://ucarecdn.com/42a6684a-f8db-40a8-9111-6d6b31c18108/'
+            image: 'https://ucarecdn.com/f7ad1454-9917-48a0-bc78-84e1573f57ea/'
             title: Asrargh (Morocco)
         title: Projects supported by Apical
         titleCenter: true
