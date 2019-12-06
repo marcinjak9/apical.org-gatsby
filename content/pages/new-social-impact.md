@@ -137,7 +137,7 @@ sections:
               Aicha con la sua cooperativa femminile cerca di salvare l'Oasi
               dove è cresciuta dall'avanzamento del deserto. Per farlo sta
               adottand pratiche di agricoltura rigenerativa
-            image: 'https://ucarecdn.com/2f81b8db-605f-4e1d-a133-b8080cd12dfc/'
+            image: 'https://ucarecdn.com/0b095f34-a4a3-449d-ba79-fbf4844868f2/'
             title: Asrargh (Marocco)
         title: I progetti sostenuti da Apical
         titleCenter: true
