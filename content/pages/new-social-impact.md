@@ -116,6 +116,12 @@ sections:
               future
             image: 'https://ucarecdn.com/db6c2236-4740-4b0f-b712-37a8f91e8933/'
             title: Aidone (Sicily)
+          - body: >-
+              Aicha with her women's cooperative tries to save the Oasis where
+              she grew up from the advance of the desert. To do this it is
+              adopting practices of regenerative agriculture
+            image: 'https://ucarecdn.com/42a6684a-f8db-40a8-9111-6d6b31c18108/'
+            title: Asrargh (Morocco)
         title: Projects supported by Apical
         titleCenter: true
       it:
@@ -127,6 +133,12 @@ sections:
               ambiziosi servono per dare futuro agli abitanti di questo borgo
             image: 'https://ucarecdn.com/32c1a48d-942a-4fdc-b4fa-f5ae384f5af2/'
             title: Aidone (Sicilia)
+          - body: >-
+              Aicha con la sua cooperativa femminile cerca di salvare l'Oasi
+              dove è cresciuta dall'avanzamento del deserto. Per farlo sta
+              adottand pratiche di agricoltura rigenerativa
+            image: 'https://ucarecdn.com/2f81b8db-605f-4e1d-a133-b8080cd12dfc/'
+            title: Asrargh (Marocco)
         title: I progetti sostenuti da Apical
         titleCenter: true
     type: Presentation
