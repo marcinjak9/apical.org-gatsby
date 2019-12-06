@@ -21,9 +21,9 @@ sections:
       en:
         bodyLight: true
         heroBody: >-
-          _Apical is a fast-growing startup, with a team that combines 30+ years
-          of experience in travel and in technological and social innovation,
-          with the support of some of the main Italian investors_
+          # Apical is a fast-growing startup, with a team that combines 30+
+          years of experience in travel and in technological and social
+          innovation, with the support of some of the main Italian investors
         image: >-
           https://ucarecdn.com/204e7750-66bf-497c-a7e0-3a8c538885af/-/crop/3648x2933/0,0/-/preview/
         title: ''
@@ -31,10 +31,10 @@ sections:
       it:
         bodyLight: true
         heroBody: >-
-          _Apical è una startup in rapida crescita, con un team che combina 30+
+          # Apical è una startup in rapida crescita, con un team che combina 30+
           anni di esperienza nel travel e nell'innovazione tecnologica e
           sociale, insieme al sostegno di alcuni tra i principali investitori
-          italiani_
+          italiani
         image: >-
           https://ucarecdn.com/fbcd8266-bd8d-4058-91f0-224d81319f32/-/crop/3648x2990/0,0/-/preview/
         title: ''
