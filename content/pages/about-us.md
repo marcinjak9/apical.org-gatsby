@@ -30,6 +30,8 @@ sections:
         typings: []
       it:
         bodyLight: true
+        cta:
+          text: Grow with Apical
         heroBody: >-
           **Apical** è una startup in rapida crescita, con un team che combina
           30+ anni di esperienza nel travel e nell'innovazione tecnologica e
@@ -37,7 +39,7 @@ sections:
           italiani
         image: >-
           https://ucarecdn.com/fbcd8266-bd8d-4058-91f0-224d81319f32/-/crop/3648x2990/0,0/-/preview/
-        title: ''
+        title: Cresci con Apical
         typings: []
     type: HomeHero
   - props:
