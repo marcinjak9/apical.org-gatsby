@@ -43,6 +43,23 @@ sections:
   - props:
       en:
         body: >-
+          Apical is a fast-growing startup, with a team that combines 30+ years
+          of experience in travel and in technological and social innovation,
+          with the support of some of the main Italian investors
+        greyBg: true
+        title: Who we are
+      it:
+        body: >-
+          Apical è una startup in rapida crescita, con un team che combina 30+
+          anni di esperienza nel travel e nell'innovazione tecnologica e
+          sociale, insieme al sostegno di alcuni tra i principali investitori
+          italiani
+        greyBg: true
+        title: Chi siamo
+    type: WhatWeDo
+  - props:
+      en:
+        body: >-
           Apical's mission is to enable any person, company or association to
           create and sell travel products online, simply and safely
         title: Mission
@@ -54,21 +71,6 @@ sections:
         cta:
           text: ''
         title: Mission
-    type: WhatWeDo
-  - props:
-      en:
-        body: >-
-          Apical is a fast-growing startup, with a team that combines 30+ years
-          of experience in travel and in technological and social innovation,
-          with the support of some of the main Italian investors
-        title: Who we are
-      it:
-        body: >-
-          Apical è una startup in rapida crescita, con un team che combina 30+
-          anni di esperienza nel travel e nell'innovazione tecnologica e
-          sociale, insieme al sostegno di alcuni tra i principali investitori
-          italiani
-        title: Chi siamo
     type: WhatWeDo
   - props:
       en:
