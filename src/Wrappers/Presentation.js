@@ -59,14 +59,15 @@ const PresentationRow = styled(Row)`
   }
 `
 
-const Slide = ({ title, body, image, cta }) => (
+const Slide = ({ title, body, image, link, text }) => (
   <PresentationRow>
     <Column size="6">
       <div className="body">
         <h3>{title}</h3>
         <p>{body}</p>
-        {cta && cta.link && (<Button href={cta.link} outline icon="arrow">
-            {cta.text}
+        <span className="hidden hide"></span>
+        {text && (<Button href={link} outline icon="arrow">
+            {text}
         </Button>)}
       </div>
     </Column>
@@ -87,7 +88,8 @@ const Presentation = (props) => {
             title={slide.title}
             body={slide.body}
             image={slide.image}
-            cta={slide.cta}
+            link={slide.cta.link}
+            text={slide.cta.text}
           />
         ))}
       />
