@@ -65,7 +65,6 @@ const Slide = ({ title, body, image, cta }) => (
       <div className="body">
         <h3>{title}</h3>
         <p>{body}</p>
-        <span className="hidden hide"></span>
         {cta.text && (<Button href={cta.link} outline icon="arrow">
             {cta.text}
         </Button>)}
