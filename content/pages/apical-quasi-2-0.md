@@ -108,9 +108,6 @@ sections:
               Con Apical Back Office puoi semplificare il tuo processo di
               lavoro: gestisci prenotazioni e clienti, fatture, pagamenti e
               tutto il resto in un unico posto!
-            cta:
-              link: '#'
-              text: Scopri di più
             image: 'https://ucarecdn.com/9a7d2643-a27a-4f22-b584-826167c3d194/'
             title: 3. Automatizza il tuo back office
         title: Cosa puoi fare con Apical!
