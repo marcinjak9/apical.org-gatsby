@@ -5,7 +5,7 @@ import SectionContainer from '../components/SectionContainer'
 import Carousel from '../components/Carousel'
 import { Row, Column } from '../components/Global'
 import Image from '../components/image'
-// import Button from '../components/Button'
+import Button from "../components/Button";
 
 const PresentationRow = styled(Row)`
   margin: 0 auto;
@@ -59,15 +59,15 @@ const PresentationRow = styled(Row)`
   }
 `
 
-const Slide = ({ title, body, image }) => (
+const Slide = ({ title, body, image, cta }) => (
   <PresentationRow>
     <Column size="6">
       <div className="body">
         <h3>{title}</h3>
         <p>{body}</p>
-        {/* <a href="#onboarding" className="underline">
-          Iscriviti ora
-        </a> */}
+        {cta && cta.link && (<Button href={cta.link} outline icon="arrow">
+            {cta.text}
+        </Button>)}
       </div>
     </Column>
     <Column size="6" style={{ textAlign: 'center' }}>
@@ -87,6 +87,7 @@ const Presentation = (props) => {
             title={slide.title}
             body={slide.body}
             image={slide.image}
+            cta={slide.cta}
           />
         ))}
       />
