@@ -394,6 +394,12 @@ collections:
                           - label: Image
                             name: image
                             widget: image
+                          - label: CTA
+                            name: cta
+                            widget: object
+                            fields:
+                              - { label: Cta Text, name: text, widget: string, required: false }
+                              - { label: Cta Link, name: link, widget: string, required: false }
                   - label: English
                     name: en
                     widget: object
@@ -414,6 +420,12 @@ collections:
                           - label: Image
                             name: image
                             widget: image
+                          - label: CTA
+                            name: cta
+                            widget: object
+                            fields:
+                                - { label: Cta Text, name: text, widget: string, required: false }
+                                - { label: Cta Link, name: link, widget: string, required: false }
           - label: Video Section
             name: VideoSection
             widget: object
