@@ -144,7 +144,7 @@ collections:
       - { label: Slug, name: slug, widget: string, required: true, hint: "If it's a root page (homepage), type 'home'." }
       - { label: "Type", name: "type", widget: "hidden", default: "page" }
       - { label: Hide Navigation, name: hideNav, widget: boolean, default: false, required: false }
-      - { label: Hide Footer, name: hideFooter, widget: boolean, default: false, required: false }
+      - { label: Hide Footer, name: hideFooter, widget: boolean, default: false,  required: false }
       - label: Meta
         name: meta
         widget: object
@@ -424,8 +424,8 @@ collections:
                             name: cta
                             widget: object
                             fields:
-                                - { label: Cta Text, name: text, widget: string, required: false }
-                                - { label: Cta Link, name: link, widget: string, required: false }
+                              - { label: Cta Text, name: text, widget: string, required: false }
+                              - { label: Cta Link, name: link, widget: string, required: false }
           - label: Video Section
             name: VideoSection
             widget: object
