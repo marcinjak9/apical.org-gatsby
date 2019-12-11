@@ -168,6 +168,10 @@ export const pageQuery = graphql`
                 body
                 image
                 title
+                cta {
+                  link
+                  text
+                }
               }
               features {
                 title
