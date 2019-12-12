@@ -247,7 +247,7 @@ class OnboardingForm extends React.Component {
                     }))
                     }
                   />
-                  {data.processingConsentCheckboxLabel}
+                  {data.processingConsentCheckboxLabel.replace('<p>','').replace('</p>','')}
                 </label>
                 {legal.error && (
                   <small style={{ color: 'red' }}>
@@ -257,7 +257,7 @@ class OnboardingForm extends React.Component {
               </>
             )}
             <Accordition title="Leggi la policy completa">
-              <p>{data.processingConsentText}</p>
+              <p>{data.processingConsentText.replace('<p>','').replace('</p>','')}</p>
             </Accordition>
             {legal.communications
               && legal.communications.map((cb, index) => (
@@ -281,8 +281,8 @@ class OnboardingForm extends React.Component {
                 </label>
               ))}
             <Accordition title="Leggi la policy completa">
-              <p>{data.communicationConsentText}</p>
-              <p>{data.privacyPolicyText}</p>
+              <p>{data.communicationConsentText.replace('<p>','').replace('</p>','')}</p>
+              <p>{data.privacyPolicyText.replace('<p>','').replace('</p>','')}</p>
             </Accordition>
           </LegalConsent>
         </Column>
