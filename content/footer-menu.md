@@ -19,8 +19,6 @@ it:
   menuItems:
     - text: About
       url: /about-us
-    - text: La Piattaforma
-      url: /features
     - text: Blog
       url: 'https://journal.apical.org'
     - text: Privacy Policy
@@ -34,8 +32,6 @@ en:
   menuItems:
     - text: About
       url: /about-us
-    - text: Features
-      url: /features
     - text: Blog
       url: 'https://journal.apical.org'
     - text: Privacy Policy

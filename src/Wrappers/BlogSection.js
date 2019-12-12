@@ -62,17 +62,8 @@ class BlogSection extends React.Component {
         </BlogRow>
         <Row>
           <Column size="12" textCenter>
-            {/* <Link to="https://journal.apical.org">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ fontWeight: 'bold' }}
-              >
-                Vai al blog
-              </a>
-            </Link> */}
-            <Button href="features" icon="arrow" primary>
-              Scopri la piattaforma
+            <Button href="https://journal.apical.org" icon="arrow" primary>
+              Scopri il Journal
             </Button>
           </Column>
         </Row>
