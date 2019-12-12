@@ -73,7 +73,7 @@ const Benefits = () => (
       </PaddedColumn>
       <CtaColumn size="12">
           <Button href="https://journal.apical.org" icon="arrow">
-              Scopri il Journal
+              Journal
           </Button>
       </CtaColumn>
     </Row>

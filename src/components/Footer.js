@@ -98,7 +98,7 @@ const FooterInner = (props) => {
             <Column size="4" className="footer-section">
               <Row>
                 <Column size="12">
-                  <h3>Link utili</h3>
+                  <h3>Links</h3>
                 </Column>
                 <Column size="6">
                   {menuItems.slice(0, menuItems.length / 2).map((m, i) => (

@@ -63,7 +63,7 @@ class BlogSection extends React.Component {
         <Row>
           <Column size="12" textCenter>
             <Button href="https://journal.apical.org" icon="arrow" primary>
-              Scopri il Journal
+              Journal
             </Button>
           </Column>
         </Row>
