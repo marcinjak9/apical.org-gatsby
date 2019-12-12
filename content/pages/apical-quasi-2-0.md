@@ -96,6 +96,9 @@ sections:
               puoi creare e gestire in modo semplice qualsiasi offerta travel e
               garantire sempre al pubblico un’esperienza d’acquisto online
               chiara, professionale e semplice
+            cta:
+              link: sell-manage
+              text: Scopri di più
             image: 'https://ucarecdn.com/8caa7a79-d952-4644-bc29-7d529a466ce0/'
             title: 1. Crea e vendi i tuoi prodotti online
           - body: >-
