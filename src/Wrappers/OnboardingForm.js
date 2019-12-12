@@ -281,8 +281,8 @@ class OnboardingForm extends React.Component {
                 </label>
               ))}
             <Accordition title="Leggi la policy completa">
-              <p>{data.communicationConsentText}</p>
-              <p>{data.privacyPolicyText}</p>
+              <p>{data.communicationConsentText.replace('<p>','')}</p>
+              <p>{data.privacyPolicyText.replace('<p>','')}</p>
             </Accordition>
           </LegalConsent>
         </Column>
