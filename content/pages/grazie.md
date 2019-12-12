@@ -18,15 +18,5 @@ sections:
         image: 'https://ucarecdn.com/7e43971a-41da-4d41-b9b1-0ff44dcb9b29/'
         title: 'Grazie, ti contatteremo non appena possibile'
     type: SimpleHero
-  - props:
-      en:
-        title: Presentazione Apical
-        titleCenter: true
-        videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
-      it:
-        title: Presentazione Apical
-        titleCenter: true
-        videoUrl: 'https://www.youtube.com/embed/zLvyl6-s5Tw'
-    type: VideoSection
 ---
 

@@ -210,7 +210,7 @@ sections:
       en:
         cta:
           link: '#onboarding'
-          text: Sali a bordo
+          text: Get on board
         features:
           - body: >-
               All-in-one: create, sell, run and easily manage all the products
