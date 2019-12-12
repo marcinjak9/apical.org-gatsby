@@ -112,13 +112,13 @@ sections:
       en:
         bgImage: 'https://ucarecdn.com/5cdc4e05-6d8f-4849-a1b0-0a1ce95fc6fb/'
         cta:
-          link: home-2
+          link: administration-operation
           text: Discover
         title: Streamline your administration and operations
       it:
         bgImage: 'https://ucarecdn.com/7d5fc54a-5fdb-4d7d-8efa-200dfe377ab6/'
         cta:
-          link: home
+          link: administration-operation
           text: Scopri come
         title: Snellisci i tuoi processi e le tue operazioni
     type: Cta
