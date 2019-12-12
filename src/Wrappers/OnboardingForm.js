@@ -277,7 +277,7 @@ class OnboardingForm extends React.Component {
                       }))
                     }}
                   />
-                  {cb.text}
+                  {cb.text.replace('<p>','').replace('</p>','')}
                 </label>
               ))}
             <Accordition title="Leggi la policy completa">
@@ -303,8 +303,7 @@ class OnboardingForm extends React.Component {
       return (
         <SectionContainer greyBg>
           <h2 style={{ textAlign: 'center' }}>
-            Grazie per averci contattato, un nostro operatore presto ti
-            contatterà!
+            Grazie per averci contattato, un nostro operatore presto ti contatterà!
           </h2>
         </SectionContainer>
       )
