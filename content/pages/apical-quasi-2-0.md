@@ -73,18 +73,27 @@ sections:
               No matter how complex your products are, with Apical you can
               easily create and manage any travel offer and provide the public
               with a clear, professional and simple online shopping experience
+            cta:
+              link: sell-manage
+              text: Discover more
             image: 'https://ucarecdn.com/f2b6e76b-20d2-4c62-aa72-7451f2d43557/'
             title: 1. Manage and sell your travel products
           - body: >-
               With Apical Analytics and Performance tools you can monitor your
               sales and your traffic with real-time metrics, complete reports
               and more!
+            cta:
+              link: measure-understand
+              text: Discover more
             image: 'https://ucarecdn.com/fde3863f-a594-4ff7-8e9b-b0351b69e443/'
             title: 2. Measure and understand your business
           - body: >-
               With Apical Back Office you can streamline your working process:
               manage bookings and customers, invoices, payments and all the rest
               in one place!
+            cta:
+              link: administration-operation
+              text: Discover more
             image: 'https://ucarecdn.com/0f216db0-151d-4f7a-a7c6-bea99558b4bf/'
             title: 3. Automize your administration
         title: What you can do with Apical
@@ -96,12 +105,18 @@ sections:
               puoi creare e gestire in modo semplice qualsiasi offerta travel e
               garantire sempre al pubblico un’esperienza d’acquisto online
               chiara, professionale e semplice
+            cta:
+              link: sell-manage
+              text: Scopri di più
             image: 'https://ucarecdn.com/8caa7a79-d952-4644-bc29-7d529a466ce0/'
             title: 1. Crea e vendi i tuoi prodotti online
           - body: >-
               Con gli strumenti Apical Analytics e Performance puoi monitorare
               le tue vendite e il tuo traffico con metriche in tempo reale,
               report completi e molto altro!
+            cta:
+              link: measure-understand
+              text: Scopri di più
             image: 'https://ucarecdn.com/152dbcbe-41c2-4f84-a8c5-a60aaaddd317/'
             title: 2. Misura e comprendi il tuo business
           - body: >-
@@ -109,7 +124,7 @@ sections:
               lavoro: gestisci prenotazioni e clienti, fatture, pagamenti e
               tutto il resto in un unico posto!
             cta:
-              link: '#'
+              link: administration-operation
               text: Scopri di più
             image: 'https://ucarecdn.com/9a7d2643-a27a-4f22-b584-826167c3d194/'
             title: 3. Automatizza il tuo back office
