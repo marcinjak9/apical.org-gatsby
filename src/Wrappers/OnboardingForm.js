@@ -227,12 +227,6 @@ class OnboardingForm extends React.Component {
 
   renderGdpr = () => {
     const data = this.getGdpr()
-    const consentText = data.communicationConsentText
-    const policyText = data.privacyPolicyText
-    const consentTextReplace = consentText.replace('<p>','')
-    const policyTextReplace = policyText.replace('<p>','')
-    const consentTextReplaceTwo = consentTextReplace.replace('</p>','')
-    const policyTextReplaceTwo = policyTextReplace.replace('</p>','')
     const { legal } = this.state
     if (!data) {
       return null
@@ -287,8 +281,8 @@ class OnboardingForm extends React.Component {
                 </label>
               ))}
             <Accordition title="Leggi la policy completa">
-              <p>{consentTextReplaceTwo}</p>
-              <p>{policyTextReplaceTwo}</p>
+              <p>{data.communicationConsentText}</p>
+              <p>{data.privacyPolicyText}</p>
             </Accordition>
           </LegalConsent>
         </Column>
