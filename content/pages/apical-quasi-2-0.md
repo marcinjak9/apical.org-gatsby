@@ -36,8 +36,8 @@ sections:
           link: '#onboarding'
           text: 'Unisciti ad Apical '
         heroBody: >-
-          Apical è la piattaforma self-service dedicata ai creatori di viaggi e
-          esperienze. Crea, gestisci e fai crescere il tuo progetto travel
+          Apical è la piattaforma self-service dedicata ai creatori di viaggi ed
+          esperienze. Crea, gestisci e fai crescere il tuo prodotto travel
           online, in modo semplice e innovativo
         image: 'https://ucarecdn.com/ef479934-162b-4c72-8812-14172cd95a94/'
         title: <b> CRESCI CON APICAL </b>
@@ -364,10 +364,10 @@ sections:
           link: '#onboarding'
           text: Entra in Apical
         heroBody: >-
-          Apical cerca partner su cui investire. Se hai un'idea per
-          un'esperienza, di qualunque tipo, ma ti manca la conoscenza e la
-          struttura legale per realizzarla, puoi candidarti per il Partnership
-          Program di Apical
+          Apical cerca partner con cui investire. Se hai un'idea per
+          un'esperienza, di qualunque tipo, ma ti mancano gli strumenti, la
+          conoscenza e la struttura legale per realizzarla in modo
+          professionale, puoi candidarti per il Partnership Program di Apical
         image: 'https://ucarecdn.com/e498b448-3353-42b4-8480-c8d709a310c7/'
         title: <b> Partnership Program </b>
     type: HomeHero
@@ -422,8 +422,8 @@ sections:
             title: Supporto dedicato
           - body: >-
               Si parte! Noi ci occuperemo della gestione del prodotto turistico
-              mentre tu ti occuperai della direzione creativa, del marketing e
-              della comunicazione
+              mentre tu ti occuperai della direzione creativa, della
+              comunicazione e della vendita
             image: ' 3'
             title: Go live insieme ad Apical
           - body: >-
