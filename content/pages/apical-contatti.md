@@ -10,7 +10,7 @@ meta:
     pageDescription: Contact us and tell us your story. We will make our project our goal
     pageTitle: Apical - Contact us
   it:
-    pageDescription: >-
+    pageDescription: >
       Contattaci e raccontaci la tua storia. Faremo del tuo progetto il nostro
       il nostro obiettivo 
     pageTitle: 'Apical - Contatti '
@@ -38,7 +38,7 @@ sections:
         body: >-
           Vuoi sapere come Apical può aiutarti? Hai dubbi? Vuoi fare una
           chiaccherata: questo è i momento giusto per farlo! 
-        formId: ada847b3-d623-40d3-bcdf-e043e9dfed96
+        formId: d568a967-0f3b-4797-9db8-33994687dcc9
         title: 'Lascia un tuo recapito! '
     type: FormSection
   - type: BlogSection
