@@ -36,12 +36,14 @@ sections:
           Want to know how Apical can help you? Do you have any doubts? Want to
           have a chat: this is the right time to do it!
         formId: ada847b3-d623-40d3-bcdf-e043e9dfed96
+        redirectTo: 'https://apical.org/'
         title: Leave us your info
       it:
         body: >-
           Vuoi sapere come Apical può aiutarti? Hai dubbi? Vuoi fare una
           chiaccherata: questo è i momento giusto per farlo! 
         formId: d568a967-0f3b-4797-9db8-33994687dcc9
+        redirectTo: 'https://apical.org/'
         title: 'Lascia un tuo recapito! '
     type: FormSection
   - type: BlogSection
