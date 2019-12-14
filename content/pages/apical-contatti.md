@@ -22,6 +22,9 @@ sections:
           Behind every project there is always an extraordinary story. Tell us
           yours
       it:
+        cta:
+          link: home
+          text: Scopri Apical
         image: 'https://ucarecdn.com/eb944642-d415-4f16-8393-b034891ec2a1/'
         title: >-
           Dietro ogni progetto c'è sempre una storia straordinaria. Raccontaci
