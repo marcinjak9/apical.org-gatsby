@@ -7,10 +7,6 @@ sidebarLogo: 'https://ucarecdn.com/6db98d5f-5254-4f88-91be-993c482292c1/'
 menuItems:
   - text: Home
     url: /
-  - text: La Piattaforma
-    url: /features
-  - text: About
-    url: /about
   - text: Blog
     url: 'https://journal.apical.org'
   - text: Apical
