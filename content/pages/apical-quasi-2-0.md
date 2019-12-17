@@ -166,6 +166,7 @@ sections:
           to combine all the services you want, giving your customers the
           ability to compose and book their full experience in real-time
         title: 'Apical Dynamic Packaging: free your creativity'
+        titleCenter: true
       it:
         items:
           - body: 'Assicurazioni viaggio, bagagli e prenotazione. #staisereno'
