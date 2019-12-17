@@ -78,7 +78,7 @@ sections:
               Insurance is a protection for your customers and for you. Produce,
               manage and offer the documents you need to have a peaceful
               experience
-            image: 'https://ucarecdn.com/cc50d38f-45e7-4b12-b792-0ee092f185ce/'
+            image: 'https://ucarecdn.com/77b445a3-33ff-4ec5-a9d4-6412f78eed6d/'
             title: 2. Protect your audience
       it:
         slides:
@@ -86,7 +86,7 @@ sections:
               Le assicurazioni sono una tutela per i tuoi clienti e per te.
               Produci, gestisci e offri i documenti necessari per vivere
               un'esperienza serena
-            image: 'https://ucarecdn.com/3d4d5c93-4151-484f-90d0-c2e1350757a0/'
+            image: 'https://ucarecdn.com/1f51971c-fab0-4e78-8517-8cc2127eeb21/'
             title: 2. Proteggi il tuo pubblico
     type: Presentation
   - props:
