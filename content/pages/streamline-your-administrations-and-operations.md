@@ -49,6 +49,7 @@ sections:
 
 
           <br>
+        image: 'https://ucarecdn.com/3791ef47-1f19-40dd-bc85-8358a5945074/'
         title: Risparmia l'80% del tempo
     type: HomeHero
   - props:
