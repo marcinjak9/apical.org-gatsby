@@ -166,6 +166,7 @@ sections:
         heroBody: >-
           Planting trees is not enough, the world deserves more. Discover our
           environmental and social regeneration projects
+        image: 'https://ucarecdn.com/639239f6-ac3f-4257-a9db-e9d19ce41526/'
         title: <b> One more thing </b>
       it:
         cta:
