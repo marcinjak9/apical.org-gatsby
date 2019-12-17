@@ -178,6 +178,12 @@ sections:
   - props:
       en:
         body: >-
+          By entering your details you will receive a complete Apical
+          presentation and you will get in touch with the team
+        formId: d568a967-0f3b-4797-9db8-33994687dcc9
+        title: Welcome in  Apical
+      it:
+        body: >-
           Inserendo i tuoi dati riceverai una presentazione completa di Apical e
           entrerai in contatto con il team
         formId: d568a967-0f3b-4797-9db8-33994687dcc9
