@@ -38,7 +38,5 @@ en:
       url: 'https://www.esperienze.com'
     - text: Social Impact
       url: /social-impact
-    - text: Do you need help?
-      url: 'https://help.apical.org'
 ---
 
