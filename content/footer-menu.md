@@ -36,7 +36,5 @@ en:
       url: 'https://journal.apical.org'
     - text: Privacy Policy
       url: '#privacy'
-    - text: Do you need help?
-      url: 'https://help.apical.org'
 ---
 
