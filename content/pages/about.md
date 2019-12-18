@@ -106,5 +106,31 @@ sections:
         greyBg: true
         title: Come si entra in Apical
     type: WhatWeDo
+  - props:
+      en:
+        bgImage: 'https://ucarecdn.com/84e03270-fad7-40a7-99d2-1f86d653567c/'
+        body: >-
+          We believe that when people share their energy into an experience they
+          naturally become more open-minded, curious and able to understand one
+          another. Experience Creators have the power to change people’s life. 
+          Apical is here to support them. 
+
+          Join our mission
+        fullHeigh: true
+        quote: 'Nicola Zanola, CEO'
+        title: Apical - moving people
+      it:
+        bgImage: 'https://ucarecdn.com/db66fee2-3352-43d5-8057-97260ba43eb2/'
+        body: >-
+          We believe that when people share their energy into an experience they
+          naturally become more open-minded, curious and able to understand one
+          another. Experience Creators have the power to change people’s life. 
+          Apical is here to support them. 
+
+          Join our mission
+        fullHeigh: true
+        quote: 'Nicola Zanola, CEO'
+        title: Apical - moving people
+    type: Cta
 ---
 
