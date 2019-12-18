@@ -132,5 +132,30 @@ sections:
         quote: 'Nicola Zanola, CEO'
         title: Apical - moving people
     type: Cta
+  - props:
+      en:
+        body: >-
+          When we are cutting a plant so that it can grow back, we go down with
+          the scissors to the point where the stem is still a vivid green. That
+          point is called Apical meristem and it's a tissue composed of
+          polypotent cells, each of these cells owns the biological instructions
+          to become many different things: flower, leaf, stem, and so on… they
+          didn't choose yet, they still don't know, they are free
+
+
+          Apical - moving people
+        greyBg: true
+        title: Apical
+      it:
+        body: >-
+          Quando tagliamo una pianta perché possa ricrescere, scendiamo con le
+          forbici fino al punto in cui lo stelo è ancora di un verde vivido.
+          Quel punto si chiama Meristema Apicale ed è un tessuto composto da
+          cellule polipotenti, ognuna di queste cellule possiede infatti le
+          istruzioni biologiche per diventare molte cose diverse: fiore, foglia,
+          stelo e così via
+        greyBg: true
+        title: Apical
+    type: WhatWeDo
 ---
 
