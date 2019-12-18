@@ -61,5 +61,23 @@ sections:
           sull’ambiente.
         title: 'Apical: un luogo in cui crescere'
     type: WhatWeDo
+  - props:
+      en:
+        body: >-
+          Our clients and partners include music festivals, adventure tours,
+          retreats, snow events, climbing, mountain bivouacs, sailing boats,
+          surf trips and much more. Hundreds of experiences created by event
+          companies, tour operators, property managers, sports and cultural
+          associations, individuals. 
+        title: What Travel Creators do
+      it:
+        body: >-
+          Tra i nostri clienti e partner ci sono Festival musicali,
+          viaggiavventura, retreat, eventi sulla neve, arrampicate, bivacchi in
+          montagna, barche a vela, surf trips e molto di più. Centinaia di
+          esperienze create da event companies, tour operators, property
+          managers, associazioni sportive e culturali, singoli individui
+        title: Chi sono i Travel Creators
+    type: WhatWeDo
 ---
 
