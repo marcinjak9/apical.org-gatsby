@@ -81,5 +81,30 @@ sections:
           managers, associazioni sportive e culturali, singoli individui
         title: Chi sono i Travel Creators
     type: WhatWeDo
+  - props:
+      en:
+        body: >-
+          Please click on "I am interested" and then fill out the form, the team
+          will send you a presentation and a proposal for a 15-minute call that
+          will help to understand your needs, so then we will decide together if
+          Apical can accelerate your growth, regardless of your current size
+        cta:
+          link: '#'
+          text: I am interested
+        greyBg: true
+        title: How to find out more
+      it:
+        body: >-
+          Clicca per favore su “Voglio saperne di più” e poi compila il form, il
+          team ti invierà una presentazione e ti proporrà una chiamata di 15
+          minuti che servirà per ascoltare il tuo progetto e a decidere insieme
+          se Apical può accelerare la tua crescita, qualsiasi sia la tua
+          dimensione attuale
+        cta:
+          link: '#'
+          text: Voglio saperne di più
+        greyBg: true
+        title: Come si entra in Apical
+    type: WhatWeDo
 ---
 
