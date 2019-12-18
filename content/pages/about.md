@@ -46,5 +46,20 @@ sections:
           semplice e sicuro
         title: Mission
     type: WhatWeDo
+  - props:
+      en:
+        body: >
+          Apical supports every Travel Creator with a simple, quick and
+          innovative technology, designed to accelerate growth, increase
+          traveler satisfaction and improve the impact on the environment
+        title: 'Apical: a place to Grow'
+      it:
+        body: >-
+          Apical supporta ogni Travel Creator con una tecnologia semplice,
+          veloce e innovativa, disegnata per supportare la crescita, aumentare
+          la soddisfazione dei viaggiatori e migliorare il loro impatto
+          sull’ambiente.
+        title: 'Apical: un luogo in cui crescere'
+    type: WhatWeDo
 ---
 
