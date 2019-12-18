@@ -33,7 +33,7 @@ sections:
 
 
           <br>
-        image: 'https://ucarecdn.com/aa5f2612-1c8a-459e-aace-a6b18369f457/'
+        image: 'https://ucarecdn.com/a0368948-d85b-419d-8118-022141b222be/'
         title: Save 80% of your time
       it:
         cta:
