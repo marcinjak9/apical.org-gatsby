@@ -59,7 +59,7 @@ sections:
               With Apical the management of invoices and orders is easy:
               everything in a unique and digital environment, from today on with
               the integration of Fatture in Cloud
-            image: 'https://ucarecdn.com/797a779c-ba86-4ae8-9e7a-7e0f606bd345/'
+            image: 'https://ucarecdn.com/71819647-520c-4e27-8d3b-65e155bfbcf9/'
             title: 1. Manage invoices
         title: Your online back office
       it:
@@ -68,7 +68,7 @@ sections:
               Con Apical la gestione delle fatture e degli ordini è facile:
               tutto in un ambiente unico e digitale. Da oggi con l'integrazione
               con Fatture in Cloud
-            image: 'https://ucarecdn.com/0fe7a09a-1a8e-4f56-8eb9-183bb25d5d24/'
+            image: 'https://ucarecdn.com/0c7337cd-c9bd-4580-bfc4-702a51db70cd/'
             title: 1. Gestisci la fatturazione
         title: Il tuo back office online
     type: Presentation
@@ -79,7 +79,7 @@ sections:
               Insurance is a protection for your customers and for you. Produce,
               manage and offer the documents you need to have a peaceful
               experience
-            image: 'https://ucarecdn.com/77b445a3-33ff-4ec5-a9d4-6412f78eed6d/'
+            image: 'https://ucarecdn.com/c5f10643-de3a-4d54-943c-2f3d6ed338be/'
             title: 2. Protect your audience
       it:
         slides:
@@ -87,7 +87,7 @@ sections:
               Le assicurazioni sono una tutela per i tuoi clienti e per te.
               Produci, gestisci e offri i documenti necessari per vivere
               un'esperienza serena
-            image: 'https://ucarecdn.com/1f51971c-fab0-4e78-8517-8cc2127eeb21/'
+            image: 'https://ucarecdn.com/78035b09-dd55-482d-a349-af990dd4eae4/'
             title: 2. Proteggi il tuo pubblico
     type: Presentation
   - props:
@@ -96,7 +96,7 @@ sections:
           - body: >-
               With Apical, keep the contracts in order. From the dashboard you
               can upload, manage and monitor your documents easily
-            image: 'https://ucarecdn.com/c587e1f8-89b2-4464-bd0a-f115d5c312a1/'
+            image: 'https://ucarecdn.com/aa83cbf1-b087-44f5-83f6-6c05232dec22/'
             title: 3. Contracts and documentation in order
         title: ''
       it:
@@ -104,7 +104,7 @@ sections:
           - body: >-
               Con Apical tieni in ordine la contrattualistica. Dalla dashboard
               puoi caricare, gestire e monitorare i tuoi documenti facilmente
-            image: 'https://ucarecdn.com/db89bbed-0b7a-4fbe-9093-906585786840/'
+            image: 'https://ucarecdn.com/cebddd1f-2af1-460e-838b-a04961b9bab2/'
             title: 3. Contratti e documentazione in ordine
         title: ''
     type: Presentation
