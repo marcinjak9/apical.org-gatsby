@@ -52,6 +52,7 @@ sections:
           Apical supports every Travel Creator with a simple, quick and
           innovative technology, designed to accelerate growth, increase
           traveler satisfaction and improve the impact on the environment
+        greyBg: true
         title: 'Apical: a place to Grow'
       it:
         body: >-
@@ -59,6 +60,7 @@ sections:
           veloce e innovativa, disegnata per supportare la crescita, aumentare
           la soddisfazione dei viaggiatori e migliorare il loro impatto
           sull’ambiente.
+        greyBg: true
         title: 'Apical: un luogo in cui crescere'
     type: WhatWeDo
   - props:
