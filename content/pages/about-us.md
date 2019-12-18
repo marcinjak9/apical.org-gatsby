@@ -26,12 +26,12 @@ sections:
           innovation, with the support of some of the main Italian investors
         image: >-
           https://ucarecdn.com/204e7750-66bf-497c-a7e0-3a8c538885af/-/crop/3648x2933/0,0/-/preview/
-        title: ''
+        title: <b> Grow with Apical </b>
         typings: []
       it:
         bodyLight: true
         cta:
-          text: <b> Grow with Apical </b>
+          text: ''
         heroBody: >-
           **Apical** è una startup in rapida crescita, con un team che combina
           30+ anni di esperienza nel travel e nell'innovazione tecnologica e
