@@ -438,14 +438,17 @@ sections:
         columns:
           - body: Fill out the form below to get in touch with our team
             title: 1. Leave a contact
+            emoji: ''
           - body: >-
               Tell us your story, your project and your needs. One of our
               experts will try to understand how we can help you
             title: 2. First contact
+            emoji: ''
           - body: >-
               Start your partnership with Apical after receiving the advice of
               one of our experts
             title: 3. Onboarding
+            emoji: ''
         greyBg: true
         title: Tell us your story
         titleCenter: true
@@ -455,14 +458,17 @@ sections:
               Compila il form sottostante per poter entrare in contatto con il
               nostro team 
             title: 1. Lascia un tuo recapito
+            emoji: ''
           - body: >-
               Raccontaci la tua storia, il tuo progetto e le tue esigenze. Un
               nostro esperto cercherà di capire come possiamo esserti utili
             title: 2. Entra in contatto
+            emoji: ''
           - body: >-
               Inizia la tua partnership con Apical dopo aver ricevuto la
               consulenza di un nostro esperto
             title: 3. Sali a bordo
+            emoji: ''
         greyBg: true
         title: Raccontaci la tua storia
         titleCenter: true
