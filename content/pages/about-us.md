@@ -100,7 +100,7 @@ sections:
           will help to understand your needs, so then we will decide together if
           Apical can accelerate your growth, regardless of your current size
         cta:
-          link: '#'
+          link: 'about-us#onboarding'
           text: I am interested
         greyBg: true
         title: How to find out more
@@ -112,7 +112,7 @@ sections:
           se Apical può accelerare la tua crescita, qualsiasi sia la tua
           dimensione attuale
         cta:
-          link: '#'
+          link: 'about-us#onboarding'
           text: Voglio saperne di più
         greyBg: true
         title: Come si entra in Apical
@@ -187,6 +187,7 @@ sections:
           Inserendo i tuoi dati riceverai una presentazione completa di Apical e
           entrerai in contatto con il team
         formId: d568a967-0f3b-4797-9db8-33994687dcc9
+        redirectTo: ''
         title: Benvenuti in Apical
     type: FormSection
 ---
