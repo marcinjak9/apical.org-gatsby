@@ -18,6 +18,8 @@ it:
       url: /about-us
     - text: Vendi e gestisci
       url: 'https://apical.org/sell-manage'
+    - text: Misura e analizza
+      url: 'https://apical.org/measure-understand'
   menuItemsRight:
     - text: Esperienze.com
       url: 'https://www.esperienze.com'
@@ -37,6 +39,8 @@ en:
       url: /about-us
     - text: Sell and manage
       url: 'https://apical.org/sell-manage'
+    - text: Measure and understand
+      url: 'https://apical.org/measure-understand'
   menuItemsRight:
     - text: Esperienze.com
       url: 'https://www.esperienze.com'
