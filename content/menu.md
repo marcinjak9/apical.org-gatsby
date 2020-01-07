@@ -16,7 +16,7 @@ it:
       url: /
     - text: About
       url: /about-us
-    - text: Vendi e gestisci
+    - text: Vendi e cresci
       url: 'https://apical.org/sell-manage'
     - text: Misura e analizza
       url: 'https://apical.org/measure-understand'
@@ -39,7 +39,7 @@ en:
       url: /
     - text: About
       url: /about-us
-    - text: Sell and manage
+    - text: Sell and grow
       url: 'https://apical.org/sell-manage'
     - text: Measure and understand
       url: 'https://apical.org/measure-understand'
