@@ -10,6 +10,8 @@ import Socials from './Socials'
 
 const iubenda = '(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);'
 
+const hotjar = '<script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:1656723,hjsv:6};a=o.getElementsByTagName("head")[0];r=o.createElement("script");r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r);})(window,document,"https://static.hotjar.com/c/hotjar-",".js?sv=");</script>';
+
 const StyledFooter = styled.footer`
   background: var(--darkblue);
   color: #fff;
@@ -86,6 +88,10 @@ const FooterInner = (props) => {
   return (
     <StyledFooter>
       <Container>
+          <script
+              type="text/javascript"
+              dangerouslySetInnerHTML={{ __html: hotjar }}
+          />
         {!sidebar && (
           <Row>
             <Column size="12" className="footer-section">
